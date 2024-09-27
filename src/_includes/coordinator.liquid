@@ -10,7 +10,7 @@ layout: base
   <div><small>Page in manual: <span>{{ forwardSection.data.page_in_manual }}</span></small></div>
 </section>
 
-{% assign sectionsBySeries = collections.sections | group_by: "data.series" %}
+{% assign sectionsBySeries = collections.sections | where: "data.series" | group_by: "data.series" %}
 {% for series in sectionsBySeries %}
   <section id="{{ series.name | slugify }}-series">
     {% assign sectionsInThisSeries = series.items | sort: "data.id" %}
@@ -20,3 +20,17 @@ layout: base
     {% endfor %}
   </section>
 {% endfor %}
+
+{% assign appendixSections = collections.sections | where: "data.doc_group", "appendix" %}
+{% for section in appendixSections %}
+  <section id="{{ section.data.id | slugify }}-series">
+    {{ section.templateContent }}
+    <div><small>Page in manual: <span>{{ section.data.page_in_manual }}</span></small></div>
+  </section>
+{% endfor %}
+
+{% assign indexSection = collections.sections | where: "data.id", "900" | first %}
+<section id="{{ indexSection.data.id | slugify }}-series">
+  {{ indexSection.templateContent }}
+  <div><small>Page in manual: <span>{{ indexSection.data.page_in_manual }}</span></small></div>
+</section>
