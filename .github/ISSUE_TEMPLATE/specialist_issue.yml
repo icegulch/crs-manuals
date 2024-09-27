@@ -1,4 +1,5 @@
 name: Manual Section
+description: Propose a Change to a Manual Section
 labels: [""]
 body:
   - type: dropdown
