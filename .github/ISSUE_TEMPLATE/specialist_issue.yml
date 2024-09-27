@@ -1,6 +1,7 @@
 name: Manual Section
 description: File a bug/issue
 title: ""
+labels: []
 body:
   - type: checkboxes
     attributes:
