@@ -1,5 +1,5 @@
 name: Manual Section
-description:
+description: ""
 labels: [""]
 body:
   - type: dropdown
