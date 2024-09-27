@@ -11,7 +11,7 @@ module.exports = async function() {
   // Use eleventy-fetch to fetch and cache the data
   try {
     const json = await EleventyFetch(url, {
-      duration: "1d", // Cache the data for 1 day
+      duration: "1s", // Cache the data for 1 day
       type: "json", // The expected data type
       fetchOptions: {
         headers: {

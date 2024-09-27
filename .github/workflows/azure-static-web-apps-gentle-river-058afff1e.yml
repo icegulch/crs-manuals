@@ -54,4 +54,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Handle Issue
-        run: echo "An issue was ${github.event.action}!" # Replace with your actual logic
+        run: echo "An issue was ${{ github.event.action }}!" # Use ${{ }} for the context variable
+
