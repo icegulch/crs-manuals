@@ -1,0 +1,23 @@
+{
+  "name": "crs-worksheet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx @11ty/eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "dotenv": "^16.4.5",
+    "html-minifier": "^4.0.0",
+    "markdown-it": "^14.1.0"
+  },
+  "devDependencies": {
+    "markdown-it-anchor": "^9.2.0",
+    "slugify": "^1.6.6"
+  }
+}

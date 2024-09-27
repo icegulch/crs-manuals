@@ -1,0 +1,2286 @@
+[
+  {
+    "id":"000",
+    "title":"FOREWORD",
+    "document_depth":1,
+    "page_in_manual":"iii"
+  },
+  {
+    "id":"100",
+    "series": 100,
+    "title":"100 INTRODUCTION",
+    "document_depth":1,
+    "page_in_manual":"100-1"
+  },
+  {
+    "id":"110",
+    "series": 100,
+    "title":"110 PROGRAM OVERVIEW",
+    "document_depth":2,
+    "page_in_manual":"110-1"
+  },
+  {
+    "id":"111",
+    "series": 100,
+    "title":"Background",
+    "document_depth":3,
+    "page_in_manual":"110-1"
+  },
+  {
+    "id":"112",
+    "series": 100,
+    "title":"Goals",
+    "document_depth":3,
+    "page_in_manual":"110-1"
+  },
+  {
+    "id":"113",
+    "series": 100,
+    "title":"Credit Points and Credited Activities",
+    "document_depth":3,
+    "page_in_manual":"110-3"
+  },
+  {
+    "id":"114",
+    "series": 100,
+    "title":"The Community's Role",
+    "document_depth":3,
+    "page_in_manual":"110-8"
+  },
+  {
+    "id":"115",
+    "series": 100,
+    "title":"Costs and Benefits",
+    "document_depth":3,
+    "page_in_manual":"110-10"
+  },
+  {
+    "id":"116",
+    "series": 100,
+    "title":"Other Program Priorities",
+    "document_depth":3,
+    "page_in_manual":"110-12"
+  },
+  {
+    "id":"120",
+    "series": 100,
+    "title":"120 GLOSSARY",
+    "document_depth":2,
+    "page_in_manual":"120-1"
+  },
+  {
+    "id":"200",
+    "series": 200,
+    "title":"200 PROCEDURES",
+    "document_depth":1,
+    "page_in_manual":"200-1"
+  },
+  {
+    "id":"210",
+    "series": 200,
+    "title":"210 REQUESTING CRS CREDIT—Summary",
+    "document_depth":2,
+    "page_in_manual":"210-1"
+  },
+  {
+    "id":"211",
+    "series": 200,
+    "title":"Program Prerequisites",
+    "document_depth":3,
+    "page_in_manual":"210-2"
+  },
+  {
+    "id":"212",
+    "series": 200,
+    "title":"Application Procedures",
+    "document_depth":3,
+    "page_in_manual":"210-8"
+  },
+  {
+    "id":"213",
+    "series": 200,
+    "title":"Recertification",
+    "document_depth":3,
+    "page_in_manual":"210-11"
+  },
+  {
+    "id":"214",
+    "series": 200,
+    "title":"Modifications",
+    "document_depth":3,
+    "page_in_manual":"210-12"
+  },
+  {
+    "id":"215",
+    "series": 200,
+    "title":"Changes in CRS Credit",
+    "document_depth":3,
+    "page_in_manual":"210-15"
+  },
+  {
+    "id":"220",
+    "series": 200,
+    "title":"220 CREDIT CALCULATION—Summary",
+    "document_depth":2,
+    "page_in_manual":"220-1"
+  },
+  {
+    "id":"221",
+    "series": 200,
+    "title":"Step 1. Element Credit Points",
+    "document_depth":3,
+    "page_in_manual":"220-5"
+  },
+  {
+    "id":"222",
+    "series": 200,
+    "title":"Step 2. Impact Adjustment",
+    "document_depth":3,
+    "page_in_manual":"220-6"
+  },
+  {
+    "id":"223",
+    "series": 200,
+    "title":"Step 3. Credit Calculation",
+    "document_depth":3,
+    "page_in_manual":"220-8"
+  },
+  {
+    "id":"224",
+    "series": 200,
+    "title":"Step 4. County Growth Adjustment",
+    "document_depth":3,
+    "page_in_manual":"220-9"
+  },
+  {
+    "id":"225",
+    "series": 200,
+    "title":"Step 5. Community Classification",
+    "document_depth":3,
+    "page_in_manual":"220-10"
+  },
+  {
+    "id":"230",
+    "series": 200,
+    "title":"230 VERIFICATION—Summary",
+    "document_depth":2,
+    "page_in_manual":"230-1"
+  },
+  {
+    "id":"231",
+    "series": 200,
+    "title":"Documentation Provided by the Community",
+    "document_depth":3,
+    "page_in_manual":"230-2"
+  },
+  {
+    "id":"232",
+    "series": 200,
+    "title":"Verification Visit",
+    "document_depth":3,
+    "page_in_manual":"230-6"
+  },
+  {
+    "id":"233",
+    "series": 200,
+    "title":"Post-visit Actions",
+    "document_depth":3,
+    "page_in_manual":"230-11"
+  },
+  {
+    "id":"240",
+    "series": 200,
+    "title":"240 CRS COMMUNITY SELF ASSESSMENT",
+    "document_depth":2,
+    "page_in_manual":"240-1"
+  },
+  {
+    "id":"300",
+    "series": 300,
+    "title":"300 PUBLIC INFORMATION ACTIVITIES",
+    "page_in_manual":"300-1",
+    "document_depth":1
+  },
+  {
+    "id":"301",
+    "series": 300,
+    "title":"Impact Adjustments for Buildings",
+    "page_in_manual":"300-4",
+    "document_depth":3
+  },
+  {
+    "id":"302",
+    "series": 300,
+    "title":"Impact Adjustment Ratio",
+    "page_in_manual":"300-5",
+    "document_depth":3
+  },
+  {
+    "id":"310",
+    "series": 300,
+    "title":"310 ELEVATION CERTIFICATES—Summary",
+    "page_in_manual":"310-1",
+    "document_depth":2
+  },
+  {
+    "id":"311",
+    "series": 300,
+    "title":"Background",
+    "page_in_manual":"310-2",
+    "document_depth":3
+  },
+  {
+    "id":"312",
+    "series": 300,
+    "title":"Elements",
+    "page_in_manual":"310-12",
+    "document_depth":3,
+    "is_activity":true
+  },
+  {
+    "id":"312a",
+    "series": 300,
+    "title":"Maintaining Elevation Certificates",
+    "page_in_manual":"310-12",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"EC"
+  },
+  {
+    "id":"312b",
+    "series": 300,
+    "title":"Maintaining Elevation Certificates for post-FIRM buildings",
+    "page_in_manual":"310-12",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"ECPO"
+  },
+  {
+    "id":"312c",
+    "series": 300,
+    "title":"Maintaining Elevation Certificates for pre-FIRM buildings",
+    "page_in_manual":"310-12",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"ECPR"
+  },
+  {
+    "id":"313",
+    "series": 300,
+    "title":"Credit Calculation",
+    "page_in_manual":"310-17",
+    "document_depth":3
+  },
+  {
+    "id":"314",
+    "series": 300,
+    "title":"For More Information",
+    "page_in_manual":"310-18",
+    "document_depth":3
+  },
+  {
+    "id":"315",
+    "series": 300,
+    "title":"Related Activities under the Community Rating System",
+    "page_in_manual":"310-18",
+    "document_depth":3
+  },
+  {
+    "id":"320",
+    "series": 300,
+    "title":"320 MAP INFORMATION SERVICE—Summary",
+    "page_in_manual":"320-1",
+    "document_depth":2
+  },
+  {
+    "id":"321",
+    "series": 300,
+    "title":"Background",
+    "page_in_manual":"320-2",
+    "document_depth":3
+  },
+  {
+    "id":"322",
+    "series": 300,
+    "title":"Elements",
+    "page_in_manual":"320-8",
+    "document_depth":3,
+    "is_activity":true
+  },
+  {
+    "id":"322a",
+    "series": 300,
+    "title":"Basic FIRM information",
+    "page_in_manual":"320-8",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"MI1"
+  },
+  {
+    "id":"322b",
+    "series": 300,
+    "title":"Additional FIRM information",
+    "page_in_manual":"320-8",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"MI2"
+  },
+  {
+    "id":"322c",
+    "series": 300,
+    "title":"Other flood problems not shown on the FIRM",
+    "page_in_manual":"320-8",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"MI3"
+  },
+  {
+    "id":"322d",
+    "series": 300,
+    "title":"Flood depth data",
+    "page_in_manual":"320-8",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"MI4"
+  },
+  {
+    "id":"322e",
+    "series": 300,
+    "title":"Special flood-related hazards",
+    "page_in_manual":"320-8",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"MI5"
+  },
+  {
+    "id":"322f",
+    "series": 300,
+    "title":"Historical flood information",
+    "page_in_manual":"320-8",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"MI6"
+  },
+  {
+    "id":"322g",
+    "series": 300,
+    "title":"Natural floodplain functions",
+    "page_in_manual":"320-8",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"MI7"
+  },
+  {
+    "id":"323",
+    "series": 300,
+    "title":"Impact Adjustment",
+    "page_in_manual":"320-15",
+    "document_depth":3
+  },
+  {
+    "id":"324",
+    "series": 300,
+    "title":"Credit Calculation",
+    "page_in_manual":"320-15",
+    "document_depth":3
+  },
+  {
+    "id":"325",
+    "series": 300,
+    "title":"Documentation Provided by the Community",
+    "page_in_manual":"320-16",
+    "document_depth":3
+  },
+  {
+    "id":"326",
+    "series": 300,
+    "title":"For More Information",
+    "page_in_manual":"320-17",
+    "document_depth":3
+  },
+  {
+    "id":"327",
+    "series": 300,
+    "title":"Related Activities under the Community Rating System",
+    "page_in_manual":"320-17",
+    "document_depth":3
+  },
+  {
+    "id":"330",
+    "series": 300,
+    "title":"330 OUTREACH PROJECTS—Summary",
+    "page_in_manual":"330-1",
+    "document_depth":2
+  },
+  {
+    "id":"331",
+    "series": 300,
+    "title":"Background",
+    "page_in_manual":"330-2",
+    "document_depth":3
+  },
+  {
+    "id":"332",
+    "series": 300,
+    "title":"Elements",
+    "page_in_manual":"330-6",
+    "document_depth":3,
+    "is_activity":true
+  },
+  {
+    "id":"332a",
+    "series": 300,
+    "title":"Outreach projects",
+    "page_in_manual":"330-6",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"OP"
+  },
+  {
+    "id":"332b",
+    "series": 300,
+    "title":"Flood response preparations",
+    "page_in_manual":"330-6",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"FRP"
+  },
+  {
+    "id":"332c",
+    "series": 300,
+    "title":"Program for Public Information",
+    "page_in_manual":"330-6",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"PPI"
+  },
+  {
+    "id":"332d",
+    "series": 300,
+    "title":"Stakeholder delivery",
+    "page_in_manual":"330-6",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"STK"
+  },
+  {
+    "id":"333",
+    "series": 300,
+    "title":"Impact Adjustment",
+    "page_in_manual":"330-21",
+    "document_depth":3
+  },
+  {
+    "id":"334",
+    "series": 300,
+    "title":"Credit Calculation",
+    "page_in_manual":"330-22",
+    "document_depth":3
+  },
+  {
+    "id":"335",
+    "series": 300,
+    "title":"For More Information",
+    "page_in_manual":"330-23",
+    "document_depth":3
+  },
+  {
+    "id":"336",
+    "series": 300,
+    "title":"Related Activities under the Community Rating System",
+    "page_in_manual":"330-23",
+    "document_depth":3
+  },
+  {
+    "id":"340",
+    "series": 300,
+    "title":"340 HAZARD DISCLOSURE—Summary",
+    "page_in_manual":"340-1",
+    "document_depth":2
+  },
+  {
+    "id":"341",
+    "series": 300,
+    "title":"Background",
+    "page_in_manual":"340-2",
+    "document_depth":3
+  },
+  {
+    "id":"342",
+    "series": 300,
+    "title":"Elements",
+    "page_in_manual":"340-3",
+    "document_depth":3,
+    "is_activity":true
+  },
+  {
+    "id":"342a",
+    "series": 300,
+    "title":"Disclosure of the flood hazard",
+    "page_in_manual":"340-3",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"DFH"
+  },
+  {
+    "id":"342b",
+    "series": 300,
+    "title":"Other disclosure requirements",
+    "page_in_manual":"340-3",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"ODR"
+  },
+  {
+    "id":"342c",
+    "series": 300,
+    "title":"Real estate agents' brochure",
+    "page_in_manual":"340-3",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"REB"
+  },
+  {
+    "id":"342d",
+    "series": 300,
+    "title":"Disclosure of other hazards",
+    "page_in_manual":"340-3",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"DOH"
+  },
+  {
+    "id":"343",
+    "series": 300,
+    "title":"Impact Adjustment",
+    "page_in_manual":"340-11",
+    "document_depth":3
+  },
+  {
+    "id":"344",
+    "series": 300,
+    "title":"Credit Calculation",
+    "page_in_manual":"340-11",
+    "document_depth":3
+  },
+  {
+    "id":"345",
+    "series": 300,
+    "title":"For More Information",
+    "page_in_manual":"340-11",
+    "document_depth":3
+  },
+  {
+    "id":"346",
+    "series": 300,
+    "title":"Related Activities under the Community Rating System",
+    "page_in_manual":"340-12",
+    "document_depth":3
+  },
+  {
+    "id":"350",
+    "series": 300,
+    "title":"350 FLOOD PROTECTION INFORMATION—Summary",
+    "page_in_manual":"350-1",
+    "document_depth":2
+  },
+  {
+    "id":"351",
+    "series": 300,
+    "title":"Background",
+    "page_in_manual":"350-2",
+    "document_depth":3
+  },
+  {
+    "id":"352",
+    "series": 300,
+    "title":"Elements",
+    "page_in_manual":"350-3",
+    "document_depth":3,
+    "is_activity":true
+  },
+  {
+    "id":"352a",
+    "series": 300,
+    "title":"Flood protection library",
+    "page_in_manual":"350-3",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"LIB"
+  },
+  {
+    "id":"352b",
+    "series": 300,
+    "title":"Locally pertinent documents",
+    "page_in_manual":"350-3",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"LPD"
+  },
+  {
+    "id":"352c",
+    "series": 300,
+    "title":"Flood protection website",
+    "page_in_manual":"350-3",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"WEB"
+  },
+  {
+    "id":"353",
+    "series": 300,
+    "title":"Impact Adjustment",
+    "page_in_manual":"350-10",
+    "document_depth":3
+  },
+  {
+    "id":"354",
+    "series": 300,
+    "title":"Credit Calculation",
+    "page_in_manual":"350-10",
+    "document_depth":3
+  },
+  {
+    "id":"355",
+    "series": 300,
+    "title":"For More Information",
+    "page_in_manual":"350-11",
+    "document_depth":3
+  },
+  {
+    "id":"356",
+    "series": 300,
+    "title":"Related Activities under the Community Rating System",
+    "page_in_manual":"350-11",
+    "document_depth":3
+  },
+  {
+    "id":"360",
+    "series": 300,
+    "title":"360 PROPERTY PROTECTION—Summary",
+    "page_in_manual":"360-1",
+    "document_depth":2
+  },
+  {
+    "id":"361",
+    "series": 300,
+    "title":"Background",
+    "page_in_manual":"360-2",
+    "document_depth":3
+  },
+  {
+    "id":"362",
+    "series": 300,
+    "title":"Elements",
+    "page_in_manual":"360-4",
+    "document_depth":3,
+    "is_activity":true
+  },
+  {
+    "id":"362a",
+    "series": 300,
+    "title":"Property protection advice",
+    "page_in_manual":"360-4",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"PPA"
+  },
+  {
+    "id":"362b",
+    "series": 300,
+    "title":"Protection advice provided after a site visit",
+    "page_in_manual":"360-4",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"PPV"
+  },
+  {
+    "id":"362c",
+    "series": 300,
+    "title":"Financial assistance advice",
+    "page_in_manual":"360-4",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"FAA"
+  },
+  {
+    "id":"362d",
+    "series": 300,
+    "title":"Advisor training",
+    "page_in_manual":"360-4",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"TNG"
+  },
+  {
+    "id":"363",
+    "series": 300,
+    "title":"Impact Adjustment",
+    "page_in_manual":"360-11",
+    "document_depth":3
+  },
+  {
+    "id":"364",
+    "series": 300,
+    "title":"Credit Calculation",
+    "page_in_manual":"360-12",
+    "document_depth":3
+  },
+  {
+    "id":"365",
+    "series": 300,
+    "title":"For More Information",
+    "page_in_manual":"360-12",
+    "document_depth":3
+  },
+  {
+    "id":"366",
+    "series": 300,
+    "title":"Related Activities under the Community Rating System",
+    "page_in_manual":"360-13",
+    "document_depth":3
+  },
+  {
+    "id":"370",
+    "series": 300,
+    "title":"370 FLOOD INSURANCE—Summary",
+    "page_in_manual":"370-1",
+    "document_depth":2
+  },
+  {
+    "id":"371",
+    "series": 300,
+    "title":"Background",
+    "page_in_manual":"370-2",
+    "document_depth":3
+  },
+  {
+    "id":"372",
+    "series": 300,
+    "title":"Elements",
+    "page_in_manual":"370-3",
+    "document_depth":3,
+    "is_activity":true
+  },
+  {
+    "id":"372a",
+    "series": 300,
+    "title":"Flood insurance coverage assessment",
+    "page_in_manual":"370-3",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"FIA"
+  },
+  {
+    "id":"372b",
+    "series": 300,
+    "title":"Coverage improvement plan",
+    "page_in_manual":"370-3",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"CP"
+  },
+  {
+    "id":"372c",
+    "series": 300,
+    "title":"Coverage improvement plan implementation",
+    "page_in_manual":"370-3",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"CPI"
+  },
+  {
+    "id":"372d",
+    "series": 300,
+    "title":"Technical assistance",
+    "page_in_manual":"370-3",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"TA"
+  },
+  {
+    "id":"373",
+    "series": 300,
+    "title":"Impact Adjustment",
+    "page_in_manual":"370-13",
+    "document_depth":3
+  },
+  {
+    "id":"374",
+    "series": 300,
+    "title":"Credit Calculation",
+    "page_in_manual":"370-13",
+    "document_depth":3
+  },
+  {
+    "id":"375",
+    "series": 300,
+    "title":"For More Information",
+    "page_in_manual":"370-13",
+    "document_depth":3
+  },
+  {
+    "id":"376",
+    "series": 300,
+    "title":"Related Activities under the Community Rating System",
+    "page_in_manual":"370-14",
+    "document_depth":3
+  },
+  {
+    "id":"400",
+   "series": 400,
+    "title":"400 MAPPING AND REGULATIONS",
+    "page_in_manual": "400-1",
+    "document_depth":1
+  },
+  {
+    "id":"401",
+   "series": 400,
+    "title":"Special Flood-related Hazard Areas",
+    "page_in_manual":"400-3",
+    "document_depth":3
+  },
+  {
+    "id":"402",
+   "series": 400,
+    "title":"Impact Adjustment for Areas",
+    "page_in_manual":"400-4",
+    "document_depth":3
+  },
+  {
+    "id":"403",
+   "series": 400,
+    "title":"Impact Adjustment Map",
+    "page_in_manual":"400-7",
+    "document_depth":3
+  },
+  {
+    "id":"404",
+   "series": 400,
+    "title":"Sea Level Rise Projections and the CRS",
+    "page_in_manual":"400-14",
+    "document_depth":3
+  },
+  {
+    "id":"410",
+   "series": 400,
+    "title":"410 FLOOD HAZARD MAPPING—Summary",
+    "document_depth":2
+  },
+  {
+    "id":"411",
+   "series": 400,
+    "title":"Background",
+    "page_in_manual":"410-2",
+    "document_depth":3
+  },
+  {
+    "id":"412",
+   "series": 400,
+    "title":"Elements",
+    "page_in_manual":"410-8",
+    "document_depth":3,
+    "is_activity":true
+  },
+  {
+    "id":"412a",
+   "series": 400,
+    "title":"New study",
+    "page_in_manual":"410-8",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"NS"
+  },
+  {
+    "id":"412b",
+   "series": 400,
+    "title":"Leverage",
+    "page_in_manual":"410-8",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"LEV"
+  },
+  {
+    "id":"412c",
+   "series": 400,
+    "title":"State review",
+    "page_in_manual":"410-8",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"SR"
+  },
+  {
+    "id":"412d",
+   "series": 400,
+    "title":"Higher study standards",
+    "page_in_manual":"410-8",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"HSS"
+  },
+  {
+    "id":"412e",
+   "series": 400,
+    "title":"More restrictive floodway standard",
+    "page_in_manual":"410-8",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"FWS"
+  },
+  {
+    "id":"412f",
+   "series": 400,
+    "title":"Mapping for special coastal flood-related hazards",
+    "page_in_manual":"410-8",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"MAPSH"
+  },
+  {
+    "id":"412g",
+   "series": 400,
+    "title":"Mapping coastal erosion hazard areas",
+    "page_in_manual":"410-8",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"MCE"
+  },
+  {
+    "id":"412h",
+   "series": 400,
+    "title":"Mapping tsunami hazard areas",
+    "page_in_manual":"410-8",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"MTS"
+  },
+  {
+    "id":"413",
+   "series": 400,
+    "title":"Impact Adjustment",
+    "page_in_manual":"410-29",
+    "document_depth":3
+  },
+  {
+    "id":"414",
+   "series": 400,
+    "title":"Credit Calculation",
+    "page_in_manual":"410-31",
+    "document_depth":3
+  },
+  {
+    "id":"415",
+   "series": 400,
+    "title":"For More Information",
+    "page_in_manual":"410-32",
+    "document_depth":3
+  },
+  {
+    "id":"416",
+   "series": 400,
+    "title":"Related Activities under the CRS",
+    "page_in_manual":"410-33",
+    "document_depth":3
+  },
+  {
+    "id":"420",
+   "series": 400,
+    "title":"420 OPEN SPACE PRESERVATION—SUMMARY",
+    "document_depth":2
+  },
+  {
+    "id":"421",
+   "series": 400,
+    "title":"Background",
+    "page_in_manual":"420-2",
+    "document_depth":3
+  },
+  {
+    "id":"422",
+   "series": 400,
+    "title":"Elements",
+    "page_in_manual":"420-3",
+    "document_depth":3,
+    "is_activity":true
+  },
+  {
+    "id":"422a",
+   "series": 400,
+    "title":"Open space preservation",
+    "page_in_manual":"420-3",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"OSP"
+  },
+  {
+    "id":"422b",
+   "series": 400,
+    "title":"Deed restrictions",
+    "page_in_manual":"420-3",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"DR"
+  },
+  {
+    "id":"422c",
+   "series": 400,
+    "title":"Natural functions open space",
+    "page_in_manual":"420-3",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"NFOS"
+  },
+  {
+    "id":"422d",
+   "series": 400,
+    "title":"Special flood-related hazards open space",
+    "page_in_manual":"420-3",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"SHOS"
+  },
+  {
+    "id":"422e",
+   "series": 400,
+    "title":"Coastal erosion open space",
+    "page_in_manual":"420-3",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"CEOS"
+  },
+  {
+    "id":"422f",
+   "series": 400,
+    "title":"Open space incentives",
+    "page_in_manual":"420-3",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"OSI"
+  },
+  {
+    "id":"422g",
+   "series": 400,
+    "title":"Low-density zoning",
+    "page_in_manual":"420-3",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"LZ"
+  },
+  {
+    "id":"422h",
+   "series": 400,
+    "title":"Natural shoreline protection",
+    "page_in_manual":"420-3",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"NSP"
+  },
+  {
+    "id":"423",
+   "series": 400,
+    "title":"Credit Calculation",
+    "page_in_manual":"420-32",
+    "document_depth":3
+  },
+  {
+    "id":"424",
+   "series": 400,
+    "title":"For More Information",
+    "page_in_manual":"420-33",
+    "document_depth":3
+  },
+  {
+    "id":"425",
+   "series": 400,
+    "title":"Related Activities under the CRS",
+    "page_in_manual":"420-33",
+    "document_depth":3
+  },
+  {
+    "id":"430",
+   "series": 400,
+    "title":"430 HIGHER REGULATORY STANDARDS—Summary",
+    "document_depth":2
+  },
+  {
+    "id":"431",
+   "series": 400,
+    "title":"Background",
+    "page_in_manual":"430-2",
+    "document_depth":3
+  },
+  {
+    "id":"432",
+   "series": 400,
+    "title":"Elements",
+    "page_in_manual":"430-6",
+    "document_depth":3,
+    "is_activity":true
+  },
+  {
+    "id":"432a",
+   "series": 400,
+    "title":"Development limitations",
+    "page_in_manual":"430-6",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"DL"
+  },
+  {
+    "id":"432b",
+   "series": 400,
+    "title":"Freeboard",
+    "page_in_manual":"430-6",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"FRB"
+  },
+  {
+    "id":"432c",
+   "series": 400,
+    "title":"Foundation protection",
+    "page_in_manual":"430-6",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"FDN"
+  },
+  {
+    "id":"432d",
+   "series": 400,
+    "title":"Cumulative substantial improvements",
+    "page_in_manual":"430-6",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"CSI"
+  },
+  {
+    "id":"432e",
+   "series": 400,
+    "title":"Lower substantial improvements threshold",
+    "page_in_manual":"430-6",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"LSI"
+  },
+  {
+    "id":"432f",
+   "series": 400,
+    "title":"Protection of critical facilities",
+    "page_in_manual":"430-6",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"PCF"
+  },
+  {
+    "id":"432g",
+   "series": 400,
+    "title":"Enclosure limits",
+    "page_in_manual":"430-6",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"ENL"
+  },
+  {
+    "id":"432h",
+   "series": 400,
+    "title":"Building code",
+    "page_in_manual":"430-6",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"BC"
+  },
+  {
+    "id":"432i",
+   "series": 400,
+    "title":"Local drainage protection",
+    "page_in_manual":"430-6",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"LDP"
+  },
+  {
+    "id":"432j",
+   "series": 400,
+    "title":"Manufactured home parks",
+    "page_in_manual":"430-6",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"MHP"
+  },
+  {
+    "id":"432k",
+   "series": 400,
+    "title":"Coastal A Zones",
+    "page_in_manual":"430-6",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"CAZ"
+  },
+  {
+    "id":"432l",
+   "series": 400,
+    "title":"Special flood-related hazards regulations",
+    "page_in_manual":"430-6",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"SHR"
+  },
+  {
+    "id":"432m",
+   "series": 400,
+    "title":"Tsunami special hazards regulations",
+    "page_in_manual":"430-6",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"TSR"
+  },
+  {
+    "id":"432n",
+   "series": 400,
+    "title":"Coastal erosion hazard regulations",
+    "page_in_manual":"430-6",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"CER"
+  },
+  {
+    "id":"432o",
+   "series": 400,
+    "title":"Other higher standards",
+    "page_in_manual":"430-6",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"OHS"
+  },
+  {
+    "id":"432p",
+   "series": 400,
+    "title":"State-mandated regulatory standards",
+    "page_in_manual":"430-6",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"SMS"
+  },
+  {
+    "id":"432q",
+   "series": 400,
+    "title":"Regulations administration",
+    "page_in_manual":"430-6",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"RA"
+  },
+  {
+    "id":"433",
+   "series": 400,
+    "title":"Credit Calculation",
+    "page_in_manual":"430-60",
+    "document_depth":3
+  },
+  {
+    "id":"434",
+   "series": 400,
+    "title":"For More Information",
+    "page_in_manual":"430-61",
+    "document_depth":3
+  },
+  {
+    "id":"435",
+   "series": 400,
+    "title":"Related Activities under the CRS",
+    "page_in_manual":"430-62",
+    "document_depth":3
+  },
+  {
+    "id":"440",
+   "series": 400,
+    "title":"440 FLOOD DATA MAINTENANCE—Summary",
+    "document_depth":2
+  },
+  {
+    "id":"441",
+   "series": 400,
+    "title":"Background",
+    "page_in_manual":"440-2",
+    "document_depth":3
+  },
+  {
+    "id":"442",
+   "series": 400,
+    "title":"Elements",
+    "page_in_manual":"440-3",
+    "document_depth":3,
+    "is_activity":true
+  },
+  {
+    "id":"442a",
+   "series": 400,
+    "title":"Additional map data",
+    "page_in_manual":"440-3",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"AMD"
+  },
+  {
+    "id":"442b",
+   "series": 400,
+    "title":"FIRM maintenance",
+    "page_in_manual":"440-3",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"FM"
+  },
+  {
+    "id":"442c",
+   "series": 400,
+    "title":"Benchmark maintenance",
+    "page_in_manual":"440-3",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"BMM"
+  },
+  {
+    "id":"442d",
+   "series": 400,
+    "title":"Erosion data maintenance",
+    "page_in_manual":"440-3",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"EDM"
+  },
+  {
+    "id":"443",
+   "series": 400,
+    "title":"Credit Calculation",
+    "page_in_manual":"440-14",
+    "document_depth":3
+  },
+  {
+    "id":"444",
+   "series": 400,
+    "title":"For More Information",
+    "page_in_manual":"440-14",
+    "document_depth":3
+  },
+  {
+    "id":"445",
+   "series": 400,
+    "title":"Related Activities under the CRS",
+    "page_in_manual":"440-15",
+    "document_depth":3
+  },
+  {
+    "id":"450",
+   "series": 400,
+    "title":"450 STORMWATER MANAGEMENT—Summary",
+    "document_depth":2
+  },
+  {
+    "id":"451",
+   "series": 400,
+    "title":"Background",
+    "page_in_manual":"450-2",
+    "document_depth":3
+  },
+  {
+    "id":"452",
+   "series": 400,
+    "title":"Elements",
+    "page_in_manual":"450-4",
+    "document_depth":3,
+    "is_activity":true
+  },
+  {
+    "id":"452a",
+   "series": 400,
+    "title":"Stormwater management regulations",
+    "page_in_manual":"450-4",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"SMR"
+  },
+  {
+    "id":"452b",
+   "series": 400,
+    "title":"Watershed master plan",
+    "page_in_manual":"450-4",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"WMP"
+  },
+  {
+    "id":"452c",
+   "series": 400,
+    "title":"Erosion and sediment control regulations",
+    "page_in_manual":"450-4",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"ESC"
+  },
+  {
+    "id":"452d",
+   "series": 400,
+    "title":"Water quality regulations",
+    "page_in_manual":"450-4",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"WQ"
+  },
+  {
+    "id":"453",
+   "series": 400,
+    "title":"Credit Calculation",
+    "page_in_manual":"450-22",
+    "document_depth":3
+  },
+  {
+    "id":"454",
+   "series": 400,
+    "title":"For More Information",
+    "page_in_manual":"450-22",
+    "document_depth":3
+  },
+  {
+    "id":"455",
+   "series": 400,
+    "title":"Related Activities under the CRS",
+    "page_in_manual":"450-23",
+    "document_depth":3
+  },
+  {
+    "id":"500",
+    "series": 500,
+    "title":"500 REPETITIVE LOSS",
+    "page_in_manual":"500-1",
+    "document_depth":1
+  },
+  {
+    "id":"501",
+    "series": 500,
+    "title":"The Repetitive Loss List",
+    "page_in_manual":"500-3",
+    "document_depth":3
+  },
+  {
+    "id":"502",
+    "series": 500,
+    "title":"Repetitive Loss Category",
+    "page_in_manual":"500-8",
+    "document_depth":3
+  },
+  {
+    "id":"503",
+    "series": 500,
+    "title":"Repetitive Loss Areas",
+    "page_in_manual":"500-9",
+    "document_depth":3
+  },
+  {
+    "id":"504",
+    "series": 500,
+    "title":"Repetitive Loss Area Outreach Project",
+    "page_in_manual":"500-11",
+    "document_depth":3
+  },
+  {
+    "id":"505",
+    "series": 500,
+    "title":"Repetitive Loss Mitigation Activities",
+    "page_in_manual":"500-13",
+    "document_depth":3
+  },
+  {
+    "id":"506",
+    "series": 500,
+    "title":"National Flood Insurance Reform Act of 1994",
+    "page_in_manual":"500-15",
+    "document_depth":3
+  },
+  {
+    "id":"507",
+    "series": 500,
+    "title":"Compliance with Provisions for Environmental and Historic Preservation",
+    "page_in_manual":"500-14",
+    "document_depth":3
+  },
+  {
+    "id":"510",
+    "series": 500,
+    "title":"510 FLOODPLAIN MANAGEMENT PLANNING—Summary",
+    "document_depth":2
+  },
+  {
+    "id":"511",
+    "series": 500,
+    "title":"Background",
+    "page_in_manual":"510-2",
+    "document_depth":3
+  },
+  {
+    "id":"512",
+    "series": 500,
+    "title":"Elements",
+    "page_in_manual":"510-4",
+    "document_depth":3,
+    "is_activity":true
+  },
+  {
+    "id":"512a",
+    "series": 500,
+    "title":"Floodplain management planning",
+    "page_in_manual":"510-4",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"FMP"
+  },
+  {
+    "id":"512b",
+    "series": 500,
+    "title":"Repetitive loss area analysis",
+    "page_in_manual":"510-4",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"RLAA"
+  },
+  {
+    "id":"512c",
+    "series": 500,
+    "title":"Natural floodplain functions plan",
+    "page_in_manual":"510-4",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"NFP"
+  },
+  {
+    "id":"513",
+    "series": 500,
+    "title":"Credit Calculation",
+    "page_in_manual":"510-37",
+    "document_depth":3
+  },
+  {
+    "id":"514",
+    "series": 500,
+    "title":"For More Information",
+    "page_in_manual":"510-37",
+    "document_depth":3
+  },
+  {
+    "id":"515",
+    "series": 500,
+    "title":"Related Activities under the CRS",
+    "page_in_manual":"510-38",
+    "document_depth":3
+  },
+  {
+    "id":"520",
+    "series": 500,
+    "title":"520 ACQUISITION AND RELOCATION—Summary",
+    "document_depth":2
+  },
+  {
+    "id":"521",
+    "series": 500,
+    "title":"Background",
+    "page_in_manual":"520-2",
+    "document_depth":3
+  },
+  {
+    "id":"522",
+    "series": 500,
+    "title":"Elements",
+    "page_in_manual":"520-4",
+    "document_depth":3,
+    "is_activity":true
+  },
+  {
+    "id":"522a",
+    "series": 500,
+    "title":"Buildings acquired or relocated",
+    "page_in_manual":"520-4",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"bAR"
+  },
+  {
+    "id":"522b",
+    "series": 500,
+    "title":"Buildings on the repetitive loss list",
+    "page_in_manual":"520-4",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"bRL"
+  },
+  {
+    "id":"522c",
+    "series": 500,
+    "title":"Severe repetitive loss properties",
+    "page_in_manual":"520-4",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"bSRL"
+  },
+  {
+    "id":"522d",
+    "series": 500,
+    "title":"Critical facilities",
+    "page_in_manual":"520-4",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"bCF"
+  },
+  {
+    "id":"522e",
+    "series": 500,
+    "title":"Buildings located in the V Zone or Coastal A Zone",
+    "page_in_manual":"520-4",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"bVZ"
+  },
+  {
+    "id":"523",
+    "series": 500,
+    "title":"Credit Calculation",
+    "page_in_manual":"520-8",
+    "document_depth":3
+  },
+  {
+    "id":"524",
+    "series": 500,
+    "title":"Documentation Provided by the Community",
+    "page_in_manual":"520-12",
+    "document_depth":3
+  },
+  {
+    "id":"525",
+    "series": 500,
+    "title":"For More Information",
+    "page_in_manual":"520-13",
+    "document_depth":3
+  },
+  {
+    "id":"526",
+    "series": 500,
+    "title":"Related Activities under the CRS",
+    "page_in_manual":"520-13",
+    "document_depth":3
+  },
+  {
+    "id":"530",
+    "series": 500,
+    "title":"530 FLOOD PROTECTION—Summary",
+    "document_depth":2
+  },
+  {
+    "id":"531",
+    "series": 500,
+    "title":"Background",
+    "page_in_manual":"530-2",
+    "document_depth":3
+  },
+  {
+    "id":"532",
+    "series": 500,
+    "title":"Elements",
+    "page_in_manual":"530-6",
+    "document_depth":3,
+    "is_activity":true
+  },
+  {
+    "id":"532a",
+    "series": 500,
+    "title":"Flood protection technique used",
+    "page_in_manual":"530-6",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"TU"
+  },
+  {
+    "id":"532b",
+    "series": 500,
+    "title":"Technique used for elevated buildings",
+    "page_in_manual":"530-6",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"TUE"
+  },
+  {
+    "id":"532c",
+    "series": 500,
+    "title":"Technique used for buildings that are dry floodproofed",
+    "page_in_manual":"530-6",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"TUD"
+  },
+  {
+    "id":"532d",
+    "series": 500,
+    "title":"Technique used for buildings that are wet floodproofed",
+    "page_in_manual":"530-6",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"TUW"
+  },
+  {
+    "id":"532e",
+    "series": 500,
+    "title":"Technique used for buildings protected from sewer or sump backup",
+    "page_in_manual":"530-6",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"TUS"
+  },
+  {
+    "id":"532f",
+    "series": 500,
+    "title":"Technique used for buildings protected by a barrier",
+    "page_in_manual":"530-6",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"TUB"
+  },
+  {
+    "id":"532g",
+    "series": 500,
+    "title":"Technique used for buildings protected by a channel modification project",
+    "page_in_manual":"530-6",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"TUC"
+  },
+  {
+    "id":"532h",
+    "series": 500,
+    "title":"Technique used for buildings protected by a water storage facility",
+    "page_in_manual":"530-6",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"TUF"
+  },
+  {
+    "id":"532i",
+    "series": 500,
+    "title":"Flood protection improvement",
+    "page_in_manual":"530-6",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"FPI"
+  },
+  {
+    "id":"532j",
+    "series": 500,
+    "title":"Protected buildings",
+    "page_in_manual":"530-6",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"PB"
+  },
+  {
+    "id":"533",
+    "series": 500,
+    "title":"Credit Calculation",
+    "page_in_manual":"530-14",
+    "document_depth":3
+  },
+  {
+    "id":"534",
+    "series": 500,
+    "title":"Documentation provided by the Community",
+    "page_in_manual":"530-16",
+    "document_depth":3
+  },
+  {
+    "id":"535",
+    "series": 500,
+    "title":"For More Information",
+    "page_in_manual":"530-17",
+    "document_depth":3
+  },
+  {
+    "id":"536",
+    "series": 500,
+    "title":"Related Activities under the CRS",
+    "page_in_manual":"530-18",
+    "document_depth":3
+  },
+  {
+    "id":"540",
+    "series": 500,
+    "title":"540 DRAINAGE SYSTEM MAINTENANCE—Summary",
+    "document_depth":2
+  },
+  {
+    "id":"541",
+    "series": 500,
+    "title":"Background",
+    "page_in_manual":"540-2",
+    "document_depth":3
+  },
+  {
+    "id":"542",
+    "series": 500,
+    "title":"Elements",
+    "page_in_manual":"540-5",
+    "document_depth":3,
+    "is_activity":true
+  },
+  {
+    "id":"542a",
+    "series": 500,
+    "title":"Channel debris removal",
+    "page_in_manual":"540-5",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"CDR"
+  },
+  {
+    "id":"542b",
+    "series": 500,
+    "title":"Problem site maintenance",
+    "page_in_manual":"540-5",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"PSM"
+  },
+  {
+    "id":"542c",
+    "series": 500,
+    "title":"Capital improvement program",
+    "page_in_manual":"540-5",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"CIP"
+  },
+  {
+    "id":"542d",
+    "series": 500,
+    "title":"Stream dumping regulations",
+    "page_in_manual":"540-5",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"SDR"
+  },
+  {
+    "id":"542e",
+    "series": 500,
+    "title":"Storage basin maintenance",
+    "page_in_manual":"540-5",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"SBM"
+  },
+  {
+    "id":"543",
+    "series": 500,
+    "title":"Credit Calculation",
+    "page_in_manual":"540-22",
+    "document_depth":3
+  },
+  {
+    "id":"544",
+    "series": 500,
+    "title":"For More Information",
+    "page_in_manual":"540-22",
+    "document_depth":3
+  },
+  {
+    "id":"545",
+    "series": 500,
+    "title":"Related Activities under the CRS",
+    "page_in_manual":"540-22",
+    "document_depth":3
+  },
+  {
+    "id":"600",
+    "series": 600,
+    "title":"600 FLOOD RESPONSE AND RECOVERY",
+    "page_in_manual":"600-1",
+    "document_depth":1
+  },
+  {
+    "id":"610",
+    "series": 600,
+    "title":"610 FLOOD WARNING AND RESPONSE",
+    "page_in_manual":"610-1",
+    "document_depth":2
+  },
+  {
+    "id":"611",
+    "series": 600,
+    "title":"Background",
+    "page_in_manual":"610-2",
+    "document_depth":3
+  },
+  {
+    "id":"612",
+    "series": 600,
+    "title":"Elements",
+    "page_in_manual":"610-8",
+    "document_depth":3,
+    "is_activity":true
+  },
+  {
+    "id":"612a",
+    "series": 600,
+    "title":"Flood threat recognition system",
+    "page_in_manual":"610-8",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"FTR"
+  },
+  {
+    "id":"612b",
+    "series": 600,
+    "title":"Emergency warning dissemination",
+    "page_in_manual":"610-8",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"EWD"
+  },
+  {
+    "id":"612c",
+    "series": 600,
+    "title":"Flood response operations",
+    "page_in_manual":"610-8",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"FRO"
+  },
+  {
+    "id":"612d",
+    "series": 600,
+    "title":"Critical facilities planning",
+    "page_in_manual":"610-8",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"CFP"
+  },
+  {
+    "id":"612e",
+    "series": 600,
+    "title":"StormReady community",
+    "page_in_manual":"610-8",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"SRC"
+  },
+  {
+    "id":"612f",
+    "series": 600,
+    "title":"TsunamiReady community",
+    "page_in_manual":"610-8",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"TRC"
+  },
+  {
+    "id":"613",
+    "series": 600,
+    "title":"Impact Adjustment",
+    "page_in_manual":"610-23",
+    "document_depth":3
+  },
+  {
+    "id":"614",
+    "series": 600,
+    "title":"Credit Calculation",
+    "page_in_manual":"610-25",
+    "document_depth":3
+  },
+  {
+    "id":"615",
+    "series": 600,
+    "title":"For More Information",
+    "page_in_manual":"610-25",
+    "document_depth":3
+  },
+  {
+    "id":"616",
+    "series": 600,
+    "title":"Related Activities under the Community Rating System",
+    "page_in_manual":"610-26",
+    "document_depth":3
+  },
+  {
+    "id":"620",
+    "series": 600,
+    "title":"620 LEVEE SYSTEMS",
+    "page_in_manual":"620-1",
+    "document_depth":2
+  },
+  {
+    "id":"621",
+    "series": 600,
+    "title":"Background",
+    "page_in_manual":"620-2",
+    "document_depth":3
+  },
+  {
+    "id":"622",
+    "series": 600,
+    "title":"Elements",
+    "page_in_manual":"620-8",
+    "document_depth":3,
+    "is_activity":true
+  },
+  {
+    "id":"622a",
+    "series": 600,
+    "title":"Levee maintenance",
+    "page_in_manual":"620-8",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"LM"
+  },
+  {
+    "id":"622b",
+    "series": 600,
+    "title":"Levee failure threat recognition system",
+    "page_in_manual":"620-8",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"LFR"
+  },
+  {
+    "id":"622c",
+    "series": 600,
+    "title":"Levee failure warning",
+    "page_in_manual":"620-8",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"LFW"
+  },
+  {
+    "id":"622d",
+    "series": 600,
+    "title":"Levee failure response operations",
+    "page_in_manual":"620-8",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"LFO"
+  },
+  {
+    "id":"622e",
+    "series": 600,
+    "title":"Levee failure critical facilities planning",
+    "page_in_manual":"620-8",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"LCF"
+  },
+  {
+    "id":"623",
+    "series": 600,
+    "title":"Impact Adjustment",
+    "page_in_manual":"620-19",
+    "document_depth":3
+  },
+  {
+    "id":"624",
+    "series": 600,
+    "title":"Credit Calculation",
+    "page_in_manual":"620-20",
+    "document_depth":3
+  },
+  {
+    "id":"625",
+    "series": 600,
+    "title":"For More Information",
+    "page_in_manual":"620-20",
+    "document_depth":3
+  },
+  {
+    "id":"626",
+    "series": 600,
+    "title":"Related Activities under the Community Rating System",
+    "page_in_manual":"620-20",
+    "document_depth":3
+  },
+  {
+    "id":"630",
+    "series": 600,
+    "title":"630 DAMS AND RESERVOIRS",
+    "page_in_manual":"630-1",
+    "document_depth":2
+  },
+  {
+    "id":"631",
+    "series": 600,
+    "title":"Background",
+    "page_in_manual":"630-2",
+    "document_depth":3
+  },
+  {
+    "id":"632",
+    "series": 600,
+    "title":"Elements",
+    "page_in_manual":"630-5",
+    "document_depth":3,
+    "is_activity":true
+  },
+  {
+    "id":"632a",
+    "series": 600,
+    "title":"State dam safety program",
+    "page_in_manual":"630-5",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"SDS"
+  },
+  {
+    "id":"632b",
+    "series": 600,
+    "title":"Dam failure threat recognition system",
+    "page_in_manual":"630-5",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"DFR"
+  },
+  {
+    "id":"632c",
+    "series": 600,
+    "title":"Dam failure warning",
+    "page_in_manual":"630-5",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"DFW"
+  },
+  {
+    "id":"632d",
+    "series": 600,
+    "title":"Dam failure response operations",
+    "page_in_manual":"630-5",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"DFO"
+  },
+  {
+    "id":"632e",
+    "series": 600,
+    "title":"Dam failure critical facilities planning",
+    "page_in_manual":"630-5",
+    "document_depth":4,
+    "is_element":true,
+    "abbr":"DCF"
+  },
+  {
+    "id":"633",
+    "series": 600,
+    "title":"Impact Adjustment",
+    "page_in_manual":"630-14",
+    "document_depth":3
+  },
+  {
+    "id":"634",
+    "series": 600,
+    "title":"Credit Calculation",
+    "page_in_manual":"630-15",
+    "document_depth":3
+  },
+  {
+    "id":"635",
+    "series": 600,
+    "title":"For More Information",
+    "page_in_manual":"630-15",
+    "document_depth":3
+  },
+  {
+    "id":"636",
+    "series": 600,
+    "title":"Related Activities under the Community Rating System",
+    "page_in_manual":"630-16",
+    "document_depth":3
+  },
+  {
+    "id":"700",
+    "series": 700,
+    "title":"700 COMMUNITY CLASSIFICATION CALCULATIONS",
+    "page_in_manual":"700-1",
+    "document_depth":1
+  },
+  {
+    "id":"710",
+    "series": 700,
+    "title":"710 COUNTY GROWTH ADJUSTMENT",
+    "page_in_manual":"710-1",
+    "document_depth":2
+  },
+  {
+    "id":"711",
+    "series": 700,
+    "title":"Growth Data",
+    "page_in_manual":"710-1",
+    "document_depth":3
+  },
+  {
+    "id":"712",
+    "series": 700,
+    "title":"Growth Adjustment Calculation",
+    "page_in_manual":"710-1",
+    "document_depth":3
+  },
+  {
+    "id":"713",
+    "series": 700,
+    "title":"Credit Documentation",
+    "page_in_manual":"710-3",
+    "document_depth":3
+  },
+  {
+    "id":"720",
+    "series": 700,
+    "title":"720 COMMUNITY TOTAL POINTS",
+    "page_in_manual":"720-1",
+    "document_depth":2
+  },
+  {
+    "id":"800",
+    "title":"Appendices",
+    "page_in_manual":"A-1",
+    "document_depth":2
+  },
+  {
+    "id":"810",
+    "title":"Appendix A. Acronyms",
+    "page_in_manual":"A-1",
+    "document_depth":2
+  },
+  {
+    "id":"820",
+    "title":"Appendix B. A Comparison of Minimum NFIP Requirements and the CRS",
+    "page_in_manual":"B-1",
+    "document_depth":2
+  },
+  {
+    "id":"830",
+    "title":"Appendix C. CRS Publications",
+    "page_in_manual":"C-1",
+    "document_depth":2
+  },
+  {
+    "id":"840",
+    "title":"Appendix D. A History of Changes to CRS Credits",
+    "page_in_manual":"D-1",
+    "document_depth":2
+  },
+  {
+    "id":"850",
+    "title":"Appendix E. CRS Community Certifications",
+    "page_in_manual":"E-1",
+    "document_depth":2
+  },
+  {
+    "id":"860",
+    "title":"Appendix F. CRS Community Certifications for Environmental and Historic Preservation",
+    "page_in_manual":"F-1",
+    "document_depth":2
+  },
+  {
+    "id":"900",
+    "title":"INDEX",
+    "page_in_manual":"i-1",
+    "document_depth":1
+  }
+]

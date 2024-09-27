@@ -1,0 +1,20 @@
+---
+layout: base
+---
+
+{{ content }}
+
+{% assign forwardSection = collections.sections | where: "data.id", "000" | first %}
+<section id="{{ forwardSection.data.id | slugify }}-series">
+  {{ forwardSection.templateContent }}
+</section>
+
+{% assign sectionsBySeries = collections.sections | group_by: "data.series" %}
+{% for series in sectionsBySeries %}
+  <section id="{{ series.name | slugify }}-series">
+    {% assign sectionsInThisSeries = series.items | sort: "data.id" %}
+    {% for section in sectionsInThisSeries %}
+      {{ section.templateContent }}
+    {% endfor %}
+  </section>
+{% endfor %}

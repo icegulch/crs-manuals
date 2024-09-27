@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{{ site.title }}</title>
+    <style>
+      [id]:target {
+        animation: target-animation 4s ease;
+      }
+
+      /* Keyframes for the background color animation */
+      @keyframes target-animation {
+        0%,
+        50% {
+          background-color: #ffa;
+        }
+
+        100% {
+          background-color: transparent;
+        }
+      }
+    </style>
+  </head>
+  <body>
+
+    {{ content }}
+
+  </body>
+</html>
