@@ -5,6 +5,8 @@ permalink: /specialist-manual/
 
 # 2017 Specialist Manual
 
+test
+
 <ol>
   {% for issue in issues %}
     <li>
