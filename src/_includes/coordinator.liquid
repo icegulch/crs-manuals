@@ -7,6 +7,7 @@ layout: base
 {% assign forwardSection = collections.sections | where: "data.id", "000" | first %}
 <section id="{{ forwardSection.data.id | slugify }}-series">
   {{ forwardSection.templateContent }}
+  <div><small>Page in manual: <span>{{ forwardSection.data.page_in_manual }}</span></small></div>
 </section>
 
 {% assign sectionsBySeries = collections.sections | group_by: "data.series" %}
@@ -15,6 +16,7 @@ layout: base
     {% assign sectionsInThisSeries = series.items | sort: "data.id" %}
     {% for section in sectionsInThisSeries %}
       {{ section.templateContent }}
+      <div><small>Page in manual: <span>{{ section.data.page_in_manual }}</span></small></div>
     {% endfor %}
   </section>
 {% endfor %}

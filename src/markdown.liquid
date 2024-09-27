@@ -8,6 +8,7 @@ permalink: false
 ---
 ---
 id: "{{ section.id }}"
+title: "{{ section.title }}"
 {%- if section.series %}
 series: "{{ section.series }}"
 {%- endif %}
@@ -25,14 +26,14 @@ page_in_manual: {{ section.page_in_manual }}
 ---
 
 {% if section.document_depth == 1 -%}
-  # {{ section.title }}
+  # {{ section.id }} {{ section.title }}
 {%- endif -%}
 {%- if section.document_depth == 2 -%}
-  ## {{ section.title }}
+  ## {{ section.id }} {{ section.title }}
 {%- endif -%}
 {%- if section.document_depth == 3 -%}
-  ### {{ section.title }}
+  ### {{ section.id }} {{ section.title }}
 {%- endif -%}
 {%- if section.document_depth == 4 -%}
-  #### {{ section.title }}
+  #### {{ section.id }} {{ section.title }}
 {%- endif -%}

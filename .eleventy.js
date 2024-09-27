@@ -65,6 +65,8 @@ module.exports = function (eleventyConfig) {
   /* Markdown Overrides */
   let markdownLibrary = markdownIt({
     html: true,
+    breaks: true, // Enable line breaks
+    linkify: true // Autoconvert URL-like text to links
   }).use(markdownItAnchor, markdownItAnchorOptions);
 
   // This is the part that tells 11ty to swap to our custom config

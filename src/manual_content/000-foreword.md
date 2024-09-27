@@ -11,10 +11,7 @@ The Community Rating System (CRS) is a national program developed by the Federal
 
 ### Using the CRS Coordinator’s Manual
 
-The Coordinator’s Manual is the guidebook for the CRS. It explains how the program
-operates, what is credited, and how credits are calculated. Although it is primarily a
-reference for CRS activities and credits, it can also help guide communities that want to
-design or improve their floodplain management programs.
+The Coordinator’s Manual is the guidebook for the CRS. It explains how the program operates, what is credited, and how credits are calculated. Although it is primarily a reference for CRS activities and credits, it can also help guide communities that want to design or improve their floodplain management programs.
 
 **If you want to know how the CRS works and how your community can benefit** from participating in the program and reduce flood insurance premiums,
 
