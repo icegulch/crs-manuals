@@ -15,6 +15,15 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addFilter("group_by", groupBy);
 
+    // Custom prettyJson filter
+  eleventyConfig.addFilter("prettyJson", function(value) {
+    try {
+      return JSON.stringify(value, null, 2); // Pretty print JSON with 2 spaces indentation
+    } catch (error) {
+      console.error("Error parsing JSON:", error);
+      return value; // Return original value if something goes wrong
+    }
+  });
 
   const linkAfterHeader = markdownItAnchor.permalink.linkAfterHeader({
     class: "anchor",

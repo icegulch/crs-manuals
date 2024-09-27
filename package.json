@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-fetch": "^4.0.1",
     "dotenv": "^16.4.5",
     "html-minifier": "^4.0.0",
     "markdown-it": "^14.1.0"
