@@ -6,19 +6,19 @@ body:
     id: 200-series
     attributes:
       label: 200 Series
-      description: To which subsection of the 200 series does this belong?
+      # description: To which subsection of the 200 series does this belong?
       options:
         - 211.a Class 9 Prerequisites
         - 211.b Class 8 Prerequisites
         - 211.d Class 4 Prerequisites
       default: 0
     validations:
-      required: true
+      required: false
   - type: dropdown
     id: 300-series
     attributes:
       label: 300 Series
-      description: To which subsection of the 300 series does this belong?
+      # description: To which subsection of the 300 series does this belong?
       options:
         - 321.a Activity Description
         - 322.a Basic FIRM information (MI1)
@@ -26,7 +26,7 @@ body:
         - 322.e Special flood-related hazards (MI5)
       default: 0
     validations:
-      required: true
+      required: false
   - type: textarea
     attributes:
       label: Current Behavior
