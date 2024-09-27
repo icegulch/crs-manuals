@@ -3,13 +3,14 @@ layout: base
 permalink: /specialist-manual/
 ---
 
-# Specialist Manual
+<h1>Specialist Manual</h1>
 
-{% for supplement in supplements %}
+{% assign sortedSupplements = supplements | sort: "title" %}
+{% for supplement in sortedSupplements %}
 
   <section>
     <h2>{{ supplement.title }}</h2>
-    {{ supplement.body }}
+    {{ supplement.body | markdown }}
   </section>
 {% endfor %}
 

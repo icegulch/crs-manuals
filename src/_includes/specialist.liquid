@@ -4,10 +4,11 @@ layout: base
 
 {{ content }}
 
-{% for supplement in supplements %}
+{% assign sortedSupplements = supplements | sort: "title" %}
+{% for supplement in sortedSupplements %}
   <section>
     <h2>{{ supplement.title }}</h2>
-    {{ supplement.body }}
+    {{ supplement.body | markdown }}
   </section>
 {% endfor %}
 
