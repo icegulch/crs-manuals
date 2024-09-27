@@ -48,3 +48,10 @@ jobs:
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_GENTLE_RIVER_058AFFF1E }}
           action: "close"
+
+  handle_issue_job:
+    if: github.event_name == 'issues' && (github.event.action == 'opened' || github.event.action == 'edited' || github.event.action == 'milestoned')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Handle Issue
+        run: echo "An issue was ${github.event.action}!" # Replace with your actual logic
