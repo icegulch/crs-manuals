@@ -3,7 +3,6 @@ const EleventyFetch = require("@11ty/eleventy-fetch");
 module.exports = async function() {
   const repoOwner = 'icegulch'; 
   const repoName = '2017-crs-manual';
-  const token = process.env.GITHUB_TOKEN;
 
   const url = `https://api.github.com/repos/${repoOwner}/${repoName}/issues`;
 
@@ -14,7 +13,7 @@ module.exports = async function() {
       type: "json", // The expected data type
       fetchOptions: {
         headers: {
-          'Authorization': `token ${token}`,
+          'Authorization': `token ${GITHUB_TOKEN}`,
           'Accept': 'application/vnd.github.v3+json'
         }
       }
