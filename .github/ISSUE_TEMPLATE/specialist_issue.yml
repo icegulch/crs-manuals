@@ -1,0 +1,35 @@
+name: Specialist Issue
+description: Propose a supplement to the 2017 CRS Coordinator's Manual
+title: ""
+labels: ""
+assignees: ""
+
+body:
+  - type: input
+    id: title
+    attributes:
+      placeholder: "Enter the title of the issue"
+    validations:
+      required: true
+
+  - type: textarea
+    id: body
+    attributes:
+      placeholder: "Provide a detailed description of the issue"
+    validations:
+      required: true
+
+  - type: select
+    id: manual_section
+    attributes:
+      label: "Select a Manual Section"
+    options:
+      - 211.a Class 9 Prerequisites
+      - 211.b Class 8 Prerequisites
+      - 211.d Class 4 Prerequisites
+      - 321.a Activity Description
+      - 322.a Basic FIRM information (MI1)
+      - 322.b Additional FIRM information (MI2)
+      - 322.e Special flood-related hazards (MI5)
+    validations:
+      required: true
