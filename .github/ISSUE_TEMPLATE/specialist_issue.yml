@@ -5,18 +5,20 @@ labels: ""
 assignees: ""
 
 body:
-  - type: select
+  - type: dropdown
     id: manual_section
     attributes:
-      label: "Select a Manual Section"
-    options:
-      - 211.a Class 9 Prerequisites
-      - 211.b Class 8 Prerequisites
-      - 211.d Class 4 Prerequisites
-      - 321.a Activity Description
-      - 322.a Basic FIRM information (MI1)
-      - 322.b Additional FIRM information (MI2)
-      - 322.e Special flood-related hazards (MI5)
+      label: Manual Section
+      description: To which manual section does your supplement belong?
+      options:
+        - 211.a Class 9 Prerequisites
+        - 211.b Class 8 Prerequisites
+        - 211.d Class 4 Prerequisites
+        - 321.a Activity Description
+        - 322.a Basic FIRM information (MI1)
+        - 322.b Additional FIRM information (MI2)
+        - 322.e Special flood-related hazards (MI5)
+      default: 0
     validations:
       required: true
 
