@@ -1,9 +1,10 @@
 const EleventyFetch = require("@11ty/eleventy-fetch");
+require('dotenv').config(); // Load environment variables from .env file
 
 module.exports = async function() {
   const repoOwner = 'icegulch'; 
   const repoName = '2017-crs-manual';
-  const token = process.env.GITHUB_TOKEN;
+  const token = process.env.GITHUB_TOKEN; // Access the token
 
   const url = `https://api.github.com/repos/${repoOwner}/${repoName}/issues`;
 
@@ -21,15 +22,17 @@ module.exports = async function() {
     });
 
     // Return only the necessary issue data
-    // return json.map(issue => ({
-    //   id: issue.id,
-    //   title: issue.title,
-    //   body: issue.body,
-    //   url: issue.html_url,
-    //   state: issue.state
-    // }));
+    /*
+    return json.map(issue => ({
+      id: issue.id,
+      title: issue.title,
+      body: issue.body,
+      url: issue.html_url,
+      state: issue.state
+    }));
+    */
 
-    return json;
+    return json; // Returning the full JSON for now
 
   } catch (error) {
     console.error("Error fetching GitHub Issues:", error);
