@@ -1,0 +1,43 @@
+---
+layout: coordinator
+permalink: /
+---
+
+<h1>{{ site.title }} ({{ site.edition }} Edition)</h1>
+
+{% assign forwardSection = collections.sections | where: "data.id", "000" | first %}
+<section id="{{ forwardSection.data.id | slugify }}-series">
+  {{ forwardSection.templateContent }}
+  <div><small>Page in manual: <span>{{ forwardSection.data.page_in_manual }}</span></small></div>
+</section>
+
+{% assign sectionsBySeries = collections.sections | where: "data.series" | group_by: "data.series" %}
+{% for series in sectionsBySeries %}
+  <section id="{{ series.name | slugify }}-series">
+    {% assign sectionsInThisSeries = series.items | sort: "data.id" %}
+    {% for section in sectionsInThisSeries %}
+      {% assign newTitle = section.data.title | split: " " | shift | join: " " %}
+      {% if section.data.heading_level == 2 %}
+        <h1>{{ section.data.id }} {{ newTitle }}</h1>
+      {% else %}
+        <h1>{{ section.data.title }}</h1>
+      {% endif %}
+      {{ section.templateContent }}
+      <div><small>Page in manual: <span>{{ section.data.page_in_manual }}</span></small></div>
+    {% endfor %}
+  </section>
+{% endfor %}
+
+{% assign appendixSections = collections.sections | where: "data.doc_group", "appendix" %}
+{% for section in appendixSections %}
+  <section id="{{ section.data.id | slugify }}-series">
+    {{ section.templateContent }}
+    <div><small>Page in manual: <span>{{ section.data.page_in_manual }}</span></small></div>
+  </section>
+{% endfor %}
+
+{% assign indexSection = collections.sections | where: "data.id", "900" | first %}
+<section id="{{ indexSection.data.id | slugify }}-series">
+  {{ indexSection.templateContent }}
+  <div><small>Page in manual: <span>{{ indexSection.data.page_in_manual }}</span></small></div>
+</section>

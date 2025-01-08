@@ -1902,7 +1902,7 @@
   {
     "id":"610",
     "series": 600,
-    "title":"610 FLOOD WARNING AND RESPONSE",
+    "title":"610 FLOOD WARNING AND RESPONSE—Summary",
     "page_in_manual":"610-1",
     "document_depth":2
   },
@@ -2006,7 +2006,7 @@
   {
     "id":"620",
     "series": 600,
-    "title":"620 LEVEE SYSTEMS",
+    "title":"620 LEVEE—Summary",
     "page_in_manual":"620-1",
     "document_depth":2
   },
@@ -2101,7 +2101,7 @@
   {
     "id":"630",
     "series": 600,
-    "title":"630 DAMS AND RESERVOIRS",
+    "title":"630 DAMS AND RESERVOIRS—Summary",
     "page_in_manual":"630-1",
     "document_depth":2
   },
@@ -2239,7 +2239,7 @@
     "id":"800",
     "title":"Appendices",
     "page_in_manual":"A-1",
-    "document_depth":2
+    "document_depth":1
   },
   {
     "id":"810",
