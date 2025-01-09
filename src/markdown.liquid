@@ -4,14 +4,16 @@ pagination:
   size: 1  # Generate one file per section
   alias: section  # Alias for the current section in the template
 permalink: false
-# permalink: /markdown/{{ section.id | slugify }}-{{ section.title | slugify }}.md
+# permalink: /markdown/{{ section.id | slugify }}.md
 ---
+{% assign titleArray = section.title | split: " " %}
+{%- capture newTitle -%}
+  {%- for word in titleArray %}{{ word | capitalize }} {% endfor -%}
+{%- endcapture -%}
 ---
-id: "{{ section.id }}"
-title: "{{ section.title }}"
-{%- if section.series %}
-series: "{{ section.series }}"
-{%- endif %}
+section_id: {{ section.id }}
+section_title: {{ section.title }}
+title: {{ newTitle }}
 {%- if section.is_activity %}
 is_activity: true
 {%- endif %}
@@ -21,19 +23,5 @@ is_element: true
 {%- if section.abbr %}
 abbr: {{ section.abbr }}
 {%- endif %}
-heading_level: {{ section.document_depth }}
 page_in_manual: {{ section.page_in_manual }}
 ---
-
-{% if section.document_depth == 1 -%}
-  # {{ section.id }} {{ section.title }}
-{%- endif -%}
-{%- if section.document_depth == 2 -%}
-  ## {{ section.id }} {{ section.title }}
-{%- endif -%}
-{%- if section.document_depth == 3 -%}
-  ### {{ section.id }} {{ section.title }}
-{%- endif -%}
-{%- if section.document_depth == 4 -%}
-  #### {{ section.id }} {{ section.title }}
-{%- endif -%}

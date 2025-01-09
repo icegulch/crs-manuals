@@ -1,9 +1,0 @@
----
-id: "700"
-title: "700 COMMUNITY CLASSIFICATION CALCULATIONS"
-series: "700"
-heading_level: 1
-page_in_manual: 700-1
----
-
-# 700 COMMUNITY CLASSIFICATION CALCULATIONS
