@@ -1,12 +1,11 @@
 ---
-layout: coordinator
 permalink: /
 ---
 
 <h1>{{ site.title }} ({{ site.edition }} Edition)</h1>
 
-<ul>
-  {% for section in collections.sections %}
-    <li>/{{ section.data.series_id }}/{{ section.data.section_id }}/</li>
-  {% endfor %}
-</ul>
+<ol>
+{% for item in collections.sections %}
+  <li><a href="/{{ item.data.section_id }}/index.html">{{ item.data.title }}</a></li>
+{% endfor %}
+</ol>

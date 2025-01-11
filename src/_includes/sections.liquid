@@ -1,0 +1,80 @@
+---
+layout: base
+---
+
+<nav style="text-align:center;">
+  {% assign prevPost = collections.sections | getNextCollectionItem %}
+  {% assign nextPost = collections.sections | getPreviousCollectionItem %}
+  {% if nextPost %}
+    <a href="{{ nextPost.url }}" class="btn btn-pagination">« Prev</a>
+  {% else %}
+    <span class="btn btn-disabled">« Prev</span>
+  {% endif %}
+  <a href="/" class="btn btn-pagination">All</a>
+  {% if prevPost %}
+    <a href="{{ prevPost.url }}" class="btn btn-pagination">Next »</a>
+  {% else %}
+    <span class="btn btn-disabled">Next »</span>
+  {% endif %}
+</nav>
+
+{% if nextPost == null %}
+  <h1>{{ site.title }} ({{ site.edition }} Edition)</h1>
+{% endif %}
+
+
+<section>
+  {% if series_id == "000" or series_id == "800" or series_id == "900" %}
+    <h1>
+      {{ section_title }}
+    </h1>
+  {% else %}
+    <h1>
+      {{ title }}{% if has_summary == true %}&mdash;Summary{% endif %}
+    </h1>
+  {% endif %}
+  {{ content }}
+  {% unless series_id == "000" or series_id == "800" or series_id == "900" %}
+    {% if section_id == series_id %}
+      <table class="toc">
+        <caption>Contents of Series {{ series_id }}</caption>
+        <thead>
+          <tr>
+            <th style="text-align:left;border-bottom:1px solid #000">Section</th>
+            <th style="text-align:left;border-bottom:1px solid #000;text-align:right">Page</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% assign sectionContents = collections.sections | where: "data.series_id", series_id %}
+          {% for section in sectionContents %}
+            <tr>
+              <td style="display:flex;padding:0.5rem;">
+                <span style="width:3.5em">{{ section.data.section_id }}</span>
+                <span>{{ section.data.section_title }}</span>
+              </td>
+              <td style="padding:0.5rem;text-align:right;width:1px;">
+                {{ section.data.page_in_manual }}
+              </td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    {% endif %}
+  {% endunless %}
+</section>
+
+<nav style="text-align:center;">
+  {% assign prevPost = collections.sections | getNextCollectionItem %}
+  {% assign nextPost = collections.sections | getPreviousCollectionItem %}
+  {% if nextPost %}
+    <a href="{{ nextPost.url }}" class="btn btn-pagination">« Prev</a>
+    {% else %}
+    <span class="btn btn-disabled">« Prev</span>
+  {% endif %}
+  <a href="/" class="btn btn-pagination">All</a>
+  {% if prevPost %}
+    <a href="{{ prevPost.url }}" class="btn btn-pagination">Next »</a>
+    {% else %}
+    <span class="btn btn-disabled">Next »</span>
+  {% endif %}
+</nav>

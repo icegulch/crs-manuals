@@ -1,0 +1,30 @@
+---
+pagination:
+  data: sections
+  size: 1  # Generate one file per section
+  alias: section  # Alias for the current section in the template
+permalink: false
+# permalink: /contents/{{ section.section_id | slugify }}-{{ section.section_title | slugify }}.md
+---
+{% assign fullTitle = section.section_id | append: " " | append: section.section_title %}
+---
+section_id: {{ section.section_id }}
+section_title: {{ section.section_title }}
+title: {{ fullTitle }}
+{%- if section.is_activity %}
+is_activity: true
+{%- endif %}
+{%- if section.has_summary %}
+has_summary: true
+{%- endif %}
+{%- if section.has_summary %}
+is_element: true
+{%- endif %}
+{%- if section.abbr %}
+abbr: {{ section.abbr }}
+{%- endif %}
+series_id: {{ section.series_id }}
+series_title: {{ section.series_title }}
+page_in_manual: {{ section.page_in_manual }}
+document_depth: {{ section.document_depth }}
+---

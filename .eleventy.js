@@ -31,7 +31,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/images");
 
   // Custom filter to pretty print JSON
-  eleventyConfig.addFilter("prettyJson", function(value) {
+  eleventyConfig.addFilter("prettyJson", function (value) {
     try {
       return JSON.stringify(value, null, 2); // Pretty print JSON with 2 spaces indentation
     } catch (error) {

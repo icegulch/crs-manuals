@@ -1,0 +1,10 @@
+---
+section_id: "432d"
+section_title: Cumulative substantial improvements
+title: 432d Cumulative substantial improvements
+abbr: CSI
+series_id: "400"
+series_title: 
+page_in_manual: 430-6
+document_depth: 4
+---

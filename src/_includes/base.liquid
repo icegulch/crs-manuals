@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>{{ site.title }}</title>
+    <title>{{ site.title }}{% if title %} | {{ title }}{% endif %}</title>
     <style>
       html {
         font-size: 1.2rem;
@@ -45,6 +45,17 @@
         padding: 0.025rem .5rem;
         background-color: #f1f5f9;
       }
+      .toc tr:nth-child(odd) td {
+        background-color: #f1f5f9;
+      }
+      .glossary th {
+        text-align: right;
+        padding-right: 0.5rem;
+      }
+      .glossary th, .glossary td {
+        vertical-align: top;
+        padding-block: 0.5rem;
+      }
       [id]:target {
         animation: target-animation 4s ease;
       }
@@ -65,6 +76,6 @@
   <body>
 
     {{ content }}
-
+    
   </body>
 </html>
