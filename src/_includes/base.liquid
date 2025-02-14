@@ -45,6 +45,20 @@
         padding: 0.025rem .5rem;
         background-color: #f1f5f9;
       }
+      .paren-numlist {
+        list-style: none;
+      }
+      .paren-numlist > li:before {content: "(" counter(section, decimal) ") "; position: absolute; top: 0;left: -.75em;}
+      .paren-numlist > li { position: relative; counter-increment: section; padding-left: 1em;}
+      .paren-numlist > li ol { list-style: none;}
+      .paren-numlist > li ol li:before {content: "(" counter(subsection, lower-alpha) ") "; position: absolute; top: 0;left: -.75em;}
+      .paren-numlist > li ol li { position: relative; counter-increment: subsection; padding-left: 1em;}
+      .paren-numlist > li ol ol { list-style: none;}
+      .paren-numlist > li ol ol li:before {content: "(" counter(subsubsection, lower-roman) ") "; position: absolute; top: 0;left: -.75em;}
+      .paren-numlist > li ol ol li { position: relative; counter-increment: subsubsection; padding-left: 1em;}
+      .paren-numlist > li ol ol ol { list-style: none;}
+      .paren-numlist > li ol ol ol li:before {content: "((" counter(subsubsubsection, decimal) ")) "; position: absolute; top: 0;left: -.75em;}
+      .paren-numlist > li ol ol ol li { position: relative; counter-increment: subsubsubsection; padding-left: 1.5em;}
       .toc tr:nth-child(odd) td {
         background-color: #f1f5f9;
       }
