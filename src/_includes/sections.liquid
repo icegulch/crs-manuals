@@ -3,8 +3,8 @@ layout: base
 ---
 
 <nav style="text-align:center;">
-  {% assign prevPost = collections.sections | getNextCollectionItem %}
-  {% assign nextPost = collections.sections | getPreviousCollectionItem %}
+  {% assign prevPost = collections.sortedSections | getNextCollectionItem %}
+  {% assign nextPost = collections.sortedSections | getPreviousCollectionItem %}
   {% if nextPost %}
     <a href="{{ nextPost.url }}" class="btn btn-pagination">« Prev</a>
   {% else %}

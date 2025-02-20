@@ -5,7 +5,7 @@ permalink: /
 <h1>{{ site.title }} ({{ site.edition }} Edition)</h1>
 
 <ol>
-{% for item in collections.sections %}
+{% for item in collections.sortedSections %}
   <li><a href="/{{ item.data.section_id }}/index.html">{{ item.data.title }}</a></li>
 {% endfor %}
 </ol>

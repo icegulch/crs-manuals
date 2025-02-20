@@ -40,6 +40,17 @@ module.exports = function (eleventyConfig) {
     }
   });
 
+  eleventyConfig.addCollection("sortedSections", function (collection) {
+    // Sort reviews by section_id in ascending order
+    return collection.getFilteredByTag("sections").sort((a, b) => {
+      const sectionIDA = a.data.section_id.toLowerCase();
+      const sectionIDB = b.data.section_id.toLowerCase();
+      if (sectionIDA < sectionIDB) return -1;
+      if (sectionIDA > sectionIDB) return 1;
+      return 0;
+    });
+  });
+
   // Custom filter to convert markdown strings into HTML
   eleventyConfig.addFilter("markdown", (content) => {
     return markdownLibrary.render(content);
