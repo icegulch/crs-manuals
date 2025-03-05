@@ -1,5 +1,5 @@
 {
   "tags": ["sections"],
   "layout": "sections",
-  "permalink": "/{{ section_id }}/index.html"
+  "permalink": "/{{ section_id | slugify }}-{{ section_title | slugify }}/index.html"
 }

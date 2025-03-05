@@ -6,6 +6,6 @@ permalink: /
 
 <ol>
 {% for item in collections.sortedSections %}
-  <li><a href="/{{ item.data.section_id }}/index.html">{{ item.data.title }}</a></li>
+  <li><a href="/{{ item.data.section_id | slugify }}-{{ item.data.section_title | slugify }}/index.html">{{ item.data.title }}</a></li>
 {% endfor %}
 </ol>

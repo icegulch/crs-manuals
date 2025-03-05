@@ -18,12 +18,12 @@ layout: base
   {% endif %}
 </nav>
 
-{% if nextPost == null %}
-  <h1>{{ site.title }} ({{ site.edition }} Edition)</h1>
-{% endif %}
-
-
 <section>
+  <ul>
+    <li>{% if nextPost == null %}{{ site.title }} ({{ site.edition }} Edition){% else %}<a href="/">{{ site.title }} ({{ site.edition }} Edition)</a>{% endif %}</li>
+    {% if document_depth == 1 and nextPost %}<li>{{ series_title }}</li>{% elsif document_depth >= 2 %}<li><a href="/{{ series_id | slugify }}-{{ series_title | slugify }}/">{{ series_title }}</a></li>{% endif %}
+    {% if is_activity %}<li>{{ section_title }}</li>{% elsif activity_id %}<li><a href="/{{ activity_id | slugify }}-{{ activity_title | slugify }}/">{{ activity_title }}</a></li>{% endif %}
+  </ul>
   {% if series_id == "000" or series_id == "800" or series_id == "900" %}
     <h1>
       {{ section_title }}

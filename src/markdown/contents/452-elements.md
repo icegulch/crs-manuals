@@ -2,7 +2,6 @@
 section_id: "452"
 section_title: Elements
 title: 452 Elements
-is_activity: true
 series_id: "400"
 series_title: 
 activity_id: "450"
