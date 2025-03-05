@@ -2,7 +2,7 @@
 section_id: "512a"
 section_title: Floodplain management planning
 title: 512a Floodplain management planning
-abbr: FMP
+abbr: FPM
 series_id: "500"
 series_title: 
 activity_id: "510"
