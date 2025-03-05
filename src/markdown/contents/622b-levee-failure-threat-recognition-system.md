@@ -5,6 +5,8 @@ title: 622b Levee failure threat recognition system
 abbr: LFR
 series_id: "600"
 series_title: Warning and Response
+activity_id: "620"
+activity_title: Levees
 page_in_manual: 620-8
 document_depth: 4
 ---

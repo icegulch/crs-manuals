@@ -4,6 +4,8 @@ section_title: Credit Calculation
 title: 624 Credit Calculation
 series_id: "600"
 series_title: Warning and Response
+activity_id: "620"
+activity_title: Levees
 page_in_manual: 620-20
 document_depth: 3
 ---

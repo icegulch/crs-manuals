@@ -5,6 +5,8 @@ title: 312b Maintaining Elevation Certificates for post-FIRM buildings
 abbr: ECPO
 series_id: "300"
 series_title: Public Information Activities
+activity_id: "310"
+activity_title: Elevations Certificates
 page_in_manual: 310-12
 document_depth: 4
 ---

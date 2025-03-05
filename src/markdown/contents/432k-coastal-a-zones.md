@@ -5,6 +5,8 @@ title: 432k Coastal A Zones
 abbr: CAZ
 series_id: "400"
 series_title: 
+activity_id: "430"
+activity_title: Higher Regulatory Standards
 page_in_manual: 430-6
 document_depth: 4
 ---

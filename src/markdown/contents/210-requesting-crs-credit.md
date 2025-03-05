@@ -3,7 +3,6 @@ section_id: "210"
 section_title: Requesting CRS Credit
 title: 210 Requesting CRS Credit
 has_summary: true
-is_element: true
 series_id: "200"
 series_title: Procedures
 page_in_manual: 210-1

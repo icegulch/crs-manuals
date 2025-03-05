@@ -5,6 +5,8 @@ title: 372 Elements
 is_activity: true
 series_id: "300"
 series_title: Public Information Activities
+activity_id: "370"
+activity_title: Flood Insurance
 page_in_manual: 370-3
 document_depth: 3
 ---
