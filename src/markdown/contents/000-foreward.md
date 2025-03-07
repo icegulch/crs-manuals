@@ -3,7 +3,7 @@ section_id: "000"
 section_title: Foreward
 title: 000 Foreward
 series_id: "000"
-series_title: 
+series_title: Foreward
 page_in_manual: iii
 document_depth: 1
 ---

@@ -4,7 +4,7 @@ section_title: Higher study standards
 title: 412d Higher study standards
 abbr: HSS
 series_id: "400"
-series_title: 
+series_title: Mapping and Regulations
 activity_id: "410"
 activity_title: Flood Hazard Mapping
 page_in_manual: 410-8

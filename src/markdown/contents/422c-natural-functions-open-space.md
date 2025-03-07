@@ -4,7 +4,7 @@ section_title: Natural functions open space
 title: 422c Natural functions open space
 abbr: NFOS
 series_id: "400"
-series_title: 
+series_title: Mapping and Regulations
 activity_id: "420"
 activity_title: Open Space Preservation
 page_in_manual: 420-3

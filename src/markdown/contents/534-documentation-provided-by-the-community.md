@@ -3,7 +3,7 @@ section_id: "534"
 section_title: Documentation provided by the Community
 title: 534 Documentation provided by the Community
 series_id: "500"
-series_title: 
+series_title: Repetitive Loss
 activity_id: "530"
 activity_title: Flood Protection
 page_in_manual: 530-16

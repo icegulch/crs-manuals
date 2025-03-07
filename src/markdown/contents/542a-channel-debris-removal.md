@@ -4,7 +4,7 @@ section_title: Channel debris removal
 title: 542a Channel debris removal
 abbr: CDR
 series_id: "500"
-series_title: 
+series_title: Repetitive Loss
 activity_id: "540"
 activity_title: Drainage System Maintenance
 page_in_manual: 540-5

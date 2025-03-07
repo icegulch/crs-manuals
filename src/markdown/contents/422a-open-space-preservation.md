@@ -4,7 +4,7 @@ section_title: Open space preservation
 title: 422a Open space preservation
 abbr: OSP
 series_id: "400"
-series_title: 
+series_title: Mapping and Regulations
 activity_id: "420"
 activity_title: Open Space Preservation
 page_in_manual: 420-3

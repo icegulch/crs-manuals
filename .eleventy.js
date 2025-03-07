@@ -1,6 +1,7 @@
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const slugify = require("slugify");
+const CleanCSS = require("clean-css");
 const htmlmin = require("html-minifier");
 const util = require("util");
 require("dotenv").config();
@@ -58,6 +59,10 @@ module.exports = function (eleventyConfig) {
 
   // Set the markdown-it configuration
   eleventyConfig.setLibrary("md", markdownLibrary);
+
+  eleventyConfig.addFilter("cssmin", function (code) {
+    return new CleanCSS({}).minify(code).styles;
+  });
 
   // Minify HTML output
   eleventyConfig.addTransform("htmlmin", function (content, outputPath) {

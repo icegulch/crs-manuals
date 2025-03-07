@@ -1,0 +1,80 @@
+html {
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+body {
+  margin: 0;
+}
+body > h1 {
+  text-align: center;
+}
+section {
+  margin-inline: auto;
+  max-width: 1110px;
+  padding-block: 1.5rem;
+}
+section + section {
+  border-top: 1px solid #ccc;
+}
+section :is(h1, h2, h3, h4) {
+  margin-inline: -1rem;
+  padding: 1rem;
+}
+section > div > h1 {
+  margin-top: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  font-style: italic;
+}
+small {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+}
+small > span {
+  padding: 0.025rem .5rem;
+  background-color: #f1f5f9;
+}
+.paren-numlist {
+  list-style: none;
+}
+.paren-numlist > li:before {content: "(" counter(section, decimal) ") "; position: absolute; top: 0;left: -.75em;}
+.paren-numlist > li { position: relative; counter-increment: section; padding-left: 1em;}
+.paren-numlist > li ol { list-style: none;}
+.paren-numlist > li ol li:before {content: "(" counter(subsection, lower-alpha) ") "; position: absolute; top: 0;left: -.75em;}
+.paren-numlist > li ol li { position: relative; counter-increment: subsection; padding-left: 1em;}
+.paren-numlist > li ol ol { list-style: none;}
+.paren-numlist > li ol ol li:before {content: "(" counter(subsubsection, lower-roman) ") "; position: absolute; top: 0;left: -.75em;}
+.paren-numlist > li ol ol li { position: relative; counter-increment: subsubsection; padding-left: 1em;}
+.paren-numlist > li ol ol ol { list-style: none;}
+.paren-numlist > li ol ol ol li:before {content: "((" counter(subsubsubsection, decimal) ")) "; position: absolute; top: 0;left: -.75em;}
+.paren-numlist > li ol ol ol li { position: relative; counter-increment: subsubsubsection; padding-left: 1.5em;}
+.toc tr:nth-child(odd) td {
+  background-color: #f1f5f9;
+}
+.glossary th {
+  text-align: right;
+  padding-right: 0.5rem;
+}
+.glossary th, .glossary td {
+  vertical-align: top;
+  padding-block: 0.5rem;
+}
+[id]:target {
+  animation: target-animation 4s ease;
+}
+
+/* Keyframes for the background color animation */
+@keyframes target-animation {
+  0%,
+  50% {
+    background-color: #ffa;
+  }
+
+  100% {
+    background-color: transparent;
+  }
+}
