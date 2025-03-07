@@ -2,6 +2,7 @@
 section_id: "432k"
 section_title: Coastal A Zones
 title: 432k Coastal A Zones
+is_element: true
 abbr: CAZ
 series_id: "400"
 series_title: Mapping and Regulations

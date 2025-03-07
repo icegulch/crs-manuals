@@ -2,6 +2,7 @@
 section_id: "532f"
 section_title: Technique used for buildings protected by a barrier
 title: 532f Technique used for buildings protected by a barrier
+is_element: true
 abbr: TUB
 series_id: "500"
 series_title: Repetitive Loss

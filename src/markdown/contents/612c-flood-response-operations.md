@@ -2,6 +2,7 @@
 section_id: "612c"
 section_title: Flood response operations
 title: 612c Flood response operations
+is_element: true
 abbr: FRO
 series_id: "600"
 series_title: Warning and Response

@@ -2,6 +2,7 @@
 section_id: "432a"
 section_title: Development limitations
 title: 432a Development limitations
+is_element: true
 abbr: DL
 series_id: "400"
 series_title: Mapping and Regulations

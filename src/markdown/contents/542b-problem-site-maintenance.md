@@ -2,6 +2,7 @@
 section_id: "542b"
 section_title: Problem site maintenance
 title: 542b Problem site maintenance
+is_element: true
 abbr: PSM
 series_id: "500"
 series_title: Repetitive Loss

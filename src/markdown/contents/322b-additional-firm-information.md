@@ -2,6 +2,7 @@
 section_id: "322b"
 section_title: Additional FIRM information
 title: 322b Additional FIRM information
+is_element: true
 abbr: MI2
 series_id: "300"
 series_title: Public Information Activities

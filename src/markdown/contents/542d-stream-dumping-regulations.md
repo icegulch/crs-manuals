@@ -2,6 +2,7 @@
 section_id: "542d"
 section_title: Stream dumping regulations
 title: 542d Stream dumping regulations
+is_element: true
 abbr: SDR
 series_id: "500"
 series_title: Repetitive Loss

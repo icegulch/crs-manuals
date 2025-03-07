@@ -2,6 +2,7 @@
 section_id: "342a"
 section_title: Disclosure of the flood hazard
 title: 342a Disclosure of the flood hazard
+is_element: true
 abbr: DFH
 series_id: "300"
 series_title: Public Information Activities

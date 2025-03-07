@@ -4,6 +4,8 @@ section_title: Acquisition and Relocation
 title: 520 Acquisition and Relocation
 has_summary: true
 is_activity: true
+activity_id: "520"
+activity_title: Acquisition and Relocation
 series_id: "500"
 series_title: Repetitive Loss
 page_in_manual: 520-1

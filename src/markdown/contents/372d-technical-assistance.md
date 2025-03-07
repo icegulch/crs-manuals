@@ -2,6 +2,7 @@
 section_id: "372d"
 section_title: Technical assistance
 title: 372d Technical assistance
+is_element: true
 abbr: TA
 series_id: "300"
 series_title: Public Information Activities

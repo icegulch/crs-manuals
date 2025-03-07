@@ -2,6 +2,7 @@
 section_id: "632b"
 section_title: Dam failure threat recognition system
 title: 632b Dam failure threat recognition system
+is_element: true
 abbr: DFR
 series_id: "600"
 series_title: Warning and Response

@@ -2,6 +2,7 @@
 section_id: "422b"
 section_title: Deed restrictions
 title: 422b Deed restrictions
+is_element: true
 abbr: DR
 series_id: "400"
 series_title: Mapping and Regulations

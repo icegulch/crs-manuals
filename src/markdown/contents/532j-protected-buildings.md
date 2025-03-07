@@ -2,6 +2,7 @@
 section_id: "532j"
 section_title: Protected buildings
 title: 532j Protected buildings
+is_element: true
 abbr: PB
 series_id: "500"
 series_title: Repetitive Loss

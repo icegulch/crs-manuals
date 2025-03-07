@@ -2,6 +2,7 @@
 section_id: "522b"
 section_title: Buildings on the repetitive loss list
 title: 522b Buildings on the repetitive loss list
+is_element: true
 abbr: bRL
 series_id: "500"
 series_title: Repetitive Loss

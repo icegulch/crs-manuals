@@ -2,6 +2,7 @@
 section_id: "432b"
 section_title: Freeboard
 title: 432b Freeboard
+is_element: true
 abbr: FRB
 series_id: "400"
 series_title: Mapping and Regulations

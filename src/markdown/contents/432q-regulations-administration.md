@@ -2,6 +2,7 @@
 section_id: "432q"
 section_title: Regulations administration
 title: 432q Regulations administration
+is_element: true
 abbr: RA
 series_id: "400"
 series_title: Mapping and Regulations

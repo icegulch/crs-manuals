@@ -2,6 +2,7 @@
 section_id: "622c"
 section_title: Levee failure warning
 title: 622c Levee failure warning
+is_element: true
 abbr: LFW
 series_id: "600"
 series_title: Warning and Response

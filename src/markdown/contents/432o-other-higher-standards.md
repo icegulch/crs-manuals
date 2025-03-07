@@ -2,6 +2,7 @@
 section_id: "432o"
 section_title: Other higher standards
 title: 432o Other higher standards
+is_element: true
 abbr: OHS
 series_id: "400"
 series_title: Mapping and Regulations

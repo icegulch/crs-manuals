@@ -2,6 +2,7 @@
 section_id: "632d"
 section_title: Dam failure response operations
 title: 632d Dam failure response operations
+is_element: true
 abbr: DFO
 series_id: "600"
 series_title: Warning and Response

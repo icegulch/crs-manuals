@@ -2,6 +2,7 @@
 section_id: "452c"
 section_title: Erosion and sediment control regulations
 title: 452c Erosion and sediment control regulations
+is_element: true
 abbr: ESC
 series_id: "400"
 series_title: Mapping and Regulations

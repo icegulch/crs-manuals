@@ -2,6 +2,7 @@
 section_id: "432l"
 section_title: Special flood-related hazards regulations
 title: 432l Special flood-related hazards regulations
+is_element: true
 abbr: SHR
 series_id: "400"
 series_title: Mapping and Regulations

@@ -2,6 +2,7 @@
 section_id: "322a"
 section_title: Basic FIRM information
 title: 322a Basic FIRM information
+is_element: true
 abbr: MI1
 series_id: "300"
 series_title: Public Information Activities

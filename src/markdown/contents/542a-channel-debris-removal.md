@@ -2,6 +2,7 @@
 section_id: "542a"
 section_title: Channel debris removal
 title: 542a Channel debris removal
+is_element: true
 abbr: CDR
 series_id: "500"
 series_title: Repetitive Loss

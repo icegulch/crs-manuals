@@ -2,6 +2,7 @@
 section_id: "422e"
 section_title: Coastal erosion open space
 title: 422e Coastal erosion open space
+is_element: true
 abbr: CEOS
 series_id: "400"
 series_title: Mapping and Regulations

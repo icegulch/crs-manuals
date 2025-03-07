@@ -2,6 +2,7 @@
 section_id: "342b"
 section_title: Other disclosure requirements
 title: 342b Other disclosure requirements
+is_element: true
 abbr: ODR
 series_id: "300"
 series_title: Public Information Activities

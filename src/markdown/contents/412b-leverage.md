@@ -2,6 +2,7 @@
 section_id: "412b"
 section_title: Leverage
 title: 412b Leverage
+is_element: true
 abbr: LEV
 series_id: "400"
 series_title: Mapping and Regulations

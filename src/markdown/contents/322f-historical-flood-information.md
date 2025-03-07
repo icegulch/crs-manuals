@@ -2,6 +2,7 @@
 section_id: "322f"
 section_title: Historical flood information
 title: 322f Historical flood information
+is_element: true
 abbr: MI6
 series_id: "300"
 series_title: Public Information Activities

@@ -2,6 +2,7 @@
 section_id: "522d"
 section_title: Critical facilities
 title: 522d Critical facilities
+is_element: true
 abbr: bCF
 series_id: "500"
 series_title: Repetitive Loss

@@ -2,6 +2,7 @@
 section_id: "412d"
 section_title: Higher study standards
 title: 412d Higher study standards
+is_element: true
 abbr: HSS
 series_id: "400"
 series_title: Mapping and Regulations

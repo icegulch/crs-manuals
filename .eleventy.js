@@ -41,7 +41,7 @@ module.exports = function (eleventyConfig) {
     }
   });
 
-  eleventyConfig.addCollection("sortedSections", function (collection) {
+  eleventyConfig.addCollection("orderedSections", function (collection) {
     // Sort reviews by section_id in ascending order
     return collection.getFilteredByTag("sections").sort((a, b) => {
       const sectionIDA = a.data.section_id.toLowerCase();
@@ -50,6 +50,36 @@ module.exports = function (eleventyConfig) {
       if (sectionIDA > sectionIDB) return 1;
       return 0;
     });
+  });
+
+  eleventyConfig.addCollection("nestedSections", function (collection) {
+    let structure = {};
+
+    collection.getFilteredByTag("sections").forEach((item) => {
+      let data = item.data;
+
+      if (data.is_activity) {
+        structure[data.section_id] = {
+          title: data.section_title,
+          slug: data.section_id,
+          children: {},
+        };
+      }
+
+      if (data.is_element) {
+        let parentId = data.activity_id;
+        if (!structure[parentId]) {
+          structure[parentId] = { title: `Activity ${parentId}`, children: {} };
+        }
+        structure[parentId].children[data.section_id] = {
+          title: data.section_title,
+          slug: data.section_id,
+          abbr: data.abbr || "", // Include abbreviation if available
+        };
+      }
+    });
+
+    return structure;
   });
 
   // Custom filter to convert markdown strings into HTML

@@ -2,6 +2,7 @@
 section_id: "612d"
 section_title: Critical facilities planning
 title: 612d Critical facilities planning
+is_element: true
 abbr: CFP
 series_id: "600"
 series_title: Warning and Response

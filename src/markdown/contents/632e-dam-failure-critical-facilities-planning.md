@@ -2,6 +2,7 @@
 section_id: "632e"
 section_title: Dam failure critical facilities planning
 title: 632e Dam failure critical facilities planning
+is_element: true
 abbr: DCF
 series_id: "600"
 series_title: Warning and Response

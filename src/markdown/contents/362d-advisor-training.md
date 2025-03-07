@@ -2,6 +2,7 @@
 section_id: "362d"
 section_title: Advisor training
 title: 362d Advisor training
+is_element: true
 abbr: TNG
 series_id: "300"
 series_title: Public Information Activities

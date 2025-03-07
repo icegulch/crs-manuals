@@ -2,6 +2,7 @@
 section_id: "532e"
 section_title: Technique used for buildings protected from sewer or sump backup
 title: 532e Technique used for buildings protected from sewer or sump backup
+is_element: true
 abbr: TUS
 series_id: "500"
 series_title: Repetitive Loss

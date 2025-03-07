@@ -2,6 +2,7 @@
 section_id: "432e"
 section_title: Lower substantial improvements threshold
 title: 432e Lower substantial improvements threshold
+is_element: true
 abbr: LSI
 series_id: "400"
 series_title: Mapping and Regulations

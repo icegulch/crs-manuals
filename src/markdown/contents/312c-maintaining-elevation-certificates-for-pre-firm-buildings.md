@@ -2,6 +2,7 @@
 section_id: "312c"
 section_title: Maintaining Elevation Certificates for pre-FIRM buildings
 title: 312c Maintaining Elevation Certificates for pre-FIRM buildings
+is_element: true
 abbr: ECPR
 series_id: "300"
 series_title: Public Information Activities

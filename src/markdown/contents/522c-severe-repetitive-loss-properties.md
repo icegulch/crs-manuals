@@ -2,6 +2,7 @@
 section_id: "522c"
 section_title: Severe repetitive loss properties
 title: 522c Severe repetitive loss properties
+is_element: true
 abbr: bSRL
 series_id: "500"
 series_title: Repetitive Loss

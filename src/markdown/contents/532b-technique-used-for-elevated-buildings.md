@@ -2,6 +2,7 @@
 section_id: "532b"
 section_title: Technique used for elevated buildings
 title: 532b Technique used for elevated buildings
+is_element: true
 abbr: TUE
 series_id: "500"
 series_title: Repetitive Loss

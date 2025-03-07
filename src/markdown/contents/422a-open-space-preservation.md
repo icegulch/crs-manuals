@@ -2,6 +2,7 @@
 section_id: "422a"
 section_title: Open space preservation
 title: 422a Open space preservation
+is_element: true
 abbr: OSP
 series_id: "400"
 series_title: Mapping and Regulations

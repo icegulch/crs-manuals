@@ -2,6 +2,7 @@
 section_id: "432p"
 section_title: State-mandated regulatory standards
 title: 432p State-mandated regulatory standards
+is_element: true
 abbr: SMS
 series_id: "400"
 series_title: Mapping and Regulations

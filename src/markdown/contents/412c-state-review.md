@@ -2,6 +2,7 @@
 section_id: "412c"
 section_title: State review
 title: 412c State review
+is_element: true
 abbr: SR
 series_id: "400"
 series_title: Mapping and Regulations

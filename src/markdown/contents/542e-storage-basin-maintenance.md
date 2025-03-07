@@ -2,6 +2,7 @@
 section_id: "542e"
 section_title: Storage basin maintenance
 title: 542e Storage basin maintenance
+is_element: true
 abbr: SBM
 series_id: "500"
 series_title: Repetitive Loss

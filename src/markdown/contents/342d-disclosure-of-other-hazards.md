@@ -2,6 +2,7 @@
 section_id: "342d"
 section_title: Disclosure of other hazards
 title: 342d Disclosure of other hazards
+is_element: true
 abbr: DOH
 series_id: "300"
 series_title: Public Information Activities

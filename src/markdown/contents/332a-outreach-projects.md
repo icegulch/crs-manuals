@@ -2,6 +2,7 @@
 section_id: "332a"
 section_title: Outreach projects
 title: 332a Outreach projects
+is_element: true
 abbr: OP
 series_id: "300"
 series_title: Public Information Activities

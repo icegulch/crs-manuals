@@ -2,6 +2,7 @@
 section_id: "422d"
 section_title: Special flood-related hazards open space
 title: 422d Special flood-related hazards open space
+is_element: true
 abbr: SHOS
 series_id: "400"
 series_title: Mapping and Regulations

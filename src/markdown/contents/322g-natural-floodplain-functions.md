@@ -2,6 +2,7 @@
 section_id: "322g"
 section_title: Natural floodplain functions
 title: 322g Natural floodplain functions
+is_element: true
 abbr: MI7
 series_id: "300"
 series_title: Public Information Activities

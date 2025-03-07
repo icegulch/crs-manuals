@@ -2,6 +2,7 @@
 section_id: "622d"
 section_title: Levee failure response operations
 title: 622d Levee failure response operations
+is_element: true
 abbr: LFO
 series_id: "600"
 series_title: Warning and Response

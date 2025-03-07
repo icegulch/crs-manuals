@@ -2,6 +2,7 @@
 section_id: "432n"
 section_title: Coastal erosion hazard regulations
 title: 432n Coastal erosion hazard regulations
+is_element: true
 abbr: CER
 series_id: "400"
 series_title: Mapping and Regulations

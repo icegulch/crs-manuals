@@ -4,22 +4,22 @@ permalink: /
 
 <h1>{{ site.edition }} {{ site.title }}</h1>
 
-{% assign topLevelSections = collections.sortedSections | where: "data.document_depth", 1 %}
+{% assign topLevelSections = collections.orderedSections | where: "data.document_depth", 1 %}
 
 <ul>
   {% for item in topLevelSections %}
     <li>
       {% unless item.data.series_id == "000" or item.data.series_id == "800" or item.data.series_id == "900" %}{{ item.data.series_id }}{% endunless %} {{ item.data.series_title }}
-        <ul>
-          
-        </ul>
+          <ul>
+            
+          </ul>
     </li>
   {% endfor %}
 </ul>
 
 
 <ol>
-{% for item in collections.sortedSections %}
-  <li><a href="/{{ item.data.section_id | slugify }}-{{ item.data.section_title | slugify }}/index.html">{{ item.data.title }}</a>{% if item.data.is_activity %}*{% endif %}</li>
+{% for item in collections.orderedSections %}
+  <li><a href="/{{ item.data.section_id | slugify }}-{{ item.data.section_title | slugify }}/index.html">{{ item.data.title }}</a></li>
 {% endfor %}
 </ol>

@@ -2,6 +2,7 @@
 section_id: "322e"
 section_title: Special flood-related hazards
 title: 322e Special flood-related hazards
+is_element: true
 abbr: MI5
 series_id: "300"
 series_title: Public Information Activities

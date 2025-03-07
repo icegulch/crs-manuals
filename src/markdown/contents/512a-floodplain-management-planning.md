@@ -2,6 +2,7 @@
 section_id: "512a"
 section_title: Floodplain management planning
 title: 512a Floodplain management planning
+is_element: true
 abbr: FPM
 series_id: "500"
 series_title: Repetitive Loss

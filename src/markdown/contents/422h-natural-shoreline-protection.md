@@ -2,6 +2,7 @@
 section_id: "422h"
 section_title: Natural shoreline protection
 title: 422h Natural shoreline protection
+is_element: true
 abbr: NSP
 series_id: "400"
 series_title: Mapping and Regulations

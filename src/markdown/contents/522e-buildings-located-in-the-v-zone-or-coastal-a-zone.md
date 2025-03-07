@@ -2,6 +2,7 @@
 section_id: "522e"
 section_title: Buildings located in the V Zone or Coastal A Zone
 title: 522e Buildings located in the V Zone or Coastal A Zone
+is_element: true
 abbr: bVZ
 series_id: "500"
 series_title: Repetitive Loss

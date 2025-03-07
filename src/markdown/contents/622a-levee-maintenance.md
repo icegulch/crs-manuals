@@ -2,6 +2,7 @@
 section_id: "622a"
 section_title: Levee maintenance
 title: 622a Levee maintenance
+is_element: true
 abbr: LM
 series_id: "600"
 series_title: Warning and Response

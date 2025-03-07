@@ -2,6 +2,7 @@
 section_id: "412g"
 section_title: Mapping coastal erosion hazard areas
 title: 412g Mapping coastal erosion hazard areas
+is_element: true
 abbr: MCE
 series_id: "400"
 series_title: Mapping and Regulations

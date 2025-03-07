@@ -2,6 +2,7 @@
 section_id: "532h"
 section_title: Technique used for buildings protected by a water storage facility
 title: 532h Technique used for buildings protected by a water storage facility
+is_element: true
 abbr: TUF
 series_id: "500"
 series_title: Repetitive Loss

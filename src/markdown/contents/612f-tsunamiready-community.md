@@ -2,6 +2,7 @@
 section_id: "612f"
 section_title: TsunamiReady community
 title: 612f TsunamiReady community
+is_element: true
 abbr: TRC
 series_id: "600"
 series_title: Warning and Response

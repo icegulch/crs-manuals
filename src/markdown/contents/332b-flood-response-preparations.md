@@ -2,6 +2,7 @@
 section_id: "332b"
 section_title: Flood response preparations
 title: 332b Flood response preparations
+is_element: true
 abbr: FRP
 series_id: "300"
 series_title: Public Information Activities

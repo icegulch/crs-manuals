@@ -4,6 +4,8 @@ section_title: Levees
 title: 620 Levees
 has_summary: true
 is_activity: true
+activity_id: "620"
+activity_title: Levees
 series_id: "600"
 series_title: Warning and Response
 page_in_manual: 620-1

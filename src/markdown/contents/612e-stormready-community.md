@@ -2,6 +2,7 @@
 section_id: "612e"
 section_title: StormReady community
 title: 612e StormReady community
+is_element: true
 abbr: SRC
 series_id: "600"
 series_title: Warning and Response

@@ -2,6 +2,7 @@
 section_id: "532i"
 section_title: Flood protection improvement
 title: 532i Flood protection improvement
+is_element: true
 abbr: FPI
 series_id: "500"
 series_title: Repetitive Loss

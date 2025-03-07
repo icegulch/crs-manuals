@@ -2,6 +2,7 @@
 section_id: "432f"
 section_title: Protection of critical facilities
 title: 432f Protection of critical facilities
+is_element: true
 abbr: PCF
 series_id: "400"
 series_title: Mapping and Regulations

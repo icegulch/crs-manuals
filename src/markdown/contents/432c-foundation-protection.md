@@ -2,6 +2,7 @@
 section_id: "432c"
 section_title: Foundation protection
 title: 432c Foundation protection
+is_element: true
 abbr: FDN
 series_id: "400"
 series_title: Mapping and Regulations

@@ -2,6 +2,7 @@
 section_id: "432g"
 section_title: Enclosure limits
 title: 432g Enclosure limits
+is_element: true
 abbr: ENL
 series_id: "400"
 series_title: Mapping and Regulations

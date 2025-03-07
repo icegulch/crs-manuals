@@ -2,6 +2,7 @@
 section_id: "522a"
 section_title: Buildings acquired or relocated
 title: 522a Buildings acquired or relocated
+is_element: true
 abbr: bAR
 series_id: "500"
 series_title: Repetitive Loss

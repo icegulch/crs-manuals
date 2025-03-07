@@ -2,6 +2,7 @@
 section_id: "532d"
 section_title: Technique used for buildings that are wet floodproofed
 title: 532d Technique used for buildings that are wet floodproofed
+is_element: true
 abbr: TUW
 series_id: "500"
 series_title: Repetitive Loss

@@ -2,6 +2,7 @@
 section_id: "322d"
 section_title: Flood depth data
 title: 322d Flood depth data
+is_element: true
 abbr: MI4
 series_id: "300"
 series_title: Public Information Activities

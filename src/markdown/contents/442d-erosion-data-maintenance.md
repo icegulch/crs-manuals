@@ -2,6 +2,7 @@
 section_id: "442d"
 section_title: Erosion data maintenance
 title: 442d Erosion data maintenance
+is_element: true
 abbr: EDM
 series_id: "400"
 series_title: Mapping and Regulations

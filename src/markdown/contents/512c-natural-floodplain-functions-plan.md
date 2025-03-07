@@ -2,6 +2,7 @@
 section_id: "512c"
 section_title: Natural floodplain functions plan
 title: 512c Natural floodplain functions plan
+is_element: true
 abbr: NFP
 series_id: "500"
 series_title: Repetitive Loss

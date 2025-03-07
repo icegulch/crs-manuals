@@ -2,6 +2,7 @@
 section_id: "362b"
 section_title: Protection advice provided after a site visit
 title: 362b Protection advice provided after a site visit
+is_element: true
 abbr: PPV
 series_id: "300"
 series_title: Public Information Activities

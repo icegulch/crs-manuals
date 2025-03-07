@@ -2,6 +2,7 @@
 section_id: "352b"
 section_title: Locally pertinent documents
 title: 352b Locally pertinent documents
+is_element: true
 abbr: LPD
 series_id: "300"
 series_title: Public Information Activities

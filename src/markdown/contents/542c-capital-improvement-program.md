@@ -2,6 +2,7 @@
 section_id: "542c"
 section_title: Capital improvement program
 title: 542c Capital improvement program
+is_element: true
 abbr: CIP
 series_id: "500"
 series_title: Repetitive Loss
