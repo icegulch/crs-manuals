@@ -19,13 +19,13 @@ layout: base
       {% assign prevPost = collections.orderedSections | getNextCollectionItem %}
       {% assign nextPost = collections.orderedSections | getPreviousCollectionItem %}
       {% if nextPost %}
-        <a href="{{ nextPost.url }}" class="btn btn-pagination">« Prev</a>
+        <a href="{{ nextPost.url }}" title="{{ nextPost.data.title }}" class="btn btn-pagination">« Prev</a>
       {% else %}
         <span class="btn btn-disabled">« Prev</span>
       {% endif %}
       <a href="/" class="btn btn-pagination">All</a>
       {% if prevPost %}
-        <a href="{{ prevPost.url }}" class="btn btn-pagination">Next »</a>
+        <a href="{{ prevPost.url }}" title="{{ prevPost.data.title }}" class="btn btn-pagination">Next »</a>
       {% else %}
         <span class="btn btn-disabled">Next »</span>
       {% endif %}
@@ -33,9 +33,9 @@ layout: base
 
     <section>
       <ul style="display:flex;gap:0 1rem;list-style:none;margin:0;padding:0">
-        <li>{% if nextPost == null %}{{ site.edition }} {{ site.title }}{% else %}<a href="/">{{ site.edition }} {{ site.title }}</a>{% endif %}</li>
-        {% if document_depth == 1 and nextPost %}<li>{{ series_title }}</li>{% elsif document_depth >= 2 %}<li><a href="/{{ series_id | slugify }}-{{ series_title | slugify }}/">{{ series_title }}</a></li>{% endif %}
-        {% if activity_id == section_id %}<li>{{ section_title }}</li>{% elsif activity_id %}<li><a href="/{{ activity_id | slugify }}-{{ activity_title | slugify }}/">{{ activity_title }}</a></li>{% endif %}
+        <li>{% if nextPost == null %}{{ site.edition }} {{ site.title }}{% else %}<a href="/" title="{{ site.edition }} {{ site.title }}">{{ site.edition }} {{ site.title }}</a>{% endif %}</li>
+        {% if document_depth == 1 and nextPost %}<li>{{ series_title }}</li>{% elsif document_depth >= 2 %}<li><a href="/{{ series_id | slugify }}-{{ series_title | slugify }}/" title="{{ title }}">{{ series_title }}</a></li>{% endif %}
+        {% if activity_id == section_id %}<li>{{ section_title }}</li>{% elsif activity_id %}<li><a href="/{{ activity_id | slugify }}-{{ activity_title | slugify }}/" title="{{ title }}">{{ activity_title }}</a></li>{% endif %}
       </ul>
       {% if series_id == "000" or series_id == "800" or series_id == "900" %}
         <h1>
@@ -77,18 +77,18 @@ layout: base
     </section>
 
     <nav style="text-align:center;">
-      {% assign prevPost = collections.sections | getNextCollectionItem %}
-      {% assign nextPost = collections.sections | getPreviousCollectionItem %}
+      {% assign prevPost = collections.orderedSections | getNextCollectionItem %}
+      {% assign nextPost = collections.orderedSections | getPreviousCollectionItem %}
       {% if nextPost %}
-        <a href="{{ nextPost.url }}" class="btn btn-pagination">« Prev</a>
-        {% else %}
-        <span class="btn btn-disabled">« Prev</span>
+      <a href="{{ nextPost.url }}" title="{{ nextPost.data.title }}" class="btn btn-pagination">« Prev</a>
+      {% else %}
+      <span class="btn btn-disabled">« Prev</span>
       {% endif %}
       <a href="/" class="btn btn-pagination">All</a>
       {% if prevPost %}
-        <a href="{{ prevPost.url }}" class="btn btn-pagination">Next »</a>
-        {% else %}
-        <span class="btn btn-disabled">Next »</span>
+      <a href="{{ prevPost.url }}" title="{{ prevPost.data.title }}" class="btn btn-pagination">Next »</a>
+      {% else %}
+      <span class="btn btn-disabled">Next »</span>
       {% endif %}
     </nav>
   </div>
