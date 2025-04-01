@@ -41,45 +41,105 @@ module.exports = function (eleventyConfig) {
     }
   });
 
-  eleventyConfig.addCollection("orderedSections", function (collection) {
-    // Sort reviews by section_id in ascending order
-    return collection.getFilteredByTag("sections").sort((a, b) => {
-      const sectionIDA = a.data.section_id.toLowerCase();
-      const sectionIDB = b.data.section_id.toLowerCase();
-      if (sectionIDA < sectionIDB) return -1;
-      if (sectionIDA > sectionIDB) return 1;
-      return 0;
+  eleventyConfig.addCollection("nestedSections", function (collectionApi) {
+    let seriesMap = {};
+
+    collectionApi
+      .getFilteredByTag("sections")
+      .filter((item) => item.data && item.data.section_id !== undefined) // ✅ Prevent undefined errors
+      .forEach((item) => {
+        if (!item.url) return;
+
+        const {
+          series_id,
+          series_title,
+          subseries_id,
+          subseries_title,
+          section_id,
+          section_title,
+        } = item.data;
+
+        let url = item.page.url
+
+        let sectionIdNum = section_id
+          ? parseFloat(section_id) || section_id
+          : null;
+        let subseriesIdNum = subseries_id
+          ? parseFloat(subseries_id) || subseries_id
+          : null;
+        let seriesIdNum = series_id ? parseFloat(series_id) || series_id : null;
+
+        if (!seriesMap[series_id]) {
+          seriesMap[series_id] = {
+            id: seriesIdNum,
+            title: series_title || `Series ${series_id}`,
+            url: url,
+            children: [],
+          };
+        }
+
+        if (subseries_id) {
+          let subseriesEntry = seriesMap[series_id].children.find(
+            (sub) => sub.id === subseriesIdNum
+          );
+          if (!subseriesEntry) {
+            subseriesEntry = {
+              id: subseriesIdNum,
+              title: subseries_title || `Subseries ${subseries_id}`,
+              url: url,
+              children: [],
+            };
+            seriesMap[series_id].children.push(subseriesEntry);
+          }
+
+          if (section_id) {
+            subseriesEntry.children.push({
+              id: sectionIdNum,
+              title: section_title || `Section ${section_id}`,
+              url: url,
+              children: [],
+            });
+          }
+        } else if (section_id) {
+          seriesMap[series_id].children.push({
+            id: sectionIdNum,
+            title: section_title || `Section ${section_id}`,
+            url: url,
+            children: [],
+          });
+        }
+      });
+
+    let sortedSeries = Object.values(seriesMap).sort((a, b) => a.id - b.id);
+    sortedSeries.forEach((series) => {
+      series.children.sort((a, b) => a.id - b.id);
+      series.children.forEach((subseries) => {
+        subseries.children.sort((a, b) => a.id - b.id);
+      });
     });
+
+    return sortedSeries;
   });
 
-  eleventyConfig.addCollection("nestedSections", function (collection) {
-    let structure = {};
+  eleventyConfig.addCollection("orderedSections", function (collection) {
+    return collection
+      .getFilteredByTag("sections")
+      .filter((item) => item.data && item.data.section_id !== undefined) // ✅ Ensures valid sections
+      .sort((a, b) => {
+        let sectionIDA = a.data.section_id.toString(); // Convert everything to string
+        let sectionIDB = b.data.section_id.toString();
 
-    collection.getFilteredByTag("sections").forEach((item) => {
-      let data = item.data;
+        let numericA = parseFloat(sectionIDA); // Extract numeric part
+        let numericB = parseFloat(sectionIDB);
 
-      if (data.is_activity) {
-        structure[data.section_id] = {
-          title: data.section_title,
-          slug: data.section_id,
-          children: {},
-        };
-      }
-
-      if (data.is_element) {
-        let parentId = data.activity_id;
-        if (!structure[parentId]) {
-          structure[parentId] = { title: `Activity ${parentId}`, children: {} };
+        // If both are numeric, compare as numbers
+        if (!isNaN(numericA) && !isNaN(numericB)) {
+          return numericA - numericB;
         }
-        structure[parentId].children[data.section_id] = {
-          title: data.section_title,
-          slug: data.section_id,
-          abbr: data.abbr || "", // Include abbreviation if available
-        };
-      }
-    });
 
-    return structure;
+        // If one is alphanumeric, compare as strings (natural sort)
+        return sectionIDA.localeCompare(sectionIDB, undefined, { numeric: true });
+      });
   });
 
   // Custom filter to convert markdown strings into HTML
@@ -111,6 +171,7 @@ module.exports = function (eleventyConfig) {
     dir: {
       input: "src",
       includes: "_includes",
+      layouts: "_layouts",
       output: "_site",
     },
   };

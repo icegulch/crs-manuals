@@ -1,0 +1,159 @@
+---
+layout: base
+---
+
+<main style="display:grid;grid-template-columns: 460px 1fr;gap:0 2rem;height:100vh;">
+
+  <nav aria-label="Main Navigation">
+    <ul class="accordion-menu" style="margin-block:0;">
+      {% for series in collections.nestedSections %}
+        {% assign seriesIsActive = false %}
+        {% for subseries in series.children %}
+          {% if page.url == subseries.url %}
+            {% assign seriesIsActive = true %}
+          {% endif %}
+          {% for section in subseries.children %}
+            {% if page.url == section.url %}
+              {% assign seriesIsActive = true %}
+              {% assign subseriesIsActive = true %}
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+        
+        <li>
+          {% if series.children.size > 0 %}
+            <!-- Parent with children: Expandable button -->
+            <button class="toggle-submenu {% if seriesIsActive %}active{% endif %}" 
+                    aria-expanded="{% if seriesIsActive %}true{% else %}false{% endif %}" 
+                    aria-controls="submenu-{{ series.id }}">
+              {% unless series.id == "000" or series.id == 800 or series.id == 900 %}{{ series.id }} {% endunless %}{{ series.title }}
+            </button>
+          {% else %}
+            <!-- No children: Clickable link -->
+            <a href="{{ series.url }}" class="{% if page.url == series.url %}active{% endif %}">
+              {% unless series.id == "000" or series.id == 800 or series.id == 900 %}{{ series.id }} {% endunless %}{{ series.title }}
+            </a>
+          {% endif %}
+
+          {% if series.children.size > 0 %}
+            <ul id="submenu-{{ series.id }}" class="submenu {% if seriesIsActive %}active{% endif %}">
+              {% for subseries in series.children %}
+                {% assign subseriesIsActive = false %}
+                {% if page.url == subseries.url %}
+                  {% assign subseriesIsActive = true %}
+                {% endif %}
+                {% for section in subseries.children %}
+                  {% if page.url == section.url %}
+                    {% assign subseriesIsActive = true %}
+                  {% endif %}
+                {% endfor %}
+
+                <li>
+                  {% if subseries.children.size > 0 %}
+                    <!-- Parent with children: Expandable button -->
+                    <button class="toggle-submenu {% if subseriesIsActive %}active{% endif %}" 
+                            aria-expanded="{% if subseriesIsActive %}true{% else %}false{% endif %}" 
+                            aria-controls="submenu-{{ series.id }}-{{ subseries.id }}">
+                      {{ subseries.id }} {{ subseries.title }}
+                    </button>
+                  {% else %}
+                    <!-- No children: Clickable link -->
+                    <a href="{{ subseries.url }}" class="{% if page.url == subseries.url %}active{% endif %}">
+                      {{ subseries.id }} {{ subseries.title }}
+                    </a>
+                  {% endif %}
+
+                  {% if subseries.children.size > 0 %}
+                    <ul id="submenu-{{ series.id }}-{{ subseries.id }}" 
+                        class="submenu {% if subseriesIsActive %}active{% endif %}">
+                      {% for section in subseries.children %}
+                        <li>
+                          <a href="{{ section.url }}" class="{% if page.url == section.url %}active{% endif %}">
+                            {{ section.id }} {{ section.title }}
+                          </a>
+                        </li>
+                      {% endfor %}
+                    </ul>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+
+  <div>
+    <nav style="text-align:center;">
+      {% assign prevPost = collections.orderedSections | getNextCollectionItem %}
+      {% assign nextPost = collections.orderedSections | getPreviousCollectionItem %}
+      {% if nextPost %}
+        <a href="{{ nextPost.url }}" title="{{ nextPost.data.title }}" class="btn btn-pagination">« Prev</a>
+      {% else %}
+        <span class="btn btn-disabled">« Prev</span>
+      {% endif %}
+      <a href="/" class="btn btn-pagination">All</a>
+      {% if prevPost %}
+        <a href="{{ prevPost.url }}" title="{{ prevPost.data.title }}" class="btn btn-pagination">Next »</a>
+      {% else %}
+        <span class="btn btn-disabled">Next »</span>
+      {% endif %}
+    </nav>
+
+    <section class="section-content">
+      <ul style="display:flex;gap:0 1rem;list-style:none;margin:0;padding:0">
+        <li>{% if nextPost == null %}{{ site.edition }} {{ site.title }}{% else %}<a href="/" title="{{ site.edition }} {{ site.title }}">{{ site.edition }} {{ site.title }}</a>{% endif %}</li>
+        {% if document_depth == 1 and nextPost %}<li>{{ series_title }}</li>{% elsif document_depth >= 2 %}<li><a href="/{{ series_id | slugify }}-{{ series_title | slugify }}/" title="{{ title }}">{{ series_title }}</a></li>{% endif %}
+        {% if activity_id == section_id %}<li>{{ section_title }}</li>{% elsif activity_id %}<li><a href="/{{ activity_id | slugify }}-{{ activity_title | slugify }}/" title="{{ title }}">{{ activity_title }}</a></li>{% endif %}
+      </ul>
+      <h1>
+        {% unless ancilliary %}{{ section_id }} {% endunless %}{{ section_title }}{% if has_summary == true %}&mdash;Summary{% endif %}
+      </h1>
+      {{ content }}
+      {% unless series_id == "000" or series_id == "800" or series_id == "900" %}
+        {% if section_id == series_id %}
+          <table class="toc">
+            <caption>Contents of Series {{ series_id }}</caption>
+            <thead>
+              <tr>
+                <th style="text-align:left;border-bottom:1px solid #000">Section</th>
+                <th style="text-align:left;border-bottom:1px solid #000;text-align:right">Page</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% assign sectionContents = collections.sections | where: "data.series_id", series_id %}
+              {% for section in sectionContents %}
+                <tr>
+                  <td style="display:flex;padding:0.5rem;">
+                    <span style="width:3.5em">{{ section.data.section_id }}</span>
+                    <span>{{ section.data.section_title }}</span>
+                  </td>
+                  <td style="padding:0.5rem;text-align:right;width:1px;">
+                    {{ section.data.page_in_manual }}
+                  </td>
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        {% endif %}
+      {% endunless %}
+    </section>
+
+    <nav style="text-align:center;">
+      {% assign prevPost = collections.orderedSections | getNextCollectionItem %}
+      {% assign nextPost = collections.orderedSections | getPreviousCollectionItem %}
+      {% if nextPost %}
+      <a href="{{ nextPost.url }}" title="{{ nextPost.data.title }}" class="btn btn-pagination">« Prev</a>
+      {% else %}
+      <span class="btn btn-disabled">« Prev</span>
+      {% endif %}
+      <a href="/" class="btn btn-pagination">All</a>
+      {% if prevPost %}
+      <a href="{{ prevPost.url }}" title="{{ prevPost.data.title }}" class="btn btn-pagination">Next »</a>
+      {% else %}
+      <span class="btn btn-disabled">Next »</span>
+      {% endif %}
+    </nav>
+  </div>
+</main>

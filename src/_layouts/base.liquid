@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{{ site.title }}{% if title %} | {{ title }}{% endif %}</title>
+    {% capture css %}{% include "styles.css" %}{% endcapture %}
+    <style>
+      {% if site.env == "production" %}
+        {{ css | cssmin }}
+      {% else %}
+        {{ css }}
+      {% endif %}
+    </style>
+  </head>
+  <body>
+
+    {{ content }}
+
+    <script defer>
+      document.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll(".toggle-submenu").forEach(button => {
+          const submenu = document.getElementById(button.getAttribute("aria-controls"));
+
+          // Ensure sections already marked "active" stay open on page load
+          if (button.classList.contains("active")) {
+            button.setAttribute("aria-expanded", "true");
+            if (submenu) submenu.classList.add("active");
+          }
+
+          // Click event to toggle submenu
+          button.addEventListener("click", function () {
+            const expanded = this.getAttribute("aria-expanded") === "true";
+
+            // Toggle aria-expanded
+            this.setAttribute("aria-expanded", !expanded);
+
+            // Show/hide submenu
+            if (submenu) {
+              submenu.classList.toggle("active");
+            }
+          });
+        });
+      });
+    </script>
+    
+  </body>
+</html>

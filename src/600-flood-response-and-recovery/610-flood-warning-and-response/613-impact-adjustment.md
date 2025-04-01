@@ -1,0 +1,5 @@
+---
+section_id: 613
+section_title: Impact Adjustment
+page_in_manual: 610-23
+---

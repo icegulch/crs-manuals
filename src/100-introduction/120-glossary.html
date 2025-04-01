@@ -1,0 +1,24 @@
+---
+section_id: 120
+section_title: Glossary
+page_in_manual: 120-1
+---
+
+<p>
+  Unless otherwise noted, all terms used by the Community Rating System (CRS) are the same as those defined in the National Flood Insurance Program Rules and Regulations (44 Code of Federal Regulations §59.1).
+</p>
+
+<table class="glossary">
+  <tbody>
+    {% for item in collections.glossary120 %}
+      <tr id="{{ item.data.title | slugify }}">
+        <th>
+          {{ item.data.title }}
+        </th>
+        <td>
+          {{ item.templateContent }}
+        </td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>

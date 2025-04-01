@@ -1,0 +1,5 @@
+---
+section_id: 513
+section_title: Credit Calculation
+page_in_manual: 510-37
+---
