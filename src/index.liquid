@@ -34,7 +34,7 @@ eleventyExcludeFromCollection: true
 {% for item in collections.orderedSections %}
   <li>
     <a href="{{ item.page.url }}">
-      {% unless item.data.ancilliary %}{{ item.data.section_id }} {% endunless %}{{ item.data.section_title }}
+      {% unless item.data.ancillary %}{{ item.data.section_id }} {% endunless %}{{ item.data.section_title }}
     </a>
   </li>
 {% endfor %}

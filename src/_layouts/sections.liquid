@@ -21,21 +21,21 @@ layout: base
         {% endfor %}
         
         <li>
-          {% if series.children.size > 0 %}
+          {% if series.has_children %}
             <!-- Parent with children: Expandable button -->
             <button class="toggle-submenu {% if seriesIsActive %}active{% endif %}" 
                     aria-expanded="{% if seriesIsActive %}true{% else %}false{% endif %}" 
                     aria-controls="submenu-{{ series.id }}">
-              {% unless series.id == "000" or series.id == 800 or series.id == 900 %}{{ series.id }} {% endunless %}{{ series.title }}
+              {% unless series.ancillary %}{{ series.id }} {% endunless %}{{ series.title }}
             </button>
           {% else %}
             <!-- No children: Clickable link -->
             <a href="{{ series.url }}" class="{% if page.url == series.url %}active{% endif %}">
-              {% unless series.id == "000" or series.id == 800 or series.id == 900 %}{{ series.id }} {% endunless %}{{ series.title }}
+              {{ series.id }} {{ series.title }}
             </a>
           {% endif %}
 
-          {% if series.children.size > 0 %}
+          {% if series.has_children %}
             <ul id="submenu-{{ series.id }}" class="submenu {% if seriesIsActive %}active{% endif %}">
               {% for subseries in series.children %}
                 {% assign subseriesIsActive = false %}
@@ -108,34 +108,39 @@ layout: base
         {% if activity_id == section_id %}<li>{{ section_title }}</li>{% elsif activity_id %}<li><a href="/{{ activity_id | slugify }}-{{ activity_title | slugify }}/" title="{{ title }}">{{ activity_title }}</a></li>{% endif %}
       </ul>
       <h1>
-        {% unless ancilliary %}{{ section_id }} {% endunless %}{{ section_title }}{% if has_summary == true %}&mdash;Summary{% endif %}
+        {% unless ancillary %}{{ section_id }} {% endunless %}{{ section_title }}{% if has_summary == true %}&mdash;Summary{% endif %}
       </h1>
       {{ content }}
-      {% unless series_id == "000" or series_id == "800" or series_id == "900" %}
+      {% unless series_id == "000" or series_id == 800 or series_id == 900 %}
         {% if section_id == series_id %}
-          <table class="toc">
-            <caption>Contents of Series {{ series_id }}</caption>
-            <thead>
-              <tr>
-                <th style="text-align:left;border-bottom:1px solid #000">Section</th>
-                <th style="text-align:left;border-bottom:1px solid #000;text-align:right">Page</th>
-              </tr>
-            </thead>
-            <tbody>
-              {% assign sectionContents = collections.sections | where: "data.series_id", series_id %}
-              {% for section in sectionContents %}
+          <div class="table-responsive-md">
+            <table class="table table-sm table-striped table-hover">
+              <caption>Contents of Series {{ series_id }}</caption>
+              <thead>
                 <tr>
-                  <td style="display:flex;padding:0.5rem;">
-                    <span style="width:3.5em">{{ section.data.section_id }}</span>
-                    <span>{{ section.data.section_title }}</span>
-                  </td>
-                  <td style="padding:0.5rem;text-align:right;width:1px;">
-                    {{ section.data.page_in_manual }}
-                  </td>
+                  <th>Section<br>Number</th>
+                  <th>Section<br>Name</th>
+                  <th>Page in<br>Manual</th>
                 </tr>
-              {% endfor %}
-            </tbody>
-          </table>
+              </thead>
+              <tbody>
+                {% assign sectionContents = collections.sections | where: "data.series_id", series_id %}
+                {% for section in sectionContents %}
+                  <tr>
+                    <td>
+                      {{ section.data.section_id }}
+                    </td>
+                    <td class="w-100">
+                      {{ section.data.section_title }}
+                    </td>
+                    <td class="text-center text-monospace">
+                      {{ section.data.page_in_manual }}
+                    </td>
+                  </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
         {% endif %}
       {% endunless %}
     </section>

@@ -46,7 +46,7 @@ module.exports = function (eleventyConfig) {
 
     collectionApi
       .getFilteredByTag("sections")
-      .filter((item) => item.data && item.data.section_id !== undefined) // ✅ Prevent undefined errors
+      .filter((item) => item.data && item.data.section_id !== undefined)
       .forEach((item) => {
         if (!item.url) return;
 
@@ -57,29 +57,40 @@ module.exports = function (eleventyConfig) {
           subseries_title,
           section_id,
           section_title,
+          ancillary = false,
+          sort_order,
+          has_children = false,
         } = item.data;
 
-        let url = item.page.url
+        const url = item.page.url;
 
-        let sectionIdNum = section_id
+        const sectionIdNum = section_id
           ? parseFloat(section_id) || section_id
           : null;
-        let subseriesIdNum = subseries_id
+        const subseriesIdNum = subseries_id
           ? parseFloat(subseries_id) || subseries_id
           : null;
-        let seriesIdNum = series_id ? parseFloat(series_id) || series_id : null;
+        const seriesIdNum = series_id ? parseFloat(series_id) || series_id : null;
+        const finalSortOrder = sort_order ?? seriesIdNum ?? 999;
 
-        if (!seriesMap[series_id]) {
-          seriesMap[series_id] = {
+        // Build or get existing series entry
+        const seriesKey = series_id ?? url;
+        if (!seriesMap[seriesKey]) {
+          seriesMap[seriesKey] = {
             id: seriesIdNum,
             title: series_title || `Series ${series_id}`,
             url: url,
+            ancillary,
+            sort_order: finalSortOrder,
             children: [],
           };
         }
 
+        const series = seriesMap[seriesKey];
+
+        // Add subseries and sections appropriately
         if (subseries_id) {
-          let subseriesEntry = seriesMap[series_id].children.find(
+          let subseriesEntry = series.children.find(
             (sub) => sub.id === subseriesIdNum
           );
           if (!subseriesEntry) {
@@ -89,7 +100,7 @@ module.exports = function (eleventyConfig) {
               url: url,
               children: [],
             };
-            seriesMap[series_id].children.push(subseriesEntry);
+            series.children.push(subseriesEntry);
           }
 
           if (section_id) {
@@ -97,25 +108,37 @@ module.exports = function (eleventyConfig) {
               id: sectionIdNum,
               title: section_title || `Section ${section_id}`,
               url: url,
-              children: [],
             });
           }
         } else if (section_id) {
-          seriesMap[series_id].children.push({
-            id: sectionIdNum,
-            title: section_title || `Section ${section_id}`,
-            url: url,
-            children: [],
-          });
+          // Prevent adding series main page as its own child
+          if (url !== series.url) {
+            series.children.push({
+              id: sectionIdNum,
+              title: section_title || `Section ${section_id}`,
+              url: url,
+            });
+          }
         }
       });
 
-    let sortedSeries = Object.values(seriesMap).sort((a, b) => a.id - b.id);
+    // Sort and compute `has_children`
+    let sortedSeries = Object.values(seriesMap).sort(
+      (a, b) => a.sort_order - b.sort_order
+    );
+
     sortedSeries.forEach((series) => {
       series.children.sort((a, b) => a.id - b.id);
       series.children.forEach((subseries) => {
-        subseries.children.sort((a, b) => a.id - b.id);
+        if (subseries.children) {
+          subseries.children.sort((a, b) => a.id - b.id);
+        }
       });
+
+      // Determine if any true descendants exist
+      series.has_children = series.children.some((child) =>
+        Array.isArray(child.children) ? child.children.length > 0 : true
+      );
     });
 
     return sortedSeries;
