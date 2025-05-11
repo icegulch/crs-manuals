@@ -1,5 +1,5 @@
 ---
-section_id: 840
+section_id: "840"
 section_title: Appendix D. A History of Changes to CRS Credits
 page_in_manual: D-1
 ---

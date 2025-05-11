@@ -1,5 +1,5 @@
 ---
-section_id: 114
+section_id: "114"
 section_title: The Community's Role
 page_in_manual: 110-8
 ---

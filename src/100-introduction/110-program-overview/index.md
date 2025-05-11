@@ -1,5 +1,5 @@
 ---
-section_id: 111
+section_id: "111"
 section_title: Background
 page_in_manual: 110-1
 ---

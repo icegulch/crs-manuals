@@ -1,5 +1,5 @@
 ---
-section_id: 375
+section_id: "375"
 section_title: For More Information
 page_in_manual: 370-13
 ---

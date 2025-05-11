@@ -1,5 +1,5 @@
 ---
-section_id: 623
+section_id: "623"
 section_title: Impact Adjustment
 page_in_manual: 620-19
 ---

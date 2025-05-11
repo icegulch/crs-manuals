@@ -1,5 +1,5 @@
 ---
-section_id: 115
+section_id: "115"
 section_title: Costs and Benefits
 page_in_manual: 110-10
 ---

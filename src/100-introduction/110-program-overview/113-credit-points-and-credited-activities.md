@@ -1,5 +1,5 @@
 ---
-section_id: 113
+section_id: "113"
 section_title: Credit Points and Credited Activities
 page_in_manual: 110-3
 ---

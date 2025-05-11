@@ -1,0 +1,7 @@
+---
+section_id: "422"c
+section_title: Natural functions open space
+is_element: true
+abbr: NFOS
+page_in_manual: 420-3
+---

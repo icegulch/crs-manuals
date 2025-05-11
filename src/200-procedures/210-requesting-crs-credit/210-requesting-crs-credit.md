@@ -1,7 +1,8 @@
 ---
-section_id: 210
+section_id: "210"
 section_title: Requesting CRS Credit
 page_in_manual: 210-1
+is_summary: true
 ---
 
 ## 211 Program Prerequisites

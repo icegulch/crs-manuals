@@ -1,5 +1,5 @@
 ---
-section_id: 112
+section_id: "112"
 section_title: Goals
 page_in_manual: 110-1
 ---

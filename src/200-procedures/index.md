@@ -1,5 +1,5 @@
 ---
-section_id: 200
+section_id: "200"
 section_title: Procedures
 page_in_manual: 200-1
 ---

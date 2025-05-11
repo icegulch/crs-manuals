@@ -2,82 +2,77 @@
 layout: base
 ---
 
-<main style="display:grid;grid-template-columns: 460px 1fr;gap:0 2rem;height:100vh;">
+<main style="display:grid;grid-template-columns: 390px 1fr;gap:0 2rem;height:100vh;">
 
   <nav aria-label="Main Navigation">
     <ul class="accordion-menu" style="margin-block:0;">
       {% for series in collections.nestedSections %}
         {% assign seriesIsActive = false %}
-        {% for subseries in series.children %}
-          {% if page.url == subseries.url %}
+
+        {% for child in series.children %}
+          {% if page.url == child.url %}
             {% assign seriesIsActive = true %}
           {% endif %}
-          {% for section in subseries.children %}
-            {% if page.url == section.url %}
-              {% assign seriesIsActive = true %}
-              {% assign subseriesIsActive = true %}
-            {% endif %}
-          {% endfor %}
+          {% if child.children %}
+            {% for grandchild in child.children %}
+              {% if page.url == grandchild.url %}
+                {% assign seriesIsActive = true %}
+              {% endif %}
+            {% endfor %}
+          {% endif %}
         {% endfor %}
-        
+
         <li>
           {% if series.has_children %}
-            <!-- Parent with children: Expandable button -->
-            <button class="toggle-submenu {% if seriesIsActive %}active{% endif %}" 
-                    aria-expanded="{% if seriesIsActive %}true{% else %}false{% endif %}" 
+            <button class="toggle-submenu {% if seriesIsActive %}active{% endif %}"
+                    aria-expanded="{% if seriesIsActive %}true{% else %}false{% endif %}"
                     aria-controls="submenu-{{ series.id }}">
               {% unless series.ancillary %}{{ series.id }} {% endunless %}{{ series.title }}
             </button>
-          {% else %}
-            <!-- No children: Clickable link -->
-            <a href="{{ series.url }}" class="{% if page.url == series.url %}active{% endif %}">
-              {{ series.id }} {{ series.title }}
-            </a>
-          {% endif %}
 
-          {% if series.has_children %}
             <ul id="submenu-{{ series.id }}" class="submenu {% if seriesIsActive %}active{% endif %}">
-              {% for subseries in series.children %}
-                {% assign subseriesIsActive = false %}
-                {% if page.url == subseries.url %}
-                  {% assign subseriesIsActive = true %}
+              {% for child in series.children %}
+                {% assign childIsActive = false %}
+                {% if page.url == child.url %}
+                  {% assign childIsActive = true %}
                 {% endif %}
-                {% for section in subseries.children %}
-                  {% if page.url == section.url %}
-                    {% assign subseriesIsActive = true %}
-                  {% endif %}
-                {% endfor %}
+                {% if child.children %}
+                  {% for grandchild in child.children %}
+                    {% if page.url == grandchild.url %}
+                      {% assign childIsActive = true %}
+                    {% endif %}
+                  {% endfor %}
+                {% endif %}
 
                 <li>
-                  {% if subseries.children.size > 0 %}
-                    <!-- Parent with children: Expandable button -->
-                    <button class="toggle-submenu {% if subseriesIsActive %}active{% endif %}" 
-                            aria-expanded="{% if subseriesIsActive %}true{% else %}false{% endif %}" 
-                            aria-controls="submenu-{{ series.id }}-{{ subseries.id }}">
-                      {{ subseries.id }} {{ subseries.title }}
+                  {% if child.children %}
+                    <button class="toggle-submenu {% if childIsActive %}active{% endif %}"
+                            aria-expanded="{% if childIsActive %}true{% else %}false{% endif %}"
+                            aria-controls="submenu-{{ series.id }}-{{ child.id }}">
+                      {{ child.id }} {{ child.title }}
                     </button>
-                  {% else %}
-                    <!-- No children: Clickable link -->
-                    <a href="{{ subseries.url }}" class="{% if page.url == subseries.url %}active{% endif %}">
-                      {{ subseries.id }} {{ subseries.title }}
-                    </a>
-                  {% endif %}
-
-                  {% if subseries.children.size > 0 %}
-                    <ul id="submenu-{{ series.id }}-{{ subseries.id }}" 
-                        class="submenu {% if subseriesIsActive %}active{% endif %}">
-                      {% for section in subseries.children %}
+                    <ul id="submenu-{{ series.id }}-{{ child.id }}"
+                        class="submenu {% if childIsActive %}active{% endif %}">
+                      {% for grandchild in child.children %}
                         <li>
-                          <a href="{{ section.url }}" class="{% if page.url == section.url %}active{% endif %}">
-                            {{ section.id }} {{ section.title }}
+                          <a href="{{ grandchild.url }}" class="{% if page.url == grandchild.url %}active{% endif %}">
+                            {{ grandchild.id }} {{ grandchild.title }}
                           </a>
                         </li>
                       {% endfor %}
                     </ul>
+                  {% else %}
+                    <a href="{{ child.url }}" class="{% if page.url == child.url %}active{% endif %}">
+                      {{ child.id }} {{ child.title }}
+                    </a>
                   {% endif %}
                 </li>
               {% endfor %}
             </ul>
+          {% else %}
+            <a href="{{ series.url }}" class="{% if page.url == series.url %}active{% endif %}">
+              {{ series.id }} {{ series.title }}
+            </a>
           {% endif %}
         </li>
       {% endfor %}
@@ -108,7 +103,7 @@ layout: base
         {% if activity_id == section_id %}<li>{{ section_title }}</li>{% elsif activity_id %}<li><a href="/{{ activity_id | slugify }}-{{ activity_title | slugify }}/" title="{{ title }}">{{ activity_title }}</a></li>{% endif %}
       </ul>
       <h1>
-        {% unless ancillary %}{{ section_id }} {% endunless %}{{ section_title }}{% if has_summary == true %}&mdash;Summary{% endif %}
+        {% unless ancillary %}{{ section_id }} {% endunless %}{{ section_title }}{% if is_summary == true %}&mdash;Summary{% endif %}
       </h1>
       {{ content }}
       {% unless series_id == "000" or series_id == 800 or series_id == 900 %}

@@ -1,0 +1,7 @@
+---
+section_id: "422"h
+section_title: Natural shoreline protection
+is_element: true
+abbr: NSP
+page_in_manual: 420-3
+---
