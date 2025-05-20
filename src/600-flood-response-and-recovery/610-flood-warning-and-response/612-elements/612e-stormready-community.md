@@ -1,7 +1,0 @@
----
-section_id: "612"e
-section_title: StormReady community
-is_element: true
-abbr: SRC
-page_in_manual: 610-8
----

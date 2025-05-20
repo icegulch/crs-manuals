@@ -21,20 +21,6 @@ img {
 }
 
 
-/* LANDING */
-
-.manual-cards {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.manual-card {
-  background-color: #f1f5f9;
-}
 
 .section-content {
   font: 1.2rem/1.4 georgia, serif;
@@ -96,6 +82,7 @@ img {
   padding-left: 0;
   font: 0.8rem sans-serif;
   background: #f9f9f9;
+  border-right: 1px solid #ddd;
   height: 100vh;
 }
 
@@ -106,11 +93,12 @@ img {
 
 /* Style Links */
 .accordion-menu a {
-  display: block;
+  display: flex;
+  gap: 0 0.5rem;
   padding: 10px;
   text-decoration: none;
   color: #333;
-  background: #f9f9f9;
+  /* background: #f9f9f9; */
   border-bottom: 1px solid #ddd;
   transition: background 0.3s ease-in-out;
 }
@@ -121,19 +109,23 @@ img {
 
 /* Highlight Active Page */
 .accordion-menu a.active {
-  font-weight: bold;
+  /* font-weight: bold; */
   color: #007bff;
 }
 
 /* Style Buttons for Parent Items */
+
 .accordion-menu .toggle-submenu {
-  display: block;
+  position: relative;
+  display: flex;
+  gap: 0 0.5rem;
   width: 100%;
   text-align: left;
   padding: 10px;
-  font: 600 0.9rem/1 sans-serif;
+  font: 0.8rem/1 sans-serif;
   border: none;
-  background: #f0f0f0;
+  background: transparent;
+  appearance: none;
   color: #333;
   cursor: pointer;
   border-bottom: 1px solid #ddd;
@@ -147,7 +139,10 @@ img {
 /* Indicator Arrow for Parent Items */
 .accordion-menu .toggle-submenu::after {
   content: "▼";
-  float: right;
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
   transition: transform 0.3s ease-in-out;
 }
 

@@ -1,0 +1,87 @@
+<nav aria-label="Main Navigation">
+  <ul class="accordion-menu" style="margin-block:0;">
+    {% for section in manualSections %}
+      {% assign sectionIsActive = false %}
+
+      {% for child in section.children %}
+        {% if page.url == child.url %}
+          {% assign sectionIsActive = true %}
+        {% endif %}
+        {% for grandchild in child.children %}
+          {% if page.url == grandchild.url %}
+            {% assign sectionIsActive = true %}
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+
+      <li>
+        {% if section.children %}
+          <button class="nav-item toggle-submenu {% if sectionIsActive %}active{% endif %}"
+                  aria-expanded="{% if sectionIsActive %}true{% else %}false{% endif %}"
+                  aria-controls="submenu-{{ section.id }}">
+            {% unless section.is_ancillary %}<span>{{ section.id }}</span>{% endunless %}<span>{{ section.title }}</span>
+          </button>
+
+          <ul id="submenu-{{ section.id }}" class="submenu {% if sectionIsActive %}active{% endif %}">
+            {% for child in section.children %}
+              {% assign childIsActive = page.url == child.url %}
+              {% for grandchild in child.children %}
+                {% if page.url == grandchild.url %}
+                  {% assign childIsActive = true %}
+                {% endif %}
+              {% endfor %}
+
+              <li>
+                {% if child.children %}
+                  <button class="toggle-submenu {% if childIsActive %}active{% endif %}"
+                          aria-expanded="{% if childIsActive %}true{% else %}false{% endif %}"
+                          aria-controls="submenu-{{ section.id }}-{{ child.id }}">
+                    <span>{{ child.display_id | default: child.id }}</span><span>{{ child.title }}</span>
+                  </button>
+
+                  <ul id="submenu-{{ section.id }}-{{ child.id }}"
+                      class="submenu {% if childIsActive %}active{% endif %}">
+                    {% for grandchild in child.children %}
+                      <li>
+                        {% if grandchild.children %}
+                          <button class="toggle-submenu {% if page.url == grandchild.url %}active{% endif %}"
+                                  aria-expanded="{% if page.url == grandchild.url %}true{% else %}false{% endif %}"
+                                  aria-controls="submenu-{{ section.id }}-{{ child.id }}-{{ grandchild.id }}">
+                            {{ grandchild.id }} {{ grandchild.title }}
+                          </button>
+
+                          <ul id="submenu-{{ section.id }}-{{ child.id }}-{{ grandchild.id }}"
+                              class="submenu {% if page.url == grandchild.url %}active{% endif %}">
+                            {% for element in grandchild.children %}
+                              <li>
+                                <a href="{{ element.url }}" class="{% if page.url == element.url %}active{% endif %}">
+                                  {{ element.display_id | default: element.id }} {{ element.title }}
+                                </a>
+                              </li>
+                            {% endfor %}
+                          </ul>
+                        {% else %}
+                          <a href="{{ grandchild.url }}" class="{% if page.url == grandchild.url %}active{% endif %}">
+                            {{ grandchild.id }} {{ grandchild.title }}
+                          </a>
+                        {% endif %}
+                      </li>
+                    {% endfor %}
+                  </ul>
+                {% else %}
+                  <a href="{{ child.url }}" class="{% if page.url == child.url %}active{% endif %}">
+                    {{ child.id }} {{ child.title }}
+                  </a>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        {% else %}
+          <a href="{{ section.url }}" class="nav-item {% if page.url == section.url %}active{% endif %}">
+            {% unless section.is_ancillary %}<span>{{ section.id }}</span>{% endunless %}<span>{{ section.title }}</span>
+          </a>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
