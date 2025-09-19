@@ -158,22 +158,14 @@
     "url": null,
     "children": [
       {
-        "id": "300a",
-        "display_id": "300",  
-        "title": "Public Information",
-        "url": null,
-        "children": [
-          {
-            "id": "301",
-            "title": "Impact Adjustments for Buildings",
-            "url": "/300-public-information-activities/301-impact-adjustments-for-buildings/"
-          },
-          {
-            "id": "302",
-            "title": "Impact Adjustment Ratio",
-            "url": "/300-public-information-activities/302-impact-adjustment-ratio/"
-          }
-        ]
+        "id": "301",
+        "title": "Impact Adjustments for Buildings",
+        "url": "/300-public-information-activities/301-impact-adjustments-for-buildings/"
+      },
+      {
+        "id": "302",
+        "title": "Impact Adjustment Ratio",
+        "url": "/300-public-information-activities/302-impact-adjustment-ratio/"
       },
       {
         "id": "310",
@@ -1003,47 +995,39 @@
     "url": "/500-repetitive-loss/",
     "children": [
       {
-        "id": "500a",
-        "display_id": "500",  
-        "title": "Flood Damage Reduction Activities",
-        "url": null,
-        "children": [
-          {
-            "id": "501",
-            "title": "The Repetitive Loss List",
-            "url": "/500-repetitive-loss/501-the-repetitive-loss-list/"
-          },
-          {
-            "id": "502",
-            "title": "Repetitive Loss Category",
-            "url": "/500-repetitive-loss/502-repetitive-loss-category/"
-          },
-          {
-            "id": "503",
-            "title": "Repetitive Loss Areas",
-            "url": "/500-repetitive-loss/503-repetitive-loss-areas/"
-          },
-          {
-            "id": "504",
-            "title": "Repetitive Loss Area Outreach Project",
-            "url": "/500-repetitive-loss/504-repetitive-loss-area-outreach-project/"
-          },
-          {
-            "id": "505",
-            "title": "Repetitive Loss Mitigation Activities",
-            "url": "/500-repetitive-loss/505-repetitive-loss-mitigation-activities/"
-          },
-          {
-            "id": "506",
-            "title": "National Flood Insurance Reform Act of 1994",
-            "url": "/500-repetitive-loss/506-national-flood-insurance-reform-act-of-1994/"
-          },
-          {
-            "id": "507",
-            "title": "Compliance with Provisions for Environmental and Historic Preservation",
-            "url": "/500-repetitive-loss/507-compliance-with-provisions-for-environmental-and-historic-preservation/"
-          }
-        ]
+        "id": "501",
+        "title": "The Repetitive Loss List",
+        "url": "/500-repetitive-loss/501-the-repetitive-loss-list/"
+      },
+      {
+        "id": "502",
+        "title": "Repetitive Loss Category",
+        "url": "/500-repetitive-loss/502-repetitive-loss-category/"
+      },
+      {
+        "id": "503",
+        "title": "Repetitive Loss Areas",
+        "url": "/500-repetitive-loss/503-repetitive-loss-areas/"
+      },
+      {
+        "id": "504",
+        "title": "Repetitive Loss Area Outreach Project",
+        "url": "/500-repetitive-loss/504-repetitive-loss-area-outreach-project/"
+      },
+      {
+        "id": "505",
+        "title": "Repetitive Loss Mitigation Activities",
+        "url": "/500-repetitive-loss/505-repetitive-loss-mitigation-activities/"
+      },
+      {
+        "id": "506",
+        "title": "National Flood Insurance Reform Act of 1994",
+        "url": "/500-repetitive-loss/506-national-flood-insurance-reform-act-of-1994/"
+      },
+      {
+        "id": "507",
+        "title": "Compliance with Provisions for Environmental and Historic Preservation",
+        "url": "/500-repetitive-loss/507-compliance-with-provisions-for-environmental-and-historic-preservation/"
       },
       {
         "id": "510",

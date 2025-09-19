@@ -42,6 +42,20 @@ module.exports = function (eleventyConfig) {
       );
   });
 
+  eleventyConfig.addFilter("repeat", function (str, times) {
+    return str.repeat(times);
+  });
+
+  eleventyConfig.addFilter("endswith", function (value, ending) {
+    if (typeof value !== "string") return false;
+    return value.endsWith(ending);
+  });
+
+  eleventyConfig.addFilter("endsWithDecade", (str) => {
+    if (typeof str !== "string") return false;
+    return /[1-7]0$/.test(str);
+  });
+
   // Custom filter to convert markdown strings into HTML
   eleventyConfig.addFilter("markdown", (content) => {
     return markdownLibrary.render(content);

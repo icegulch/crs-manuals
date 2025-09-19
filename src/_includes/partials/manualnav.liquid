@@ -1,87 +1,193 @@
 <nav aria-label="Main Navigation">
-  <ul class="accordion-menu" style="margin-block:0;">
-    {% for section in manualSections %}
-      {% assign sectionIsActive = false %}
+  {% comment %}
+    <ul class="accordion-menu" style="margin-block:0;">
+      {% for section in manualSections %}
+        {% assign sectionIsActive = false %}
 
-      {% for child in section.children %}
-        {% if page.url == child.url %}
-          {% assign sectionIsActive = true %}
-        {% endif %}
-        {% for grandchild in child.children %}
-          {% if page.url == grandchild.url %}
+        {% for child in section.children %}
+          {% if page.url == child.url %}
             {% assign sectionIsActive = true %}
           {% endif %}
+          {% for grandchild in child.children %}
+            {% if page.url == grandchild.url %}
+              {% assign sectionIsActive = true %}
+            {% endif %}
+          {% endfor %}
         {% endfor %}
-      {% endfor %}
 
-      <li>
-        {% if section.children %}
-          <button class="nav-item toggle-submenu {% if sectionIsActive %}active{% endif %}"
-                  aria-expanded="{% if sectionIsActive %}true{% else %}false{% endif %}"
-                  aria-controls="submenu-{{ section.id }}">
-            {% unless section.is_ancillary %}<span>{{ section.id }}</span>{% endunless %}<span>{{ section.title }}</span>
-          </button>
+        <li>
+          {% if section.children %}
+            <button class="nav-item toggle-submenu {% if sectionIsActive %}active{% endif %}"
+                    aria-expanded="{% if sectionIsActive %}true{% else %}false{% endif %}"
+                    aria-controls="submenu-{{ section.id }}">
+              {% unless section.is_ancillary %}<span>{{ section.id }}</span>{% endunless %}<span>{{ section.title }}</span>
+            </button>
 
-          <ul id="submenu-{{ section.id }}" class="submenu {% if sectionIsActive %}active{% endif %}">
-            {% for child in section.children %}
-              {% assign childIsActive = page.url == child.url %}
-              {% for grandchild in child.children %}
-                {% if page.url == grandchild.url %}
-                  {% assign childIsActive = true %}
-                {% endif %}
+            <ul id="submenu-{{ section.id }}" class="submenu {% if sectionIsActive %}active{% endif %}">
+              {% for child in section.children %}
+                {% assign childIsActive = page.url == child.url %}
+                {% for grandchild in child.children %}
+                  {% if page.url == grandchild.url %}
+                    {% assign childIsActive = true %}
+                  {% endif %}
+                {% endfor %}
+
+                <li>
+                  {% if child.children %}
+                    <button class="toggle-submenu {% if childIsActive %}active{% endif %}"
+                            aria-expanded="{% if childIsActive %}true{% else %}false{% endif %}"
+                            aria-controls="submenu-{{ section.id }}-{{ child.id }}">
+                      <span>{{ child.display_id | default: child.id }}</span><span>{{ child.title }}</span>
+                    </button>
+
+                    <ul id="submenu-{{ section.id }}-{{ child.id }}"
+                        class="submenu {% if childIsActive %}active{% endif %}">
+                      {% for grandchild in child.children %}
+                        <li>
+                          {% if grandchild.children %}
+                            <button class="toggle-submenu {% if page.url == grandchild.url %}active{% endif %}"
+                                    aria-expanded="{% if page.url == grandchild.url %}true{% else %}false{% endif %}"
+                                    aria-controls="submenu-{{ section.id }}-{{ child.id }}-{{ grandchild.id }}">
+                              {{ grandchild.id }} {{ grandchild.title }}
+                            </button>
+
+                            <ul id="submenu-{{ section.id }}-{{ child.id }}-{{ grandchild.id }}"
+                                class="submenu {% if page.url == grandchild.url %}active{% endif %}">
+                              {% for element in grandchild.children %}
+                                <li>
+                                  <a href="{{ element.url }}" class="{% if page.url == element.url %}active{% endif %}">
+                                    {{ element.display_id | default: element.id }} {{ element.title }}
+                                  </a>
+                                </li>
+                              {% endfor %}
+                            </ul>
+                          {% else %}
+                            <a href="{{ grandchild.url }}" class="{% if page.url == grandchild.url %}active{% endif %}">
+                              {{ grandchild.id }} {{ grandchild.title }}
+                            </a>
+                          {% endif %}
+                        </li>
+                      {% endfor %}
+                    </ul>
+                  {% else %}
+                    <a href="{{ child.url }}" class="{% if page.url == child.url %}active{% endif %}">
+                      {{ child.id }} {{ child.title }}
+                    </a>
+                  {% endif %}
+                </li>
               {% endfor %}
-
-              <li>
-                {% if child.children %}
-                  <button class="toggle-submenu {% if childIsActive %}active{% endif %}"
-                          aria-expanded="{% if childIsActive %}true{% else %}false{% endif %}"
-                          aria-controls="submenu-{{ section.id }}-{{ child.id }}">
-                    <span>{{ child.display_id | default: child.id }}</span><span>{{ child.title }}</span>
-                  </button>
-
-                  <ul id="submenu-{{ section.id }}-{{ child.id }}"
-                      class="submenu {% if childIsActive %}active{% endif %}">
+            </ul>
+          {% else %}
+            <a href="{{ section.url }}" class="nav-item {% if page.url == section.url %}active{% endif %}">
+              {% unless section.is_ancillary %}<span>{{ section.id }}</span>{% endunless %}<span>{{ section.title }}</span>
+            </a>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  <ol>
+    {% for section in manualSections %}
+      {% if section.children %}
+        <li>{% unless section.is_ancillary %}{{ section.id }} {% endunless %}{{ section.title }}
+          <ul>
+            {% for child in section.children %}
+              {% if child.children %}
+                <li>{% unless section.is_ancillary %}{{ child.id }} {% endunless %}{{ child.title }}
+                  <ul>
                     {% for grandchild in child.children %}
-                      <li>
-                        {% if grandchild.children %}
-                          <button class="toggle-submenu {% if page.url == grandchild.url %}active{% endif %}"
-                                  aria-expanded="{% if page.url == grandchild.url %}true{% else %}false{% endif %}"
-                                  aria-controls="submenu-{{ section.id }}-{{ child.id }}-{{ grandchild.id }}">
-                            {{ grandchild.id }} {{ grandchild.title }}
-                          </button>
-
-                          <ul id="submenu-{{ section.id }}-{{ child.id }}-{{ grandchild.id }}"
-                              class="submenu {% if page.url == grandchild.url %}active{% endif %}">
-                            {% for element in grandchild.children %}
-                              <li>
-                                <a href="{{ element.url }}" class="{% if page.url == element.url %}active{% endif %}">
-                                  {{ element.display_id | default: element.id }} {{ element.title }}
-                                </a>
-                              </li>
+                      {% if grandchild.children %}
+                        <li>{% unless section.is_ancillary %}{{ grandchild.id }} {% endunless %}{{ grandchild.title }}
+                          <ul>
+                            {% for greatgrandchild in grandchild.children %}
+                              <li>{% unless section.is_ancillary %}{{ greatgrandchild.id }} {% endunless %}{{ greatgrandchild.title }}</li>
                             {% endfor %}
                           </ul>
-                        {% else %}
-                          <a href="{{ grandchild.url }}" class="{% if page.url == grandchild.url %}active{% endif %}">
-                            {{ grandchild.id }} {{ grandchild.title }}
-                          </a>
-                        {% endif %}
-                      </li>
+                        </li>
+                      {% else %}
+                        <li>{% unless section.is_ancillary %}{{ grandchild.id }} {% endunless %}{{ grandchild.title }}</li>
+                      {% endif %}
                     {% endfor %}
                   </ul>
-                {% else %}
-                  <a href="{{ child.url }}" class="{% if page.url == child.url %}active{% endif %}">
-                    {{ child.id }} {{ child.title }}
-                  </a>
-                {% endif %}
-              </li>
+                </li>
+              {% else %}
+                <li>{% unless section.is_ancillary %}{{ child.id }} {% endunless %}{{ child.title }}</li>
+              {% endif %}
             {% endfor %}
           </ul>
-        {% else %}
-          <a href="{{ section.url }}" class="nav-item {% if page.url == section.url %}active{% endif %}">
-            {% unless section.is_ancillary %}<span>{{ section.id }}</span>{% endunless %}<span>{{ section.title }}</span>
-          </a>
-        {% endif %}
-      </li>
+        </li>
+      {% else %}
+        <li>{% unless section.is_ancillary %}{{ section.id }} {% endunless %}{{ section.title }}</li>
+      {% endif %}
     {% endfor %}
-  </ul>
+  </ol>
+  <select id="section-select" class="form-select">
+    {% for section in manualSections %}
+      {% assign is_ancillary = section.is_ancillary %}
+      {% if section.children %}
+        <optgroup label="{% unless is_ancillary %}{{ section.id }} {% endunless %}{{ section.title }}">
+          {% for child in section.children %}
+            <option value="{{ child.id }}">
+              {% unless is_ancillary %}{{ child.id }} {% endunless %}{{ child.title }}
+            </option>
+            {% if child.children %}
+              {% for grandchild in child.children %}
+                <option value="{{ grandchild.id }}">
+                  {% unless is_ancillary %}{{ grandchild.id }} {% endunless %}{{ grandchild.title }}
+                </option>
+                {% if grandchild.children %}
+                  {% for greatgrandchild in grandchild.children %}
+                    <option value="{{ greatgrandchild.id }}">
+                      {% unless is_ancillary %}{{ greatgrandchild.id }} {% endunless %}{{ greatgrandchild.title }}
+                    </option>
+                  {% endfor %}
+                {% endif %}
+              {% endfor %}
+            {% endif %}
+          {% endfor %}
+        </optgroup>
+      {% else %}
+        <option value="{{ section.id }}">
+          {% unless is_ancillary %}{{ section.id }} {% endunless %}{{ section.title }}
+        </option>
+      {% endif %}
+    {% endfor %}
+  </select>
+    {% endcomment %}
+
+  <select id="section-select" class="form-select">
+    {% for section in collections.orderedSections %}
+      {%- assign raw_id = section.data.parent_id | default: "" %}
+      {% assign is_ancillary = section.data.is_ancillary %}
+      {%- if raw_id == "" %}
+        {%- assign depth = 0 %}
+      {%- elsif raw_id | endswith: "00" %}
+        {%- assign depth = 1 %}
+      {%- elsif raw_id | endsWithDecade %}
+        {%- assign depth = 2 %}
+      {%- else %}
+        {%- assign depth = 3 %}
+      {%- endif %}
+      {%- assign indentCount = depth | plus: 0 | times: 2 %}
+      <option value="{{ section.data.section_id }}">
+        {% assign indentCount = depth | plus: 0 | times: 3 %}
+        {{ '&nbsp;' | repeat: indentCount }}{% unless is_ancillary %}{{ section.data.section_id }} {% endunless %}{{ section.data.section_title }}
+      </option>
+    {% endfor %}
+  </select>
+  <pre>
+    {%- for section in collections.orderedSections %}
+      {%- assign raw_id = section.data.parent_id | default: "" %}
+      {%- if raw_id == "" -%}
+        {%- assign depth = 0 -%}
+      {%- elsif raw_id | endswith: "00" -%}
+        {%- assign depth = 1 -%}
+      {%- elsif raw_id | endsWithDecade -%}
+        {%- assign depth = 2 -%}
+      {%- else -%}
+        {%- assign depth = 3 -%}
+      {%- endif -%}
+      {%- assign indentCount = depth | plus: 0 | times: 2 -%}
+      [ID: {{ section.data.section_id }}, parent: {{ section.data.parent_id | default: 'none' }}, depth: {{ depth }}]
+    {% endfor %}
+  </pre>
 </nav>
