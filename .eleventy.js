@@ -31,9 +31,9 @@ let markdownLibrary = markdownIt({
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/images");
   
-  eleventyConfig.addCollection("orderedSections", function (collection) {
+  eleventyConfig.addCollection("cm2017Ordered", function (collection) {
     return collection
-      .getFilteredByTag("sections")
+      .getFilteredByTag("cm2017")
       .filter((item) => item.data?.section_id)
       .sort((a, b) =>
         a.data.section_id.localeCompare(b.data.section_id, undefined, {

@@ -1,6 +1,7 @@
+{% assign prevPost = orderedSections | getNextCollectionItem %}
+{% assign nextPost = orderedSections | getPreviousCollectionItem %}
+
 <nav style="text-align:center;">
-  {% assign prevPost = collections.orderedSections | getNextCollectionItem %}
-  {% assign nextPost = collections.orderedSections | getPreviousCollectionItem %}
   {% if nextPost %}
     <a href="{{ nextPost.url }}" title="{{ nextPost.data.title }}" class="btn btn-pagination">« Prev</a>
   {% else %}

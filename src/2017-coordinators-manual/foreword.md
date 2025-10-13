@@ -1,6 +1,9 @@
 ---
+series_id: "000"
+series_title: Foreword
+ancillary: true
 section_id: "000"
-section_title: Foreward
+section_title: Foreword
 page_in_manual: iii
 ---
 

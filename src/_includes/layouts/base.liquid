@@ -16,83 +16,17 @@
   </head>
   <body>
 
-    <main style="display:grid;grid-template-columns: 390px 1fr;height:100vh;">
-      {% include "partials/manualnav" %}
-      <div class="px-4">
-        {% include "partials/sectionpagination" %}
-        <section class="section-content">
-          <ul style="display:flex;gap:0 1rem;list-style:none;margin:0;padding:0">
-            <li>{% if nextPost == null %}{{ site.edition }} {{ site.title }}{% else %}<a href="/" title="{{ site.edition }} {{ site.title }}">{{ site.edition }} {{ site.title }}</a>{% endif %}</li>
-            {% if document_depth == 1 and nextPost %}<li>{{ series_title }}</li>{% elsif document_depth >= 2 %}<li><a href="/{{ series_id | slugify }}-{{ series_title | slugify }}/" title="{{ title }}">{{ series_title }}</a></li>{% endif %}
-            {% if activity_id == section_id %}<li>{{ section_title }}</li>{% elsif activity_id %}<li><a href="/{{ activity_id | slugify }}-{{ activity_title | slugify }}/" title="{{ title }}">{{ activity_title }}</a></li>{% endif %}
-          </ul>
-          <h1>
-            {% unless ancillary %}{{ section_id }} {% endunless %}{{ section_title }}{% if is_summary == true %}&mdash;Summary{% endif %}
-          </h1>
-          {{ content }}
-          {% unless series_id == "000" or series_id == 800 or series_id == 900 %}
-            {% if section_id == series_id %}
-              <div class="table-responsive-md">
-                <table class="table table-sm table-striped table-hover">
-                  <caption>Contents of Series {{ series_id }}</caption>
-                  <thead>
-                    <tr>
-                      <th>Section<br>Number</th>
-                      <th>Section<br>Name</th>
-                      <th>Page in<br>Manual</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {% assign sectionContents = collections.sections | where: "data.series_id", series_id %}
-                    {% for section in sectionContents %}
-                      <tr>
-                        <td>
-                          {{ section.data.section_id }}
-                        </td>
-                        <td class="w-100">
-                          {{ section.data.section_title }}
-                        </td>
-                        <td class="text-center text-monospace">
-                          {{ section.data.page_in_manual }}
-                        </td>
-                      </tr>
-                    {% endfor %}
-                  </tbody>
-                </table>
-              </div>
-            {% endif %}
-          {% endunless %}
-        </section>
-        {% include "partials/sectionpagination" %}
-      </div>
+    <header>
+
+    </header>
+
+    <main>
+      {{ content }}
     </main>
+    
+    <footer>
 
-    <script defer>
-      document.addEventListener("DOMContentLoaded", function () {
-        document.querySelectorAll(".toggle-submenu").forEach(button => {
-          const submenu = document.getElementById(button.getAttribute("aria-controls"));
-
-          // Ensure sections already marked "active" stay open on page load
-          if (button.classList.contains("active")) {
-            button.setAttribute("aria-expanded", "true");
-            if (submenu) submenu.classList.add("active");
-          }
-
-          // Click event to toggle submenu
-          button.addEventListener("click", function () {
-            const expanded = this.getAttribute("aria-expanded") === "true";
-
-            // Toggle aria-expanded
-            this.setAttribute("aria-expanded", !expanded);
-
-            // Show/hide submenu
-            if (submenu) {
-              submenu.classList.toggle("active");
-            }
-          });
-        });
-      });
-    </script>
+    </footer>
     
   </body>
 </html>
