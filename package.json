@@ -1,8 +1,9 @@
 {
-  "name": "crs-worksheet",
+  "name": "crs-manuals",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "clean": "rm -rf _site",
     "build": "npm run clean && npx @11ty/eleventy",
@@ -12,14 +13,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@11ty/eleventy": "^2.0.1",
-    "@11ty/eleventy-fetch": "^4.0.1",
     "clean-css": "^5.3.3",
     "dotenv": "^16.4.5",
-    "html-minifier": "^4.0.0",
+    "html-minifier-terser": "^7.2.0",
     "markdown-it": "^14.1.0"
   },
   "devDependencies": {
+    "@11ty/eleventy": "^3.1.2",
     "markdown-it-anchor": "^9.2.0",
     "slugify": "^1.6.6"
   }
