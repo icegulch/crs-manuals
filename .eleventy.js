@@ -31,16 +31,16 @@ let markdownLibrary = markdownIt({
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/images");
   
-  eleventyConfig.addCollection("cm2017Ordered", function (collection) {
-    return collection
-      .getFilteredByTag("cm2017")
-      .filter((item) => item.data?.section_id)
-      .sort((a, b) =>
-        a.data.section_id.localeCompare(b.data.section_id, undefined, {
-          numeric: true,
-        })
-      );
-  });
+  // eleventyConfig.addCollection("orderedSections", function (collection) {
+  //   return collection
+  //     .getFilteredByTag("sections")
+  //     .filter((item) => item.data?.section_id)
+  //     .sort((a, b) =>
+  //       a.data.section_id.localeCompare(b.data.section_id, undefined, {
+  //         numeric: true,
+  //       })
+  //     );
+  // });
 
   eleventyConfig.addFilter("repeat", function (str, times) {
     return str.repeat(times);

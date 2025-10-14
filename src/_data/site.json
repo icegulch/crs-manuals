@@ -1,24 +1,4 @@
 {
   "title": "CRS Coordinator's Manual",
-  "preamble": "Coordinator's Manuals, Specialist Supplements to CRS Credit, and Specialist Field Procedures Guides",
-  "manuals": [
-    {
-      "title": "2017 Coordinator's Manual",
-      "first_page_url": "",
-      "pdf_link": "",
-      "addenda": []
-    },
-    {
-      "title": "2013 Coordinator's Manual",
-      "first_page_url": "",
-      "pdf_link": "",
-      "addenda": []
-    },
-    {
-      "title": "2009 Coordinator's Manual",
-      "first_page_url": "",
-      "pdf_link": "",
-      "addenda": []
-    }
-  ]
+  "preamble": "Coordinator's Manuals, Specialist Supplements to CRS Credit, and Specialist Field Procedures Guides"
 }
