@@ -1,5 +1,0 @@
----
-section_id: "231"
-section_title: Documentation Provided by the Community
-page_in_manual: 230-2
----

@@ -1,0 +1,6823 @@
+[
+  {
+    "title": "2017 Coordinator's Manual",
+    "slug": "2017-coordinators-manual",
+    "pdf": "",
+    "nodes": [
+      {
+        "type": "page",
+        "crs_id": "foreword",
+        "node_id": "000",
+        "group": "000",
+        "level": 0,
+        "title": "Foreword"
+      },
+      {
+        "type": "heading",
+        "node_id": "000-1",
+        "parent_node": "000",
+        "group": "000",
+        "level": 1,
+        "title": "Using the “Coordinator’s Manual”"
+      },
+      {
+        "type": "heading",
+        "node_id": "000-2",
+        "parent_node": "000",
+        "group": "000",
+        "level": 1,
+        "title": "More about the “Coordinator’s Manual”"
+      },
+      {
+        "type": "page",
+        "crs_id": "100",
+        "node_id": "100",
+        "group": "100",
+        "level": 0,
+        "title": "100 Introduction"
+      },
+      {
+        "type": "page",
+        "crs_id": "110",
+        "node_id": "110",
+        "parent_node": "100",
+        "group": "100",
+        "level": 1,
+        "title": "110 Program Overview"
+      },
+      {
+        "type": "table",
+        "node_id": "110-1t",
+        "table_id": "110-1",
+        "parent_node": "110",
+        "group": "100",
+        "level": 2,
+        "title": "CRS classes, credit points, and premium discounts"
+      },
+      {
+        "type": "heading",
+        "crs_id": "111",
+        "node_id": "111",
+        "parent_node": "110",
+        "group": "100",
+        "level": 2,
+        "title": "111 Background"
+      },
+      {
+        "type": "heading",
+        "crs_id": "112",
+        "node_id": "112",
+        "parent_node": "110",
+        "group": "100",
+        "level": 2,
+        "title": "112 Goals"
+      },
+      {
+        "type": "heading",
+        "node_id": "112-1",
+        "parent_node": "112",
+        "group": "100",
+        "level": 3,
+        "title": "Goal 1. Reduce and avoid flood damage to insurable property."
+      },
+      {
+        "type": "heading",
+        "node_id": "112-2",
+        "parent_node": "112",
+        "group": "100",
+        "level": 3,
+        "title": "Goal 2. Strengthen and support the insurance aspects of the NFIP."
+      },
+      {
+        "type": "heading",
+        "node_id": "112-3",
+        "parent_node": "112",
+        "group": "100",
+        "level": 3,
+        "title": "Goal 3. Foster comprehensive floodplain management."
+      },
+      {
+        "type": "heading",
+        "crs_id": "113",
+        "node_id": "113",
+        "parent_node": "110",
+        "group": "100",
+        "level": 2,
+        "title": "113 Credit Points and Credited Activities"
+      },
+      {
+        "type": "heading",
+        "crs_id": "113a",
+        "node_id": "113a",
+        "parent_node": "113",
+        "group": "100",
+        "level": 3,
+        "title": "113.a. Credit Points and Classification"
+      },
+      {
+        "type": "heading",
+        "crs_id": "113b",
+        "node_id": "113b",
+        "parent_node": "113",
+        "group": "100",
+        "level": 3,
+        "title": "113.b. Credited Activities"
+      },
+      {
+        "type": "heading",
+        "node_id": "113b-1",
+        "parent_node": "113b",
+        "group": "100",
+        "level": 4,
+        "title": "Public Information Activities (300 Series)"
+      },
+      {
+        "type": "heading",
+        "node_id": "113b-2",
+        "parent_node": "113b",
+        "group": "100",
+        "level": 4,
+        "title": "Mapping and Regulations (400 Series)"
+      },
+      {
+        "type": "heading",
+        "node_id": "113b-3",
+        "parent_node": "113b",
+        "group": "100",
+        "level": 4,
+        "title": "Flood Damage Reduction Activities (500 Series)"
+      },
+      {
+        "type": "heading",
+        "node_id": "113b-4",
+        "parent_node": "113b",
+        "group": "100",
+        "level": 4,
+        "title": "Warning and Response (600 Series)"
+      },
+      {
+        "type": "heading",
+        "crs_id": "113c",
+        "node_id": "113c",
+        "parent_node": "113",
+        "group": "100",
+        "level": 3,
+        "title": "113.c. Activity Credit Points"
+      },
+      {
+        "type": "heading",
+        "crs_id": "113d",
+        "node_id": "113d",
+        "parent_node": "113",
+        "group": "100",
+        "level": 3,
+        "title": "113.d. Activities Not Listed"
+      },
+      {
+        "type": "heading",
+        "crs_id": "114",
+        "node_id": "114",
+        "parent_node": "110",
+        "group": "100",
+        "level": 2,
+        "title": "114 The Community’s Role"
+      },
+      {
+        "type": "heading",
+        "crs_id": "114a",
+        "node_id": "114a",
+        "parent_node": "114",
+        "group": "100",
+        "level": 3,
+        "title": "114.a. Community Participation"
+      },
+      {
+        "type": "heading",
+        "crs_id": "114b",
+        "node_id": "114b",
+        "parent_node": "114",
+        "group": "100",
+        "level": 3,
+        "title": "114.b. Community Responsibilities"
+      },
+      {
+        "type": "heading",
+        "crs_id": "115",
+        "node_id": "115",
+        "parent_node": "110",
+        "group": "100",
+        "level": 2,
+        "title": "115 Costs and Benefits"
+      },
+      {
+        "type": "heading",
+        "crs_id": "115a",
+        "node_id": "115a",
+        "parent_node": "115",
+        "group": "100",
+        "level": 3,
+        "title": "115.a. Costs"
+      },
+      {
+        "type": "heading",
+        "crs_id": "115b",
+        "node_id": "115b",
+        "parent_node": "115",
+        "group": "100",
+        "level": 3,
+        "title": "115.b. Benefits"
+      },
+      {
+        "type": "heading",
+        "crs_id": "116",
+        "node_id": "116",
+        "parent_node": "110",
+        "group": "100",
+        "level": 2,
+        "title": "116 Other Program Priorities"
+      },
+      {
+        "type": "heading",
+        "crs_id": "116a",
+        "node_id": "116a",
+        "parent_node": "116",
+        "group": "100",
+        "level": 3,
+        "title": "116.a. Natural Floodplain Functions and Threatened and Endangered Species"
+      },
+      {
+        "type": "heading",
+        "crs_id": "116b",
+        "node_id": "116b",
+        "parent_node": "116",
+        "group": "100",
+        "level": 3,
+        "title": "116.b. All-Hazards Mitigation"
+      },
+      {
+        "type": "heading",
+        "crs_id": "116c",
+        "node_id": "116c",
+        "parent_node": "116",
+        "group": "100",
+        "level": 3,
+        "title": "116.c. Future Development"
+      },
+      {
+        "type": "page",
+        "crs_id": "120",
+        "node_id": "120",
+        "parent_node": "100",
+        "group": "100",
+        "level": 1,
+        "title": "120 Glossary"
+      },
+      {
+        "type": "page",
+        "crs_id": "200",
+        "node_id": "200",
+        "group": "200",
+        "level": 0,
+        "title": "200 Procedures"
+      },
+      {
+        "type": "page",
+        "crs_id": "210",
+        "node_id": "210",
+        "parent_node": "200",
+        "group": "200",
+        "level": 1,
+        "title": "210 Requesting CRS Credit—Summary"
+      },
+      {
+        "type": "page",
+        "crs_id": "211",
+        "node_id": "211",
+        "parent_node": "210",
+        "group": "200",
+        "level": 2,
+        "title": "211 Program Prerequisites"
+      },
+      {
+        "type": "heading",
+        "crs_id": "211a",
+        "node_id": "211a",
+        "parent_node": "211",
+        "group": "200",
+        "level": 3,
+        "title": "211.a. Class 9 Prerequisites"
+      },
+      {
+        "type": "heading",
+        "crs_id": "211b",
+        "node_id": "211b",
+        "parent_node": "211",
+        "group": "200",
+        "level": 3,
+        "title": "211.b. Class 8 Prerequisites"
+      },
+      {
+        "type": "heading",
+        "crs_id": "211c",
+        "node_id": "211c",
+        "parent_node": "211",
+        "group": "200",
+        "level": 3,
+        "title": "211.c. Class 6 Prerequisites"
+      },
+      {
+        "type": "heading",
+        "crs_id": "211d",
+        "node_id": "211d",
+        "parent_node": "211",
+        "group": "200",
+        "level": 3,
+        "title": "211.d. Class 4 Prerequisites"
+      },
+      {
+        "type": "heading",
+        "crs_id": "211e",
+        "node_id": "211e",
+        "parent_node": "211",
+        "group": "200",
+        "level": 3,
+        "title": "211.e. Class 1 Prerequisites"
+      },
+      {
+        "type": "page",
+        "crs_id": "212",
+        "node_id": "212",
+        "parent_node": "210",
+        "group": "200",
+        "level": 2,
+        "title": "212 Application Procedures"
+      },
+      {
+        "type": "heading",
+        "crs_id": "212a",
+        "node_id": "212a",
+        "parent_node": "212",
+        "group": "200",
+        "level": 3,
+        "title": "212.a. Application Request"
+      },
+      {
+        "type": "heading",
+        "crs_id": "212b",
+        "node_id": "212b",
+        "parent_node": "212",
+        "group": "200",
+        "level": 3,
+        "title": "212.b. Application Documentation"
+      },
+      {
+        "type": "heading",
+        "crs_id": "212c",
+        "node_id": "212c",
+        "parent_node": "212",
+        "group": "200",
+        "level": 3,
+        "title": "212.c. Verification Processing"
+      },
+      {
+        "type": "heading",
+        "crs_id": "212d",
+        "node_id": "212d",
+        "parent_node": "212",
+        "group": "200",
+        "level": 3,
+        "title": "212.d. Reinstating Previous CRS Communities"
+      },
+      {
+        "type": "page",
+        "crs_id": "213",
+        "node_id": "213",
+        "parent_node": "210",
+        "group": "200",
+        "level": 2,
+        "title": "213 Recertification"
+      },
+      {
+        "type": "heading",
+        "crs_id": "213a",
+        "node_id": "213a",
+        "parent_node": "213",
+        "group": "200",
+        "level": 3,
+        "title": "213.a. Program Data Table"
+      },
+      {
+        "type": "page",
+        "crs_id": "214",
+        "node_id": "214",
+        "parent_node": "210",
+        "group": "200",
+        "level": 2,
+        "title": "214 Modifications"
+      },
+      {
+        "type": "heading",
+        "crs_id": "214a",
+        "node_id": "214a",
+        "parent_node": "214",
+        "group": "200",
+        "level": 3,
+        "title": "214.a. Modification Criteria"
+      },
+      {
+        "type": "heading",
+        "crs_id": "214b",
+        "node_id": "214b",
+        "parent_node": "214",
+        "group": "200",
+        "level": 3,
+        "title": "214.b. Courtesy Reviews"
+      },
+      {
+        "type": "page",
+        "crs_id": "215",
+        "node_id": "215",
+        "parent_node": "210",
+        "group": "200",
+        "level": 2,
+        "title": "215 Changes in CRS Credit"
+      },
+      {
+        "type": "heading",
+        "crs_id": "215a",
+        "node_id": "215a",
+        "parent_node": "215",
+        "group": "200",
+        "level": 3,
+        "title": "215.a. Changes Initiated by the Community"
+      },
+      {
+        "type": "heading",
+        "crs_id": "215b",
+        "node_id": "215b",
+        "parent_node": "215",
+        "group": "200",
+        "level": 3,
+        "title": "215.b. Changes in the ”Coordinator’s Manual”"
+      },
+      {
+        "type": "heading",
+        "crs_id": "215c",
+        "node_id": "215c",
+        "parent_node": "215",
+        "group": "200",
+        "level": 3,
+        "title": "215.c. Changes in the Floodplain Map"
+      },
+      {
+        "type": "heading",
+        "crs_id": "215d",
+        "node_id": "215d",
+        "parent_node": "215",
+        "group": "200",
+        "level": 3,
+        "title": "215.d. New Development"
+      },
+      {
+        "type": "page",
+        "crs_id": "220",
+        "node_id": "220",
+        "parent_node": "200",
+        "group": "200",
+        "level": 1,
+        "title": "220 Credit Calculation—Summary"
+      },
+      {
+        "type": "page",
+        "crs_id": "221",
+        "node_id": "221",
+        "parent_node": "220",
+        "group": "200",
+        "level": 2,
+        "title": "221 Step 1. Element Credit Points"
+      },
+      {
+        "type": "heading",
+        "node_id": "221-1",
+        "parent_node": "221",
+        "group": "200",
+        "level": 3,
+        "title": "Credit for Activities not listed in the “Coordinator’s Manual”"
+      },
+      {
+        "type": "page",
+        "crs_id": "222",
+        "node_id": "222",
+        "parent_node": "220",
+        "group": "200",
+        "level": 2,
+        "title": "222 Step 2. Impact Adjustment"
+      },
+      {
+        "type": "page",
+        "crs_id": "223",
+        "node_id": "223",
+        "parent_node": "220",
+        "group": "200",
+        "level": 2,
+        "title": "223 Step 3. Credit Calculation"
+      },
+      {
+        "type": "heading",
+        "crs_id": "223a",
+        "node_id": "223a",
+        "parent_node": "223",
+        "group": "200",
+        "level": 3,
+        "title": "223.a. Element Calculation"
+      },
+      {
+        "type": "heading",
+        "crs_id": "223b",
+        "node_id": "223b",
+        "parent_node": "223",
+        "group": "200",
+        "level": 3,
+        "title": "223.b. Activity Calculation"
+      },
+      {
+        "type": "page",
+        "crs_id": "224",
+        "node_id": "224",
+        "parent_node": "220",
+        "group": "200",
+        "level": 2,
+        "title": "224 Step 4. County Growth Adjustment"
+      },
+      {
+        "type": "page",
+        "crs_id": "225",
+        "node_id": "225",
+        "parent_node": "220",
+        "group": "200",
+        "level": 2,
+        "title": "225 Step 5. Community Classification"
+      },
+      {
+        "type": "page",
+        "crs_id": "230",
+        "node_id": "230",
+        "parent_node": "200",
+        "group": "200",
+        "level": 1,
+        "title": "230 Verification—Summary"
+      },
+      {
+        "type": "page",
+        "crs_id": "231",
+        "node_id": "231",
+        "parent_node": "230",
+        "group": "200",
+        "level": 2,
+        "title": "231 Documentation Provided by the Community"
+      },
+      {
+        "type": "heading",
+        "crs_id": "231a",
+        "node_id": "231a",
+        "parent_node": "231",
+        "group": "200",
+        "level": 3,
+        "title": "231.a. Certifications, Checklists, and Examples"
+      },
+      {
+        "type": "heading",
+        "node_id": "231a-1",
+        "parent_node": "231a",
+        "group": "200",
+        "level": 4,
+        "title": "Certifications"
+      },
+      {
+        "type": "heading",
+        "node_id": "231a-2",
+        "parent_node": "231a",
+        "group": "200",
+        "level": 4,
+        "title": "Checklists"
+      },
+      {
+        "type": "heading",
+        "node_id": "231a-3",
+        "parent_node": "231a",
+        "group": "200",
+        "level": 4,
+        "title": "Examples"
+      },
+      {
+        "type": "heading",
+        "crs_id": "231b",
+        "node_id": "231b",
+        "parent_node": "231",
+        "group": "200",
+        "level": 3,
+        "title": "231.b. Digital Documentation"
+      },
+      {
+        "type": "heading",
+        "crs_id": "231c",
+        "node_id": "231c",
+        "parent_node": "231",
+        "group": "200",
+        "level": 3,
+        "title": "231.c. Ordinances"
+      },
+      {
+        "type": "heading",
+        "crs_id": "231d",
+        "node_id": "231d",
+        "parent_node": "231",
+        "group": "200",
+        "level": 3,
+        "title": "231.d. State-based Credit"
+      },
+      {
+        "type": "heading",
+        "crs_id": "231e",
+        "node_id": "231e",
+        "parent_node": "231",
+        "group": "200",
+        "level": 3,
+        "title": "231.e. Maps"
+      },
+      {
+        "type": "page",
+        "crs_id": "232",
+        "node_id": "232",
+        "parent_node": "230",
+        "group": "200",
+        "level": 2,
+        "title": "232 Verification Visit"
+      },
+      {
+        "type": "heading",
+        "crs_id": "232a",
+        "node_id": "232a",
+        "parent_node": "232",
+        "group": "200",
+        "level": 3,
+        "title": "232.a. Visit Scheduling"
+      },
+      {
+        "type": "heading",
+        "crs_id": "232b",
+        "node_id": "232b",
+        "parent_node": "232",
+        "group": "200",
+        "level": 3,
+        "title": "232.b. Cycle Scheduling"
+      },
+      {
+        "type": "heading",
+        "crs_id": "232c",
+        "node_id": "232c",
+        "parent_node": "232",
+        "group": "200",
+        "level": 3,
+        "title": "232.c. Conduct of Verification Visit"
+      },
+      {
+        "type": "heading",
+        "node_id": "232c-1",
+        "parent_node": "232c",
+        "group": "200",
+        "level": 4,
+        "title": "Preparation"
+      },
+      {
+        "type": "heading",
+        "node_id": "232c-2",
+        "parent_node": "232c",
+        "group": "200",
+        "level": 4,
+        "title": "Office Review"
+      },
+      {
+        "type": "heading",
+        "node_id": "232c-3",
+        "parent_node": "232c",
+        "group": "200",
+        "level": 4,
+        "title": "New Activities"
+      },
+      {
+        "type": "heading",
+        "node_id": "232c-4",
+        "parent_node": "232c",
+        "group": "200",
+        "level": 4,
+        "title": "Field Verification"
+      },
+      {
+        "type": "heading",
+        "node_id": "232c-5",
+        "parent_node": "232c",
+        "group": "200",
+        "level": 4,
+        "title": "Exit Interview"
+      },
+      {
+        "type": "heading",
+        "crs_id": "232d",
+        "node_id": "232d",
+        "parent_node": "232",
+        "group": "200",
+        "level": 3,
+        "title": "232.d. Verification Thresholds"
+      },
+      {
+        "type": "page",
+        "crs_id": "233",
+        "node_id": "233",
+        "parent_node": "230",
+        "group": "200",
+        "level": 2,
+        "title": "233 Post-visit Actions"
+      },
+      {
+        "type": "heading",
+        "node_id": "233-1",
+        "parent_node": "233",
+        "group": "200",
+        "level": 3,
+        "title": "Technical Reviews"
+      },
+      {
+        "type": "heading",
+        "node_id": "233-2",
+        "parent_node": "233",
+        "group": "200",
+        "level": 3,
+        "title": "Verification Review"
+      },
+      {
+        "type": "heading",
+        "node_id": "233-3",
+        "parent_node": "233",
+        "group": "200",
+        "level": 3,
+        "title": "Reconsideration"
+      },
+      {
+        "type": "heading",
+        "node_id": "233-4",
+        "parent_node": "233",
+        "group": "200",
+        "level": 3,
+        "title": "Recertification"
+      },
+      {
+        "type": "page",
+        "crs_id": "240",
+        "node_id": "240",
+        "parent_node": "200",
+        "group": "200",
+        "level": 1,
+        "title": "240 Community Self-Assessment"
+      },
+      {
+        "type": "page",
+        "crs_id": "300",
+        "node_id": "300",
+        "group": "300",
+        "level": 0,
+        "title": "300 Public Information Activities"
+      },
+      {
+        "type": "page",
+        "crs_id": "301",
+        "node_id": "301",
+        "parent_node": "300",
+        "group": "300",
+        "level": 1,
+        "title": "301 Construction Certificate Requirements"
+      },
+      {
+        "type": "heading",
+        "crs_id": "301a",
+        "node_id": "301a",
+        "parent_node": "301",
+        "group": "300",
+        "level": 2,
+        "title": "301.a. CRS Participation Requirement"
+      },
+      {
+        "type": "heading",
+        "crs_id": "301b",
+        "node_id": "301b",
+        "parent_node": "301",
+        "group": "300",
+        "level": 2,
+        "title": "301.b. Required Floodplain-related Construction Certificates"
+      },
+      {
+        "type": "heading",
+        "crs_id": "301c",
+        "node_id": "301c",
+        "parent_node": "301",
+        "group": "300",
+        "level": 2,
+        "title": "301.c. Construction Certificate Checklists"
+      },
+      {
+        "type": "heading",
+        "crs_id": "301d",
+        "node_id": "301d",
+        "parent_node": "301",
+        "group": "300",
+        "level": 2,
+        "title": "301.d. Getting Correct Construction Certificates"
+      },
+      {
+        "type": "heading",
+        "crs_id": "301e",
+        "node_id": "301e",
+        "parent_node": "301",
+        "group": "300",
+        "level": 2,
+        "title": "301.e. Construction Certificate Verification"
+      },
+      {
+        "type": "page",
+        "crs_id": "302",
+        "node_id": "302",
+        "parent_node": "300",
+        "group": "300",
+        "level": 1,
+        "title": "302 Impact Adjustments for Buildings"
+      },
+      {
+        "type": "heading",
+        "crs_id": "302a",
+        "node_id": "302a",
+        "parent_node": "302",
+        "group": "300",
+        "level": 2,
+        "title": "302.a. Definition of “Building”"
+      },
+      {
+        "type": "heading",
+        "crs_id": "302b",
+        "node_id": "302b",
+        "parent_node": "302",
+        "group": "300",
+        "level": 2,
+        "title": "302.b. Pre- and Post-FIRM buildings"
+      },
+      {
+        "type": "page",
+        "crs_id": "303",
+        "node_id": "303",
+        "parent_node": "300",
+        "group": "300",
+        "level": 1,
+        "title": "303 Impact Adjustment Ratio"
+      },
+      {
+        "type": "heading",
+        "crs_id": "303a",
+        "node_id": "303a",
+        "parent_node": "303",
+        "group": "300",
+        "level": 2,
+        "title": "303.a. Counting Buildings"
+      },
+      {
+        "type": "heading",
+        "crs_id": "303b",
+        "node_id": "303b",
+        "parent_node": "303",
+        "group": "300",
+        "level": 2,
+        "title": "303.b. bSF (buildings in the SFHA)"
+      },
+      {
+        "type": "page",
+        "crs_id": "310",
+        "node_id": "310",
+        "parent_node": "300",
+        "group": "300",
+        "level": 1,
+        "title": "310 Elevation Certificates—Summary"
+      },
+      {
+        "type": "page",
+        "crs_id": "311",
+        "node_id": "311",
+        "parent_node": "310",
+        "group": "300",
+        "level": 2,
+        "title": "311 Background"
+      },
+      {
+        "type": "heading",
+        "crs_id": "311a",
+        "node_id": "311a",
+        "parent_node": "311",
+        "group": "300",
+        "level": 3,
+        "title": "311.a. Activity Description"
+      },
+      {
+        "type": "heading",
+        "crs_id": "311b",
+        "node_id": "311b",
+        "parent_node": "311",
+        "group": "300",
+        "level": 3,
+        "title": "311.b. Activity Impact Adjustment"
+      },
+      {
+        "type": "heading",
+        "crs_id": "311c",
+        "node_id": "311c",
+        "parent_node": "311",
+        "group": "300",
+        "level": 3,
+        "title": "311.c. Credit Verification"
+      },
+      {
+        "type": "page",
+        "crs_id": "312",
+        "node_id": "312",
+        "parent_node": "310",
+        "group": "300",
+        "level": 2,
+        "title": "312 Elements"
+      },
+      {
+        "type": "page",
+        "crs_id": "312a",
+        "node_id": "312a",
+        "parent_node": "312",
+        "group": "300",
+        "level": 3,
+        "title": "312.a. Construction certificate management procedures (CCMP)",
+        "abbr": "CCMP"
+      },
+      {
+        "type": "heading",
+        "node_id": "312a-1",
+        "parent_node": "312a",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Criteria for CCMP"
+      },
+      {
+        "type": "heading",
+        "node_id": "312a-2",
+        "parent_node": "312a",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Points for CCMP"
+      },
+      {
+        "type": "heading",
+        "node_id": "312a-3",
+        "parent_node": "312a",
+        "group": "300",
+        "level": 4,
+        "title": "Impact Adjustment for CCMP"
+      },
+      {
+        "type": "heading",
+        "node_id": "312a-4",
+        "parent_node": "312a",
+        "group": "300",
+        "level": 4,
+        "title": "Documentation for CCMP Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "312b",
+        "node_id": "312b",
+        "parent_node": "312",
+        "group": "300",
+        "level": 3,
+        "title": "312.b. Maintaining Elevation Certificates for post-FIRM buildings (ECPO)",
+        "abbr": "ECPO"
+      },
+      {
+        "type": "heading",
+        "node_id": "312b-1",
+        "parent_node": "312b",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Criteria for ECPO"
+      },
+      {
+        "type": "heading",
+        "node_id": "312b-2",
+        "parent_node": "312b",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Points for ECPO"
+      },
+      {
+        "type": "heading",
+        "node_id": "312b-3",
+        "parent_node": "312b",
+        "group": "300",
+        "level": 4,
+        "title": "Impact Adjustment for ECPO"
+      },
+      {
+        "type": "heading",
+        "node_id": "312b-4",
+        "parent_node": "312b",
+        "group": "300",
+        "level": 4,
+        "title": "Documentation for ECPO Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "page",
+        "node_id": "312c",
+        "parent_node": "312",
+        "group": "300",
+        "level": 3,
+        "title": "312.c. Maintaining Elevation Certificates for pre-FIRM buildings (ECPR)",
+        "abbr": "ECPR"
+      },
+      {
+        "type": "heading",
+        "node_id": "312c-1",
+        "parent_node": "312c",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Criteria for ECPR"
+      },
+      {
+        "type": "heading",
+        "node_id": "312c-2",
+        "parent_node": "312c",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Points for ECPR"
+      },
+      {
+        "type": "heading",
+        "node_id": "312c-3",
+        "parent_node": "312c",
+        "group": "300",
+        "level": 4,
+        "title": "Impact Adjustment for ECPR"
+      },
+      {
+        "type": "heading",
+        "node_id": "312c-4",
+        "parent_node": "312c",
+        "group": "300",
+        "level": 4,
+        "title": "Documentation for ECPR Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "313",
+        "node_id": "313",
+        "parent_node": "310",
+        "group": "300",
+        "level": 2,
+        "title": "313 Credit Calculation"
+      },
+      {
+        "type": "page",
+        "crs_id": "314",
+        "node_id": "314",
+        "parent_node": "310",
+        "group": "300",
+        "level": 2,
+        "title": "314 Related Activities under the Community Rating System"
+      },
+      {
+        "type": "page",
+        "crs_id": "320",
+        "node_id": "320",
+        "parent_node": "300",
+        "group": "300",
+        "level": 1,
+        "title": "320 Map Information Service—Summary"
+      },
+      {
+        "type": "page",
+        "crs_id": "321",
+        "node_id": "321",
+        "parent_node": "320",
+        "group": "300",
+        "level": 2,
+        "title": "321 Background"
+      },
+      {
+        "type": "heading",
+        "crs_id": "321a",
+        "node_id": "321a",
+        "parent_node": "321",
+        "group": "300",
+        "level": 3,
+        "title": "321.a. Activity Description"
+      },
+      {
+        "type": "heading",
+        "crs_id": "321b",
+        "node_id": "321b",
+        "parent_node": "321",
+        "group": "300",
+        "level": 3,
+        "title": "321.b. Activity Credit Criteria"
+      },
+      {
+        "type": "page",
+        "crs_id": "322",
+        "node_id": "322",
+        "parent_node": "320",
+        "group": "300",
+        "level": 2,
+        "title": "322 Elements"
+      },
+      {
+        "type": "page",
+        "crs_id": "322a",
+        "node_id": "322a",
+        "parent_node": "322",
+        "group": "300",
+        "level": 3,
+        "title": "322.a. Basic FIRM information (MI1)",
+        "abbr": "MI1"
+      },
+      {
+        "type": "heading",
+        "node_id": "322a-1",
+        "parent_node": "322a",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Criteria for MI1"
+      },
+      {
+        "type": "heading",
+        "node_id": "322a-2",
+        "parent_node": "322a",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Points for MI1"
+      },
+      {
+        "type": "page",
+        "crs_id": "322b",
+        "node_id": "322b",
+        "parent_node": "322",
+        "group": "300",
+        "level": 3,
+        "title": "322.b. Additional FIRM information (MI2)",
+        "abbr": "MI2"
+      },
+      {
+        "type": "heading",
+        "node_id": "322b-1",
+        "parent_node": "322b",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Criteria for MI2"
+      },
+      {
+        "type": "heading",
+        "node_id": "322b-2",
+        "parent_node": "322b",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Points for MI2"
+      },
+      {
+        "type": "page",
+        "crs_id": "322c",
+        "node_id": "322c",
+        "parent_node": "322",
+        "group": "300",
+        "level": 3,
+        "title": "322.c. Other flood problems not shown on the FIRM (MI3)",
+        "abbr": "MI3"
+      },
+      {
+        "type": "heading",
+        "node_id": "322c-1",
+        "parent_node": "322c",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Criteria for MI3"
+      },
+      {
+        "type": "heading",
+        "node_id": "322c-2",
+        "parent_node": "322c",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Points for MI3"
+      },
+      {
+        "type": "page",
+        "crs_id": "322d",
+        "node_id": "322d",
+        "parent_node": "322",
+        "group": "300",
+        "level": 3,
+        "title": "322.d. Flood depth data (MI4)",
+        "abbr": "MI4"
+      },
+      {
+        "type": "heading",
+        "node_id": "322d-1",
+        "parent_node": "322d",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Criteria for MI4"
+      },
+      {
+        "type": "heading",
+        "node_id": "322d-2",
+        "parent_node": "322d",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Points for MI4"
+      },
+      {
+        "type": "page",
+        "crs_id": "322e",
+        "node_id": "322e",
+        "parent_node": "322",
+        "group": "300",
+        "level": 3,
+        "title": "322.e. Special flood-related hazards (MI5)",
+        "abbr": "MI5"
+      },
+      {
+        "type": "heading",
+        "node_id": "322e-1",
+        "parent_node": "322e",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Criteria for MI5"
+      },
+      {
+        "type": "heading",
+        "node_id": "322e-2",
+        "parent_node": "322e",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Points for MI5"
+      },
+      {
+        "type": "page",
+        "crs_id": "322f",
+        "node_id": "322f",
+        "parent_node": "322",
+        "group": "300",
+        "level": 3,
+        "title": "322.f. Historical flood information (MI6)",
+        "abbr": "MI6"
+      },
+      {
+        "type": "heading",
+        "node_id": "322f-1",
+        "parent_node": "322f",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Criteria for MI6"
+      },
+      {
+        "type": "heading",
+        "node_id": "322f-2",
+        "parent_node": "322f",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Points for MI6"
+      },
+      {
+        "type": "page",
+        "crs_id": "322g",
+        "node_id": "322g",
+        "parent_node": "322",
+        "group": "300",
+        "level": 3,
+        "title": "322.g. Natural floodplain functions (MI7)",
+        "abbr": "MI7"
+      },
+      {
+        "type": "heading",
+        "node_id": "322g-1",
+        "parent_node": "322g",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Criteria for MI7"
+      },
+      {
+        "type": "heading",
+        "node_id": "322g-2",
+        "parent_node": "322g",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Points for MI7"
+      },
+      {
+        "type": "page",
+        "crs_id": "323",
+        "node_id": "323",
+        "parent_node": "320",
+        "group": "300",
+        "level": 2,
+        "title": "323 Impact Adjustment"
+      },
+      {
+        "type": "page",
+        "crs_id": "324",
+        "node_id": "324",
+        "parent_node": "320",
+        "group": "300",
+        "level": 2,
+        "title": "324 Credit Calculation"
+      },
+      {
+        "type": "page",
+        "crs_id": "325",
+        "node_id": "325",
+        "parent_node": "320",
+        "group": "300",
+        "level": 2,
+        "title": "325 Documentation Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "326",
+        "node_id": "326",
+        "parent_node": "320",
+        "group": "300",
+        "level": 2,
+        "title": "326 Related Activities under the Community Rating System"
+      },
+      {
+        "type": "page",
+        "crs_id": "330",
+        "node_id": "330",
+        "parent_node": "300",
+        "group": "300",
+        "level": 1,
+        "title": "330 Outreach Projects—Summary"
+      },
+      {
+        "type": "page",
+        "crs_id": "331",
+        "node_id": "331",
+        "parent_node": "330",
+        "group": "300",
+        "level": 2,
+        "title": "331 Background"
+      },
+      {
+        "type": "heading",
+        "crs_id": "331a",
+        "node_id": "331a",
+        "parent_node": "331",
+        "group": "300",
+        "level": 3,
+        "title": "331.a. Activity Description"
+      },
+      {
+        "type": "heading",
+        "node_id": "331a-1",
+        "parent_node": "331a",
+        "group": "300",
+        "level": 4,
+        "title": "Messages"
+      },
+      {
+        "type": "heading",
+        "node_id": "331a-2",
+        "parent_node": "331a",
+        "group": "300",
+        "level": 4,
+        "title": "Projects"
+      },
+      {
+        "type": "heading",
+        "node_id": "331a-3",
+        "parent_node": "331a",
+        "group": "300",
+        "level": 4,
+        "title": "Other Credits"
+      },
+      {
+        "type": "heading",
+        "crs_id": "331b",
+        "node_id": "331b",
+        "parent_node": "331",
+        "group": "300",
+        "level": 3,
+        "title": "331.b. Impact Adjustment"
+      },
+      {
+        "type": "page",
+        "crs_id": "332",
+        "node_id": "332",
+        "parent_node": "330",
+        "group": "300",
+        "level": 2,
+        "title": "332 Elements"
+      },
+      {
+        "type": "page",
+        "crs_id": "332a",
+        "node_id": "332a",
+        "parent_node": "332",
+        "group": "300",
+        "level": 3,
+        "title": "332.a. Outreach projects (OP)",
+        "abbr": "OP"
+      },
+      {
+        "type": "heading",
+        "node_id": "332a-1",
+        "parent_node": "332a",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Criteria for OP"
+      },
+      {
+        "type": "heading",
+        "node_id": "332a-2",
+        "parent_node": "332a",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Points for OP"
+      },
+      {
+        "type": "heading",
+        "node_id": "332a-3",
+        "parent_node": "332a",
+        "group": "300",
+        "level": 4,
+        "title": "Documentation for OP Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "332b",
+        "node_id": "332b",
+        "parent_node": "332",
+        "group": "300",
+        "level": 3,
+        "title": "332.b. Flood response preparations (FRP)",
+        "abbr": "FRP"
+      },
+      {
+        "type": "heading",
+        "node_id": "332b-1",
+        "parent_node": "332b",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Criteria for FRP"
+      },
+      {
+        "type": "heading",
+        "node_id": "332b-2",
+        "parent_node": "332b",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Points for FRP"
+      },
+      {
+        "type": "heading",
+        "node_id": "332b-3",
+        "parent_node": "332b",
+        "group": "300",
+        "level": 4,
+        "title": "Documentation for FRP Provided by the Community"
+      },
+      {
+        "type": "heading",
+        "crs_id": "page",
+        "node_id": "332c",
+        "parent_node": "332",
+        "group": "300",
+        "level": 3,
+        "title": "332.c. Program for Public Information (PPI) (extra credit points)",
+        "abbr": "PPI"
+      },
+      {
+        "type": "heading",
+        "node_id": "332c-1",
+        "parent_node": "332c",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Criteria for PPI"
+      },
+      {
+        "type": "heading",
+        "node_id": "332c-2",
+        "parent_node": "332c",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Points for PPI"
+      },
+      {
+        "type": "heading",
+        "node_id": "332c-3",
+        "parent_node": "332c",
+        "group": "300",
+        "level": 4,
+        "title": "Documentation for PPI Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "332d",
+        "node_id": "332d",
+        "parent_node": "332",
+        "group": "300",
+        "level": 3,
+        "title": "332.d. Stakeholder delivery (STK) (extra credit points)",
+        "abbr": "STK"
+      },
+      {
+        "type": "heading",
+        "node_id": "332d-1",
+        "parent_node": "332d",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Criteria for STK"
+      },
+      {
+        "type": "heading",
+        "node_id": "332d-2",
+        "parent_node": "332d",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Points for STK"
+      },
+      {
+        "type": "heading",
+        "node_id": "332d-3",
+        "parent_node": "332d",
+        "group": "300",
+        "level": 4,
+        "title": "Documentation for STK Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "333",
+        "node_id": "333",
+        "parent_node": "330",
+        "group": "300",
+        "level": 2,
+        "title": "333 Impact Adjustment"
+      },
+      {
+        "type": "page",
+        "crs_id": "334",
+        "node_id": "334",
+        "parent_node": "330",
+        "group": "300",
+        "level": 2,
+        "title": "334 Credit Calculation"
+      },
+      {
+        "type": "page",
+        "crs_id": "335",
+        "node_id": "335",
+        "parent_node": "330",
+        "group": "300",
+        "level": 2,
+        "title": "335 Related Activities under the Community Rating System"
+      },
+      {
+        "type": "page",
+        "crs_id": "340",
+        "node_id": "340",
+        "parent_node": "300",
+        "group": "300",
+        "level": 1,
+        "title": "340 Hazard Disclosure—Summary"
+      },
+      {
+        "type": "page",
+        "crs_id": "341",
+        "node_id": "341",
+        "parent_node": "340",
+        "group": "300",
+        "level": 2,
+        "title": "341 Background"
+      },
+      {
+        "type": "heading",
+        "crs_id": "341a",
+        "node_id": "341a",
+        "parent_node": "341",
+        "group": "300",
+        "level": 3,
+        "title": "341.a. Activity Description"
+      },
+      {
+        "type": "heading",
+        "crs_id": "341b",
+        "node_id": "341b",
+        "parent_node": "341",
+        "group": "300",
+        "level": 3,
+        "title": "341.b. Impact Adjustment"
+      },
+      {
+        "type": "page",
+        "crs_id": "342",
+        "node_id": "342",
+        "parent_node": "340",
+        "group": "300",
+        "level": 2,
+        "title": "342 Elements"
+      },
+      {
+        "type": "page",
+        "crs_id": "342a",
+        "node_id": "342a",
+        "parent_node": "342",
+        "group": "300",
+        "level": 3,
+        "title": "342.a. Disclosure of the flood hazard (DFH)",
+        "abbr": "DFH"
+      },
+      {
+        "type": "heading",
+        "node_id": "342a-1",
+        "parent_node": "342a",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Criteria for DFH"
+      },
+      {
+        "type": "heading",
+        "node_id": "342a-2",
+        "parent_node": "342a",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Points for DFH"
+      },
+      {
+        "type": "heading",
+        "node_id": "342a-3",
+        "parent_node": "342a",
+        "group": "300",
+        "level": 4,
+        "title": "Documentation for DFH Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "342b",
+        "node_id": "342b",
+        "parent_node": "342",
+        "group": "300",
+        "level": 3,
+        "title": "342.b. Other disclosure requirements (ODR)",
+        "abbr": "ODR"
+      },
+      {
+        "type": "heading",
+        "node_id": "342b-1",
+        "parent_node": "342b",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Criteria for ODR"
+      },
+      {
+        "type": "heading",
+        "node_id": "342b-2",
+        "parent_node": "342b",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Points for ODR"
+      },
+      {
+        "type": "heading",
+        "node_id": "342b-3",
+        "parent_node": "342b",
+        "group": "300",
+        "level": 4,
+        "title": "Documentation for ODR Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "342c",
+        "node_id": "342c",
+        "parent_node": "342",
+        "group": "300",
+        "level": 3,
+        "title": "342.c. Real estate agents’ brochure (REB)",
+        "abbr": "REB"
+      },
+      {
+        "type": "heading",
+        "node_id": "342c-1",
+        "parent_node": "342c",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Criteria for REB"
+      },
+      {
+        "type": "heading",
+        "node_id": "342c-2",
+        "parent_node": "342c",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Points for REB"
+      },
+      {
+        "type": "heading",
+        "node_id": "342c-3",
+        "parent_node": "342c",
+        "group": "300",
+        "level": 4,
+        "title": "Documentation for REB Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "342d",
+        "node_id": "342d",
+        "parent_node": "342",
+        "group": "300",
+        "level": 3,
+        "title": "342.d. Disclosure of other hazards (DOH)",
+        "abbr": "DOH"
+      },
+      {
+        "type": "heading",
+        "node_id": "342d-1",
+        "parent_node": "342d",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Points for DOH"
+      },
+      {
+        "type": "heading",
+        "node_id": "342d-2",
+        "parent_node": "342d",
+        "group": "300",
+        "level": 4,
+        "title": "Documentation for DOH Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "343",
+        "node_id": "343",
+        "parent_node": "340",
+        "group": "300",
+        "level": 2,
+        "title": "343 Impact Adjustment"
+      },
+      {
+        "type": "page",
+        "crs_id": "344",
+        "node_id": "344",
+        "parent_node": "340",
+        "group": "300",
+        "level": 2,
+        "title": "344 Credit Calculation"
+      },
+      {
+        "type": "page",
+        "crs_id": "345",
+        "node_id": "345",
+        "parent_node": "340",
+        "group": "300",
+        "level": 2,
+        "title": "345 Related Activities under the Community Rating System"
+      },
+      {
+        "type": "page",
+        "crs_id": "350",
+        "node_id": "350",
+        "parent_node": "300",
+        "group": "300",
+        "level": 1,
+        "title": "350 Flood Protection Information—Summary"
+      },
+      {
+        "type": "page",
+        "crs_id": "351",
+        "node_id": "351",
+        "parent_node": "350",
+        "group": "300",
+        "level": 2,
+        "title": "351 Background"
+      },
+      {
+        "type": "heading",
+        "crs_id": "351a",
+        "node_id": "351a",
+        "parent_node": "351",
+        "group": "300",
+        "level": 3,
+        "title": "351.a. Activity Description"
+      },
+      {
+        "type": "heading",
+        "crs_id": "351b",
+        "node_id": "351b",
+        "parent_node": "351",
+        "group": "300",
+        "level": 3,
+        "title": "351.b. Impact Adjustment"
+      },
+      {
+        "type": "page",
+        "crs_id": "352",
+        "node_id": "352",
+        "parent_node": "350",
+        "group": "300",
+        "level": 2,
+        "title": "352 Elements"
+      },
+      {
+        "type": "page",
+        "crs_id": "352a",
+        "node_id": "352a",
+        "parent_node": "352",
+        "group": "300",
+        "level": 3,
+        "title": "352.a. Flood protection library (LIB)",
+        "abbr": "LIB"
+      },
+      {
+        "type": "heading",
+        "node_id": "352a-1",
+        "parent_node": "352a",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Criteria for LIB"
+      },
+      {
+        "type": "heading",
+        "node_id": "352a-2",
+        "parent_node": "352a",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Points for LIB"
+      },
+      {
+        "type": "heading",
+        "node_id": "352a-3",
+        "parent_node": "352a",
+        "group": "300",
+        "level": 4,
+        "title": "Documentation for LIB Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "352b",
+        "node_id": "352b",
+        "parent_node": "352",
+        "group": "300",
+        "level": 3,
+        "title": "352.b. Locally pertinent documents (LPD)",
+        "abbr": "LPD"
+      },
+      {
+        "type": "heading",
+        "node_id": "352b-1",
+        "parent_node": "352b",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Criteria for LPD"
+      },
+      {
+        "type": "heading",
+        "node_id": "352b-2",
+        "parent_node": "352b",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Points for LPD"
+      },
+      {
+        "type": "heading",
+        "node_id": "352b-3",
+        "parent_node": "352b",
+        "group": "300",
+        "level": 4,
+        "title": "Documentation for LPD Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "352c",
+        "node_id": "352c",
+        "parent_node": "352",
+        "group": "300",
+        "level": 3,
+        "title": "352.c. Flood protection website (WEB)",
+        "abbr": "WEB"
+      },
+      {
+        "type": "heading",
+        "node_id": "352c-1",
+        "parent_node": "352c",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Criteria for WEB"
+      },
+      {
+        "type": "heading",
+        "node_id": "352c-2",
+        "parent_node": "352c",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Points for WEB"
+      },
+      {
+        "type": "heading",
+        "node_id": "352c-3",
+        "parent_node": "352c",
+        "group": "300",
+        "level": 4,
+        "title": "Documentation for WEB Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "353",
+        "node_id": "353",
+        "parent_node": "350",
+        "group": "300",
+        "level": 2,
+        "title": "353 Impact Adjustment"
+      },
+      {
+        "type": "page",
+        "crs_id": "354",
+        "node_id": "354",
+        "parent_node": "350",
+        "group": "300",
+        "level": 2,
+        "title": "354 Credit Calculation"
+      },
+      {
+        "type": "page",
+        "crs_id": "355",
+        "node_id": "355",
+        "parent_node": "350",
+        "group": "300",
+        "level": 2,
+        "title": "355 Related Activities under the Community Rating System"
+      },
+      {
+        "type": "page",
+        "crs_id": "360",
+        "node_id": "360",
+        "parent_node": "300",
+        "group": "300",
+        "level": 1,
+        "title": "360 Flood Protection Assistance—Summary"
+      },
+      {
+        "type": "page",
+        "crs_id": "361",
+        "node_id": "361",
+        "parent_node": "360",
+        "group": "300",
+        "level": 2,
+        "title": "361 Background"
+      },
+      {
+        "type": "heading",
+        "crs_id": "361a",
+        "node_id": "361a",
+        "parent_node": "361",
+        "group": "300",
+        "level": 3,
+        "title": "361.a. Activity Description"
+      },
+      {
+        "type": "heading",
+        "crs_id": "361b",
+        "node_id": "361b",
+        "parent_node": "361",
+        "group": "300",
+        "level": 3,
+        "title": "361.b. Impact Adjustment"
+      },
+      {
+        "type": "page",
+        "crs_id": "362",
+        "node_id": "362",
+        "parent_node": "360",
+        "group": "300",
+        "level": 2,
+        "title": "362 Elements"
+      },
+      {
+        "type": "page",
+        "crs_id": "362a",
+        "node_id": "362a",
+        "parent_node": "362",
+        "group": "300",
+        "level": 3,
+        "title": "362.a. Property protection advice (PPA)",
+        "abbr": "PPA"
+      },
+      {
+        "type": "heading",
+        "node_id": "362a-1",
+        "parent_node": "362a",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Criteria for PPA"
+      },
+      {
+        "type": "heading",
+        "node_id": "362a-2",
+        "parent_node": "362a",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Points for PPA"
+      },
+      {
+        "type": "heading",
+        "node_id": "362a-3",
+        "parent_node": "362a",
+        "group": "300",
+        "level": 4,
+        "title": "Documentation for PPA Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "362b",
+        "node_id": "362b",
+        "parent_node": "362",
+        "group": "300",
+        "level": 3,
+        "title": "362.b. Protection advice provided after a site visit (PPV)",
+        "abbr": "PPV"
+      },
+      {
+        "type": "heading",
+        "node_id": "362b-1",
+        "parent_node": "362b",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Criteria for PPV"
+      },
+      {
+        "type": "heading",
+        "node_id": "362b-2",
+        "parent_node": "362b",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Points for PPV"
+      },
+      {
+        "type": "heading",
+        "node_id": "362b-3",
+        "parent_node": "362b",
+        "group": "300",
+        "level": 4,
+        "title": "Documentation for PPV Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "362c",
+        "node_id": "362c",
+        "parent_node": "362",
+        "group": "300",
+        "level": 3,
+        "title": "362.c. Financial assistance advice (FAA)",
+        "abbr": "FAA"
+      },
+      {
+        "type": "heading",
+        "node_id": "362c-1",
+        "parent_node": "362c",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Criteria for FAA"
+      },
+      {
+        "type": "heading",
+        "node_id": "362c-2",
+        "parent_node": "362c",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Points for FAA"
+      },
+      {
+        "type": "heading",
+        "node_id": "362c-3",
+        "parent_node": "362c",
+        "group": "300",
+        "level": 4,
+        "title": "Documentation for FAA Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "362d",
+        "node_id": "362d",
+        "parent_node": "362",
+        "group": "300",
+        "level": 3,
+        "title": "362.d. Advisor training (TNG)",
+        "abbr": "TNG"
+      },
+      {
+        "type": "heading",
+        "node_id": "362d-1",
+        "parent_node": "362d",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Criteria for TNG"
+      },
+      {
+        "type": "heading",
+        "node_id": "362d-2",
+        "parent_node": "362d",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Points for TNG"
+      },
+      {
+        "type": "heading",
+        "node_id": "362d-3",
+        "parent_node": "362d",
+        "group": "300",
+        "level": 4,
+        "title": "Documentation for TNG Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "363",
+        "node_id": "363",
+        "parent_node": "360",
+        "group": "300",
+        "level": 2,
+        "title": "363 Impact Adjustment"
+      },
+      {
+        "type": "page",
+        "crs_id": "364",
+        "node_id": "364",
+        "parent_node": "360",
+        "group": "300",
+        "level": 2,
+        "title": "364 Credit Calculation"
+      },
+      {
+        "type": "page",
+        "crs_id": "365",
+        "node_id": "365",
+        "parent_node": "360",
+        "group": "300",
+        "level": 2,
+        "title": "365 Related Activities under the Community Rating System"
+      },
+      {
+        "type": "page",
+        "crs_id": "370",
+        "node_id": "370",
+        "parent_node": "300",
+        "group": "300",
+        "level": 1,
+        "title": "370 Flood Insurance Promotion—Summary"
+      },
+      {
+        "type": "page",
+        "crs_id": "371",
+        "node_id": "371",
+        "parent_node": "370",
+        "group": "300",
+        "level": 2,
+        "title": "371 Background"
+      },
+      {
+        "type": "heading",
+        "crs_id": "371a",
+        "node_id": "371a",
+        "parent_node": "371",
+        "group": "300",
+        "level": 3,
+        "title": "371.a. Activity Description"
+      },
+      {
+        "type": "heading",
+        "crs_id": "371b",
+        "node_id": "371b",
+        "parent_node": "371",
+        "group": "300",
+        "level": 3,
+        "title": "371.b. Impact Adjustment"
+      },
+      {
+        "type": "page",
+        "crs_id": "372",
+        "node_id": "372",
+        "parent_node": "370",
+        "group": "300",
+        "level": 2,
+        "title": "372 Elements"
+      },
+      {
+        "type": "page",
+        "crs_id": "372a",
+        "node_id": "372a",
+        "parent_node": "372",
+        "group": "300",
+        "level": 3,
+        "title": "372.a. Flood insurance coverage assessment (FIA)",
+        "abbr": "FIA"
+      },
+      {
+        "type": "heading",
+        "node_id": "372a-1",
+        "parent_node": "372a",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Criteria for FIA"
+      },
+      {
+        "type": "heading",
+        "node_id": "372a-2",
+        "parent_node": "372a",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Points for FIA"
+      },
+      {
+        "type": "heading",
+        "node_id": "372a-3",
+        "parent_node": "372a",
+        "group": "300",
+        "level": 4,
+        "title": "Documentation for FIA Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "372b",
+        "node_id": "372b",
+        "parent_node": "372",
+        "group": "300",
+        "level": 3,
+        "title": "372.b. Coverage improvement plan (CP)",
+        "abbr": "CP"
+      },
+      {
+        "type": "heading",
+        "node_id": "372b-1",
+        "parent_node": "372b",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Criteria for CP"
+      },
+      {
+        "type": "heading",
+        "node_id": "372b-2",
+        "parent_node": "372b",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Points for CP"
+      },
+      {
+        "type": "heading",
+        "node_id": "372b-3",
+        "parent_node": "372b",
+        "group": "300",
+        "level": 4,
+        "title": "Documentation for CP Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "372c",
+        "node_id": "372c",
+        "parent_node": "372",
+        "group": "300",
+        "level": 3,
+        "title": "372.c. Coverage improvement plan implementation (CPI)",
+        "abbr": "CPI"
+      },
+      {
+        "type": "heading",
+        "node_id": "372c-1",
+        "parent_node": "372c",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Criteria for CPI"
+      },
+      {
+        "type": "heading",
+        "node_id": "372c-2",
+        "parent_node": "372c",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Points for CPI"
+      },
+      {
+        "type": "heading",
+        "node_id": "372c-3",
+        "parent_node": "372c",
+        "group": "300",
+        "level": 4,
+        "title": "Documentation for CPI Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "372d",
+        "node_id": "372d",
+        "parent_node": "372",
+        "group": "300",
+        "level": 3,
+        "title": "372.d. Technical assistance (TA)",
+        "abbr": "TA"
+      },
+      {
+        "type": "heading",
+        "node_id": "372d-1",
+        "parent_node": "372d",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Criteria for TA"
+      },
+      {
+        "type": "heading",
+        "node_id": "372d-2",
+        "parent_node": "372d",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Points for TA"
+      },
+      {
+        "type": "heading",
+        "node_id": "372d-3",
+        "parent_node": "372d",
+        "group": "300",
+        "level": 4,
+        "title": "Documentation for TA Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "372e",
+        "node_id": "372e",
+        "parent_node": "372",
+        "group": "300",
+        "level": 3,
+        "title": "372.e. Flood insurance brochures (FIB)",
+        "abbr": "FIB"
+      },
+      {
+        "type": "heading",
+        "node_id": "372e-1",
+        "parent_node": "372e",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Criteria for FIB"
+      },
+      {
+        "type": "heading",
+        "node_id": "372e-2",
+        "parent_node": "372e",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Points for FIB"
+      },
+      {
+        "type": "heading",
+        "node_id": "372e-3",
+        "parent_node": "372e",
+        "group": "300",
+        "level": 4,
+        "title": "Documentation for FIB Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "372f",
+        "node_id": "372f",
+        "parent_node": "372",
+        "group": "300",
+        "level": 3,
+        "title": "372.f. Flood insurance meeting (FIM)",
+        "abbr": "FIM"
+      },
+      {
+        "type": "heading",
+        "node_id": "372f-1",
+        "parent_node": "372f",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Criteria for FIM"
+      },
+      {
+        "type": "heading",
+        "node_id": "372f-2",
+        "parent_node": "372f",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Points for FIM"
+      },
+      {
+        "type": "heading",
+        "node_id": "372f-3",
+        "parent_node": "372f",
+        "group": "300",
+        "level": 4,
+        "title": "Documentation for FIM Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "372g",
+        "node_id": "372g",
+        "parent_node": "372",
+        "group": "300",
+        "level": 3,
+        "title": "372.g. State-required continuing education (SCE)",
+        "abbr": "SCE"
+      },
+      {
+        "type": "heading",
+        "node_id": "372g-1",
+        "parent_node": "372g",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Criteria for SCE"
+      },
+      {
+        "type": "heading",
+        "node_id": "372g-2",
+        "parent_node": "372g",
+        "group": "300",
+        "level": 4,
+        "title": "Credit Points for SCE"
+      },
+      {
+        "type": "heading",
+        "node_id": "372g-3",
+        "parent_node": "372g",
+        "group": "300",
+        "level": 4,
+        "title": "Documentation for SCE Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "373",
+        "node_id": "373",
+        "parent_node": "370",
+        "group": "300",
+        "level": 2,
+        "title": "373 Impact Adjustment"
+      },
+      {
+        "type": "page",
+        "crs_id": "374",
+        "node_id": "374",
+        "parent_node": "370",
+        "group": "300",
+        "level": 2,
+        "title": "374 Credit Calculation"
+      },
+      {
+        "type": "page",
+        "crs_id": "375",
+        "node_id": "375",
+        "parent_node": "370",
+        "group": "300",
+        "level": 2,
+        "title": "375 Related Activities under the Community Rating System"
+      },
+      {
+        "type": "page",
+        "crs_id": "400",
+        "node_id": "400",
+        "group": "400",
+        "level": 0,
+        "title": "400 Mapping and Regulations"
+      },
+      {
+        "type": "page",
+        "crs_id": "401",
+        "node_id": "401",
+        "parent_node": "400",
+        "group": "400",
+        "level": 1,
+        "title": "401 Special Flood-related Hazard Areas"
+      },
+      {
+        "type": "page",
+        "crs_id": "402",
+        "node_id": "402",
+        "parent_node": "400",
+        "group": "400",
+        "level": 1,
+        "title": "402 Impact Adjustment for Areas"
+      },
+      {
+        "type": "heading",
+        "crs_id": "402a",
+        "node_id": "402a",
+        "parent_node": "402",
+        "group": "400",
+        "level": 2,
+        "title": "402.a. Impact Adjustment Ratio"
+      },
+      {
+        "type": "heading",
+        "crs_id": "402b",
+        "node_id": "402b",
+        "parent_node": "402",
+        "group": "400",
+        "level": 2,
+        "title": "402.b. Optional Minimum Value"
+      },
+      {
+        "type": "heading",
+        "crs_id": "402c",
+        "node_id": "402c",
+        "parent_node": "402",
+        "group": "400",
+        "level": 2,
+        "title": "402.c. Regulating Areas Preserved as Open Space"
+      },
+      {
+        "type": "page",
+        "crs_id": "403",
+        "node_id": "403",
+        "parent_node": "400",
+        "group": "400",
+        "level": 1,
+        "title": "403 Impact Adjustment Map"
+      },
+      {
+        "type": "heading",
+        "crs_id": "403a",
+        "node_id": "403a",
+        "parent_node": "403",
+        "group": "400",
+        "level": 2,
+        "title": "403.a. Selecting a Base Map"
+      },
+      {
+        "type": "heading",
+        "crs_id": "403b",
+        "node_id": "403b",
+        "parent_node": "403",
+        "group": "400",
+        "level": 2,
+        "title": "403.b. Mapping aSFHA"
+      },
+      {
+        "type": "heading",
+        "crs_id": "403c",
+        "node_id": "403c",
+        "parent_node": "403",
+        "group": "400",
+        "level": 2,
+        "title": "403.c. Marking an Impact Adjustment Map"
+      },
+      {
+        "type": "heading",
+        "crs_id": "403d",
+        "node_id": "403d",
+        "parent_node": "403",
+        "group": "400",
+        "level": 2,
+        "title": "403.d. Watershed Impact Adjustment Map"
+      },
+      {
+        "type": "heading",
+        "crs_id": "403e",
+        "node_id": "403e",
+        "parent_node": "403",
+        "group": "400",
+        "level": 2,
+        "title": "403.e. Calculating Areas"
+      },
+      {
+        "type": "heading",
+        "crs_id": "403f",
+        "node_id": "403f",
+        "parent_node": "403",
+        "group": "400",
+        "level": 2,
+        "title": "403.f. Example Impact Adjustment Map"
+      },
+      {
+        "type": "page",
+        "crs_id": "410",
+        "node_id": "410",
+        "parent_node": "400",
+        "group": "400",
+        "level": 1,
+        "title": "410 Flood Hazard Mapping—Summary"
+      },
+      {
+        "type": "page",
+        "crs_id": "411",
+        "node_id": "411",
+        "parent_node": "410",
+        "group": "400",
+        "level": 2,
+        "title": "411 Background"
+      },
+      {
+        "type": "heading",
+        "crs_id": "411a",
+        "node_id": "411a",
+        "parent_node": "411",
+        "group": "400",
+        "level": 3,
+        "title": "411.a. Activity Description"
+      },
+      {
+        "type": "heading",
+        "crs_id": "411b",
+        "node_id": "411b",
+        "parent_node": "411",
+        "group": "400",
+        "level": 3,
+        "title": "411.b. Activity Credit Criteria"
+      },
+      {
+        "type": "page",
+        "crs_id": "412",
+        "node_id": "412",
+        "parent_node": "410",
+        "group": "400",
+        "level": 2,
+        "title": "412 Elements"
+      },
+      {
+        "type": "page",
+        "crs_id": "412a",
+        "node_id": "412a",
+        "parent_node": "412",
+        "group": "400",
+        "level": 3,
+        "title": "412.a. New study (NS)",
+        "abbr": "NS"
+      },
+      {
+        "type": "heading",
+        "node_id": "412a-1",
+        "parent_node": "412a",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Criteria for NS"
+      },
+      {
+        "type": "heading",
+        "node_id": "412a-2",
+        "parent_node": "412a",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Points for NS"
+      },
+      {
+        "type": "heading",
+        "node_id": "412a-3",
+        "parent_node": "412a",
+        "group": "400",
+        "level": 4,
+        "title": "Impact Adjustment for NS"
+      },
+      {
+        "type": "heading",
+        "node_id": "412a-4",
+        "parent_node": "412a",
+        "group": "400",
+        "level": 4,
+        "title": "Documentation for NS Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "412b",
+        "node_id": "412b",
+        "parent_node": "412",
+        "group": "400",
+        "level": 3,
+        "title": "412.b. Leverage (LEV)",
+        "abbr": "LEV"
+      },
+      {
+        "type": "heading",
+        "node_id": "412b-1",
+        "parent_node": "412b",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Criteria for LEV"
+      },
+      {
+        "type": "heading",
+        "node_id": "412b-2",
+        "parent_node": "412b",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Points for LEV"
+      },
+      {
+        "type": "heading",
+        "node_id": "412b-3",
+        "parent_node": "412b",
+        "group": "400",
+        "level": 4,
+        "title": "Impact Adjustment for LEV"
+      },
+      {
+        "type": "heading",
+        "node_id": "412b-4",
+        "parent_node": "412b",
+        "group": "400",
+        "level": 4,
+        "title": "Documentation for LEV Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "412c",
+        "node_id": "412c",
+        "parent_node": "412",
+        "group": "400",
+        "level": 3,
+        "title": "412.c. State review (SR)",
+        "abbr": "SR"
+      },
+      {
+        "type": "heading",
+        "node_id": "412c-1",
+        "parent_node": "412c",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Criteria for SR"
+      },
+      {
+        "type": "heading",
+        "node_id": "412c-2",
+        "parent_node": "412c",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Points for SR"
+      },
+      {
+        "type": "heading",
+        "node_id": "412c-3",
+        "parent_node": "412c",
+        "group": "400",
+        "level": 4,
+        "title": "Impact Adjustment for SR"
+      },
+      {
+        "type": "heading",
+        "node_id": "412c-4",
+        "parent_node": "412c",
+        "group": "400",
+        "level": 4,
+        "title": "Documentation for SR Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "412d",
+        "node_id": "412d",
+        "parent_node": "412",
+        "group": "400",
+        "level": 3,
+        "title": "412.d. Higher study standards (HSS)",
+        "abbr": "HSS"
+      },
+      {
+        "type": "heading",
+        "node_id": "412d-1",
+        "parent_node": "412d",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Criteria for HSS"
+      },
+      {
+        "type": "heading",
+        "node_id": "412d-2",
+        "parent_node": "412d",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Points for HSS"
+      },
+      {
+        "type": "heading",
+        "node_id": "412d-3",
+        "parent_node": "412d",
+        "group": "400",
+        "level": 4,
+        "title": "Impact Adjustment for HSS"
+      },
+      {
+        "type": "heading",
+        "node_id": "412d-4",
+        "parent_node": "412d",
+        "group": "400",
+        "level": 4,
+        "title": "Documentation for HSS Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "412e",
+        "node_id": "412e",
+        "parent_node": "412",
+        "group": "400",
+        "level": 3,
+        "title": "412.e. More restrictive floodway standard (FWS)",
+        "abbr": "FWS"
+      },
+      {
+        "type": "heading",
+        "node_id": "412e-1",
+        "parent_node": "412e",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Criteria for FWS"
+      },
+      {
+        "type": "heading",
+        "node_id": "412e-2",
+        "parent_node": "412e",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Points for FWS"
+      },
+      {
+        "type": "heading",
+        "node_id": "412e-3",
+        "parent_node": "412e",
+        "group": "400",
+        "level": 4,
+        "title": "Impact Adjustment for FWS"
+      },
+      {
+        "type": "heading",
+        "node_id": "412e-4",
+        "parent_node": "412e",
+        "group": "400",
+        "level": 4,
+        "title": "Documentation for FWS Provided by the Community"
+      },
+      {
+        "type": "heading",
+        "crs_id": "page",
+        "node_id": "412f",
+        "parent_node": "412",
+        "group": "400",
+        "level": 3,
+        "title": "412.f. Mapping for special coastal flood-related hazards (MAPSH)",
+        "abbr": "MAPSH"
+      },
+      {
+        "type": "heading",
+        "node_id": "412f-0",
+        "parent_node": "412f",
+        "group": "400",
+        "level": 4,
+        "title": "(1) Mapping coastal erosion hazard areas (MCE)"
+      },
+      {
+        "type": "heading",
+        "node_id": "412f-0b",
+        "parent_node": "412f",
+        "group": "400",
+        "level": 4,
+        "title": "(2) Mapping tsunami hazard areas (MTS)"
+      },
+      {
+        "type": "heading",
+        "node_id": "412f-1",
+        "parent_node": "412f",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Criteria for MTS"
+      },
+      {
+        "type": "heading",
+        "node_id": "412f-2",
+        "parent_node": "412f",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Calculation for MTS"
+      },
+      {
+        "type": "heading",
+        "node_id": "412f-3",
+        "parent_node": "412f",
+        "group": "400",
+        "level": 4,
+        "title": "Impact Adjustment for MAPSH"
+      },
+      {
+        "type": "heading",
+        "node_id": "412f-4",
+        "parent_node": "412f",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Calculation for MAPSH"
+      },
+      {
+        "type": "heading",
+        "node_id": "412f-5",
+        "parent_node": "412f",
+        "group": "400",
+        "level": 4,
+        "title": "Documentation for MAPSH Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "413",
+        "node_id": "413",
+        "parent_node": "410",
+        "group": "400",
+        "level": 2,
+        "title": "413 Impact Adjustment"
+      },
+      {
+        "type": "page",
+        "crs_id": "414",
+        "node_id": "414",
+        "parent_node": "410",
+        "group": "400",
+        "level": 2,
+        "title": "414 Credit Calculation"
+      },
+      {
+        "type": "page",
+        "crs_id": "415",
+        "node_id": "415",
+        "parent_node": "410",
+        "group": "400",
+        "level": 2,
+        "title": "415 Related Activities under the Community Rating System"
+      },
+      {
+        "type": "page",
+        "crs_id": "420",
+        "node_id": "420",
+        "parent_node": "400",
+        "group": "400",
+        "level": 1,
+        "title": "420 Open Space Preservation—Summary"
+      },
+      {
+        "type": "page",
+        "crs_id": "421",
+        "node_id": "421",
+        "parent_node": "420",
+        "group": "400",
+        "level": 2,
+        "title": "421 Background"
+      },
+      {
+        "type": "heading",
+        "crs_id": "421a",
+        "node_id": "421a",
+        "parent_node": "421",
+        "group": "400",
+        "level": 3,
+        "title": "421.a. Activity Description"
+      },
+      {
+        "type": "page",
+        "crs_id": "422",
+        "node_id": "422",
+        "parent_node": "420",
+        "group": "400",
+        "level": 2,
+        "title": "422 Elements"
+      },
+      {
+        "type": "page",
+        "crs_id": "422a",
+        "node_id": "422a",
+        "parent_node": "422",
+        "group": "400",
+        "level": 3,
+        "title": "422.a. Open space preservation (OSP)",
+        "abbr": "OSP"
+      },
+      {
+        "type": "heading",
+        "node_id": "422a-1",
+        "parent_node": "422a",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Criteria for OSP"
+      },
+      {
+        "type": "heading",
+        "node_id": "422a-2",
+        "parent_node": "422a",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Points for OSP"
+      },
+      {
+        "type": "heading",
+        "node_id": "422a-3",
+        "parent_node": "422a",
+        "group": "400",
+        "level": 4,
+        "title": "Impact Adjustment for OSP"
+      },
+      {
+        "type": "heading",
+        "node_id": "422a-4",
+        "parent_node": "422a",
+        "group": "400",
+        "level": 4,
+        "title": "Documentation for OSP Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "422b",
+        "node_id": "422b",
+        "parent_node": "422",
+        "group": "400",
+        "level": 3,
+        "title": "422.b. Deed restrictions (DR)",
+        "abbr": "DR"
+      },
+      {
+        "type": "heading",
+        "node_id": "422b-1",
+        "parent_node": "422b",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Criteria for DR"
+      },
+      {
+        "type": "heading",
+        "node_id": "422b-2",
+        "parent_node": "422b",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Points for DR"
+      },
+      {
+        "type": "heading",
+        "node_id": "422b-3",
+        "parent_node": "422b",
+        "group": "400",
+        "level": 4,
+        "title": "Impact Adjustment for DR"
+      },
+      {
+        "type": "heading",
+        "node_id": "422b-4",
+        "parent_node": "422b",
+        "group": "400",
+        "level": 4,
+        "title": "Documentation for DR Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "422c",
+        "node_id": "422c",
+        "parent_node": "422",
+        "group": "400",
+        "level": 3,
+        "title": "422.c. Natural functions open space (NFOS)",
+        "abbr": "NFOS"
+      },
+      {
+        "type": "heading",
+        "node_id": "422c-1",
+        "parent_node": "422c",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Criteria for NFOS"
+      },
+      {
+        "type": "heading",
+        "node_id": "422c-2",
+        "parent_node": "422c",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Calculation for NFOS"
+      },
+      {
+        "type": "heading",
+        "node_id": "422c-3",
+        "parent_node": "422c",
+        "group": "400",
+        "level": 4,
+        "title": "Impact Adjustment for NFOS"
+      },
+      {
+        "type": "heading",
+        "node_id": "422c-4",
+        "parent_node": "422c",
+        "group": "400",
+        "level": 4,
+        "title": "Documentation for NFOS Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "422d",
+        "node_id": "422d",
+        "parent_node": "422",
+        "group": "400",
+        "level": 3,
+        "title": "422.d. Special flood-related hazards open space (SHOS)",
+        "abbr": "SHOS"
+      },
+      {
+        "type": "heading",
+        "node_id": "422d-1",
+        "parent_node": "422d",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Criteria for SHOS"
+      },
+      {
+        "type": "heading",
+        "node_id": "422d-2",
+        "parent_node": "422d",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Calculation for SHOS"
+      },
+      {
+        "type": "heading",
+        "node_id": "422d-3",
+        "parent_node": "422d",
+        "group": "400",
+        "level": 4,
+        "title": "Documentation for SHOS Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "422e",
+        "node_id": "422e",
+        "parent_node": "422",
+        "group": "400",
+        "level": 3,
+        "title": "422.e. Coastal erosion open space (CEOS)",
+        "abbr": "CEOS"
+      },
+      {
+        "type": "heading",
+        "node_id": "422e-1",
+        "parent_node": "422e",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Criteria for CEOS"
+      },
+      {
+        "type": "heading",
+        "node_id": "422e-2",
+        "parent_node": "422e",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Calculation for CEOS"
+      },
+      {
+        "type": "heading",
+        "node_id": "422e-3",
+        "parent_node": "422e",
+        "group": "400",
+        "level": 4,
+        "title": "Documentation for CEOS Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "422f",
+        "node_id": "422f",
+        "parent_node": "422",
+        "group": "400",
+        "level": 3,
+        "title": "422.f. Open Space Incentives (OSI)",
+        "abbr": "OSI"
+      },
+      {
+        "type": "heading",
+        "node_id": "422f-1",
+        "parent_node": "422f",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Criteria for OSI"
+      },
+      {
+        "type": "heading",
+        "node_id": "422f-2",
+        "parent_node": "422f",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Points for OSI"
+      },
+      {
+        "type": "heading",
+        "node_id": "422f-3",
+        "parent_node": "422f",
+        "group": "400",
+        "level": 4,
+        "title": "Impact Adjustment for OSI"
+      },
+      {
+        "type": "heading",
+        "node_id": "422f-4",
+        "parent_node": "422f",
+        "group": "400",
+        "level": 4,
+        "title": "Documentation for OSI Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "422g",
+        "node_id": "422g",
+        "parent_node": "422",
+        "group": "400",
+        "level": 3,
+        "title": "422.g. Low-density zoning (LZ)",
+        "abbr": "LZ"
+      },
+      {
+        "type": "heading",
+        "node_id": "422g-1",
+        "parent_node": "422g",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Criteria for LZ"
+      },
+      {
+        "type": "heading",
+        "node_id": "422g-2",
+        "parent_node": "422g",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Points for LZ"
+      },
+      {
+        "type": "heading",
+        "node_id": "422g-3",
+        "parent_node": "422g",
+        "group": "400",
+        "level": 4,
+        "title": "Impact Adjustment for LZ"
+      },
+      {
+        "type": "heading",
+        "node_id": "422g-4",
+        "parent_node": "422g",
+        "group": "400",
+        "level": 4,
+        "title": "Documentation for LZ Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "422h",
+        "node_id": "422h",
+        "parent_node": "422",
+        "group": "400",
+        "level": 3,
+        "title": "422.h. Natural shoreline protection (NSP)",
+        "abbr": "NSP"
+      },
+      {
+        "type": "heading",
+        "node_id": "422h-1",
+        "parent_node": "422h",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Criteria for NSP"
+      },
+      {
+        "type": "heading",
+        "node_id": "422h-2",
+        "parent_node": "422h",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Points for NSP"
+      },
+      {
+        "type": "heading",
+        "node_id": "422h-3",
+        "parent_node": "422h",
+        "group": "400",
+        "level": 4,
+        "title": "Impact Adjustment for NSP"
+      },
+      {
+        "type": "heading",
+        "node_id": "422h-4",
+        "parent_node": "422h",
+        "group": "400",
+        "level": 4,
+        "title": "Documentation for NSP Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "423",
+        "node_id": "423",
+        "parent_node": "420",
+        "group": "400",
+        "level": 2,
+        "title": "423 Credit Calculation"
+      },
+      {
+        "type": "page",
+        "crs_id": "424",
+        "node_id": "424",
+        "parent_node": "420",
+        "group": "400",
+        "level": 2,
+        "title": "424 Related Activities under the Community Rating System"
+      },
+      {
+        "type": "page",
+        "crs_id": "430",
+        "node_id": "430",
+        "parent_node": "400",
+        "group": "400",
+        "level": 1,
+        "title": "430 Higher Regulatory Standards—Summary"
+      },
+      {
+        "type": "page",
+        "crs_id": "431",
+        "node_id": "431",
+        "parent_node": "430",
+        "group": "400",
+        "level": 2,
+        "title": "431 Background"
+      },
+      {
+        "type": "heading",
+        "crs_id": "431a",
+        "node_id": "431a",
+        "parent_node": "431",
+        "group": "400",
+        "level": 3,
+        "title": "431.a. Activity Description"
+      },
+      {
+        "type": "heading",
+        "crs_id": "431b",
+        "node_id": "431b",
+        "parent_node": "431",
+        "group": "400",
+        "level": 3,
+        "title": "431.b. Activity Credit Criteria"
+      },
+      {
+        "type": "heading",
+        "crs_id": "431c",
+        "node_id": "431c",
+        "parent_node": "431",
+        "group": "400",
+        "level": 3,
+        "title": "431.c. Activity Impact Adjustment"
+      },
+      {
+        "type": "heading",
+        "node_id": "431c-1",
+        "parent_node": "431c",
+        "group": "400",
+        "level": 4,
+        "title": "Impact Adjustment Maps"
+      },
+      {
+        "type": "heading",
+        "crs_id": "431d",
+        "node_id": "431d",
+        "parent_node": "431",
+        "group": "400",
+        "level": 3,
+        "title": "431.d. Activity Documentation Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "432",
+        "node_id": "432",
+        "parent_node": "430",
+        "group": "400",
+        "level": 2,
+        "title": "432 Elements"
+      },
+      {
+        "type": "page",
+        "crs_id": "432a",
+        "node_id": "432a",
+        "parent_node": "432",
+        "group": "400",
+        "level": 3,
+        "title": "432.a. Development limitations (DL)",
+        "abbr": "DL"
+      },
+      {
+        "type": "heading",
+        "node_id": "432a-1",
+        "parent_node": "432a",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Criteria for DL"
+      },
+      {
+        "type": "heading",
+        "node_id": "432a-2",
+        "parent_node": "432a",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Points for DL"
+      },
+      {
+        "type": "heading",
+        "node_id": "432a-3",
+        "parent_node": "432a",
+        "group": "400",
+        "level": 4,
+        "title": "Impact Adjustment for DL"
+      },
+      {
+        "type": "heading",
+        "node_id": "432a-4",
+        "parent_node": "432a",
+        "group": "400",
+        "level": 4,
+        "title": "Documentation for DL Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "432b",
+        "node_id": "432b",
+        "parent_node": "432",
+        "group": "400",
+        "level": 3,
+        "title": "432.b. Freeboard (FRB)",
+        "abbr": "FRB"
+      },
+      {
+        "type": "heading",
+        "node_id": "432b-1",
+        "parent_node": "432b",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Criteria for FRB"
+      },
+      {
+        "type": "heading",
+        "node_id": "432b-2",
+        "parent_node": "432b",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Points for FRB"
+      },
+      {
+        "type": "heading",
+        "node_id": "432b-3",
+        "parent_node": "432b",
+        "group": "400",
+        "level": 4,
+        "title": "Impact Adjustment for FRB"
+      },
+      {
+        "type": "heading",
+        "node_id": "432b-4",
+        "parent_node": "432b",
+        "group": "400",
+        "level": 4,
+        "title": "Documentation for FRB Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "432c",
+        "node_id": "432c",
+        "parent_node": "432",
+        "group": "400",
+        "level": 3,
+        "title": "432.c. Foundation protection (FDN)",
+        "abbr": "FDN"
+      },
+      {
+        "type": "heading",
+        "node_id": "432c-1",
+        "parent_node": "432c",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Criteria for FDN"
+      },
+      {
+        "type": "heading",
+        "node_id": "432c-2",
+        "parent_node": "432c",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Points for FDN"
+      },
+      {
+        "type": "heading",
+        "node_id": "432c-3",
+        "parent_node": "432c",
+        "group": "400",
+        "level": 4,
+        "title": "Impact Adjustment for FDN"
+      },
+      {
+        "type": "heading",
+        "node_id": "432c-4",
+        "parent_node": "432c",
+        "group": "400",
+        "level": 4,
+        "title": "Documentation for FDN Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "432d",
+        "node_id": "432d",
+        "parent_node": "432",
+        "group": "400",
+        "level": 3,
+        "title": "432.d. Cumulative Substantial Improvements (CSI)",
+        "abbr": "CSI"
+      },
+      {
+        "type": "heading",
+        "node_id": "432d-1",
+        "parent_node": "432d",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Criteria for CSI"
+      },
+      {
+        "type": "heading",
+        "node_id": "432d-2",
+        "parent_node": "432d",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Points for CSI"
+      },
+      {
+        "type": "heading",
+        "node_id": "432d-3",
+        "parent_node": "432d",
+        "group": "400",
+        "level": 4,
+        "title": "Impact Adjustment for CSI"
+      },
+      {
+        "type": "heading",
+        "node_id": "432d-4",
+        "parent_node": "432d",
+        "group": "400",
+        "level": 4,
+        "title": "Documentation for CSI Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "432e",
+        "node_id": "432e",
+        "parent_node": "432",
+        "group": "400",
+        "level": 3,
+        "title": "432.e. Lower substantial improvements threshold (LSI)",
+        "abbr": "LSI"
+      },
+      {
+        "type": "heading",
+        "node_id": "432e-1",
+        "parent_node": "432e",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Criteria for LSI"
+      },
+      {
+        "type": "heading",
+        "node_id": "432e-2",
+        "parent_node": "432e",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Points for LSI"
+      },
+      {
+        "type": "heading",
+        "node_id": "432e-3",
+        "parent_node": "432e",
+        "group": "400",
+        "level": 4,
+        "title": "Impact Adjustment for LSI"
+      },
+      {
+        "type": "heading",
+        "node_id": "432e-4",
+        "parent_node": "432e",
+        "group": "400",
+        "level": 4,
+        "title": "Documentation for LSI Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "432f",
+        "node_id": "432f",
+        "parent_node": "432",
+        "group": "400",
+        "level": 3,
+        "title": "432.f. Protection of critical facilities (PCF)",
+        "abbr": "PCF"
+      },
+      {
+        "type": "heading",
+        "node_id": "432f-1",
+        "parent_node": "432f",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Criteria for PCF"
+      },
+      {
+        "type": "heading",
+        "node_id": "432f-2",
+        "parent_node": "432f",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Points for PCF"
+      },
+      {
+        "type": "heading",
+        "node_id": "432f-3",
+        "parent_node": "432f",
+        "group": "400",
+        "level": 4,
+        "title": "Impact Adjustment for PCF"
+      },
+      {
+        "type": "heading",
+        "node_id": "432f-4",
+        "parent_node": "432f",
+        "group": "400",
+        "level": 4,
+        "title": "Documentation for PCF Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "432g",
+        "node_id": "432g",
+        "parent_node": "432",
+        "group": "400",
+        "level": 3,
+        "title": "432.g. Enclosure limits (ENL)",
+        "abbr": "ENL"
+      },
+      {
+        "type": "heading",
+        "node_id": "432g-1",
+        "parent_node": "432g",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Criteria for ENL"
+      },
+      {
+        "type": "heading",
+        "node_id": "432g-2",
+        "parent_node": "432g",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Points for ENL"
+      },
+      {
+        "type": "heading",
+        "node_id": "432g-2b",
+        "parent_node": "432g",
+        "group": "400",
+        "level": 4,
+        "title": "CAZ and V-Zone ENL Bonus Credit (ENLcaz)"
+      },
+      {
+        "type": "heading",
+        "node_id": "432g-3",
+        "parent_node": "432g",
+        "group": "400",
+        "level": 4,
+        "title": "Impact Adjustment for ENL and ENLcaz"
+      },
+      {
+        "type": "heading",
+        "node_id": "432g-4",
+        "parent_node": "432g",
+        "group": "400",
+        "level": 4,
+        "title": "Documentation for ENL Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "432h",
+        "node_id": "432h",
+        "parent_node": "432",
+        "group": "400",
+        "level": 3,
+        "title": "432.h. Building code (BC)",
+        "abbr": "BC"
+      },
+      {
+        "type": "heading",
+        "node_id": "432h-1",
+        "parent_node": "432h",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Criteria for BC"
+      },
+      {
+        "type": "heading",
+        "node_id": "432h-2",
+        "parent_node": "432h",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Points for BC"
+      },
+      {
+        "type": "heading",
+        "node_id": "432h-3",
+        "parent_node": "432h",
+        "group": "400",
+        "level": 4,
+        "title": "Impact Adjustment for BC"
+      },
+      {
+        "type": "heading",
+        "node_id": "432h-4",
+        "parent_node": "432h",
+        "group": "400",
+        "level": 4,
+        "title": "Documentation for BC Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "432i",
+        "node_id": "432i",
+        "parent_node": "432",
+        "group": "400",
+        "level": 3,
+        "title": "432.i. Local drainage protection (LDP)",
+        "abbr": "LDP"
+      },
+      {
+        "type": "heading",
+        "node_id": "432i-1",
+        "parent_node": "432i",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Criteria for LDP"
+      },
+      {
+        "type": "heading",
+        "node_id": "432i-2",
+        "parent_node": "432i",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Points for LDP"
+      },
+      {
+        "type": "heading",
+        "node_id": "432i-3",
+        "parent_node": "432i",
+        "group": "400",
+        "level": 4,
+        "title": "Impact Adjustment for LDP"
+      },
+      {
+        "type": "heading",
+        "node_id": "432i-4",
+        "parent_node": "432i",
+        "group": "400",
+        "level": 4,
+        "title": "Documentation for LDP Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "432j",
+        "node_id": "432j",
+        "parent_node": "432",
+        "group": "400",
+        "level": 3,
+        "title": "432.j. Manufactured home parks (MHP)",
+        "abbr": "MHP"
+      },
+      {
+        "type": "heading",
+        "node_id": "432j-1",
+        "parent_node": "432j",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Criteria for MHP"
+      },
+      {
+        "type": "heading",
+        "node_id": "432j-2",
+        "parent_node": "432j",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Points for MHP"
+      },
+      {
+        "type": "heading",
+        "node_id": "432j-3",
+        "parent_node": "432j",
+        "group": "400",
+        "level": 4,
+        "title": "Impact Adjustment for MHP"
+      },
+      {
+        "type": "heading",
+        "node_id": "432j-4",
+        "parent_node": "432j",
+        "group": "400",
+        "level": 4,
+        "title": "Documentation for MHP Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "432k",
+        "node_id": "432k",
+        "parent_node": "432",
+        "group": "400",
+        "level": 3,
+        "title": "432.k. Coastal A Zones (CAZ)",
+        "abbr": "CAZ"
+      },
+      {
+        "type": "heading",
+        "node_id": "432k-1",
+        "parent_node": "432k",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Criteria for CAZ"
+      },
+      {
+        "type": "heading",
+        "node_id": "432k-2",
+        "parent_node": "432k",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Points for CAZ"
+      },
+      {
+        "type": "heading",
+        "node_id": "432k-3",
+        "parent_node": "432k",
+        "group": "400",
+        "level": 4,
+        "title": "Impact Adjustment for CAZ"
+      },
+      {
+        "type": "heading",
+        "node_id": "432k-4",
+        "parent_node": "432k",
+        "group": "400",
+        "level": 4,
+        "title": "Documentation for CAZ Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "432l",
+        "node_id": "432l",
+        "parent_node": "432",
+        "group": "400",
+        "level": 3,
+        "title": "432.l. Special flood-related hazards regulations (SHR)",
+        "abbr": "SHR"
+      },
+      {
+        "type": "heading",
+        "node_id": "432l-1",
+        "parent_node": "432l",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Criteria for SHR"
+      },
+      {
+        "type": "heading",
+        "node_id": "432l-2",
+        "parent_node": "432l",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Points for SHR"
+      },
+      {
+        "type": "heading",
+        "node_id": "432l-3",
+        "parent_node": "432l",
+        "group": "400",
+        "level": 4,
+        "title": "Impact Adjustment for SHR"
+      },
+      {
+        "type": "heading",
+        "node_id": "432l-4",
+        "parent_node": "432l",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Calculation for SHR"
+      },
+      {
+        "type": "heading",
+        "node_id": "432l-5",
+        "parent_node": "432l",
+        "group": "400",
+        "level": 4,
+        "title": "Documentation for SHR Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "432m",
+        "node_id": "432m",
+        "parent_node": "432",
+        "group": "400",
+        "level": 3,
+        "title": "432.m. Tsunami special hazards regulations (TSR)",
+        "abbr": "TSR"
+      },
+      {
+        "type": "heading",
+        "node_id": "432m-1",
+        "parent_node": "432m",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Criteria for TSR"
+      },
+      {
+        "type": "heading",
+        "node_id": "432m-2",
+        "parent_node": "432m",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Calculation for TSR"
+      },
+      {
+        "type": "heading",
+        "node_id": "432m-3",
+        "parent_node": "432m",
+        "group": "400",
+        "level": 4,
+        "title": "Documentation for TSR Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "432n",
+        "node_id": "432n",
+        "parent_node": "432",
+        "group": "400",
+        "level": 3,
+        "title": "432.n. Coastal Erosion Hazard Regulations (CER)",
+        "abbr": "CER"
+      },
+      {
+        "type": "heading",
+        "node_id": "432n-0",
+        "parent_node": "432n",
+        "group": "400",
+        "level": 4,
+        "title": "Setback Regulations"
+      },
+      {
+        "type": "heading",
+        "node_id": "432n-1",
+        "parent_node": "432n",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Criteria for CER"
+      },
+      {
+        "type": "heading",
+        "node_id": "432n-2",
+        "parent_node": "432n",
+        "group": "400",
+        "level": 4,
+        "title": "Impact Adjustment for CER"
+      },
+      {
+        "type": "heading",
+        "node_id": "432n-3",
+        "parent_node": "432n",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Calculation for CER"
+      },
+      {
+        "type": "heading",
+        "node_id": "432n-4",
+        "parent_node": "432n",
+        "group": "400",
+        "level": 4,
+        "title": "Documentation for CER Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "432o",
+        "node_id": "432o",
+        "parent_node": "432",
+        "group": "400",
+        "level": 3,
+        "title": "432.o. Other higher standards (OHS)",
+        "abbr": "OHS"
+      },
+      {
+        "type": "heading",
+        "node_id": "432o-1",
+        "parent_node": "432o",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Criteria for OHS"
+      },
+      {
+        "type": "heading",
+        "node_id": "432o-2",
+        "parent_node": "432o",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Points for OHS"
+      },
+      {
+        "type": "heading",
+        "node_id": "432o-3",
+        "parent_node": "432o",
+        "group": "400",
+        "level": 4,
+        "title": "Impact Adjustment for OHS"
+      },
+      {
+        "type": "heading",
+        "node_id": "432o-4",
+        "parent_node": "432o",
+        "group": "400",
+        "level": 4,
+        "title": "Documentation for OHS Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "432p",
+        "node_id": "432p",
+        "parent_node": "432",
+        "group": "400",
+        "level": 3,
+        "title": "432.p. Regulations administration (RA)",
+        "abbr": "RA"
+      },
+      {
+        "type": "heading",
+        "node_id": "432p-1",
+        "parent_node": "432p",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Criteria for RA"
+      },
+      {
+        "type": "heading",
+        "node_id": "432p-2",
+        "parent_node": "432p",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Points for RA"
+      },
+      {
+        "type": "heading",
+        "node_id": "432p-3",
+        "parent_node": "432p",
+        "group": "400",
+        "level": 4,
+        "title": "Impact Adjustment for RA"
+      },
+      {
+        "type": "heading",
+        "node_id": "432p-4",
+        "parent_node": "432p",
+        "group": "400",
+        "level": 4,
+        "title": "Documentation for RA Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "433",
+        "node_id": "433",
+        "parent_node": "430",
+        "group": "400",
+        "level": 2,
+        "title": "433 Credit Calculation"
+      },
+      {
+        "type": "page",
+        "crs_id": "434",
+        "node_id": "434",
+        "parent_node": "430",
+        "group": "400",
+        "level": 2,
+        "title": "434 Related Activities under the Community Rating System"
+      },
+      {
+        "type": "page",
+        "crs_id": "440",
+        "node_id": "440",
+        "parent_node": "400",
+        "group": "400",
+        "level": 1,
+        "title": "440 Flood Data Maintenance—Summary"
+      },
+      {
+        "type": "page",
+        "crs_id": "441",
+        "node_id": "441",
+        "parent_node": "440",
+        "group": "400",
+        "level": 2,
+        "title": "441 Background"
+      },
+      {
+        "type": "heading",
+        "crs_id": "441a",
+        "node_id": "441a",
+        "parent_node": "441",
+        "group": "400",
+        "level": 3,
+        "title": "441.a. Activity Description"
+      },
+      {
+        "type": "page",
+        "crs_id": "442",
+        "node_id": "442",
+        "parent_node": "440",
+        "group": "400",
+        "level": 2,
+        "title": "442 Elements"
+      },
+      {
+        "type": "page",
+        "crs_id": "442a",
+        "node_id": "442a",
+        "parent_node": "442",
+        "group": "400",
+        "level": 3,
+        "title": "442.a. Additional map data (AMD)",
+        "abbr": "AMD"
+      },
+      {
+        "type": "heading",
+        "node_id": "442a-1",
+        "parent_node": "442a",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Criteria for AMD"
+      },
+      {
+        "type": "heading",
+        "node_id": "442a-2",
+        "parent_node": "442a",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Points for AMD"
+      },
+      {
+        "type": "heading",
+        "node_id": "442a-3",
+        "parent_node": "442a",
+        "group": "400",
+        "level": 4,
+        "title": "Impact Adjustment for AMD"
+      },
+      {
+        "type": "heading",
+        "node_id": "442a-4",
+        "parent_node": "442a",
+        "group": "400",
+        "level": 4,
+        "title": "Documentation for AMD Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "442b",
+        "node_id": "442b",
+        "parent_node": "442",
+        "group": "400",
+        "level": 3,
+        "title": "442.b. FIRM maintenance (FM)",
+        "abbr": "FM"
+      },
+      {
+        "type": "heading",
+        "node_id": "442b-1",
+        "parent_node": "442b",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Criteria for FM"
+      },
+      {
+        "type": "heading",
+        "node_id": "442b-2",
+        "parent_node": "442b",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Points for FM"
+      },
+      {
+        "type": "heading",
+        "node_id": "442b-3",
+        "parent_node": "442b",
+        "group": "400",
+        "level": 4,
+        "title": "Impact Adjustment for FM"
+      },
+      {
+        "type": "heading",
+        "node_id": "442b-4",
+        "parent_node": "442b",
+        "group": "400",
+        "level": 4,
+        "title": "Documentation for FM Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "442c",
+        "node_id": "442c",
+        "parent_node": "442",
+        "group": "400",
+        "level": 3,
+        "title": "442.c. Benchmark maintenance (BMM)",
+        "abbr": "BMM"
+      },
+      {
+        "type": "heading",
+        "node_id": "442c-1",
+        "parent_node": "442c",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Criteria for BMM"
+      },
+      {
+        "type": "heading",
+        "node_id": "442c-2",
+        "parent_node": "442c",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Points for BMM"
+      },
+      {
+        "type": "heading",
+        "node_id": "442c-3",
+        "parent_node": "442c",
+        "group": "400",
+        "level": 4,
+        "title": "Impact Adjustment for BMM"
+      },
+      {
+        "type": "heading",
+        "node_id": "442c-4",
+        "parent_node": "442c",
+        "group": "400",
+        "level": 4,
+        "title": "Documentation for BMM Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "442d",
+        "node_id": "442d",
+        "parent_node": "442",
+        "group": "400",
+        "level": 3,
+        "title": "442.d. Erosion data maintenance (EDM)",
+        "abbr": "EDM"
+      },
+      {
+        "type": "heading",
+        "node_id": "442d-1",
+        "parent_node": "442d",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Criteria for EDM"
+      },
+      {
+        "type": "heading",
+        "node_id": "442d-2",
+        "parent_node": "442d",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Points for EDM"
+      },
+      {
+        "type": "heading",
+        "node_id": "442d-3",
+        "parent_node": "442d",
+        "group": "400",
+        "level": 4,
+        "title": "Impact Adjustment for EDM"
+      },
+      {
+        "type": "heading",
+        "node_id": "442d-4",
+        "parent_node": "442d",
+        "group": "400",
+        "level": 4,
+        "title": "Documentation for EDM Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "443",
+        "node_id": "443",
+        "parent_node": "440",
+        "group": "400",
+        "level": 2,
+        "title": "443 Credit Calculation"
+      },
+      {
+        "type": "page",
+        "crs_id": "444",
+        "node_id": "444",
+        "parent_node": "440",
+        "group": "400",
+        "level": 2,
+        "title": "444 Related Activities under the Community Rating System"
+      },
+      {
+        "type": "page",
+        "crs_id": "450",
+        "node_id": "450",
+        "parent_node": "400",
+        "group": "400",
+        "level": 1,
+        "title": "450 Stormwater Management—Summary"
+      },
+      {
+        "type": "page",
+        "crs_id": "451",
+        "node_id": "451",
+        "parent_node": "450",
+        "group": "400",
+        "level": 2,
+        "title": "451 Background"
+      },
+      {
+        "type": "heading",
+        "crs_id": "451a",
+        "node_id": "451a",
+        "parent_node": "451",
+        "group": "400",
+        "level": 3,
+        "title": "451.a. Activity Description"
+      },
+      {
+        "type": "page",
+        "crs_id": "452",
+        "node_id": "452",
+        "parent_node": "450",
+        "group": "400",
+        "level": 2,
+        "title": "452 Elements"
+      },
+      {
+        "type": "page",
+        "crs_id": "452a",
+        "node_id": "452a",
+        "parent_node": "452",
+        "group": "400",
+        "level": 3,
+        "title": "452.a. Stormwater management regulations (SMR)",
+        "abbr": "SMR"
+      },
+      {
+        "type": "heading",
+        "node_id": "452a-1",
+        "parent_node": "452a",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Criteria for SMR"
+      },
+      {
+        "type": "heading",
+        "node_id": "452a-2",
+        "parent_node": "452a",
+        "group": "400",
+        "level": 4,
+        "title": "Sub-elements"
+      },
+      {
+        "type": "heading",
+        "node_id": "452a-3",
+        "parent_node": "452a",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Points for SZ"
+      },
+      {
+        "type": "heading",
+        "node_id": "452a-4",
+        "parent_node": "452a",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Points for DS"
+      },
+      {
+        "type": "heading",
+        "node_id": "452a-5",
+        "parent_node": "452a",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Points for LID"
+      },
+      {
+        "type": "heading",
+        "node_id": "452a-6",
+        "parent_node": "452a",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Points for PUB"
+      },
+      {
+        "type": "heading",
+        "node_id": "452a-7",
+        "parent_node": "452a",
+        "group": "400",
+        "level": 4,
+        "title": "Impact Adjustment for SMR"
+      },
+      {
+        "type": "heading",
+        "node_id": "452a-8",
+        "parent_node": "452a",
+        "group": "400",
+        "level": 4,
+        "title": "Documentation for SMR Provided by the Community"
+      },
+      {
+        "type": "heading",
+        "node_id": "452a-9",
+        "parent_node": "452a",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Calculation for SMR"
+      },
+      {
+        "type": "page",
+        "crs_id": "452b",
+        "node_id": "452b",
+        "parent_node": "452",
+        "group": "400",
+        "level": 3,
+        "title": "452.b. Watershed master plan (WMP)",
+        "abbr": "WMP"
+      },
+      {
+        "type": "heading",
+        "node_id": "452b-1",
+        "parent_node": "452b",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Criteria for WMP"
+      },
+      {
+        "type": "heading",
+        "node_id": "452b-2",
+        "parent_node": "452b",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Points for WMP"
+      },
+      {
+        "type": "heading",
+        "node_id": "452b-3",
+        "parent_node": "452b",
+        "group": "400",
+        "level": 4,
+        "title": "Impact Adjustment for WMP"
+      },
+      {
+        "type": "heading",
+        "node_id": "452b-4",
+        "parent_node": "452b",
+        "group": "400",
+        "level": 4,
+        "title": "Documentation for WMP Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "452c",
+        "node_id": "452c",
+        "parent_node": "452",
+        "group": "400",
+        "level": 3,
+        "title": "452.c. Erosion and sedimentation control regulations (ESC)",
+        "abbr": "ESC"
+      },
+      {
+        "type": "heading",
+        "node_id": "452c-1",
+        "parent_node": "452c",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Criteria for ESC"
+      },
+      {
+        "type": "heading",
+        "node_id": "452c-2",
+        "parent_node": "452c",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Points for ESC"
+      },
+      {
+        "type": "heading",
+        "node_id": "452c-3",
+        "parent_node": "452c",
+        "group": "400",
+        "level": 4,
+        "title": "Impact Adjustment for ESC"
+      },
+      {
+        "type": "heading",
+        "node_id": "452c-4",
+        "parent_node": "452c",
+        "group": "400",
+        "level": 4,
+        "title": "Documentation for ESC Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "452d",
+        "node_id": "452d",
+        "parent_node": "452",
+        "group": "400",
+        "level": 3,
+        "title": "452.d. Water quality regulations (WQ)",
+        "abbr": "WQ"
+      },
+      {
+        "type": "heading",
+        "node_id": "452d-1",
+        "parent_node": "452d",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Criteria for WQ"
+      },
+      {
+        "type": "heading",
+        "node_id": "452d-2",
+        "parent_node": "452d",
+        "group": "400",
+        "level": 4,
+        "title": "Credit Points for WQ"
+      },
+      {
+        "type": "heading",
+        "node_id": "452d-3",
+        "parent_node": "452d",
+        "group": "400",
+        "level": 4,
+        "title": "Impact Adjustment for WQ"
+      },
+      {
+        "type": "heading",
+        "node_id": "452d-4",
+        "parent_node": "452d",
+        "group": "400",
+        "level": 4,
+        "title": "Documentation for WQ Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "453",
+        "node_id": "453",
+        "parent_node": "450",
+        "group": "400",
+        "level": 2,
+        "title": "453 Credit Calculation"
+      },
+      {
+        "type": "page",
+        "crs_id": "454",
+        "node_id": "454",
+        "parent_node": "450",
+        "group": "400",
+        "level": 2,
+        "title": "454 Related Activities under the Community Rating System"
+      },
+      {
+        "type": "page",
+        "crs_id": "500",
+        "node_id": "500",
+        "group": "500",
+        "level": 0,
+        "title": "500 Flood Damage Reduction Activities"
+      },
+      {
+        "type": "page",
+        "crs_id": "501",
+        "node_id": "501",
+        "parent_node": "500",
+        "group": "500",
+        "level": 1,
+        "title": "501 The Repetitive Loss List"
+      },
+      {
+        "type": "heading",
+        "crs_id": "501a",
+        "node_id": "501a",
+        "parent_node": "501",
+        "group": "500",
+        "level": 2,
+        "title": "501.a. Repetitive losses"
+      },
+      {
+        "type": "heading",
+        "crs_id": "501b",
+        "node_id": "501b",
+        "parent_node": "501",
+        "group": "500",
+        "level": 2,
+        "title": "501.b. The Repetitive Loss List"
+      },
+      {
+        "type": "heading",
+        "crs_id": "501c",
+        "node_id": "501c",
+        "parent_node": "501",
+        "group": "500",
+        "level": 2,
+        "title": "501.c. Updating the List"
+      },
+      {
+        "type": "page",
+        "crs_id": "502",
+        "node_id": "502",
+        "parent_node": "500",
+        "group": "500",
+        "level": 1,
+        "title": "502 Repetitive Loss Category"
+      },
+      {
+        "type": "heading",
+        "crs_id": "502a",
+        "node_id": "502a",
+        "parent_node": "502",
+        "group": "500",
+        "level": 2,
+        "title": "502.a. The Categories"
+      },
+      {
+        "type": "heading",
+        "crs_id": "502b",
+        "node_id": "502b",
+        "parent_node": "502",
+        "group": "500",
+        "level": 2,
+        "title": "502.b. Effective Dates"
+      },
+      {
+        "type": "page",
+        "crs_id": "503",
+        "node_id": "503",
+        "parent_node": "500",
+        "group": "500",
+        "level": 1,
+        "title": "503 Repetitive Loss Areas"
+      },
+      {
+        "type": "heading",
+        "crs_id": "503a",
+        "node_id": "503a",
+        "parent_node": "503",
+        "group": "500",
+        "level": 2,
+        "title": "503.a. The Map"
+      },
+      {
+        "type": "heading",
+        "crs_id": "503b",
+        "node_id": "503b",
+        "parent_node": "503",
+        "group": "500",
+        "level": 2,
+        "title": "503.b. Causes of Repetitive Flooding"
+      },
+      {
+        "type": "heading",
+        "crs_id": "503c",
+        "node_id": "503c",
+        "parent_node": "503",
+        "group": "500",
+        "level": 2,
+        "title": "503.c. Address List and Building Count"
+      },
+      {
+        "type": "page",
+        "crs_id": "504",
+        "node_id": "504",
+        "parent_node": "500",
+        "group": "500",
+        "level": 1,
+        "title": "504 Repetitive Loss Area Outreach Project"
+      },
+      {
+        "type": "page",
+        "crs_id": "505",
+        "node_id": "505",
+        "parent_node": "500",
+        "group": "500",
+        "level": 1,
+        "title": "505 Repetitive Loss Mitigation Activities"
+      },
+      {
+        "type": "page",
+        "crs_id": "506",
+        "node_id": "506",
+        "parent_node": "500",
+        "group": "500",
+        "level": 1,
+        "title": "506 National Flood Insurance Reform Act of 1994"
+      },
+      {
+        "type": "page",
+        "crs_id": "507",
+        "node_id": "507",
+        "parent_node": "500",
+        "group": "500",
+        "level": 1,
+        "title": "507 Compliance with Provisions for Environmental and Historic Preservation"
+      },
+      {
+        "type": "heading",
+        "crs_id": "507a",
+        "node_id": "507a",
+        "parent_node": "507",
+        "group": "500",
+        "level": 2,
+        "title": "507.a. Activity 520 (Acquisition and Relocation) and Activity 530 (Flood Protection)"
+      },
+      {
+        "type": "heading",
+        "crs_id": "507b",
+        "node_id": "507b",
+        "parent_node": "507",
+        "group": "500",
+        "level": 2,
+        "title": "507.b. Activity 540 (Drainage System Maintenance) and Activity 620 (Levees)"
+      },
+      {
+        "type": "heading",
+        "crs_id": "507c",
+        "node_id": "507c",
+        "parent_node": "507",
+        "group": "500",
+        "level": 2,
+        "title": "507.c. More Information on Environmental Compliance"
+      },
+      {
+        "type": "page",
+        "crs_id": "510",
+        "node_id": "510",
+        "parent_node": "500",
+        "group": "500",
+        "level": 1,
+        "title": "510 Floodplain Management Planning—Summary"
+      },
+      {
+        "type": "page",
+        "crs_id": "511",
+        "node_id": "511",
+        "parent_node": "510",
+        "group": "500",
+        "level": 2,
+        "title": "511 Background"
+      },
+      {
+        "type": "page",
+        "crs_id": "512",
+        "node_id": "512",
+        "parent_node": "510",
+        "group": "500",
+        "level": 2,
+        "title": "512 Elements"
+      },
+      {
+        "type": "heading",
+        "crs_id": "512a",
+        "node_id": "512a",
+        "parent_node": "512",
+        "group": "500",
+        "level": 3,
+        "title": "512.a. Floodplain management planning (FMP)"
+      },
+      {
+        "type": "heading",
+        "crs_id": "512b",
+        "node_id": "512b",
+        "parent_node": "512",
+        "group": "500",
+        "level": 3,
+        "title": "512.b. Repetitive loss area analysis (RLAA)"
+      },
+      {
+        "type": "heading",
+        "crs_id": "512c",
+        "node_id": "512c",
+        "parent_node": "512",
+        "group": "500",
+        "level": 3,
+        "title": "512.c. Natural floodplain functions plan (NFP)"
+      },
+      {
+        "type": "heading",
+        "crs_id": "512d",
+        "node_id": "512d",
+        "parent_node": "512",
+        "group": "500",
+        "level": 3,
+        "title": "512.d. Substantial Damage Management Plan (SDP)"
+      },
+      {
+        "type": "page",
+        "crs_id": "513",
+        "node_id": "513",
+        "parent_node": "510",
+        "group": "500",
+        "level": 2,
+        "title": "513 Credit Calculation"
+      },
+      {
+        "type": "page",
+        "crs_id": "514",
+        "node_id": "514",
+        "parent_node": "510",
+        "group": "500",
+        "level": 2,
+        "title": "514 Related Activities under the Community Rating System"
+      },
+      {
+        "type": "page",
+        "crs_id": "520",
+        "node_id": "520",
+        "parent_node": "500",
+        "group": "500",
+        "level": 1,
+        "title": "520 Acquisition and Relocation—Summary"
+      },
+      {
+        "type": "page",
+        "crs_id": "521",
+        "node_id": "521",
+        "parent_node": "520",
+        "group": "500",
+        "level": 2,
+        "title": "521 Background"
+      },
+      {
+        "type": "page",
+        "crs_id": "522",
+        "node_id": "522",
+        "parent_node": "520",
+        "group": "500",
+        "level": 2,
+        "title": "522 Elements"
+      },
+      {
+        "type": "heading",
+        "crs_id": "522a",
+        "node_id": "522a",
+        "parent_node": "522",
+        "group": "500",
+        "level": 3,
+        "title": "522.a. Buildings acquired or relocated (bAR)"
+      },
+      {
+        "type": "heading",
+        "crs_id": "522b",
+        "node_id": "522b",
+        "parent_node": "522",
+        "group": "500",
+        "level": 3,
+        "title": "522.b. Buildings on the repetitive loss list (bRL)"
+      },
+      {
+        "type": "heading",
+        "crs_id": "522c",
+        "node_id": "522c",
+        "parent_node": "522",
+        "group": "500",
+        "level": 3,
+        "title": "522.c. Severe Repetitive Loss properties (bSRL)"
+      },
+      {
+        "type": "heading",
+        "crs_id": "522d",
+        "node_id": "522d",
+        "parent_node": "522",
+        "group": "500",
+        "level": 3,
+        "title": "522.d. Critical facilities (bCF)"
+      },
+      {
+        "type": "heading",
+        "crs_id": "522e",
+        "node_id": "522e",
+        "parent_node": "522",
+        "group": "500",
+        "level": 3,
+        "title": "522.e. Buildings located in the V Zone or Coastal A Zone (bVZ)"
+      },
+      {
+        "type": "page",
+        "crs_id": "523",
+        "node_id": "523",
+        "parent_node": "520",
+        "group": "500",
+        "level": 2,
+        "title": "523 Credit Calculation"
+      },
+      {
+        "type": "heading",
+        "crs_id": "523a",
+        "node_id": "523a",
+        "parent_node": "523",
+        "group": "500",
+        "level": 3,
+        "title": "523.a. Option 1"
+      },
+      {
+        "type": "heading",
+        "crs_id": "523b",
+        "node_id": "523b",
+        "parent_node": "523",
+        "group": "500",
+        "level": 3,
+        "title": "523.b. Option 2"
+      },
+      {
+        "type": "page",
+        "crs_id": "524",
+        "node_id": "524",
+        "parent_node": "520",
+        "group": "500",
+        "level": 2,
+        "title": "524 Documentation Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "525",
+        "node_id": "525",
+        "parent_node": "520",
+        "group": "500",
+        "level": 2,
+        "title": "525 Related Activities under the Community Rating System"
+      },
+      {
+        "type": "page",
+        "crs_id": "530",
+        "node_id": "530",
+        "parent_node": "500",
+        "group": "500",
+        "level": 1,
+        "title": "530 Flood Protection—Summary"
+      },
+      {
+        "type": "page",
+        "crs_id": "531",
+        "node_id": "531",
+        "parent_node": "530",
+        "group": "500",
+        "level": 2,
+        "title": "531 Background"
+      },
+      {
+        "type": "page",
+        "crs_id": "532",
+        "node_id": "532",
+        "parent_node": "530",
+        "group": "500",
+        "level": 2,
+        "title": "532 Elements"
+      },
+      {
+        "type": "heading",
+        "crs_id": "532a",
+        "node_id": "532a",
+        "parent_node": "532",
+        "group": "500",
+        "level": 3,
+        "title": "532.a. Flood protection project technique used (TU)"
+      },
+      {
+        "type": "heading",
+        "crs_id": "532b",
+        "node_id": "532b",
+        "parent_node": "532",
+        "group": "500",
+        "level": 3,
+        "title": "532.b. Flood Protection Improvement (FPI)"
+      },
+      {
+        "type": "heading",
+        "crs_id": "532c",
+        "node_id": "532c",
+        "parent_node": "532",
+        "group": "500",
+        "level": 3,
+        "title": "532.c. Protected buildings (PB)"
+      },
+      {
+        "type": "page",
+        "crs_id": "533",
+        "node_id": "533",
+        "parent_node": "530",
+        "group": "500",
+        "level": 2,
+        "title": "533 Credit Calculation"
+      },
+      {
+        "type": "heading",
+        "crs_id": "533a",
+        "node_id": "533a",
+        "parent_node": "533",
+        "group": "500",
+        "level": 3,
+        "title": "533.a. Option 1"
+      },
+      {
+        "type": "heading",
+        "crs_id": "533b",
+        "node_id": "533b",
+        "parent_node": "533",
+        "group": "500",
+        "level": 3,
+        "title": "533.b. Option 2"
+      },
+      {
+        "type": "page",
+        "crs_id": "534",
+        "node_id": "534",
+        "parent_node": "530",
+        "group": "500",
+        "level": 2,
+        "title": "534 Documentation Provided by the Community"
+      },
+      {
+        "type": "page",
+        "crs_id": "535",
+        "node_id": "535",
+        "parent_node": "530",
+        "group": "500",
+        "level": 2,
+        "title": "535 Related Activities under the Community Rating System"
+      },
+      {
+        "type": "page",
+        "crs_id": "540",
+        "node_id": "540",
+        "parent_node": "500",
+        "group": "500",
+        "level": 1,
+        "title": "540 Drainage System Maintenance—Summary"
+      },
+      {
+        "type": "page",
+        "crs_id": "541",
+        "node_id": "541",
+        "parent_node": "540",
+        "group": "500",
+        "level": 2,
+        "title": "541 Background"
+      },
+      {
+        "type": "page",
+        "crs_id": "542",
+        "node_id": "542",
+        "parent_node": "540",
+        "group": "500",
+        "level": 2,
+        "title": "542 Elements"
+      },
+      {
+        "type": "heading",
+        "crs_id": "542a",
+        "node_id": "542a",
+        "parent_node": "542",
+        "group": "500",
+        "level": 3,
+        "title": "542.a. Channel debris removal (CDR)"
+      },
+      {
+        "type": "heading",
+        "crs_id": "542b",
+        "node_id": "542b",
+        "parent_node": "542",
+        "group": "500",
+        "level": 3,
+        "title": "542.b. Problem site maintenance (PSM)"
+      },
+      {
+        "type": "heading",
+        "crs_id": "542c",
+        "node_id": "542c",
+        "parent_node": "542",
+        "group": "500",
+        "level": 3,
+        "title": "542.c. Capital improvement program (CIP)"
+      },
+      {
+        "type": "heading",
+        "crs_id": "542d",
+        "node_id": "542d",
+        "parent_node": "542",
+        "group": "500",
+        "level": 3,
+        "title": "542.d. Stream dumping regulations (SDR)"
+      },
+      {
+        "type": "heading",
+        "crs_id": "542e",
+        "node_id": "542e",
+        "parent_node": "542",
+        "group": "500",
+        "level": 3,
+        "title": "542.e. Storage basin maintenance (SBM)"
+      },
+      {
+        "type": "page",
+        "crs_id": "543",
+        "node_id": "543",
+        "parent_node": "540",
+        "group": "500",
+        "level": 2,
+        "title": "543 Credit Calculation"
+      },
+      {
+        "type": "page",
+        "crs_id": "544",
+        "node_id": "544",
+        "parent_node": "540",
+        "group": "500",
+        "level": 2,
+        "title": "544 Related Activities under the Community Rating System"
+      },
+      {
+        "type": "page",
+        "crs_id": "600",
+        "node_id": "600",
+        "group": "600",
+        "level": 0,
+        "title": "600 Warning and Response"
+      },
+      {
+        "type": "page",
+        "crs_id": "610",
+        "node_id": "610",
+        "parent_node": "600",
+        "group": "600",
+        "level": 1,
+        "title": "610 Flood Warning and Response—Summary"
+      },
+      {
+        "type": "page",
+        "crs_id": "611",
+        "node_id": "611",
+        "parent_node": "610",
+        "group": "600",
+        "level": 2,
+        "title": "611 Background"
+      },
+      {
+        "type": "heading",
+        "crs_id": "611a",
+        "node_id": "611a",
+        "parent_node": "611",
+        "group": "600",
+        "level": 3,
+        "title": "611.a. Activity Description"
+      },
+      {
+        "type": "page",
+        "crs_id": "611b",
+        "node_id": "611b",
+        "parent_node": "611",
+        "group": "600",
+        "level": 3,
+        "title": "611.b. Activity Credit Criteria"
+      },
+      {
+        "type": "page",
+        "crs_id": "612",
+        "node_id": "612",
+        "parent_node": "610",
+        "group": "600",
+        "level": 2,
+        "title": "612 Elements"
+      },
+      {
+        "type": "page",
+        "crs_id": "612a",
+        "node_id": "612a",
+        "parent_node": "612",
+        "group": "600",
+        "level": 3,
+        "title": "612.a. Flood threat recognition system (FTR)"
+      },
+      {
+        "type": "page",
+        "crs_id": "612b",
+        "node_id": "612b",
+        "parent_node": "612",
+        "group": "600",
+        "level": 3,
+        "title": "612.b. Emergency warning dissemination (EWD)"
+      },
+      {
+        "type": "page",
+        "crs_id": "612c",
+        "node_id": "612c",
+        "parent_node": "612",
+        "group": "600",
+        "level": 3,
+        "title": "612.c. Flood response operations (FRO)"
+      },
+      {
+        "type": "page",
+        "crs_id": "612d",
+        "node_id": "612d",
+        "parent_node": "612",
+        "group": "600",
+        "level": 3,
+        "title": "612.d. Critical facilities planning (CFP)"
+      },
+      {
+        "type": "page",
+        "crs_id": "612e",
+        "node_id": "612e",
+        "parent_node": "612",
+        "group": "600",
+        "level": 3,
+        "title": "612.e. StormReady community (SRC)"
+      },
+      {
+        "type": "page",
+        "crs_id": "612f",
+        "node_id": "612f",
+        "parent_node": "612",
+        "group": "600",
+        "level": 3,
+        "title": "612.f. TsunamiReady community (TRC)"
+      },
+      {
+        "type": "page",
+        "crs_id": "613",
+        "node_id": "613",
+        "parent_node": "610",
+        "group": "600",
+        "level": 2,
+        "title": "613 Impact Adjustment"
+      },
+      {
+        "type": "page",
+        "crs_id": "614",
+        "node_id": "614",
+        "parent_node": "610",
+        "group": "600",
+        "level": 2,
+        "title": "614 Credit Calculation"
+      },
+      {
+        "type": "page",
+        "crs_id": "615",
+        "node_id": "615",
+        "parent_node": "610",
+        "group": "600",
+        "level": 2,
+        "title": "615 Related Activities under the Community Rating System"
+      },
+      {
+        "type": "page",
+        "crs_id": "620",
+        "node_id": "620",
+        "parent_node": "600",
+        "group": "600",
+        "level": 1,
+        "title": "620 Levees—Summary"
+      },
+      {
+        "type": "page",
+        "crs_id": "621",
+        "node_id": "621",
+        "parent_node": "620",
+        "group": "600",
+        "level": 2,
+        "title": "621 Background"
+      },
+      {
+        "type": "heading",
+        "crs_id": "621a",
+        "node_id": "621a",
+        "parent_node": "621",
+        "group": "600",
+        "level": 3,
+        "title": "621.a. Activity Description"
+      },
+      {
+        "type": "heading",
+        "crs_id": "621b",
+        "node_id": "621b",
+        "parent_node": "621",
+        "group": "600",
+        "level": 3,
+        "title": "621.b. Activity Credit Criteria"
+      },
+      {
+        "type": "heading",
+        "crs_id": "621c",
+        "node_id": "621c",
+        "parent_node": "621",
+        "group": "600",
+        "level": 3,
+        "title": "621.c. Map of the Affected Area"
+      },
+      {
+        "type": "page",
+        "crs_id": "622",
+        "node_id": "622",
+        "parent_node": "620",
+        "group": "600",
+        "level": 2,
+        "title": "622 Elements"
+      },
+      {
+        "type": "page",
+        "crs_id": "622a",
+        "node_id": "622a",
+        "parent_node": "622",
+        "group": "600",
+        "level": 3,
+        "title": "622.a. Levee maintenance (LM)"
+      },
+      {
+        "type": "page",
+        "crs_id": "622b",
+        "node_id": "622b",
+        "parent_node": "622",
+        "group": "600",
+        "level": 3,
+        "title": "622.b. Levee failure threat recognition system (LFR)"
+      },
+      {
+        "type": "page",
+        "crs_id": "622c",
+        "node_id": "622c",
+        "parent_node": "622",
+        "group": "600",
+        "level": 3,
+        "title": "622.c. Levee failure warning (LFW)"
+      },
+      {
+        "type": "page",
+        "crs_id": "622d",
+        "node_id": "622d",
+        "parent_node": "622",
+        "group": "600",
+        "level": 3,
+        "title": "622.d. Levee failure response operations (LFO)"
+      },
+      {
+        "type": "page",
+        "crs_id": "622e",
+        "node_id": "622e",
+        "parent_node": "622",
+        "group": "600",
+        "level": 3,
+        "title": "622.e. Levee failure critical facilities planning (LCF)"
+      },
+      {
+        "type": "page",
+        "crs_id": "623",
+        "node_id": "623",
+        "parent_node": "620",
+        "group": "600",
+        "level": 2,
+        "title": "623 Impact Adjustment"
+      },
+      {
+        "type": "page",
+        "crs_id": "624",
+        "node_id": "624",
+        "parent_node": "620",
+        "group": "600",
+        "level": 2,
+        "title": "624 Credit Calculation"
+      },
+      {
+        "type": "page",
+        "crs_id": "625",
+        "node_id": "625",
+        "parent_node": "620",
+        "group": "600",
+        "level": 2,
+        "title": "625 Related Activities under the Community Rating System"
+      },
+      {
+        "type": "page",
+        "crs_id": "630",
+        "node_id": "630",
+        "parent_node": "600",
+        "group": "600",
+        "level": 1,
+        "title": "630 DAMS—Summary"
+      },
+      {
+        "type": "page",
+        "crs_id": "631",
+        "node_id": "631",
+        "parent_node": "630",
+        "group": "600",
+        "level": 2,
+        "title": "631 Background"
+      },
+      {
+        "type": "heading",
+        "crs_id": "631a",
+        "node_id": "631a",
+        "parent_node": "631",
+        "group": "600",
+        "level": 3,
+        "title": "631.a. Activity Description"
+      },
+      {
+        "type": "heading",
+        "crs_id": "631b",
+        "node_id": "631b",
+        "parent_node": "631",
+        "group": "600",
+        "level": 3,
+        "title": "631.b. Activity Credit Criteria"
+      },
+      {
+        "type": "page",
+        "crs_id": "632",
+        "node_id": "632",
+        "parent_node": "630",
+        "group": "600",
+        "level": 2,
+        "title": "632 Elements"
+      },
+      {
+        "type": "page",
+        "crs_id": "632a",
+        "node_id": "632a",
+        "parent_node": "632",
+        "group": "600",
+        "level": 3,
+        "title": "632.a. State dam safety program (SDS)"
+      },
+      {
+        "type": "page",
+        "crs_id": "632b",
+        "node_id": "632b",
+        "parent_node": "632",
+        "group": "600",
+        "level": 3,
+        "title": "632.b. Dam failure threat recognition system (DFR)"
+      },
+      {
+        "type": "page",
+        "crs_id": "632c",
+        "node_id": "632c",
+        "parent_node": "632",
+        "group": "600",
+        "level": 3,
+        "title": "632.c. Dam failure warning (DFW)"
+      },
+      {
+        "type": "page",
+        "crs_id": "632d",
+        "node_id": "632d",
+        "parent_node": "632",
+        "group": "600",
+        "level": 3,
+        "title": "632.d. Dam failure response operations (DFO)"
+      },
+      {
+        "type": "page",
+        "crs_id": "632e",
+        "node_id": "632e",
+        "parent_node": "632",
+        "group": "600",
+        "level": 3,
+        "title": "632.e. Dam failure critical facilities planning (DCF)"
+      },
+      {
+        "type": "page",
+        "crs_id": "633",
+        "node_id": "633",
+        "parent_node": "630",
+        "group": "600",
+        "level": 2,
+        "title": "633 Impact Adjustment"
+      },
+      {
+        "type": "page",
+        "crs_id": "634",
+        "node_id": "634",
+        "parent_node": "630",
+        "group": "600",
+        "level": 2,
+        "title": "634 Credit Calculation"
+      },
+      {
+        "type": "page",
+        "crs_id": "635",
+        "node_id": "635",
+        "parent_node": "630",
+        "group": "600",
+        "level": 2,
+        "title": "635 Related Activities under the Community Rating System"
+      },
+      {
+        "type": "page",
+        "crs_id": "700",
+        "node_id": "700",
+        "group": "700",
+        "level": 0,
+        "title": "700 Community Classification Calculations"
+      },
+      {
+        "type": "page",
+        "crs_id": "710",
+        "node_id": "710",
+        "parent_node": "700",
+        "group": "700",
+        "level": 1,
+        "title": "710 County Growth Adjustment"
+      },
+      {
+        "type": "heading",
+        "node_id": "710a",
+        "parent_node": "710",
+        "group": "700",
+        "level": 2,
+        "title": "Background"
+      },
+      {
+        "type": "heading",
+        "crs_id": "711",
+        "node_id": "711",
+        "parent_node": "710",
+        "group": "700",
+        "level": 2,
+        "title": "711 Growth Data"
+      },
+      {
+        "type": "heading",
+        "crs_id": "712",
+        "node_id": "712",
+        "parent_node": "710",
+        "group": "700",
+        "level": 2,
+        "title": "712 Growth Adjustment Calculation"
+      },
+      {
+        "type": "heading",
+        "crs_id": "712a",
+        "node_id": "712a",
+        "parent_node": "712",
+        "group": "700",
+        "level": 3,
+        "title": "712.a. County 10-year growth rate (CGR)"
+      },
+      {
+        "type": "heading",
+        "crs_id": "712b",
+        "node_id": "712b",
+        "parent_node": "712",
+        "group": "700",
+        "level": 3,
+        "title": "712.b. Annual growth adjustment (AGA)"
+      },
+      {
+        "type": "heading",
+        "crs_id": "712c",
+        "node_id": "712c",
+        "parent_node": "712",
+        "group": "700",
+        "level": 3,
+        "title": "712.c. County growth adjustment (CGA)"
+      },
+      {
+        "type": "heading",
+        "crs_id": "713",
+        "node_id": "713",
+        "parent_node": "710",
+        "group": "700",
+        "level": 2,
+        "title": "713 Credit Documentation"
+      },
+      {
+        "type": "page",
+        "crs_id": "720",
+        "node_id": "720",
+        "parent_node": "700",
+        "group": "700",
+        "level": 1,
+        "title": "720 Community Total Points"
+      },
+      {
+        "type": "page",
+        "crs_id": "appendix-a",
+        "node_id": "801",
+        "group": "800",
+        "level": 0,
+        "title": "Appendix A: Acronyms"
+      },
+      {
+        "type": "page",
+        "crs_id": "appendix-b",
+        "node_id": "802",
+        "group": "800",
+        "level": 0,
+        "title": "Appendix B: Comparison of the Minimum NFIP Requirements and the Community Rating System"
+      },
+      {
+        "type": "page",
+        "crs_id": "appendix-c",
+        "node_id": "803",
+        "group": "800",
+        "level": 0,
+        "title": "Appendix C: CRS Publications"
+      },
+      {
+        "type": "page",
+        "crs_id": "community-index",
+        "node_id": "900",
+        "group": "900",
+        "level": 0,
+        "title": "Community Index"
+      }
+    ],
+    "acronyms": [
+      {
+        "term": "aC",
+        "section": "542",
+        "definition": "area of the community"
+      },
+      {
+        "term": "aCIP",
+        "section": "542",
+        "definition": "area covered by the watershed-based analysis"
+      },
+      {
+        "term": "AGA",
+        "section": "712",
+        "definition": "annual growth adjustment"
+      },
+      {
+        "term": "AMD",
+        "section": "442",
+        "definition": "additional map data"
+      },
+      {
+        "term": "aSFHA",
+        "section": "402",
+        "definition": "area of the Special Flood Hazard Area"
+      },
+      {
+        "term": "ASFPM",
+        "section": "431",
+        "definition": "Association of State Floodplain Managers"
+      },
+      {
+        "term": "aSFT",
+        "section": "413",
+        "definition": "the area of the Special Flood Hazard Area for the community at the time of adoption of a study"
+      },
+      {
+        "term": "aW",
+        "section": "452",
+        "definition": "area of a community's watersheds"
+      },
+      {
+        "term": "AW-nnn",
+        "section": "230",
+        "definition": "Activity Worksheet number nnn"
+      },
+      {
+        "term": "aXXX",
+        "section": "402",
+        "definition": "area affected by element XXX"
+      },
+      {
+        "term": "bAR",
+        "section": "522",
+        "definition": "number of buildings acquired or relocated"
+      },
+      {
+        "term": "bARSF",
+        "section": "523",
+        "definition": "buildings acquired or relocated in the Special Flood Hazard Area"
+      },
+      { "term": "BC", "section": "432", "definition": "building code" },
+      {
+        "term": "BCEGS",
+        "section": "211",
+        "definition": "Building Code Effectiveness Grading Schedule"
+      },
+      {
+        "term": "bCF",
+        "section": "522",
+        "definition": "number of critical facilities acquired or relocated"
+      },
+      {
+        "term": "BFE",
+        "section": "120",
+        "definition": "base flood elevation"
+      },
+      {
+        "term": "bLF",
+        "section": "623",
+        "definition": "number of buildings affected by levee failure"
+      },
+      {
+        "term": "BMM",
+        "section": "442",
+        "definition": "benchmark maintenance"
+      },
+      {
+        "term": "BMP",
+        "section": "452",
+        "definition": "best management practices (for stormwater quality)"
+      },
+      {
+        "term": "bPO",
+        "section": "302",
+        "definition": "number of post-FIRM buildings in the Special Flood Hazard Area"
+      },
+      {
+        "term": "bPR",
+        "section": "302",
+        "definition": "number of pre-FIRM buildings in the Special Flood Hazard Area"
+      },
+      {
+        "term": "bRL",
+        "section": "522",
+        "definition": "number of buildings on the repetitive loss list acquired or relocated"
+      },
+      {
+        "term": "bSF",
+        "section": "302",
+        "definition": "number of buildings in the Special Flood Hazard Area"
+      },
+      {
+        "term": "bSRL",
+        "section": "522",
+        "definition": "number of Severe Repetitive Loss Properties acquired or relocated"
+      },
+      {
+        "term": "bVZ",
+        "section": "522",
+        "definition": "number of buildings acquired or relocated within V or coastal A Zones"
+      },
+      {
+        "term": "bXXX",
+        "section": "302",
+        "definition": "number of buildings affected by element XXX"
+      },
+      {
+        "term": "CAZ",
+        "section": "432",
+        "definition": "coastal A Zone regulations"
+      },
+      {
+        "term": "CBRA",
+        "section": "320",
+        "definition": "Coastal Barrier Resources Act"
+      },
+      {
+        "term": "CBRS",
+        "section": "320",
+        "definition": "Coastal Barrier Resources System areas"
+      },
+      {
+        "term": "CC-nnn",
+        "section": "230",
+        "definition": "Community Certification number nnn"
+      },
+      {
+        "term": "CC-nnnEHP",
+        "section": "507",
+        "definition": "Community Certification of Compliance with Environmental and Historic Preservation Requirements number nnn"
+      },
+      {
+        "term": "CDR",
+        "section": "542",
+        "definition": "channel and basin debris removal"
+      },
+      {
+        "term": "CEO",
+        "section": "212",
+        "definition": "Chief Executive Officer of a community"
+      },
+      {
+        "term": "CFM",
+        "section": "432",
+        "definition": "Certified Floodplain Manager"
+      },
+      {
+        "term": "CFP",
+        "section": "612",
+        "definition": "critical facilities planning"
+      },
+      {
+        "term": "CFR",
+        "section": "",
+        "definition": "Code of Federal Regulations (in the Federal Register)"
+      },
+      {
+        "term": "CER",
+        "section": "432",
+        "definition": "coastal erosion regulations"
+      },
+      {
+        "term": "CGA",
+        "section": "712",
+        "definition": "county growth adjustment"
+      },
+      {
+        "term": "CGR",
+        "section": "712",
+        "definition": "county 10-year growth rate"
+      },
+      {
+        "term": "CIP",
+        "section": "542",
+        "definition": "capital improvement plan"
+      },
+      {
+        "term": "CORS",
+        "section": "442",
+        "definition": "Continuously Operating Reference Stations"
+      },
+      {
+        "term": "CP",
+        "section": "372",
+        "definition": "coverage improvement plan"
+      },
+      {
+        "term": "CPI",
+        "section": "372",
+        "definition": "coverage improvement plan implementation"
+      },
+      {
+        "term": "CRS",
+        "section": "Foreword",
+        "definition": "Community Rating System."
+      },
+      {
+        "term": "CSI",
+        "section": "432",
+        "definition": "cumulative substantial improvement regulations"
+      },
+      {
+        "term": "cT",
+        "section": "720",
+        "definition": "community's total credit points under the Community Rating System"
+      },
+      {
+        "term": "cXXX",
+        "section": "223",
+        "definition": "credit points for element or Activity XXX"
+      },
+      {
+        "term": "DCF",
+        "section": "632",
+        "definition": "dam failure critical facilities planning"
+      },
+      {
+        "term": "DFH",
+        "section": "342",
+        "definition": "disclosure of the flood hazard by real estate agents"
+      },
+      {
+        "term": "DFIRM",
+        "section": "411",
+        "definition": "digital Flood Insurance Rate Map"
+      },
+      {
+        "term": "DFO",
+        "section": "632",
+        "definition": "dam failure response operations"
+      },
+      {
+        "term": "DFR",
+        "section": "632",
+        "definition": "dam failure threat recognition system"
+      },
+      {
+        "term": "DFW",
+        "section": "632",
+        "definition": "dam failure warning"
+      },
+      {
+        "term": "DL",
+        "section": "432",
+        "definition": "development limitations"
+      },
+      {
+        "term": "DOH",
+        "section": "342",
+        "definition": "disclosure of other hazards, such as subsidence"
+      },
+      {
+        "term": "DR",
+        "section": "422",
+        "definition": "deed restrictions placed on open space properties"
+      },
+      {
+        "term": "DS",
+        "section": "452",
+        "definition": "design storms used in stormwater management regulations"
+      },
+      {
+        "term": "DU",
+        "section": "711",
+        "definition": "dwelling units counted toward the county growth rate"
+      },
+      {
+        "term": "EC",
+        "section": "312",
+        "definition": "maintaining FEMA Elevation Certificates"
+      },
+      {
+        "term": "ECPO",
+        "section": "312",
+        "definition": "maintaining post-FIRM elevation certificates"
+      },
+      {
+        "term": "ECPR",
+        "section": "312",
+        "definition": "maintaining pre-FIRM elevation certificates"
+      },
+      {
+        "term": "EDM",
+        "section": "442",
+        "definition": "erosion data maintenance"
+      },
+      {
+        "term": "EMI",
+        "section": "362",
+        "definition": "the Emergency Management Institute of the Federal Emergency Management Agency"
+      },
+      {
+        "term": "ENL",
+        "section": "432",
+        "definition": "regulations limiting enclosures below elevated floors"
+      },
+      {
+        "term": "ENLCAZ",
+        "section": "432",
+        "definition": "enforcing enclosure regulations within CAZ-credited areas (bonus credit)"
+      },
+      {
+        "term": "ESC",
+        "section": "452",
+        "definition": "erosion and sedimentation control regulations"
+      },
+      {
+        "term": "EWD",
+        "section": "612",
+        "definition": "emergency warning dissemination"
+      },
+      {
+        "term": "FAA",
+        "section": "362",
+        "definition": "financial assistance advice"
+      },
+      {
+        "term": "FDN",
+        "section": "432",
+        "definition": "foundation protection regulations"
+      },
+      {
+        "term": "FEMA",
+        "section": "Foreword",
+        "definition": "The Federal Emergency Management Agency, part of the Department of Homeland Security. Most of the NFIP field work and community coordination is done by the 10 Regional Offices of FEMA."
+      },
+      {
+        "term": "FIA",
+        "section": "372",
+        "definition": "flood insurance coverage assessment"
+      },
+      {
+        "term": "FIRM",
+        "section": "Foreword",
+        "definition": "Flood Insurance Rate Map; published by FEMA and provided to communities."
+      },
+      {
+        "term": "FM",
+        "section": "442",
+        "definition": "Flood Insurance Rate Map maintenance"
+      },
+      {
+        "term": "FMP",
+        "section": "511",
+        "definition": "floodplain management planning"
+      },
+      {
+        "term": "FPB",
+        "section": "532",
+        "definition": "flood protection level before the project was constructed"
+      },
+      {
+        "term": "FPI",
+        "section": "532",
+        "definition": "flood protection improvement"
+      },
+      {
+        "term": "FPP",
+        "section": "532",
+        "definition": "flood protection provided by the project"
+      },
+      { "term": "FRB", "section": "432", "definition": "freeboard" },
+      {
+        "term": "FRO",
+        "section": "612",
+        "definition": "flood response operations"
+      },
+      {
+        "term": "FRP",
+        "section": "332",
+        "definition": "flood response preparations"
+      },
+      {
+        "term": "FTR",
+        "section": "612",
+        "definition": "flood threat recognition system"
+      },
+      {
+        "term": "FWS",
+        "section": "412",
+        "definition": "more restrictive floodway standard"
+      },
+      {
+        "term": "GIS",
+        "section": "442",
+        "definition": "geographic information system"
+      },
+      {
+        "term": "HSS",
+        "section": "412",
+        "definition": "higher study standard"
+      },
+      {
+        "term": "ICC",
+        "section": "432",
+        "definition": "Increased Cost of Compliance (a claim provision of a National Flood Insurance Program policy)"
+      },
+      {
+        "term": "ISO",
+        "section": "114",
+        "definition": "Insurance Services Office, Inc."
+      },
+      {
+        "term": "LCF",
+        "section": "622",
+        "definition": "levee failure critical facilities planning"
+      },
+      {
+        "term": "LDP",
+        "section": "432",
+        "definition": "local drainage protection"
+      },
+      { "term": "LEV", "section": "412", "definition": "leverage" },
+      {
+        "term": "LFO",
+        "section": "622",
+        "definition": "levee failure response operations"
+      },
+      {
+        "term": "LFR",
+        "section": "622",
+        "definition": "levee failure threat recognition system"
+      },
+      {
+        "term": "LFW",
+        "section": "622",
+        "definition": "levee failure warning"
+      },
+      {
+        "term": "LIB",
+        "section": "352",
+        "definition": "flood protection library"
+      },
+      {
+        "term": "LID",
+        "section": "452",
+        "definition": "low-impact development"
+      },
+      {
+        "term": "LiMWA",
+        "section": "432",
+        "definition": "limit of moderate wave action"
+      },
+      { "term": "LM", "section": "622", "definition": "levee maintenance" },
+      {
+        "term": "LOMA",
+        "section": "321",
+        "definition": "Letter of Map Amendment"
+      },
+      {
+        "term": "LOMR",
+        "section": "321",
+        "definition": "Letter of Map Revision"
+      },
+      {
+        "term": "LPD",
+        "section": "352",
+        "definition": "locally pertinent documents for a library"
+      },
+      {
+        "term": "LSI",
+        "section": "432",
+        "definition": "lower substantial improvement threshold"
+      },
+      { "term": "LZ", "section": "422", "definition": "low-density zoning" },
+      {
+        "term": "MAP",
+        "section": "412",
+        "definition": "mapping credit (the sum of all 410 elements)"
+      },
+      {
+        "term": "MAPSH",
+        "section": "412",
+        "definition": "mapping credit for special flood-related hazards"
+      },
+      {
+        "term": "MHP",
+        "section": "432",
+        "definition": "manufactured home park regulations"
+      },
+      {
+        "term": "MI",
+        "section": "322",
+        "definition": "providing map information and Flood Insurance Rate Map data"
+      },
+      {
+        "term": "MLS",
+        "section": "342",
+        "definition": "Multiple Listing Service"
+      },
+      {
+        "term": "NAVD",
+        "section": "120",
+        "definition": "North American Vertical Datum"
+      },
+      {
+        "term": "nCDC",
+        "section": "542",
+        "definition": "total number of conveyance system components in the community"
+      },
+      {
+        "term": "nCDR",
+        "section": "542",
+        "definition": "number of inspected and maintained conveyance system components"
+      },
+      {
+        "term": "NFIP",
+        "section": "Foreword",
+        "definition": "National Flood Insurance Program."
+      },
+      {
+        "term": "NFOS",
+        "section": "422",
+        "definition": "natural functions open space"
+      },
+      {
+        "term": "NFP",
+        "section": "512",
+        "definition": "natural floodplain functions plan"
+      },
+      {
+        "term": "NGS",
+        "section": "442",
+        "definition": "National Geodetic Survey"
+      },
+      {
+        "term": "NGVD",
+        "section": "120",
+        "definition": "National Geodetic Vertical Datum"
+      },
+      {
+        "term": "NIMS",
+        "section": "620",
+        "definition": "National Incident Management System"
+      },
+      {
+        "term": "NOAA",
+        "section": "612",
+        "definition": "National Oceanic and Atmospheric Administration"
+      },
+      { "term": "NS", "section": "412", "definition": "new flood study" },
+      {
+        "term": "nSBC",
+        "section": "542",
+        "definition": "total number of public and private storage basins in the community"
+      },
+      {
+        "term": "nSBM",
+        "section": "542",
+        "definition": "number of storage basins inspected and maintained by the community"
+      },
+      {
+        "term": "NSP",
+        "section": "422",
+        "definition": "natural shoreline protection"
+      },
+      {
+        "term": "NSRS",
+        "section": "442",
+        "definition": "National Spatial Reference System"
+      },
+      {
+        "term": "ODR",
+        "section": "342",
+        "definition": "other disclosure requirements"
+      },
+      {
+        "term": "OHS",
+        "section": "432",
+        "definition": "other higher regulatory standards"
+      },
+      { "term": "OP", "section": "332", "definition": "outreach projects" },
+      {
+        "term": "OSI",
+        "section": "422",
+        "definition": "open space incentives"
+      },
+      {
+        "term": "OSP",
+        "section": "422",
+        "definition": "open space preservation"
+      },
+      { "term": "PB", "section": "532", "definition": "protected buildings" },
+      {
+        "term": "PBi",
+        "section": "532",
+        "definition": "protection credit for building “i”"
+      },
+      {
+        "term": "PCF",
+        "section": "432",
+        "definition": "regulations that protect critical facilities"
+      },
+      {
+        "term": "PPA",
+        "section": "362",
+        "definition": "property protection advice"
+      },
+      {
+        "term": "PPI",
+        "section": "332",
+        "definition": "program for public information"
+      },
+      {
+        "term": "PPV",
+        "section": "362",
+        "definition": "flood protection site visit"
+      },
+      {
+        "term": "PSM",
+        "section": "542",
+        "definition": "problem site maintenance"
+      },
+      {
+        "term": "PUB",
+        "section": "452",
+        "definition": "stormwater facilities subject to public maintenance"
+      },
+      {
+        "term": "RA",
+        "section": "432",
+        "definition": "regulations administration"
+      },
+      {
+        "term": "REB",
+        "section": "342",
+        "definition": "real estate agent brochure (explains flood hazards)"
+      },
+      {
+        "term": "RLAA",
+        "section": "512",
+        "definition": "repetitive loss area analysis"
+      },
+      {
+        "term": "rXXX",
+        "section": "222",
+        "definition": "ratio of the buildings or area affected by XXX"
+      },
+      {
+        "term": "SBC",
+        "section": "542",
+        "definition": "storage basins in the community"
+      },
+      {
+        "term": "SBM",
+        "section": "542",
+        "definition": "storage basin maintenance"
+      },
+      {
+        "term": "SDR",
+        "section": "542",
+        "definition": "stream dumping regulations"
+      },
+      {
+        "term": "SDS",
+        "section": "632",
+        "definition": "state dam safety program"
+      },
+      {
+        "term": "SFHA",
+        "section": "Foreword",
+        "definition": "Special Flood Hazard Area; the floodplain delineated on the FIRM as A Zones and V Zones."
+      },
+      {
+        "term": "SHOS",
+        "section": "422",
+        "definition": "open space preservation in areas subject to special flood-related hazards"
+      },
+      {
+        "term": "SHR",
+        "section": "432",
+        "definition": "special flood-related hazards regulations"
+      },
+      {
+        "term": "SMR",
+        "section": "452",
+        "definition": "stormwater management regulations"
+      },
+      {
+        "term": "SR",
+        "section": "412",
+        "definition": "state review of a new flood study"
+      },
+      {
+        "term": "SRC",
+        "section": "612",
+        "definition": "StormReady community"
+      },
+      {
+        "term": "STK",
+        "section": "332",
+        "definition": "stakeholder delivery of outreach projects"
+      },
+      {
+        "term": "SZ",
+        "section": "452",
+        "definition": "size of development subject to stormwater management"
+      },
+      {
+        "term": "TA",
+        "section": "372",
+        "definition": "technical assistance"
+      },
+      { "term": "TNG", "section": "362", "definition": "training credit" },
+      {
+        "term": "TRC",
+        "section": "612",
+        "definition": "TsunamiReady community"
+      },
+      {
+        "term": "TUB",
+        "section": "532",
+        "definition": "barrier, levee, or floodwall technique used to protect a single building"
+      },
+      {
+        "term": "TUC",
+        "section": "532",
+        "definition": "channel modification or other techniques used to protect buildings"
+      },
+      {
+        "term": "TUD",
+        "section": "532",
+        "definition": "dry floodproofing technique used to protect a building"
+      },
+      {
+        "term": "TUE",
+        "section": "532",
+        "definition": "elevation technique used to protect a building"
+      },
+      {
+        "term": "TUF",
+        "section": "532",
+        "definition": "storage facility technique used to protect buildings"
+      },
+      {
+        "term": "TUi",
+        "section": "532",
+        "definition": "technique used to protect building “i”"
+      },
+      {
+        "term": "TUS",
+        "section": "532",
+        "definition": "sewer backup prevention technique used to protect buildings"
+      },
+      {
+        "term": "TUW",
+        "section": "532",
+        "definition": "wet floodproofing technique used to protect a building"
+      },
+      {
+        "term": "URL",
+        "section": "352",
+        "definition": "universal resource locator"
+      },
+      {
+        "term": "WEB",
+        "section": "352",
+        "definition": "flood protection website"
+      },
+      {
+        "term": "WMP",
+        "section": "452",
+        "definition": "watershed master plan"
+      },
+      {
+        "term": "WQ",
+        "section": "452",
+        "definition": "stormwater management regulations for water quality"
+      },
+      {
+        "term": "XXX",
+        "section": "",
+        "definition": "element acronym or variable number"
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Activity",
+        "definition": "A floodplain management activity for which Community Rating System credit has been established."
+      },
+      {
+        "term": "Allowable surcharge",
+        "definition": "The acceptable limit of increased flood elevation in the floodway due to obstruction of the floodway fringe."
+      },
+      {
+        "term": "Alluvial fan",
+        "definition": "An area at the base of a valley where the slope flattens out, allowing floodwater to decrease in speed and spread out, dropping sediment over a fan-shaped area. Credit for managing alluvial fan hazards is discussed in Section 400."
+      },
+      {
+        "term": "B Zone",
+        "definition": "See \"Zone B.\""
+      },
+      {
+        "term": "Base flood",
+        "definition": "The flood having a 1% chance of being equaled or exceeded in any given year, also known as the \"100-year\" or \"1% chance\" flood. The base flood is a statistical concept used to ensure that all properties subject to the National Flood Insurance Program are protected to the same degree against flooding."
+      },
+      {
+        "term": "BFE",
+        "definition": "Base flood elevation. The elevation of the crest of the base or 1% annual chance flood (also known as the 100-year flood)."
+      },
+      {
+        "term": "Building",
+        "definition": "For CRS purposes, the definition of what constitutes a building is based on whether the structure is insurable. It must meet the following criteria, which are taken from the definition in the National Flood Insurance Program’s “Flood Insurance Manual” for insurance agents. A “building” is:\n\n> A structure with two or more rigid outside walls and a fully secured roof that is affixed to a permanent site; or\n>\n> A manufactured home (a “manufactured home,” also known as a mobile home, is a structure built on a permanent chassis, transported to its site in one or more sections, and affixed to a permanent foundation); or\n>\n> A travel trailer without wheels, built on a chassis and affixed to a permanent foundation, that is regulated under the community’s floodplain management and building ordinances or laws.\n\n“Building” does not mean a gas or liquid storage tank or a recreational vehicle, a park trailer, or other similar vehicle, except as described above."
+      },
+      {
+        "term": "C Zone",
+        "definition": "See \"Zone C.\""
+      },
+      {
+        "term": "CBRA",
+        "definition": "The Coastal Barrier Resources Act of 1982 (pronounced \"cobra\")."
+      },
+      {
+        "term": "CEO",
+        "definition": "The Chief Executive Officer of a community, i.e., the official who is charged with the authority to implement and administer laws, ordinances, and regulations for the community. The CEO may be a mayor, city or county manager, county executive, chair or president of a county council, etc. The head of a department is not considered a CEO."
+      },
+      {
+        "term": "Coastal",
+        "definition": "Relating to the coastlines and bays of the tidal waters of the United States or the shorelines of the Great Lakes. The term does not include riverine areas."
+      },
+      {
+        "term": "Coastal A Zone",
+        "definition": "Those parts of a community's coastal floodplain that are subject to waves with heights of between 1.5 and 3 feet during a 1% annual chance storm. The exact boundary of a Coastal A Zone is determined by the community, as described in Section 432.k, although FEMA may provide a proposed boundary or \"limit of moderate wave action\" (LiMWA) on Flood Insurance Rate Maps."
+      },
+      {
+        "term": "Coastal Barrier Resources System",
+        "definition": "A set of \"undeveloped coastal barriers\" and \"otherwise protected areas\" along the U.S. coast (including the Great Lakes) designated by Congress under the Coastal Barrier Resources Act of 1982 (CBRA). Most expenditures of federal funds are prohibited within the Coastal Barrier Resources System."
+      },
+      {
+        "term": "Coastal erosion",
+        "definition": "The wearing away of land masses caused primarily by coastal waves on shorelines adjacent to tidal waters."
+      },
+      {
+        "term": "Coastal erosion-prone area",
+        "definition": "The coastal areas within which waves are anticipated to cause significant erosion and shoreline retreat within the next 60 years."
+      },
+      {
+        "term": "Coastal high hazard flooding",
+        "definition": "A condition of flooding subject to high velocity waters, including, but not limited to, hurricane wave wash or tsunamis. Coastal high hazard flooding is mapped as a Zone V or \"limit of moderate wave action\" on a Flood Insurance Rate Map. Coastal flooding without the high velocity hazard is mapped as a Zone A."
+      },
+      {
+        "term": "Community",
+        "definition": "A city, village, town, county, township, parish, borough, Indian tribe or authorized tribal organization, Alaska Native village or authorized native organization, or other local government with the statutory authority to enact floodplain regulations and participate in the National Flood Insurance Program."
+      },
+      {
+        "term": "Contour",
+        "definition": "A line of equal elevation on a topographic (contour) map."
+      },
+      {
+        "term": "Conveyance system",
+        "definition": "For purposes of the CRS, the conveyance system includes the channels that need to be maintained to prevent damage to buildings or roads and other infrastructure from smaller, more frequent storms. Components include structures and channel segments (e.g., bridges, culverts, and segments of open channel) through which water flows."
+      },
+      {
+        "term": "Critical facility",
+        "definition": "A structure or other improvement that, because of its function, size, service area, or uniqueness, has the potential to cause serious bodily harm, extensive property damage, or disruption of vital socioeconomic activities if it is destroyed or damaged or if its functionality is impaired. Includes health and safety facilities, utilities, government facilities, and hazardous materials facilities. For local regulation, a community may also use the International Codes' definition for Category III and IV buildings."
+      },
+      {
+        "term": "CRS",
+        "definition": "Community Rating System."
+      },
+      {
+        "term": "CRS classification",
+        "definition": "A rating of a community's floodplain management program according to the \"Coordinator's Manual.\" The premium rate credits for each class are listed in Table 110-1. A community that has not applied for CRS classification is a Class 10 community."
+      },
+      {
+        "term": "Contractor",
+        "definition": "An individual responsible for reviewing community requests for Community Rating System classification and verifying implementation of activities credited by the CRS. The name of the Contractor for a state can be found at www.crsresources.org."
+      },
+      {
+        "term": "CRS Coordinator",
+        "definition": "A local official designated by the community's Chief Executive Officer to coordinate the community's CRS activities and work with FEMA and the Insurance Services Office, Inc. to document and verify the community's program."
+      },
+      {
+        "term": "Coordinator's Manual",
+        "definition": "A publication for local officials that describes the procedures, credit criteria, and activities credited by the Community Rating System. It is available from FEMA or Insurance Services Office, Inc."
+      },
+      {
+        "term": "Cycle",
+        "definition": "A periodic review, scoring, and verification of a community's Community Rating System activities, normally done on a 3- or 5-year cycle."
+      },
+      {
+        "term": "D Zone",
+        "definition": "See \"Zone D.\""
+      },
+      {
+        "term": "Datum",
+        "definition": "A reference surface used to ensure that all elevation records are properly related. The NFIP previously used NGVD 29, but recent FIRMs use NAVD 88. Both express elevations relative to sea level. The FIRM indicates the datum that applies to the community."
+      },
+      {
+        "term": "Debris",
+        "definition": "Trash, junk, litter, discarded remains of something destroyed, landscape waste, or vegetation that may reduce the conveyance capacity of a channel or the storage or infiltration capacity of a basin."
+      },
+      {
+        "term": "Development",
+        "definition": "Any manmade change to improved or unimproved real estate including, but not limited to, buildings or other structures, mining, dredging, filling, grading, paving, excavation, drilling operations, or storage of equipment or materials."
+      },
+      {
+        "term": "Digital Flood Insurance Rate Map (DFIRM)",
+        "definition": "All new FIRMs are prepared as a GIS-based map of a community's flood hazards. All new maps are based upon this digital platform and communities may use these maps instead of paper maps for regulatory purposes. See FIRM."
+      },
+      {
+        "term": "Discharge",
+        "definition": "The amount of water that passes a point in a given period of time. Rate of discharge is usually measured in cubic feet per second (cfs)."
+      },
+      {
+        "term": "Drainage system",
+        "definition": "For the CRS, a community's drainage system consists of all natural and manmade watercourses, conduits, and storage basins that must be maintained in order to prevent flood damage to buildings from smaller, more frequent storms."
+      },
+      {
+        "term": "Element",
+        "definition": "A discrete piece of a floodplain management program that is credited as part of a Community Rating System activity."
+      },
+      {
+        "term": "FEMA",
+        "definition": "The Federal Emergency Management Agency. Most NFIP field work and community coordination is done by the 10 FEMA Regional Offices."
+      },
+      {
+        "term": "FIRM",
+        "definition": "Flood Insurance Rate Map. An official map of a community, on which FEMA has delineated both the Special Flood Hazard Areas and the risk premium zones applicable to the community. Most FIRMs include detailed floodplain mapping for some or all of a community's floodplains. In most cases, the date of the first FIRM issued to a community is the date the community entered the Regular Program of the NFIP."
+      },
+      {
+        "term": "Flood Insurance Study",
+        "definition": "A report published by FEMA for a community in conjunction with the community's FIRM. It contains background data such as base flood discharges and water surface elevations that were used to prepare the FIRM. A community FIRM with detailed mapping will usually have a corresponding study."
+      },
+      {
+        "term": "Floodplain",
+        "definition": "Any land area susceptible to being inundated by flood waters from any source. A FIRM identifies most, but not necessarily all, of a community's floodplain as the Special Flood Hazard Area."
+      },
+      {
+        "term": "Floodproofing",
+        "definition": "Protective measures added to or incorporated in a building that is not elevated above the base flood elevation to prevent or minimize flood damage. \"Dry floodproofing\" keeps water from entering a building. \"Wet floodproofing\" minimizes damage from water allowed into a building."
+      },
+      {
+        "term": "Floodway",
+        "definition": "The channel of a river and the portion of the overbank floodplain that must be reserved in order to discharge the base flood without cumulatively increasing the water surface elevation by a designated height. NFIP regulations allow construction in the floodway provided it does not obstruct flows or increase flood heights. Floodway fringe: the portion of the SFHA lying outside of the floodway."
+      },
+      {
+        "term": "Freeboard",
+        "definition": "A margin of safety added to the base flood elevation to account for waves, debris, miscalculations, or lack of data."
+      },
+      {
+        "term": "Green infrastructure",
+        "definition": "Because the term is widely interpreted, the CRS does not use \"green infrastructure\" in its credit criteria. However, the CRS provides credit for designated open space corridors or connected networks of wetlands, woodlands, wildlife habitats, wilderness, and other areas that support native species, maintain natural ecological processes, and sustain air and water resources."
+      },
+      {
+        "term": "High-hazard-potential dam",
+        "definition": "Dams assigned the high-hazard-potential classification are those whose failure or mismanagement will probably cause loss of human life."
+      },
+      {
+        "term": "Hydrology",
+        "definition": "The science dealing with the waters of the earth. A flood discharge is developed by a hydrologic study."
+      },
+      {
+        "term": "I-Codes",
+        "definition": "The series of building codes published by the International Code Council."
+      },
+      {
+        "term": "ICC",
+        "definition": "Increased Cost of Compliance coverage, a flood insurance claim provision that helps fund the cost of bringing a flood-damaged building into compliance with floodplain management standards."
+      },
+      {
+        "term": "Technical Reviewer",
+        "definition": "An individual responsible for reviewing community requests for Community Rating System credit for select activities. Reviews are provided to the Contractor."
+      },
+      {
+        "term": "Levee",
+        "definition": "A manmade structure, usually an earthen embankment, designed and constructed using sound engineering practices to contain, control, or divert floodwaters in accordance with a designated risk reduction level."
+      },
+      {
+        "term": "Levee system",
+        "definition": "The levee structure plus all appurtenant facilities (pump stations, closure devices, etc.) needed to contain, control, or divert floodwaters in accordance with a designated risk reduction level. For CRS purposes, credit is based on local activities related to the entire levee system, not just the levee structure."
+      },
+      {
+        "term": "Limit of moderate wave action (LiMWA)",
+        "definition": "The inland limit of the area affected by waves greater than 1.5 feet. Determined based on the landward limit of the 1% annual chance coastal flood that can support a 1.5-foot wave. New coastal FIRMs show the LiMWA as an informational layer; the area between this limit and the V-Zone boundary is also known as the Coastal A Zone."
+      },
+      {
+        "term": "Low-impact development (LID)",
+        "definition": "According to the U.S. Environmental Protection Agency, an approach to land development (or redevelopment) that works with nature to manage stormwater as close to its source as possible and treat stormwater as a resource rather than a waste product. Applied on a broad scale, LID can maintain or restore a watershed's hydrologic and ecological functions."
+      },
+      {
+        "term": "NAVD",
+        "definition": "North American Vertical Datum of 1988. The national datum replacing NGVD to set flood and ground elevations for FIRMs."
+      },
+      {
+        "term": "Natural floodplain functions",
+        "definition": "a) Functions of the natural or relatively undisturbed floodplain that moderate flooding, retain flood waters, reduce erosion and sedimentation, and mitigate the effects of waves and storm surges; and b) Other significant beneficial functions, including maintenance of water quality, recharge of groundwater, and provision of fish and wildlife habitat."
+      },
+      {
+        "term": "NFIP",
+        "definition": "National Flood Insurance Program."
+      },
+      {
+        "term": "NGVD",
+        "definition": "National Geodetic Vertical Datum of 1929, the national datum previously used by the NFIP (formerly known as the \"Mean Sea Level Datum of 1929\")."
+      },
+      {
+        "term": "Ponding",
+        "definition": "A flooding condition in low-lying areas caused when runoff drains to a location that has no ready outlet. Ponded water usually remains until it evaporates, seeps into the ground, or is pumped out."
+      },
+      {
+        "term": "Post-FIRM building",
+        "definition": "For insurance rating purposes, a building constructed or substantially improved after December 31, 1974, or after the effective date of the initial FIRM of a community, whichever is later. Must meet NFIP minimum Regular Program flood protection standards."
+      },
+      {
+        "term": "Pre-FIRM building",
+        "definition": "For insurance rating purposes, a building constructed or substantially improved on or before December 31, 1974, or before the effective date of the initial FIRM of the community, whichever is later. Most pre-FIRM buildings were constructed without taking flood hazard into account."
+      },
+      {
+        "term": "Registered design professional",
+        "definition": "An individual registered or licensed to practice his or her respective design profession as defined by state or jurisdiction laws where the project is to be constructed. Includes licensed professional engineers, structural engineers, architects, and registered land surveyors."
+      },
+      {
+        "term": "Regular Program",
+        "definition": "Also called the Regular Phase. The phase of community participation in the NFIP that begins on the effective date of the community's first FIRM or when the community adopts an ordinance meeting NFIP minimum requirements and adopts the technical data provided with the FIRM, whichever is earlier. Nearly all participating communities are in the Regular Program."
+      },
+      {
+        "term": "Regulatory floodplain",
+        "definition": "For CRS purposes, the flood-prone land area subject to a community's floodplain development or floodplain management regulations. Includes, at a minimum, the SFHA, but may also incorporate other areas outside the SFHA that are regulated."
+      },
+      {
+        "term": "Repetitive loss community",
+        "definition": "A community with one or more repetitive loss properties for CRS purposes."
+      },
+      {
+        "term": "Repetitive loss property",
+        "definition": "A property for which two or more NFIP losses of at least $1,000 each have been paid within any 10-year rolling period since 1978."
+      },
+      {
+        "term": "Retrofitting",
+        "definition": "Modifications to an existing building or nearby grounds to protect it from flood damage. Techniques include elevation, dry and wet floodproofing, and protection from sewer backup."
+      },
+      {
+        "term": "Riparian ecosystem",
+        "definition": "A distinct association of flora, fauna, and soil occurring along a river, stream, lake, ocean, or other body of water and dependent upon high water tables and occasional flooding. Often exhibits high biological productivity and species diversity; may extend beyond the SFHA."
+      },
+      {
+        "term": "Riverine",
+        "definition": "Of or produced by a river or stream. Riverine floodplains have readily identifiable channels. Floodway maps can only be prepared for riverine floodplains."
+      },
+      {
+        "term": "Sand dunes",
+        "definition": "Naturally occurring accumulations of sand that form ridges or mounds landward of a beach."
+      },
+      {
+        "term": "Sensitive area",
+        "definition": "An area defined by state or local regulations as deserving special protection because of its unique natural features or value as habitat. Subject to more restrictive development regulations than other floodplains or wetlands and may extend beyond the SFHA."
+      },
+      {
+        "term": "Severe Repetitive Loss property",
+        "definition": "As defined in the Flood Insurance Reform Act of 2004, those 1–4 family properties that have had four or more claims of more than $5,000 or two to three claims that cumulatively exceed the building's value. For CRS, non-residential buildings that meet the same criteria are considered Severe Repetitive Loss properties."
+      },
+      {
+        "term": "SFHA",
+        "definition": "Special Flood Hazard Area (see definition)."
+      },
+      {
+        "term": "Sheet flow",
+        "definition": "A flooding condition where there is moving water but no identifiable channel. Depths are usually shallow (less than 3 feet) and may have high velocity, as on alluvial fans."
+      },
+      {
+        "term": "Special Flood Hazard Area (SFHA)",
+        "definition": "The base floodplain delineated on a FIRM that a community must regulate under NFIP requirements. Mapped as Zone A; in coastal situations, Zone V is also part of the SFHA. Included in the community's regulatory floodplain."
+      },
+      {
+        "term": "Special flood-related hazards",
+        "definition": "For CRS purposes, terrain features or special hazards that accompany or aggravate flooding, as listed in Section 401."
+      },
+      {
+        "term": "Stakeholders",
+        "definition": "Floodplain residents, business leaders, insurance agents, civic groups, academia, non-profit organizations, major employers, managers of critical facilities, farmers, landowners, developers, and others affected by flooding or whose actions can help prevent or reduce flood losses."
+      },
+      {
+        "term": "Storage basins",
+        "definition": "For CRS, includes all constructed stormwater runoff detention or retention facilities on public or private property, including onsite detention, retention, or infiltration facilities required for new development."
+      },
+      {
+        "term": "Substantial damage",
+        "definition": "Damage of any origin sustained by a building whereby the cost of restoring the building to its before-damage condition would equal or exceed 50% of the market value of the building before the damage occurred."
+      },
+      {
+        "term": "Substantial improvement",
+        "definition": "Any reconstruction, rehabilitation, addition, or other improvement to a building, the cost of which equals or exceeds 50% of the market value of the building before the start of construction of the improvement."
+      },
+      {
+        "term": "Surcharge",
+        "definition": "An increase in flood elevation due to obstruction of the floodplain that reduces its conveyance capacity."
+      },
+      {
+        "term": "Tsunami",
+        "definition": "A wave caused by an underwater earthquake, landslide, or volcano that can raise water levels on the ocean shore to levels higher than the base flood elevation. Discussed in more detail in Section 401."
+      },
+      {
+        "term": "Uncertain flow paths",
+        "definition": "Channels that move during a flood, including alluvial fans and moveable bed streams. Discussed in more detail in Section 400."
+      },
+      {
+        "term": "V Zone",
+        "definition": "See \"Zone V.\""
+      },
+      {
+        "term": "Variable",
+        "definition": "A term used in the formulae for calculating CRS credit. For each element, there are one or more variables, which often include the acronym for the element."
+      },
+      {
+        "term": "X Zone",
+        "definition": "See \"Zone X.\""
+      },
+      {
+        "term": "Zone A",
+        "definition": "The Special Flood Hazard Area (except coastal V Zones) shown on a community’s Flood Insurance Rate Map (FIRM). There are seven types of A Zones:",
+        "subdefinitions": [
+          {
+            "term": "A",
+            "definition": "SFHA where no base flood elevation is provided."
+          },
+          {
+            "term": "A#",
+            "definition": "Numbered A Zones (e.g., A7 or A14), SFHA where an older FIRM shows a base flood elevation in relation to a national datum."
+          },
+          {
+            "term": "AE",
+            "definition": "SFHA where base flood elevations are provided; used on newer FIRMs instead of A# Zones."
+          },
+          {
+            "term": "AO",
+            "definition": "SFHA with sheet flow, ponding, or shallow flooding; base flood depths (feet above grade) are provided."
+          },
+          {
+            "term": "AH",
+            "definition": "Shallow flooding SFHA; base flood elevations in relation to a national datum are provided."
+          },
+          {
+            "term": "AR",
+            "definition": "Temporary designation for an area where a flood control system that no longer provides base-flood protection is expected to be improved to do so again in the future; considered part of the SFHA/regulatory floodplain."
+          },
+          {
+            "term": "A99",
+            "definition": "Mapped floodplain that will be protected by a federal flood-protection system where construction has reached specified statutory milestones; considered part of the SFHA/regulatory floodplain."
+          }
+        ]
+      },
+      {
+        "term": "Zone B",
+        "definition": "Area of moderate flood hazard, usually depicted on older FIRMs as between the limits of the base and 500-year floods of the primary source of flooding. May have local, shallow flooding problems. Also used to designate areas protected by levees and base floodplains of little hazard (e.g., average depths < 1 foot)."
+      },
+      {
+        "term": "Zone C",
+        "definition": "Area of minimal flood hazard, usually depicted on older FIRMs as above the 500-year flood level of the primary source of flooding. May have local, shallow flooding problems that do not meet the criteria to be mapped as an SFHA, especially ponding and local drainage problems."
+      },
+      {
+        "term": "Zone D",
+        "definition": "Area of undetermined but possible flood hazard."
+      },
+      {
+        "term": "Zone V",
+        "definition": "The Special Flood Hazard Area subject to coastal high hazard flooding. There are three types of V Zones: V, V#, and VE; they correspond to the A-Zone designations."
+      },
+      {
+        "term": "Zone X",
+        "definition": "On newer FIRMs, Zones B and C are shown as Zone X. Shaded Zone X corresponds to Zone B; unshaded Zone X corresponds to Zone C."
+      }
+    ]
+  }
+]

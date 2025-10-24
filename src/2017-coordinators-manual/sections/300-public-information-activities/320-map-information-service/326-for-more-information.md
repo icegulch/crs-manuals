@@ -1,5 +1,0 @@
----
-section_id: "326"
-section_title: For More Information
-page_in_manual: 320-17
----

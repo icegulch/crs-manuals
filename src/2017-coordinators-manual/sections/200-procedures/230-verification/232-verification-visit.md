@@ -1,5 +1,0 @@
----
-section_id: "232"
-section_title: Verification Visit
-page_in_manual: 230-6
----

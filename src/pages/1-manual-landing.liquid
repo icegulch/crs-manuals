@@ -1,0 +1,20 @@
+---
+layout: layouts/base.liquid
+pagination:
+  data: manuals
+  size: 1
+  alias: manual
+permalink: /{{ manual.slug }}/
+---
+
+<h1>{{ manual.title }}</h1>
+
+{%- assign nodes = manualNodes | where: "manual", manual.slug -%}
+{% render "components/nav.liquid",
+  nodes: nodes,
+  mode: "full",
+  list_kind: "dl",
+  show_depth: 3,
+  omit_singles_at_top: true,
+  include_headings: true
+%}

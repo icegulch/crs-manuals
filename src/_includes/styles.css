@@ -1,11 +1,15 @@
-html {
-  height: 100%;
-  font-size: 1rem;
+:root {
+  --color-callout-header: #00497a; /* pair w/white text */
+  --color-callout-body: #b0d4e3; /* pair w/black text */
+  --color-example-body: #e1e1e1; /* pair w/black text */
+  --color-example-header: #505050; /* pair w/white text */
 }
+
+/* Make the page at least the height of the viewport, accounting for mobile UI chrome */
+
+html,
 body {
-  margin: 0;
-  display: grid;
-  grid-template-rows: 1fr;
+  height: 100%;
 }
 
 section {
@@ -14,162 +18,130 @@ section {
   padding-block: 1.5rem;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  font-style: italic;
+h1 {
+  color: var(--color-callout-header);
 }
 
+/* BS overrides */
 
-
-.section-content {
-  font: 1.2rem/1.4 georgia, serif;
+.table thead th {
+  background-color: var(--color-callout-body);
 }
 
-.section-content :is(h1,h2,h3,h4,h5,h6) {
-  font-family: sans-serif;
+.h3 {
+  color: var(--color-callout-header);
 }
 
-.section-content h1 {
-  font-size: 2rem;
-}
-
-.section-content h2 {
-  font-size: 1.75rem;
-}
-
-.section-content h3 {
-  font-size: 1.5rem;
-}
-
-.section-content :is(h4,h5,h6) {
-  font-size: 1.3rem;
+.h4 {
+  text-transform: uppercase;
 }
 
 .paren-numlist {
   list-style: none;
 }
-.paren-numlist > li:before {content: "(" counter(section, decimal) ") "; position: absolute; top: 0;left: -.75em;}
-.paren-numlist > li { position: relative; counter-increment: section; padding-left: 1em;}
-.paren-numlist > li ol { list-style: none;}
-.paren-numlist > li ol li:before {content: "(" counter(subsection, lower-alpha) ") "; position: absolute; top: 0;left: -.75em;}
-.paren-numlist > li ol li { position: relative; counter-increment: subsection; padding-left: 1em;}
-.paren-numlist > li ol ol { list-style: none;}
-.paren-numlist > li ol ol li:before {content: "(" counter(subsubsection, lower-roman) ") "; position: absolute; top: 0;left: -.75em;}
-.paren-numlist > li ol ol li { position: relative; counter-increment: subsubsection; padding-left: 1em;}
-.paren-numlist > li ol ol ol { list-style: none;}
-.paren-numlist > li ol ol ol li:before {content: "((" counter(subsubsubsection, decimal) ")) "; position: absolute; top: 0;left: -.75em;}
-.paren-numlist > li ol ol ol li { position: relative; counter-increment: subsubsubsection; padding-left: 1.5em;}
-.toc tr:nth-child(odd) td {
-  background-color: #f1f5f9;
-}
-.glossary th {
-  text-align: right;
-  padding-right: 0.5rem;
-}
-.glossary th, .glossary td {
-  vertical-align: top;
-  padding-block: 0.5rem;
-}
-[id]:target {
-  animation: target-animation 4s ease;
-}
-
-
-/* ACCORDION */
-.accordion-menu {
-  list-style: none;
-  padding-left: 0;
-  font: 0.8rem sans-serif;
-  background: #f9f9f9;
-  border-right: 1px solid #ddd;
-  height: 100vh;
-}
-
-.accordion-menu li {
-  margin: 0;
-  padding: 0;
-}
-
-/* Style Links */
-.accordion-menu a {
-  display: flex;
-  gap: 0 0.5rem;
-  padding: 10px;
-  text-decoration: none;
-  color: #333;
-  /* background: #f9f9f9; */
-  border-bottom: 1px solid #ddd;
-  transition: background 0.3s ease-in-out;
-}
-
-.accordion-menu a:hover {
-  background: #eee;
-}
-
-/* Highlight Active Page */
-.accordion-menu a.active {
-  /* font-weight: bold; */
-  color: #007bff;
-}
-
-/* Style Buttons for Parent Items */
-
-.accordion-menu .toggle-submenu {
-  position: relative;
-  display: flex;
-  gap: 0 0.5rem;
-  width: 100%;
-  text-align: left;
-  padding: 10px;
-  font: 0.8rem/1 sans-serif;
-  border: none;
-  background: transparent;
-  appearance: none;
-  color: #333;
-  cursor: pointer;
-  border-bottom: 1px solid #ddd;
-  transition: background 0.3s ease-in-out;
-}
-
-.accordion-menu .toggle-submenu:hover {
-  background: #ddd;
-}
-
-/* Indicator Arrow for Parent Items */
-.accordion-menu .toggle-submenu::after {
-  content: "▼";
+.paren-numlist > li:before {
+  content: "(" counter(section, decimal) ") ";
   position: absolute;
-  right: 0.5rem;
-  top: 50%;
-  transform: translateY(-50%);
-  transition: transform 0.3s ease-in-out;
+  top: 0;
+  left: -0.75em;
 }
-
-.accordion-menu .toggle-submenu[aria-expanded="true"]::after {
-  transform: rotate(180deg);
+.paren-numlist > li {
+  position: relative;
+  counter-increment: section;
+  padding-left: 1em;
 }
-
-/* Hide Submenus by Default */
-.submenu {
+.paren-numlist > li ol {
   list-style: none;
-  padding-left: 15px;
-  display: none;
-  overflow: hidden;
-  transition: max-height 0.3s ease-in-out;
+}
+.paren-numlist > li ol li:before {
+  content: "(" counter(subsection, lower-alpha) ") ";
+  position: absolute;
+  top: 0;
+  left: -0.75em;
+}
+.paren-numlist > li ol li {
+  position: relative;
+  counter-increment: subsection;
+  padding-left: 1em;
+}
+.paren-numlist > li ol ol {
+  list-style: none;
+}
+.paren-numlist > li ol ol li:before {
+  content: "(" counter(subsubsection, lower-roman) ") ";
+  position: absolute;
+  top: 0;
+  left: -0.75em;
+}
+.paren-numlist > li ol ol li {
+  position: relative;
+  counter-increment: subsubsection;
+  padding-left: 1em;
+}
+.paren-numlist > li ol ol ol {
+  list-style: none;
+}
+.paren-numlist > li ol ol ol li:before {
+  content: "((" counter(subsubsubsection, decimal) ")) ";
+  position: absolute;
+  top: 0;
+  left: -0.75em;
+}
+.paren-numlist > li ol ol ol li {
+  position: relative;
+  counter-increment: subsubsubsection;
+  padding-left: 1.5em;
 }
 
-/* Show Active Submenu */
-.submenu.active {
-  display: block;
+.glossary dt {
+  display: inline;
 }
 
+.glossary dt:after {
+  content: ": ";
+}
 
-/* Keyframes for the background color animation */
+.glossary dd {
+  display: inline;
+}
+
+.glossary dd:after {
+  content: "";
+  display: table;
+  margin-bottom: 1rem;
+}
+
+.glossary dd > :is(dl, blockquote) {
+  margin: 1rem 0 1rem 2rem;
+}
+
+.acronyms {
+  display: grid;
+  grid-template-columns: 10ch 1fr;
+  column-gap: 1rem;
+  row-gap: 0.5rem;
+}
+
+.acronyms dt,
+.acronyms dd {
+  margin: 0;
+}
+
+.table--acronyms tbody th {
+  font-weight: normal;
+}
+
+[id]:target,
+[id]:target > td {
+  animation: target-animation 4s ease;
+  scroll-margin-top: 4rem;
+}
+
+/* Keyframes for the :target background color animation */
 @keyframes target-animation {
   0%,
   50% {
-    background-color: #ffa;
+    background-color: var(--bs-warning-bg-subtle, #fff6c4);
   }
 
   100% {

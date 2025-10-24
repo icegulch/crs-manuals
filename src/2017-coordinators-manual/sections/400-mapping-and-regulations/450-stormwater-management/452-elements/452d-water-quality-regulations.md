@@ -1,7 +1,0 @@
----
-section_id: "452d"
-section_title: Water quality regulations
-is_element: true
-abbr: WQ
-page_in_manual: 450-4
----

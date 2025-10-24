@@ -1,5 +1,0 @@
----
-section_id: "363"
-section_title: Impact Adjustment
-page_in_manual: 360-11
----

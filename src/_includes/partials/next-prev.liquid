@@ -1,0 +1,22 @@
+
+<nav aria-label="Manual pagination">
+  <ul class="pagination justify-content-center my-4">
+    <li class="page-item {% if not pagination.href.previous %}disabled{% endif %}">
+      {% if pagination.href.previous %}
+        <a class="page-link" href="{{ pagination.href.previous }}" title="{{ pagination.page.previous.title }}">Prev</a>
+      {% else %}
+        <span class="page-link">Prev</span>
+      {% endif %}
+    </li>
+    <li class="page-item">
+      <a class="page-link" href="/{{ node.manual }}/">All</a>
+    </li>
+    <li class="page-item {% if not pagination.href.next %}disabled{% endif %}">
+      {% if pagination.href.next %}
+        <a class="page-link" href="{{ pagination.href.next }}" title="{{ pagination.page.next.title }}">Next</a>
+      {% else %}
+        <span class="page-link">Next</span>
+      {% endif %}
+    </li>
+  </ul>
+</nav>

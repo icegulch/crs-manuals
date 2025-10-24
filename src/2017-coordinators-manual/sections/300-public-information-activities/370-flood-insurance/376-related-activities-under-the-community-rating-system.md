@@ -1,5 +1,0 @@
----
-section_id: "376"
-section_title: Related Activities under the Community Rating System
-page_in_manual: 370-14
----

@@ -1,0 +1,20 @@
+---js
+{
+  layout: "layouts/base.liquid",
+  pagination: {
+    data: "manualNodes",
+    size: 1,
+    alias: "node",
+    before: items => items.filter(i => i.type === "page")
+  },
+  permalink: "{{ node.permalink }}"
+}
+---
+{%- assign nodes = manualNodes | where: "manual", node.manual -%}
+{%- assign thisManual = manuals | where: "slug", node.manual | first -%}
+
+{% render "partials/next-prev.liquid", pagination: pagination, node: node %}
+
+{% render "content/{{ node.manual }}/{{ node.group }}/{{ node.node_id }}.liquid", nodes: nodes, node: node, manual: thisManual %}
+
+{% render "partials/next-prev.liquid", pagination: pagination, node: node %}

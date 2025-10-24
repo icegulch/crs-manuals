@@ -1,0 +1,14 @@
+---
+permalink: /
+layout: layouts/base.liquid
+---
+
+<h1>{{ site.title }}</h1>
+
+<ul>
+  {% for manual in manuals %}
+    <li>
+      <a href="/{{ manual.slug }}/">{{ manual.title }}</a>
+    </li>
+  {% endfor %}
+</ul>

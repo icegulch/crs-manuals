@@ -1,0 +1,40 @@
+{%- comment -%}
+Inputs:
+- section (heading node)
+- base_level (page.level)
+- visual_offset (for Bootstrap .hN)
+- nodes (all nodes for this manual)
+- manual (the manual object already looked up)
+{%- endcomment -%}
+
+{%- assign delta    = section.level | minus: base_level -%}
+{%- assign semantic = 1 | plus: delta -%}
+{%- if semantic < 2 -%}{% assign semantic = 2 %}{%- endif -%}
+{%- if semantic > 6 -%}{% assign semantic = 6 %}{%- endif -%}
+
+{%- assign visual = semantic | plus: visual_offset -%}
+{%- if visual < 1 -%}{% assign visual = 1 %}{%- endif -%}
+{%- if visual > 6 -%}{% assign visual = 6 %}{%- endif -%}
+
+{%- assign heading_id = section.node_id | append: "-title" %}
+
+<section id="{{ section.node_id }}" aria-labelledby="{{ heading_id }}">
+  <h{{ semantic }} id="{{ heading_id }}" class="h{{ visual }}">{{ section.title }}</h{{ semantic }}>
+
+  <!-- TODO: add content for {{ section.node_id }} -->
+
+  {%- assign children = nodes
+      | where: "type", "heading"
+      | where: "parent_node", section.node_id
+      | sort: "node_id" -%}
+
+  {%- for child in children -%}
+    {% render "partials/_page-generator-helper.liquid",
+       section: child,
+       base_level: base_level,
+       visual_offset: visual_offset,
+       nodes: nodes,
+       manual: manual
+    %}
+  {%- endfor %}
+</section>

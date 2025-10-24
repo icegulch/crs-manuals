@@ -1,7 +1,0 @@
----
-section_id: "422f"
-section_title: Open space incentives
-is_element: true
-abbr: OSI
-page_in_manual: 420-3
----
