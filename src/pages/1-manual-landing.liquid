@@ -10,11 +10,68 @@ permalink: /{{ manual.slug }}/
 <h1>{{ manual.title }}</h1>
 
 {%- assign nodes = manualNodes | where: "manual", manual.slug -%}
-{% render "components/nav.liquid",
-  nodes: nodes,
-  mode: "full",
-  list_kind: "dl",
-  show_depth: 3,
-  omit_singles_at_top: true,
-  include_headings: true
-%}
+
+{%- assign topContents = nodes
+    | where: "type", "content"
+    | where: "level", 0
+    | sort: "node_id" -%}
+
+    <ul class="list-unstyled">
+      {% for section in topContents %}
+        <li>
+          <a href="{{ section.permalink }}">{{ section.title }}</a>
+          {%- assign children = nodes
+              | where: "type", "content"
+              | where: "parent_node", section.node_id
+              | sort: "node_id" -%}
+          {% if children.size %}
+            <ul class="list-unstyled ms-3">
+              {% for child in children %}
+                <li>
+                  <a href="{{ child.permalink }}">{{ child.title }}</a>
+                  {%- assign grandchildren = nodes
+                      | where: "type", "content"
+                      | where: "parent_node", child.node_id
+                      | sort: "node_id" -%}
+                  {% if grandchildren.size %}
+                    <ul class="list-unstyled ms-3">
+                      {% for grandchild in grandchildren %}
+                        <li>
+                          <a href="{{ grandchild.permalink }}">{{ grandchild.title }}</a>
+                          {%- assign greatgrandchildren = nodes
+                              | where: "type", "content"
+                              | where: "parent_node", grandchild.node_id
+                              | sort: "node_id" -%}
+                          {% if greatgrandchildren.size %}
+                            <ul class="list-unstyled ms-3">
+                              {% for greatgrandchild in greatgrandchildren %}
+                                <li>
+                                  <a href="{{ greatgrandchild.permalink }}">{{ greatgrandchild.title }}</a>
+                                  {%- assign greatgreatgrandchildren = nodes
+                                      | where: "type", "content"
+                                      | where: "parent_node", greatgrandchild.node_id
+                                      | sort: "node_id" -%}
+                                  {% if greatgreatgrandchildren.size %}
+                                    <ul class="list-unstyled ms-3">
+                                      {% for greatgreatgrandchild in greatgreatgrandchildren %}
+                                        <li>
+                                          <a href="{{ greatgreatgrandchild.permalink }}">{{ greatgreatgrandchild.title }}</a>
+                                        </li>
+                                      {% endfor %}
+                                    </ul>
+                                  {% endif %}
+                                </li>
+                              {% endfor %}
+                            </ul>
+                          {% endif %}
+                        </li>
+                      {% endfor %}
+                    </ul>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>

@@ -1,3 +1,12 @@
-<h1 id="801-title">Appendix A: Acronyms</h1>
+{%- assign manualAcronyms = manual.acronyms -%}
 
-{# Top-level child headings under this page #}
+<dl class="acronyms">
+  {%- for a in manualAcronyms -%}
+    <dt id="{{ a.term | slugify }}">
+      <abbr title="{{ a.definition | strip_html | strip_newlines | escape }}">
+        {{ a.term }}
+      </abbr>
+    </dt>
+    <dd>{{ a.definition }}</dd>
+  {%- endfor -%}
+</dl>

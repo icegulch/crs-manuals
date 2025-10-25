@@ -5,7 +5,8 @@
     "pdf": "",
     "nodes": [
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "foreword",
         "node_id": "000",
         "group": "000",
@@ -13,7 +14,8 @@
         "title": "Foreword"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "000-1",
         "parent_node": "000",
         "group": "000",
@@ -21,7 +23,8 @@
         "title": "Using the “Coordinator’s Manual”"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "000-2",
         "parent_node": "000",
         "group": "000",
@@ -29,15 +32,18 @@
         "title": "More about the “Coordinator’s Manual”"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "100",
+        "is_series": true,
         "node_id": "100",
         "group": "100",
         "level": 0,
         "title": "100 Introduction"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "110",
         "node_id": "110",
         "parent_node": "100",
@@ -48,14 +54,24 @@
       {
         "type": "table",
         "node_id": "110-1t",
-        "table_id": "110-1",
+        "table_id": "110-1.",
         "parent_node": "110",
         "group": "100",
         "level": 2,
         "title": "CRS classes, credit points, and premium discounts"
       },
       {
-        "type": "heading",
+        "type": "table",
+        "node_id": "110-2t",
+        "table_id": "110-2.",
+        "parent_node": "110",
+        "group": "100",
+        "level": 2,
+        "title": "Credit points awarded for CRS activities"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "111",
         "node_id": "111",
         "parent_node": "110",
@@ -64,7 +80,8 @@
         "title": "111 Background"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "112",
         "node_id": "112",
         "parent_node": "110",
@@ -73,7 +90,8 @@
         "title": "112 Goals"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "112-1",
         "parent_node": "112",
         "group": "100",
@@ -81,7 +99,8 @@
         "title": "Goal 1. Reduce and avoid flood damage to insurable property."
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "112-2",
         "parent_node": "112",
         "group": "100",
@@ -89,7 +108,8 @@
         "title": "Goal 2. Strengthen and support the insurance aspects of the NFIP."
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "112-3",
         "parent_node": "112",
         "group": "100",
@@ -97,7 +117,8 @@
         "title": "Goal 3. Foster comprehensive floodplain management."
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "113",
         "node_id": "113",
         "parent_node": "110",
@@ -106,7 +127,8 @@
         "title": "113 Credit Points and Credited Activities"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "113a",
         "node_id": "113a",
         "parent_node": "113",
@@ -115,7 +137,8 @@
         "title": "113.a. Credit Points and Classification"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "113b",
         "node_id": "113b",
         "parent_node": "113",
@@ -124,7 +147,8 @@
         "title": "113.b. Credited Activities"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "113b-1",
         "parent_node": "113b",
         "group": "100",
@@ -132,7 +156,8 @@
         "title": "Public Information Activities (300 Series)"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "113b-2",
         "parent_node": "113b",
         "group": "100",
@@ -140,7 +165,8 @@
         "title": "Mapping and Regulations (400 Series)"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "113b-3",
         "parent_node": "113b",
         "group": "100",
@@ -148,7 +174,8 @@
         "title": "Flood Damage Reduction Activities (500 Series)"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "113b-4",
         "parent_node": "113b",
         "group": "100",
@@ -156,7 +183,8 @@
         "title": "Warning and Response (600 Series)"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "113c",
         "node_id": "113c",
         "parent_node": "113",
@@ -165,7 +193,8 @@
         "title": "113.c. Activity Credit Points"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "113d",
         "node_id": "113d",
         "parent_node": "113",
@@ -174,7 +203,8 @@
         "title": "113.d. Activities Not Listed"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "114",
         "node_id": "114",
         "parent_node": "110",
@@ -183,7 +213,8 @@
         "title": "114 The Community’s Role"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "114a",
         "node_id": "114a",
         "parent_node": "114",
@@ -192,7 +223,8 @@
         "title": "114.a. Community Participation"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "114b",
         "node_id": "114b",
         "parent_node": "114",
@@ -201,7 +233,8 @@
         "title": "114.b. Community Responsibilities"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "115",
         "node_id": "115",
         "parent_node": "110",
@@ -210,7 +243,8 @@
         "title": "115 Costs and Benefits"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "115a",
         "node_id": "115a",
         "parent_node": "115",
@@ -219,7 +253,8 @@
         "title": "115.a. Costs"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "115b",
         "node_id": "115b",
         "parent_node": "115",
@@ -228,7 +263,8 @@
         "title": "115.b. Benefits"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "116",
         "node_id": "116",
         "parent_node": "110",
@@ -237,7 +273,8 @@
         "title": "116 Other Program Priorities"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "116a",
         "node_id": "116a",
         "parent_node": "116",
@@ -246,7 +283,8 @@
         "title": "116.a. Natural Floodplain Functions and Threatened and Endangered Species"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "116b",
         "node_id": "116b",
         "parent_node": "116",
@@ -255,7 +293,8 @@
         "title": "116.b. All-Hazards Mitigation"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "116c",
         "node_id": "116c",
         "parent_node": "116",
@@ -264,7 +303,8 @@
         "title": "116.c. Future Development"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "120",
         "node_id": "120",
         "parent_node": "100",
@@ -273,24 +313,29 @@
         "title": "120 Glossary"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "200",
+        "is_series": true,
         "node_id": "200",
         "group": "200",
         "level": 0,
         "title": "200 Procedures"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "210",
         "node_id": "210",
         "parent_node": "200",
         "group": "200",
         "level": 1,
-        "title": "210 Requesting CRS Credit—Summary"
+        "is_summary": true,
+        "title": "210 Requesting CRS Credit"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "211",
         "node_id": "211",
         "parent_node": "210",
@@ -299,7 +344,8 @@
         "title": "211 Program Prerequisites"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "211a",
         "node_id": "211a",
         "parent_node": "211",
@@ -308,7 +354,8 @@
         "title": "211.a. Class 9 Prerequisites"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "211b",
         "node_id": "211b",
         "parent_node": "211",
@@ -317,7 +364,8 @@
         "title": "211.b. Class 8 Prerequisites"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "211c",
         "node_id": "211c",
         "parent_node": "211",
@@ -326,7 +374,8 @@
         "title": "211.c. Class 6 Prerequisites"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "211d",
         "node_id": "211d",
         "parent_node": "211",
@@ -335,7 +384,8 @@
         "title": "211.d. Class 4 Prerequisites"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "211e",
         "node_id": "211e",
         "parent_node": "211",
@@ -344,7 +394,8 @@
         "title": "211.e. Class 1 Prerequisites"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "212",
         "node_id": "212",
         "parent_node": "210",
@@ -353,7 +404,8 @@
         "title": "212 Application Procedures"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "212a",
         "node_id": "212a",
         "parent_node": "212",
@@ -362,7 +414,8 @@
         "title": "212.a. Application Request"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "212b",
         "node_id": "212b",
         "parent_node": "212",
@@ -371,7 +424,8 @@
         "title": "212.b. Application Documentation"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "212c",
         "node_id": "212c",
         "parent_node": "212",
@@ -380,7 +434,8 @@
         "title": "212.c. Verification Processing"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "212d",
         "node_id": "212d",
         "parent_node": "212",
@@ -389,7 +444,8 @@
         "title": "212.d. Reinstating Previous CRS Communities"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "213",
         "node_id": "213",
         "parent_node": "210",
@@ -398,7 +454,8 @@
         "title": "213 Recertification"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "213a",
         "node_id": "213a",
         "parent_node": "213",
@@ -407,7 +464,8 @@
         "title": "213.a. Program Data Table"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "214",
         "node_id": "214",
         "parent_node": "210",
@@ -416,7 +474,8 @@
         "title": "214 Modifications"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "214a",
         "node_id": "214a",
         "parent_node": "214",
@@ -425,7 +484,8 @@
         "title": "214.a. Modification Criteria"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "214b",
         "node_id": "214b",
         "parent_node": "214",
@@ -434,7 +494,8 @@
         "title": "214.b. Courtesy Reviews"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "215",
         "node_id": "215",
         "parent_node": "210",
@@ -443,7 +504,8 @@
         "title": "215 Changes in CRS Credit"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "215a",
         "node_id": "215a",
         "parent_node": "215",
@@ -452,7 +514,8 @@
         "title": "215.a. Changes Initiated by the Community"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "215b",
         "node_id": "215b",
         "parent_node": "215",
@@ -461,7 +524,8 @@
         "title": "215.b. Changes in the ”Coordinator’s Manual”"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "215c",
         "node_id": "215c",
         "parent_node": "215",
@@ -470,7 +534,8 @@
         "title": "215.c. Changes in the Floodplain Map"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "215d",
         "node_id": "215d",
         "parent_node": "215",
@@ -479,16 +544,19 @@
         "title": "215.d. New Development"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "220",
         "node_id": "220",
         "parent_node": "200",
         "group": "200",
         "level": 1,
-        "title": "220 Credit Calculation—Summary"
+        "is_summary": true,
+        "title": "220 Credit Calculation"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "221",
         "node_id": "221",
         "parent_node": "220",
@@ -497,7 +565,8 @@
         "title": "221 Step 1. Element Credit Points"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "221-1",
         "parent_node": "221",
         "group": "200",
@@ -505,7 +574,8 @@
         "title": "Credit for Activities not listed in the “Coordinator’s Manual”"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "222",
         "node_id": "222",
         "parent_node": "220",
@@ -514,7 +584,8 @@
         "title": "222 Step 2. Impact Adjustment"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "223",
         "node_id": "223",
         "parent_node": "220",
@@ -523,7 +594,8 @@
         "title": "223 Step 3. Credit Calculation"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "223a",
         "node_id": "223a",
         "parent_node": "223",
@@ -532,7 +604,8 @@
         "title": "223.a. Element Calculation"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "223b",
         "node_id": "223b",
         "parent_node": "223",
@@ -541,7 +614,8 @@
         "title": "223.b. Activity Calculation"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "224",
         "node_id": "224",
         "parent_node": "220",
@@ -550,7 +624,8 @@
         "title": "224 Step 4. County Growth Adjustment"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "225",
         "node_id": "225",
         "parent_node": "220",
@@ -559,16 +634,19 @@
         "title": "225 Step 5. Community Classification"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "230",
         "node_id": "230",
         "parent_node": "200",
         "group": "200",
         "level": 1,
-        "title": "230 Verification—Summary"
+        "is_summary": true,
+        "title": "230 Verification"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "231",
         "node_id": "231",
         "parent_node": "230",
@@ -577,7 +655,8 @@
         "title": "231 Documentation Provided by the Community"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "231a",
         "node_id": "231a",
         "parent_node": "231",
@@ -586,7 +665,8 @@
         "title": "231.a. Certifications, Checklists, and Examples"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "231a-1",
         "parent_node": "231a",
         "group": "200",
@@ -594,7 +674,8 @@
         "title": "Certifications"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "231a-2",
         "parent_node": "231a",
         "group": "200",
@@ -602,7 +683,8 @@
         "title": "Checklists"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "231a-3",
         "parent_node": "231a",
         "group": "200",
@@ -610,7 +692,8 @@
         "title": "Examples"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "231b",
         "node_id": "231b",
         "parent_node": "231",
@@ -619,7 +702,8 @@
         "title": "231.b. Digital Documentation"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "231c",
         "node_id": "231c",
         "parent_node": "231",
@@ -628,7 +712,8 @@
         "title": "231.c. Ordinances"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "231d",
         "node_id": "231d",
         "parent_node": "231",
@@ -637,7 +722,8 @@
         "title": "231.d. State-based Credit"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "231e",
         "node_id": "231e",
         "parent_node": "231",
@@ -646,7 +732,8 @@
         "title": "231.e. Maps"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "232",
         "node_id": "232",
         "parent_node": "230",
@@ -655,7 +742,8 @@
         "title": "232 Verification Visit"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "232a",
         "node_id": "232a",
         "parent_node": "232",
@@ -664,7 +752,8 @@
         "title": "232.a. Visit Scheduling"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "232b",
         "node_id": "232b",
         "parent_node": "232",
@@ -673,7 +762,8 @@
         "title": "232.b. Cycle Scheduling"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "232c",
         "node_id": "232c",
         "parent_node": "232",
@@ -682,7 +772,8 @@
         "title": "232.c. Conduct of Verification Visit"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "232c-1",
         "parent_node": "232c",
         "group": "200",
@@ -690,7 +781,8 @@
         "title": "Preparation"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "232c-2",
         "parent_node": "232c",
         "group": "200",
@@ -698,7 +790,8 @@
         "title": "Office Review"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "232c-3",
         "parent_node": "232c",
         "group": "200",
@@ -706,7 +799,8 @@
         "title": "New Activities"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "232c-4",
         "parent_node": "232c",
         "group": "200",
@@ -714,7 +808,8 @@
         "title": "Field Verification"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "232c-5",
         "parent_node": "232c",
         "group": "200",
@@ -722,7 +817,8 @@
         "title": "Exit Interview"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "232d",
         "node_id": "232d",
         "parent_node": "232",
@@ -731,7 +827,8 @@
         "title": "232.d. Verification Thresholds"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "233",
         "node_id": "233",
         "parent_node": "230",
@@ -740,7 +837,8 @@
         "title": "233 Post-visit Actions"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "233-1",
         "parent_node": "233",
         "group": "200",
@@ -748,7 +846,8 @@
         "title": "Technical Reviews"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "233-2",
         "parent_node": "233",
         "group": "200",
@@ -756,7 +855,8 @@
         "title": "Verification Review"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "233-3",
         "parent_node": "233",
         "group": "200",
@@ -764,7 +864,8 @@
         "title": "Reconsideration"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "233-4",
         "parent_node": "233",
         "group": "200",
@@ -772,7 +873,8 @@
         "title": "Recertification"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "240",
         "node_id": "240",
         "parent_node": "200",
@@ -781,15 +883,18 @@
         "title": "240 Community Self-Assessment"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "300",
+        "is_series": true,
         "node_id": "300",
         "group": "300",
         "level": 0,
         "title": "300 Public Information Activities"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "301",
         "node_id": "301",
         "parent_node": "300",
@@ -798,7 +903,8 @@
         "title": "301 Construction Certificate Requirements"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "301a",
         "node_id": "301a",
         "parent_node": "301",
@@ -807,7 +913,8 @@
         "title": "301.a. CRS Participation Requirement"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "301b",
         "node_id": "301b",
         "parent_node": "301",
@@ -816,7 +923,8 @@
         "title": "301.b. Required Floodplain-related Construction Certificates"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "301c",
         "node_id": "301c",
         "parent_node": "301",
@@ -825,7 +933,8 @@
         "title": "301.c. Construction Certificate Checklists"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "301d",
         "node_id": "301d",
         "parent_node": "301",
@@ -834,7 +943,8 @@
         "title": "301.d. Getting Correct Construction Certificates"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "301e",
         "node_id": "301e",
         "parent_node": "301",
@@ -843,7 +953,8 @@
         "title": "301.e. Construction Certificate Verification"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "302",
         "node_id": "302",
         "parent_node": "300",
@@ -852,7 +963,8 @@
         "title": "302 Impact Adjustments for Buildings"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "302a",
         "node_id": "302a",
         "parent_node": "302",
@@ -861,7 +973,8 @@
         "title": "302.a. Definition of “Building”"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "302b",
         "node_id": "302b",
         "parent_node": "302",
@@ -870,7 +983,8 @@
         "title": "302.b. Pre- and Post-FIRM buildings"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "303",
         "node_id": "303",
         "parent_node": "300",
@@ -879,7 +993,8 @@
         "title": "303 Impact Adjustment Ratio"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "303a",
         "node_id": "303a",
         "parent_node": "303",
@@ -888,7 +1003,8 @@
         "title": "303.a. Counting Buildings"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "303b",
         "node_id": "303b",
         "parent_node": "303",
@@ -897,16 +1013,19 @@
         "title": "303.b. bSF (buildings in the SFHA)"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "310",
         "node_id": "310",
         "parent_node": "300",
         "group": "300",
         "level": 1,
-        "title": "310 Elevation Certificates—Summary"
+        "is_summary": true,
+        "title": "310 Elevation Certificates"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "311",
         "node_id": "311",
         "parent_node": "310",
@@ -915,7 +1034,8 @@
         "title": "311 Background"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "311a",
         "node_id": "311a",
         "parent_node": "311",
@@ -924,7 +1044,8 @@
         "title": "311.a. Activity Description"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "311b",
         "node_id": "311b",
         "parent_node": "311",
@@ -933,7 +1054,8 @@
         "title": "311.b. Activity Impact Adjustment"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "311c",
         "node_id": "311c",
         "parent_node": "311",
@@ -942,7 +1064,8 @@
         "title": "311.c. Credit Verification"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "312",
         "node_id": "312",
         "parent_node": "310",
@@ -951,7 +1074,8 @@
         "title": "312 Elements"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "312a",
         "node_id": "312a",
         "parent_node": "312",
@@ -961,7 +1085,8 @@
         "abbr": "CCMP"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "312a-1",
         "parent_node": "312a",
         "group": "300",
@@ -969,7 +1094,8 @@
         "title": "Credit Criteria for CCMP"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "312a-2",
         "parent_node": "312a",
         "group": "300",
@@ -977,7 +1103,8 @@
         "title": "Credit Points for CCMP"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "312a-3",
         "parent_node": "312a",
         "group": "300",
@@ -985,7 +1112,8 @@
         "title": "Impact Adjustment for CCMP"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "312a-4",
         "parent_node": "312a",
         "group": "300",
@@ -993,7 +1121,8 @@
         "title": "Documentation for CCMP Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "312b",
         "node_id": "312b",
         "parent_node": "312",
@@ -1003,7 +1132,8 @@
         "abbr": "ECPO"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "312b-1",
         "parent_node": "312b",
         "group": "300",
@@ -1011,7 +1141,8 @@
         "title": "Credit Criteria for ECPO"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "312b-2",
         "parent_node": "312b",
         "group": "300",
@@ -1019,7 +1150,8 @@
         "title": "Credit Points for ECPO"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "312b-3",
         "parent_node": "312b",
         "group": "300",
@@ -1027,7 +1159,8 @@
         "title": "Impact Adjustment for ECPO"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "312b-4",
         "parent_node": "312b",
         "group": "300",
@@ -1035,7 +1168,8 @@
         "title": "Documentation for ECPO Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "page",
         "node_id": "312c",
         "parent_node": "312",
@@ -1045,7 +1179,8 @@
         "abbr": "ECPR"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "312c-1",
         "parent_node": "312c",
         "group": "300",
@@ -1053,7 +1188,8 @@
         "title": "Credit Criteria for ECPR"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "312c-2",
         "parent_node": "312c",
         "group": "300",
@@ -1061,7 +1197,8 @@
         "title": "Credit Points for ECPR"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "312c-3",
         "parent_node": "312c",
         "group": "300",
@@ -1069,7 +1206,8 @@
         "title": "Impact Adjustment for ECPR"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "312c-4",
         "parent_node": "312c",
         "group": "300",
@@ -1077,7 +1215,8 @@
         "title": "Documentation for ECPR Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "313",
         "node_id": "313",
         "parent_node": "310",
@@ -1086,7 +1225,8 @@
         "title": "313 Credit Calculation"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "314",
         "node_id": "314",
         "parent_node": "310",
@@ -1095,16 +1235,19 @@
         "title": "314 Related Activities under the Community Rating System"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "320",
         "node_id": "320",
         "parent_node": "300",
         "group": "300",
         "level": 1,
-        "title": "320 Map Information Service—Summary"
+        "is_summary": true,
+        "title": "320 Map Information Service"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "321",
         "node_id": "321",
         "parent_node": "320",
@@ -1113,7 +1256,8 @@
         "title": "321 Background"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "321a",
         "node_id": "321a",
         "parent_node": "321",
@@ -1122,7 +1266,8 @@
         "title": "321.a. Activity Description"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "321b",
         "node_id": "321b",
         "parent_node": "321",
@@ -1131,7 +1276,8 @@
         "title": "321.b. Activity Credit Criteria"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "322",
         "node_id": "322",
         "parent_node": "320",
@@ -1140,7 +1286,8 @@
         "title": "322 Elements"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "322a",
         "node_id": "322a",
         "parent_node": "322",
@@ -1150,7 +1297,8 @@
         "abbr": "MI1"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "322a-1",
         "parent_node": "322a",
         "group": "300",
@@ -1158,7 +1306,8 @@
         "title": "Credit Criteria for MI1"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "322a-2",
         "parent_node": "322a",
         "group": "300",
@@ -1166,7 +1315,8 @@
         "title": "Credit Points for MI1"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "322b",
         "node_id": "322b",
         "parent_node": "322",
@@ -1176,7 +1326,8 @@
         "abbr": "MI2"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "322b-1",
         "parent_node": "322b",
         "group": "300",
@@ -1184,7 +1335,8 @@
         "title": "Credit Criteria for MI2"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "322b-2",
         "parent_node": "322b",
         "group": "300",
@@ -1192,7 +1344,8 @@
         "title": "Credit Points for MI2"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "322c",
         "node_id": "322c",
         "parent_node": "322",
@@ -1202,7 +1355,8 @@
         "abbr": "MI3"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "322c-1",
         "parent_node": "322c",
         "group": "300",
@@ -1210,7 +1364,8 @@
         "title": "Credit Criteria for MI3"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "322c-2",
         "parent_node": "322c",
         "group": "300",
@@ -1218,7 +1373,8 @@
         "title": "Credit Points for MI3"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "322d",
         "node_id": "322d",
         "parent_node": "322",
@@ -1228,7 +1384,8 @@
         "abbr": "MI4"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "322d-1",
         "parent_node": "322d",
         "group": "300",
@@ -1236,7 +1393,8 @@
         "title": "Credit Criteria for MI4"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "322d-2",
         "parent_node": "322d",
         "group": "300",
@@ -1244,7 +1402,8 @@
         "title": "Credit Points for MI4"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "322e",
         "node_id": "322e",
         "parent_node": "322",
@@ -1254,7 +1413,8 @@
         "abbr": "MI5"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "322e-1",
         "parent_node": "322e",
         "group": "300",
@@ -1262,7 +1422,8 @@
         "title": "Credit Criteria for MI5"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "322e-2",
         "parent_node": "322e",
         "group": "300",
@@ -1270,7 +1431,8 @@
         "title": "Credit Points for MI5"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "322f",
         "node_id": "322f",
         "parent_node": "322",
@@ -1280,7 +1442,8 @@
         "abbr": "MI6"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "322f-1",
         "parent_node": "322f",
         "group": "300",
@@ -1288,7 +1451,8 @@
         "title": "Credit Criteria for MI6"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "322f-2",
         "parent_node": "322f",
         "group": "300",
@@ -1296,7 +1460,8 @@
         "title": "Credit Points for MI6"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "322g",
         "node_id": "322g",
         "parent_node": "322",
@@ -1306,7 +1471,8 @@
         "abbr": "MI7"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "322g-1",
         "parent_node": "322g",
         "group": "300",
@@ -1314,7 +1480,8 @@
         "title": "Credit Criteria for MI7"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "322g-2",
         "parent_node": "322g",
         "group": "300",
@@ -1322,7 +1489,8 @@
         "title": "Credit Points for MI7"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "323",
         "node_id": "323",
         "parent_node": "320",
@@ -1331,7 +1499,8 @@
         "title": "323 Impact Adjustment"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "324",
         "node_id": "324",
         "parent_node": "320",
@@ -1340,7 +1509,8 @@
         "title": "324 Credit Calculation"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "325",
         "node_id": "325",
         "parent_node": "320",
@@ -1349,7 +1519,8 @@
         "title": "325 Documentation Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "326",
         "node_id": "326",
         "parent_node": "320",
@@ -1358,16 +1529,19 @@
         "title": "326 Related Activities under the Community Rating System"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "330",
         "node_id": "330",
         "parent_node": "300",
         "group": "300",
         "level": 1,
-        "title": "330 Outreach Projects—Summary"
+        "is_summary": true,
+        "title": "330 Outreach Projects"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "331",
         "node_id": "331",
         "parent_node": "330",
@@ -1376,7 +1550,8 @@
         "title": "331 Background"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "331a",
         "node_id": "331a",
         "parent_node": "331",
@@ -1385,7 +1560,8 @@
         "title": "331.a. Activity Description"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "331a-1",
         "parent_node": "331a",
         "group": "300",
@@ -1393,7 +1569,8 @@
         "title": "Messages"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "331a-2",
         "parent_node": "331a",
         "group": "300",
@@ -1401,7 +1578,8 @@
         "title": "Projects"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "331a-3",
         "parent_node": "331a",
         "group": "300",
@@ -1409,7 +1587,8 @@
         "title": "Other Credits"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "331b",
         "node_id": "331b",
         "parent_node": "331",
@@ -1418,7 +1597,8 @@
         "title": "331.b. Impact Adjustment"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "332",
         "node_id": "332",
         "parent_node": "330",
@@ -1427,7 +1607,8 @@
         "title": "332 Elements"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "332a",
         "node_id": "332a",
         "parent_node": "332",
@@ -1437,7 +1618,8 @@
         "abbr": "OP"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "332a-1",
         "parent_node": "332a",
         "group": "300",
@@ -1445,7 +1627,8 @@
         "title": "Credit Criteria for OP"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "332a-2",
         "parent_node": "332a",
         "group": "300",
@@ -1453,7 +1636,8 @@
         "title": "Credit Points for OP"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "332a-3",
         "parent_node": "332a",
         "group": "300",
@@ -1461,7 +1645,8 @@
         "title": "Documentation for OP Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "332b",
         "node_id": "332b",
         "parent_node": "332",
@@ -1471,7 +1656,8 @@
         "abbr": "FRP"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "332b-1",
         "parent_node": "332b",
         "group": "300",
@@ -1479,7 +1665,8 @@
         "title": "Credit Criteria for FRP"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "332b-2",
         "parent_node": "332b",
         "group": "300",
@@ -1487,7 +1674,8 @@
         "title": "Credit Points for FRP"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "332b-3",
         "parent_node": "332b",
         "group": "300",
@@ -1495,7 +1683,8 @@
         "title": "Documentation for FRP Provided by the Community"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "page",
         "node_id": "332c",
         "parent_node": "332",
@@ -1505,7 +1694,8 @@
         "abbr": "PPI"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "332c-1",
         "parent_node": "332c",
         "group": "300",
@@ -1513,7 +1703,8 @@
         "title": "Credit Criteria for PPI"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "332c-2",
         "parent_node": "332c",
         "group": "300",
@@ -1521,7 +1712,8 @@
         "title": "Credit Points for PPI"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "332c-3",
         "parent_node": "332c",
         "group": "300",
@@ -1529,7 +1721,8 @@
         "title": "Documentation for PPI Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "332d",
         "node_id": "332d",
         "parent_node": "332",
@@ -1539,7 +1732,8 @@
         "abbr": "STK"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "332d-1",
         "parent_node": "332d",
         "group": "300",
@@ -1547,7 +1741,8 @@
         "title": "Credit Criteria for STK"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "332d-2",
         "parent_node": "332d",
         "group": "300",
@@ -1555,7 +1750,8 @@
         "title": "Credit Points for STK"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "332d-3",
         "parent_node": "332d",
         "group": "300",
@@ -1563,7 +1759,8 @@
         "title": "Documentation for STK Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "333",
         "node_id": "333",
         "parent_node": "330",
@@ -1572,7 +1769,8 @@
         "title": "333 Impact Adjustment"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "334",
         "node_id": "334",
         "parent_node": "330",
@@ -1581,7 +1779,8 @@
         "title": "334 Credit Calculation"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "335",
         "node_id": "335",
         "parent_node": "330",
@@ -1590,16 +1789,19 @@
         "title": "335 Related Activities under the Community Rating System"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "340",
         "node_id": "340",
         "parent_node": "300",
         "group": "300",
         "level": 1,
-        "title": "340 Hazard Disclosure—Summary"
+        "is_summary": true,
+        "title": "340 Hazard Disclosure"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "341",
         "node_id": "341",
         "parent_node": "340",
@@ -1608,7 +1810,8 @@
         "title": "341 Background"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "341a",
         "node_id": "341a",
         "parent_node": "341",
@@ -1617,7 +1820,8 @@
         "title": "341.a. Activity Description"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "341b",
         "node_id": "341b",
         "parent_node": "341",
@@ -1626,7 +1830,8 @@
         "title": "341.b. Impact Adjustment"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "342",
         "node_id": "342",
         "parent_node": "340",
@@ -1635,7 +1840,8 @@
         "title": "342 Elements"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "342a",
         "node_id": "342a",
         "parent_node": "342",
@@ -1645,7 +1851,8 @@
         "abbr": "DFH"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "342a-1",
         "parent_node": "342a",
         "group": "300",
@@ -1653,7 +1860,8 @@
         "title": "Credit Criteria for DFH"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "342a-2",
         "parent_node": "342a",
         "group": "300",
@@ -1661,7 +1869,8 @@
         "title": "Credit Points for DFH"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "342a-3",
         "parent_node": "342a",
         "group": "300",
@@ -1669,7 +1878,8 @@
         "title": "Documentation for DFH Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "342b",
         "node_id": "342b",
         "parent_node": "342",
@@ -1679,7 +1889,8 @@
         "abbr": "ODR"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "342b-1",
         "parent_node": "342b",
         "group": "300",
@@ -1687,7 +1898,8 @@
         "title": "Credit Criteria for ODR"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "342b-2",
         "parent_node": "342b",
         "group": "300",
@@ -1695,7 +1907,8 @@
         "title": "Credit Points for ODR"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "342b-3",
         "parent_node": "342b",
         "group": "300",
@@ -1703,7 +1916,8 @@
         "title": "Documentation for ODR Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "342c",
         "node_id": "342c",
         "parent_node": "342",
@@ -1713,7 +1927,8 @@
         "abbr": "REB"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "342c-1",
         "parent_node": "342c",
         "group": "300",
@@ -1721,7 +1936,8 @@
         "title": "Credit Criteria for REB"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "342c-2",
         "parent_node": "342c",
         "group": "300",
@@ -1729,7 +1945,8 @@
         "title": "Credit Points for REB"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "342c-3",
         "parent_node": "342c",
         "group": "300",
@@ -1737,7 +1954,8 @@
         "title": "Documentation for REB Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "342d",
         "node_id": "342d",
         "parent_node": "342",
@@ -1747,7 +1965,8 @@
         "abbr": "DOH"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "342d-1",
         "parent_node": "342d",
         "group": "300",
@@ -1755,7 +1974,8 @@
         "title": "Credit Points for DOH"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "342d-2",
         "parent_node": "342d",
         "group": "300",
@@ -1763,7 +1983,8 @@
         "title": "Documentation for DOH Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "343",
         "node_id": "343",
         "parent_node": "340",
@@ -1772,7 +1993,8 @@
         "title": "343 Impact Adjustment"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "344",
         "node_id": "344",
         "parent_node": "340",
@@ -1781,7 +2003,8 @@
         "title": "344 Credit Calculation"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "345",
         "node_id": "345",
         "parent_node": "340",
@@ -1790,16 +2013,19 @@
         "title": "345 Related Activities under the Community Rating System"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "350",
         "node_id": "350",
         "parent_node": "300",
         "group": "300",
         "level": 1,
-        "title": "350 Flood Protection Information—Summary"
+        "is_summary": true,
+        "title": "350 Flood Protection Information"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "351",
         "node_id": "351",
         "parent_node": "350",
@@ -1808,7 +2034,8 @@
         "title": "351 Background"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "351a",
         "node_id": "351a",
         "parent_node": "351",
@@ -1817,7 +2044,8 @@
         "title": "351.a. Activity Description"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "351b",
         "node_id": "351b",
         "parent_node": "351",
@@ -1826,7 +2054,8 @@
         "title": "351.b. Impact Adjustment"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "352",
         "node_id": "352",
         "parent_node": "350",
@@ -1835,7 +2064,8 @@
         "title": "352 Elements"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "352a",
         "node_id": "352a",
         "parent_node": "352",
@@ -1845,7 +2075,8 @@
         "abbr": "LIB"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "352a-1",
         "parent_node": "352a",
         "group": "300",
@@ -1853,7 +2084,8 @@
         "title": "Credit Criteria for LIB"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "352a-2",
         "parent_node": "352a",
         "group": "300",
@@ -1861,7 +2093,8 @@
         "title": "Credit Points for LIB"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "352a-3",
         "parent_node": "352a",
         "group": "300",
@@ -1869,7 +2102,8 @@
         "title": "Documentation for LIB Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "352b",
         "node_id": "352b",
         "parent_node": "352",
@@ -1879,7 +2113,8 @@
         "abbr": "LPD"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "352b-1",
         "parent_node": "352b",
         "group": "300",
@@ -1887,7 +2122,8 @@
         "title": "Credit Criteria for LPD"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "352b-2",
         "parent_node": "352b",
         "group": "300",
@@ -1895,7 +2131,8 @@
         "title": "Credit Points for LPD"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "352b-3",
         "parent_node": "352b",
         "group": "300",
@@ -1903,7 +2140,8 @@
         "title": "Documentation for LPD Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "352c",
         "node_id": "352c",
         "parent_node": "352",
@@ -1913,7 +2151,8 @@
         "abbr": "WEB"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "352c-1",
         "parent_node": "352c",
         "group": "300",
@@ -1921,7 +2160,8 @@
         "title": "Credit Criteria for WEB"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "352c-2",
         "parent_node": "352c",
         "group": "300",
@@ -1929,7 +2169,8 @@
         "title": "Credit Points for WEB"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "352c-3",
         "parent_node": "352c",
         "group": "300",
@@ -1937,7 +2178,8 @@
         "title": "Documentation for WEB Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "353",
         "node_id": "353",
         "parent_node": "350",
@@ -1946,7 +2188,8 @@
         "title": "353 Impact Adjustment"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "354",
         "node_id": "354",
         "parent_node": "350",
@@ -1955,7 +2198,8 @@
         "title": "354 Credit Calculation"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "355",
         "node_id": "355",
         "parent_node": "350",
@@ -1964,16 +2208,19 @@
         "title": "355 Related Activities under the Community Rating System"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "360",
         "node_id": "360",
         "parent_node": "300",
         "group": "300",
         "level": 1,
-        "title": "360 Flood Protection Assistance—Summary"
+        "is_summary": true,
+        "title": "360 Flood Protection Assistance"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "361",
         "node_id": "361",
         "parent_node": "360",
@@ -1982,7 +2229,8 @@
         "title": "361 Background"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "361a",
         "node_id": "361a",
         "parent_node": "361",
@@ -1991,7 +2239,8 @@
         "title": "361.a. Activity Description"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "361b",
         "node_id": "361b",
         "parent_node": "361",
@@ -2000,7 +2249,8 @@
         "title": "361.b. Impact Adjustment"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "362",
         "node_id": "362",
         "parent_node": "360",
@@ -2009,7 +2259,8 @@
         "title": "362 Elements"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "362a",
         "node_id": "362a",
         "parent_node": "362",
@@ -2019,7 +2270,8 @@
         "abbr": "PPA"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "362a-1",
         "parent_node": "362a",
         "group": "300",
@@ -2027,7 +2279,8 @@
         "title": "Credit Criteria for PPA"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "362a-2",
         "parent_node": "362a",
         "group": "300",
@@ -2035,7 +2288,8 @@
         "title": "Credit Points for PPA"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "362a-3",
         "parent_node": "362a",
         "group": "300",
@@ -2043,7 +2297,8 @@
         "title": "Documentation for PPA Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "362b",
         "node_id": "362b",
         "parent_node": "362",
@@ -2053,7 +2308,8 @@
         "abbr": "PPV"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "362b-1",
         "parent_node": "362b",
         "group": "300",
@@ -2061,7 +2317,8 @@
         "title": "Credit Criteria for PPV"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "362b-2",
         "parent_node": "362b",
         "group": "300",
@@ -2069,7 +2326,8 @@
         "title": "Credit Points for PPV"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "362b-3",
         "parent_node": "362b",
         "group": "300",
@@ -2077,7 +2335,8 @@
         "title": "Documentation for PPV Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "362c",
         "node_id": "362c",
         "parent_node": "362",
@@ -2087,7 +2346,8 @@
         "abbr": "FAA"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "362c-1",
         "parent_node": "362c",
         "group": "300",
@@ -2095,7 +2355,8 @@
         "title": "Credit Criteria for FAA"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "362c-2",
         "parent_node": "362c",
         "group": "300",
@@ -2103,7 +2364,8 @@
         "title": "Credit Points for FAA"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "362c-3",
         "parent_node": "362c",
         "group": "300",
@@ -2111,7 +2373,8 @@
         "title": "Documentation for FAA Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "362d",
         "node_id": "362d",
         "parent_node": "362",
@@ -2121,7 +2384,8 @@
         "abbr": "TNG"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "362d-1",
         "parent_node": "362d",
         "group": "300",
@@ -2129,7 +2393,8 @@
         "title": "Credit Criteria for TNG"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "362d-2",
         "parent_node": "362d",
         "group": "300",
@@ -2137,7 +2402,8 @@
         "title": "Credit Points for TNG"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "362d-3",
         "parent_node": "362d",
         "group": "300",
@@ -2145,7 +2411,8 @@
         "title": "Documentation for TNG Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "363",
         "node_id": "363",
         "parent_node": "360",
@@ -2154,7 +2421,8 @@
         "title": "363 Impact Adjustment"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "364",
         "node_id": "364",
         "parent_node": "360",
@@ -2163,7 +2431,8 @@
         "title": "364 Credit Calculation"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "365",
         "node_id": "365",
         "parent_node": "360",
@@ -2172,16 +2441,19 @@
         "title": "365 Related Activities under the Community Rating System"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "370",
         "node_id": "370",
         "parent_node": "300",
         "group": "300",
         "level": 1,
-        "title": "370 Flood Insurance Promotion—Summary"
+        "is_summary": true,
+        "title": "370 Flood Insurance Promotion"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "371",
         "node_id": "371",
         "parent_node": "370",
@@ -2190,7 +2462,8 @@
         "title": "371 Background"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "371a",
         "node_id": "371a",
         "parent_node": "371",
@@ -2199,7 +2472,8 @@
         "title": "371.a. Activity Description"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "371b",
         "node_id": "371b",
         "parent_node": "371",
@@ -2208,7 +2482,8 @@
         "title": "371.b. Impact Adjustment"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "372",
         "node_id": "372",
         "parent_node": "370",
@@ -2217,7 +2492,8 @@
         "title": "372 Elements"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "372a",
         "node_id": "372a",
         "parent_node": "372",
@@ -2227,7 +2503,8 @@
         "abbr": "FIA"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "372a-1",
         "parent_node": "372a",
         "group": "300",
@@ -2235,7 +2512,8 @@
         "title": "Credit Criteria for FIA"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "372a-2",
         "parent_node": "372a",
         "group": "300",
@@ -2243,7 +2521,8 @@
         "title": "Credit Points for FIA"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "372a-3",
         "parent_node": "372a",
         "group": "300",
@@ -2251,7 +2530,8 @@
         "title": "Documentation for FIA Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "372b",
         "node_id": "372b",
         "parent_node": "372",
@@ -2261,7 +2541,8 @@
         "abbr": "CP"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "372b-1",
         "parent_node": "372b",
         "group": "300",
@@ -2269,7 +2550,8 @@
         "title": "Credit Criteria for CP"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "372b-2",
         "parent_node": "372b",
         "group": "300",
@@ -2277,7 +2559,8 @@
         "title": "Credit Points for CP"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "372b-3",
         "parent_node": "372b",
         "group": "300",
@@ -2285,7 +2568,8 @@
         "title": "Documentation for CP Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "372c",
         "node_id": "372c",
         "parent_node": "372",
@@ -2295,7 +2579,8 @@
         "abbr": "CPI"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "372c-1",
         "parent_node": "372c",
         "group": "300",
@@ -2303,7 +2588,8 @@
         "title": "Credit Criteria for CPI"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "372c-2",
         "parent_node": "372c",
         "group": "300",
@@ -2311,7 +2597,8 @@
         "title": "Credit Points for CPI"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "372c-3",
         "parent_node": "372c",
         "group": "300",
@@ -2319,7 +2606,8 @@
         "title": "Documentation for CPI Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "372d",
         "node_id": "372d",
         "parent_node": "372",
@@ -2329,7 +2617,8 @@
         "abbr": "TA"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "372d-1",
         "parent_node": "372d",
         "group": "300",
@@ -2337,7 +2626,8 @@
         "title": "Credit Criteria for TA"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "372d-2",
         "parent_node": "372d",
         "group": "300",
@@ -2345,7 +2635,8 @@
         "title": "Credit Points for TA"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "372d-3",
         "parent_node": "372d",
         "group": "300",
@@ -2353,7 +2644,8 @@
         "title": "Documentation for TA Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "372e",
         "node_id": "372e",
         "parent_node": "372",
@@ -2363,7 +2655,8 @@
         "abbr": "FIB"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "372e-1",
         "parent_node": "372e",
         "group": "300",
@@ -2371,7 +2664,8 @@
         "title": "Credit Criteria for FIB"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "372e-2",
         "parent_node": "372e",
         "group": "300",
@@ -2379,7 +2673,8 @@
         "title": "Credit Points for FIB"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "372e-3",
         "parent_node": "372e",
         "group": "300",
@@ -2387,7 +2682,8 @@
         "title": "Documentation for FIB Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "372f",
         "node_id": "372f",
         "parent_node": "372",
@@ -2397,7 +2693,8 @@
         "abbr": "FIM"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "372f-1",
         "parent_node": "372f",
         "group": "300",
@@ -2405,7 +2702,8 @@
         "title": "Credit Criteria for FIM"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "372f-2",
         "parent_node": "372f",
         "group": "300",
@@ -2413,7 +2711,8 @@
         "title": "Credit Points for FIM"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "372f-3",
         "parent_node": "372f",
         "group": "300",
@@ -2421,7 +2720,8 @@
         "title": "Documentation for FIM Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "372g",
         "node_id": "372g",
         "parent_node": "372",
@@ -2431,7 +2731,8 @@
         "abbr": "SCE"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "372g-1",
         "parent_node": "372g",
         "group": "300",
@@ -2439,7 +2740,8 @@
         "title": "Credit Criteria for SCE"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "372g-2",
         "parent_node": "372g",
         "group": "300",
@@ -2447,7 +2749,8 @@
         "title": "Credit Points for SCE"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "372g-3",
         "parent_node": "372g",
         "group": "300",
@@ -2455,7 +2758,8 @@
         "title": "Documentation for SCE Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "373",
         "node_id": "373",
         "parent_node": "370",
@@ -2464,7 +2768,8 @@
         "title": "373 Impact Adjustment"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "374",
         "node_id": "374",
         "parent_node": "370",
@@ -2473,7 +2778,8 @@
         "title": "374 Credit Calculation"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "375",
         "node_id": "375",
         "parent_node": "370",
@@ -2482,15 +2788,18 @@
         "title": "375 Related Activities under the Community Rating System"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "400",
+        "is_series": true,
         "node_id": "400",
         "group": "400",
         "level": 0,
         "title": "400 Mapping and Regulations"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "401",
         "node_id": "401",
         "parent_node": "400",
@@ -2499,7 +2808,8 @@
         "title": "401 Special Flood-related Hazard Areas"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "402",
         "node_id": "402",
         "parent_node": "400",
@@ -2508,7 +2818,8 @@
         "title": "402 Impact Adjustment for Areas"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "402a",
         "node_id": "402a",
         "parent_node": "402",
@@ -2517,7 +2828,8 @@
         "title": "402.a. Impact Adjustment Ratio"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "402b",
         "node_id": "402b",
         "parent_node": "402",
@@ -2526,7 +2838,8 @@
         "title": "402.b. Optional Minimum Value"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "402c",
         "node_id": "402c",
         "parent_node": "402",
@@ -2535,7 +2848,8 @@
         "title": "402.c. Regulating Areas Preserved as Open Space"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "403",
         "node_id": "403",
         "parent_node": "400",
@@ -2544,7 +2858,8 @@
         "title": "403 Impact Adjustment Map"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "403a",
         "node_id": "403a",
         "parent_node": "403",
@@ -2553,7 +2868,8 @@
         "title": "403.a. Selecting a Base Map"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "403b",
         "node_id": "403b",
         "parent_node": "403",
@@ -2562,7 +2878,8 @@
         "title": "403.b. Mapping aSFHA"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "403c",
         "node_id": "403c",
         "parent_node": "403",
@@ -2571,7 +2888,8 @@
         "title": "403.c. Marking an Impact Adjustment Map"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "403d",
         "node_id": "403d",
         "parent_node": "403",
@@ -2580,7 +2898,8 @@
         "title": "403.d. Watershed Impact Adjustment Map"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "403e",
         "node_id": "403e",
         "parent_node": "403",
@@ -2589,7 +2908,8 @@
         "title": "403.e. Calculating Areas"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "403f",
         "node_id": "403f",
         "parent_node": "403",
@@ -2598,16 +2918,19 @@
         "title": "403.f. Example Impact Adjustment Map"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "410",
         "node_id": "410",
         "parent_node": "400",
         "group": "400",
         "level": 1,
-        "title": "410 Flood Hazard Mapping—Summary"
+        "is_summary": true,
+        "title": "410 Flood Hazard Mapping"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "411",
         "node_id": "411",
         "parent_node": "410",
@@ -2616,7 +2939,8 @@
         "title": "411 Background"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "411a",
         "node_id": "411a",
         "parent_node": "411",
@@ -2625,7 +2949,8 @@
         "title": "411.a. Activity Description"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "411b",
         "node_id": "411b",
         "parent_node": "411",
@@ -2634,7 +2959,8 @@
         "title": "411.b. Activity Credit Criteria"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "412",
         "node_id": "412",
         "parent_node": "410",
@@ -2643,7 +2969,8 @@
         "title": "412 Elements"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "412a",
         "node_id": "412a",
         "parent_node": "412",
@@ -2653,7 +2980,8 @@
         "abbr": "NS"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "412a-1",
         "parent_node": "412a",
         "group": "400",
@@ -2661,7 +2989,8 @@
         "title": "Credit Criteria for NS"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "412a-2",
         "parent_node": "412a",
         "group": "400",
@@ -2669,7 +2998,8 @@
         "title": "Credit Points for NS"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "412a-3",
         "parent_node": "412a",
         "group": "400",
@@ -2677,7 +3007,8 @@
         "title": "Impact Adjustment for NS"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "412a-4",
         "parent_node": "412a",
         "group": "400",
@@ -2685,7 +3016,8 @@
         "title": "Documentation for NS Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "412b",
         "node_id": "412b",
         "parent_node": "412",
@@ -2695,7 +3027,8 @@
         "abbr": "LEV"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "412b-1",
         "parent_node": "412b",
         "group": "400",
@@ -2703,7 +3036,8 @@
         "title": "Credit Criteria for LEV"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "412b-2",
         "parent_node": "412b",
         "group": "400",
@@ -2711,7 +3045,8 @@
         "title": "Credit Points for LEV"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "412b-3",
         "parent_node": "412b",
         "group": "400",
@@ -2719,7 +3054,8 @@
         "title": "Impact Adjustment for LEV"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "412b-4",
         "parent_node": "412b",
         "group": "400",
@@ -2727,7 +3063,8 @@
         "title": "Documentation for LEV Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "412c",
         "node_id": "412c",
         "parent_node": "412",
@@ -2737,7 +3074,8 @@
         "abbr": "SR"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "412c-1",
         "parent_node": "412c",
         "group": "400",
@@ -2745,7 +3083,8 @@
         "title": "Credit Criteria for SR"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "412c-2",
         "parent_node": "412c",
         "group": "400",
@@ -2753,7 +3092,8 @@
         "title": "Credit Points for SR"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "412c-3",
         "parent_node": "412c",
         "group": "400",
@@ -2761,7 +3101,8 @@
         "title": "Impact Adjustment for SR"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "412c-4",
         "parent_node": "412c",
         "group": "400",
@@ -2769,7 +3110,8 @@
         "title": "Documentation for SR Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "412d",
         "node_id": "412d",
         "parent_node": "412",
@@ -2779,7 +3121,8 @@
         "abbr": "HSS"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "412d-1",
         "parent_node": "412d",
         "group": "400",
@@ -2787,7 +3130,8 @@
         "title": "Credit Criteria for HSS"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "412d-2",
         "parent_node": "412d",
         "group": "400",
@@ -2795,7 +3139,8 @@
         "title": "Credit Points for HSS"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "412d-3",
         "parent_node": "412d",
         "group": "400",
@@ -2803,7 +3148,8 @@
         "title": "Impact Adjustment for HSS"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "412d-4",
         "parent_node": "412d",
         "group": "400",
@@ -2811,7 +3157,8 @@
         "title": "Documentation for HSS Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "412e",
         "node_id": "412e",
         "parent_node": "412",
@@ -2821,7 +3168,8 @@
         "abbr": "FWS"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "412e-1",
         "parent_node": "412e",
         "group": "400",
@@ -2829,7 +3177,8 @@
         "title": "Credit Criteria for FWS"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "412e-2",
         "parent_node": "412e",
         "group": "400",
@@ -2837,7 +3186,8 @@
         "title": "Credit Points for FWS"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "412e-3",
         "parent_node": "412e",
         "group": "400",
@@ -2845,7 +3195,8 @@
         "title": "Impact Adjustment for FWS"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "412e-4",
         "parent_node": "412e",
         "group": "400",
@@ -2853,7 +3204,8 @@
         "title": "Documentation for FWS Provided by the Community"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "page",
         "node_id": "412f",
         "parent_node": "412",
@@ -2863,7 +3215,8 @@
         "abbr": "MAPSH"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "412f-0",
         "parent_node": "412f",
         "group": "400",
@@ -2871,7 +3224,8 @@
         "title": "(1) Mapping coastal erosion hazard areas (MCE)"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "412f-0b",
         "parent_node": "412f",
         "group": "400",
@@ -2879,7 +3233,8 @@
         "title": "(2) Mapping tsunami hazard areas (MTS)"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "412f-1",
         "parent_node": "412f",
         "group": "400",
@@ -2887,7 +3242,8 @@
         "title": "Credit Criteria for MTS"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "412f-2",
         "parent_node": "412f",
         "group": "400",
@@ -2895,7 +3251,8 @@
         "title": "Credit Calculation for MTS"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "412f-3",
         "parent_node": "412f",
         "group": "400",
@@ -2903,7 +3260,8 @@
         "title": "Impact Adjustment for MAPSH"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "412f-4",
         "parent_node": "412f",
         "group": "400",
@@ -2911,7 +3269,8 @@
         "title": "Credit Calculation for MAPSH"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "412f-5",
         "parent_node": "412f",
         "group": "400",
@@ -2919,7 +3278,8 @@
         "title": "Documentation for MAPSH Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "413",
         "node_id": "413",
         "parent_node": "410",
@@ -2928,7 +3288,8 @@
         "title": "413 Impact Adjustment"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "414",
         "node_id": "414",
         "parent_node": "410",
@@ -2937,7 +3298,8 @@
         "title": "414 Credit Calculation"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "415",
         "node_id": "415",
         "parent_node": "410",
@@ -2946,16 +3308,19 @@
         "title": "415 Related Activities under the Community Rating System"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "420",
         "node_id": "420",
         "parent_node": "400",
         "group": "400",
         "level": 1,
-        "title": "420 Open Space Preservation—Summary"
+        "is_summary": true,
+        "title": "420 Open Space Preservation"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "421",
         "node_id": "421",
         "parent_node": "420",
@@ -2964,7 +3329,8 @@
         "title": "421 Background"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "421a",
         "node_id": "421a",
         "parent_node": "421",
@@ -2973,7 +3339,8 @@
         "title": "421.a. Activity Description"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "422",
         "node_id": "422",
         "parent_node": "420",
@@ -2982,7 +3349,8 @@
         "title": "422 Elements"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "422a",
         "node_id": "422a",
         "parent_node": "422",
@@ -2992,7 +3360,8 @@
         "abbr": "OSP"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "422a-1",
         "parent_node": "422a",
         "group": "400",
@@ -3000,7 +3369,8 @@
         "title": "Credit Criteria for OSP"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "422a-2",
         "parent_node": "422a",
         "group": "400",
@@ -3008,7 +3378,8 @@
         "title": "Credit Points for OSP"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "422a-3",
         "parent_node": "422a",
         "group": "400",
@@ -3016,7 +3387,8 @@
         "title": "Impact Adjustment for OSP"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "422a-4",
         "parent_node": "422a",
         "group": "400",
@@ -3024,7 +3396,8 @@
         "title": "Documentation for OSP Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "422b",
         "node_id": "422b",
         "parent_node": "422",
@@ -3034,7 +3407,8 @@
         "abbr": "DR"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "422b-1",
         "parent_node": "422b",
         "group": "400",
@@ -3042,7 +3416,8 @@
         "title": "Credit Criteria for DR"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "422b-2",
         "parent_node": "422b",
         "group": "400",
@@ -3050,7 +3425,8 @@
         "title": "Credit Points for DR"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "422b-3",
         "parent_node": "422b",
         "group": "400",
@@ -3058,7 +3434,8 @@
         "title": "Impact Adjustment for DR"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "422b-4",
         "parent_node": "422b",
         "group": "400",
@@ -3066,7 +3443,8 @@
         "title": "Documentation for DR Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "422c",
         "node_id": "422c",
         "parent_node": "422",
@@ -3076,7 +3454,8 @@
         "abbr": "NFOS"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "422c-1",
         "parent_node": "422c",
         "group": "400",
@@ -3084,7 +3463,8 @@
         "title": "Credit Criteria for NFOS"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "422c-2",
         "parent_node": "422c",
         "group": "400",
@@ -3092,7 +3472,8 @@
         "title": "Credit Calculation for NFOS"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "422c-3",
         "parent_node": "422c",
         "group": "400",
@@ -3100,7 +3481,8 @@
         "title": "Impact Adjustment for NFOS"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "422c-4",
         "parent_node": "422c",
         "group": "400",
@@ -3108,7 +3490,8 @@
         "title": "Documentation for NFOS Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "422d",
         "node_id": "422d",
         "parent_node": "422",
@@ -3118,7 +3501,8 @@
         "abbr": "SHOS"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "422d-1",
         "parent_node": "422d",
         "group": "400",
@@ -3126,7 +3510,8 @@
         "title": "Credit Criteria for SHOS"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "422d-2",
         "parent_node": "422d",
         "group": "400",
@@ -3134,7 +3519,8 @@
         "title": "Credit Calculation for SHOS"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "422d-3",
         "parent_node": "422d",
         "group": "400",
@@ -3142,7 +3528,8 @@
         "title": "Documentation for SHOS Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "422e",
         "node_id": "422e",
         "parent_node": "422",
@@ -3152,7 +3539,8 @@
         "abbr": "CEOS"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "422e-1",
         "parent_node": "422e",
         "group": "400",
@@ -3160,7 +3548,8 @@
         "title": "Credit Criteria for CEOS"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "422e-2",
         "parent_node": "422e",
         "group": "400",
@@ -3168,7 +3557,8 @@
         "title": "Credit Calculation for CEOS"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "422e-3",
         "parent_node": "422e",
         "group": "400",
@@ -3176,7 +3566,8 @@
         "title": "Documentation for CEOS Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "422f",
         "node_id": "422f",
         "parent_node": "422",
@@ -3186,7 +3577,8 @@
         "abbr": "OSI"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "422f-1",
         "parent_node": "422f",
         "group": "400",
@@ -3194,7 +3586,8 @@
         "title": "Credit Criteria for OSI"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "422f-2",
         "parent_node": "422f",
         "group": "400",
@@ -3202,7 +3595,8 @@
         "title": "Credit Points for OSI"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "422f-3",
         "parent_node": "422f",
         "group": "400",
@@ -3210,7 +3604,8 @@
         "title": "Impact Adjustment for OSI"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "422f-4",
         "parent_node": "422f",
         "group": "400",
@@ -3218,7 +3613,8 @@
         "title": "Documentation for OSI Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "422g",
         "node_id": "422g",
         "parent_node": "422",
@@ -3228,7 +3624,8 @@
         "abbr": "LZ"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "422g-1",
         "parent_node": "422g",
         "group": "400",
@@ -3236,7 +3633,8 @@
         "title": "Credit Criteria for LZ"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "422g-2",
         "parent_node": "422g",
         "group": "400",
@@ -3244,7 +3642,8 @@
         "title": "Credit Points for LZ"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "422g-3",
         "parent_node": "422g",
         "group": "400",
@@ -3252,7 +3651,8 @@
         "title": "Impact Adjustment for LZ"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "422g-4",
         "parent_node": "422g",
         "group": "400",
@@ -3260,7 +3660,8 @@
         "title": "Documentation for LZ Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "422h",
         "node_id": "422h",
         "parent_node": "422",
@@ -3270,7 +3671,8 @@
         "abbr": "NSP"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "422h-1",
         "parent_node": "422h",
         "group": "400",
@@ -3278,7 +3680,8 @@
         "title": "Credit Criteria for NSP"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "422h-2",
         "parent_node": "422h",
         "group": "400",
@@ -3286,7 +3689,8 @@
         "title": "Credit Points for NSP"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "422h-3",
         "parent_node": "422h",
         "group": "400",
@@ -3294,7 +3698,8 @@
         "title": "Impact Adjustment for NSP"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "422h-4",
         "parent_node": "422h",
         "group": "400",
@@ -3302,7 +3707,8 @@
         "title": "Documentation for NSP Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "423",
         "node_id": "423",
         "parent_node": "420",
@@ -3311,7 +3717,8 @@
         "title": "423 Credit Calculation"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "424",
         "node_id": "424",
         "parent_node": "420",
@@ -3320,16 +3727,19 @@
         "title": "424 Related Activities under the Community Rating System"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "430",
         "node_id": "430",
         "parent_node": "400",
         "group": "400",
         "level": 1,
-        "title": "430 Higher Regulatory Standards—Summary"
+        "is_summary": true,
+        "title": "430 Higher Regulatory Standards"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "431",
         "node_id": "431",
         "parent_node": "430",
@@ -3338,7 +3748,8 @@
         "title": "431 Background"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "431a",
         "node_id": "431a",
         "parent_node": "431",
@@ -3347,7 +3758,8 @@
         "title": "431.a. Activity Description"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "431b",
         "node_id": "431b",
         "parent_node": "431",
@@ -3356,7 +3768,8 @@
         "title": "431.b. Activity Credit Criteria"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "431c",
         "node_id": "431c",
         "parent_node": "431",
@@ -3365,7 +3778,8 @@
         "title": "431.c. Activity Impact Adjustment"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "431c-1",
         "parent_node": "431c",
         "group": "400",
@@ -3373,7 +3787,8 @@
         "title": "Impact Adjustment Maps"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "431d",
         "node_id": "431d",
         "parent_node": "431",
@@ -3382,7 +3797,8 @@
         "title": "431.d. Activity Documentation Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "432",
         "node_id": "432",
         "parent_node": "430",
@@ -3391,7 +3807,8 @@
         "title": "432 Elements"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "432a",
         "node_id": "432a",
         "parent_node": "432",
@@ -3401,7 +3818,8 @@
         "abbr": "DL"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432a-1",
         "parent_node": "432a",
         "group": "400",
@@ -3409,7 +3827,8 @@
         "title": "Credit Criteria for DL"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432a-2",
         "parent_node": "432a",
         "group": "400",
@@ -3417,7 +3836,8 @@
         "title": "Credit Points for DL"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432a-3",
         "parent_node": "432a",
         "group": "400",
@@ -3425,7 +3845,8 @@
         "title": "Impact Adjustment for DL"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432a-4",
         "parent_node": "432a",
         "group": "400",
@@ -3433,7 +3854,8 @@
         "title": "Documentation for DL Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "432b",
         "node_id": "432b",
         "parent_node": "432",
@@ -3443,7 +3865,8 @@
         "abbr": "FRB"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432b-1",
         "parent_node": "432b",
         "group": "400",
@@ -3451,7 +3874,8 @@
         "title": "Credit Criteria for FRB"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432b-2",
         "parent_node": "432b",
         "group": "400",
@@ -3459,7 +3883,8 @@
         "title": "Credit Points for FRB"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432b-3",
         "parent_node": "432b",
         "group": "400",
@@ -3467,7 +3892,8 @@
         "title": "Impact Adjustment for FRB"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432b-4",
         "parent_node": "432b",
         "group": "400",
@@ -3475,7 +3901,8 @@
         "title": "Documentation for FRB Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "432c",
         "node_id": "432c",
         "parent_node": "432",
@@ -3485,7 +3912,8 @@
         "abbr": "FDN"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432c-1",
         "parent_node": "432c",
         "group": "400",
@@ -3493,7 +3921,8 @@
         "title": "Credit Criteria for FDN"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432c-2",
         "parent_node": "432c",
         "group": "400",
@@ -3501,7 +3930,8 @@
         "title": "Credit Points for FDN"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432c-3",
         "parent_node": "432c",
         "group": "400",
@@ -3509,7 +3939,8 @@
         "title": "Impact Adjustment for FDN"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432c-4",
         "parent_node": "432c",
         "group": "400",
@@ -3517,7 +3948,8 @@
         "title": "Documentation for FDN Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "432d",
         "node_id": "432d",
         "parent_node": "432",
@@ -3527,7 +3959,8 @@
         "abbr": "CSI"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432d-1",
         "parent_node": "432d",
         "group": "400",
@@ -3535,7 +3968,8 @@
         "title": "Credit Criteria for CSI"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432d-2",
         "parent_node": "432d",
         "group": "400",
@@ -3543,7 +3977,8 @@
         "title": "Credit Points for CSI"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432d-3",
         "parent_node": "432d",
         "group": "400",
@@ -3551,7 +3986,8 @@
         "title": "Impact Adjustment for CSI"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432d-4",
         "parent_node": "432d",
         "group": "400",
@@ -3559,7 +3995,8 @@
         "title": "Documentation for CSI Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "432e",
         "node_id": "432e",
         "parent_node": "432",
@@ -3569,7 +4006,8 @@
         "abbr": "LSI"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432e-1",
         "parent_node": "432e",
         "group": "400",
@@ -3577,7 +4015,8 @@
         "title": "Credit Criteria for LSI"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432e-2",
         "parent_node": "432e",
         "group": "400",
@@ -3585,7 +4024,8 @@
         "title": "Credit Points for LSI"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432e-3",
         "parent_node": "432e",
         "group": "400",
@@ -3593,7 +4033,8 @@
         "title": "Impact Adjustment for LSI"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432e-4",
         "parent_node": "432e",
         "group": "400",
@@ -3601,7 +4042,8 @@
         "title": "Documentation for LSI Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "432f",
         "node_id": "432f",
         "parent_node": "432",
@@ -3611,7 +4053,8 @@
         "abbr": "PCF"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432f-1",
         "parent_node": "432f",
         "group": "400",
@@ -3619,7 +4062,8 @@
         "title": "Credit Criteria for PCF"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432f-2",
         "parent_node": "432f",
         "group": "400",
@@ -3627,7 +4071,8 @@
         "title": "Credit Points for PCF"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432f-3",
         "parent_node": "432f",
         "group": "400",
@@ -3635,7 +4080,8 @@
         "title": "Impact Adjustment for PCF"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432f-4",
         "parent_node": "432f",
         "group": "400",
@@ -3643,7 +4089,8 @@
         "title": "Documentation for PCF Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "432g",
         "node_id": "432g",
         "parent_node": "432",
@@ -3653,7 +4100,8 @@
         "abbr": "ENL"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432g-1",
         "parent_node": "432g",
         "group": "400",
@@ -3661,7 +4109,8 @@
         "title": "Credit Criteria for ENL"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432g-2",
         "parent_node": "432g",
         "group": "400",
@@ -3669,7 +4118,8 @@
         "title": "Credit Points for ENL"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432g-2b",
         "parent_node": "432g",
         "group": "400",
@@ -3677,7 +4127,8 @@
         "title": "CAZ and V-Zone ENL Bonus Credit (ENLcaz)"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432g-3",
         "parent_node": "432g",
         "group": "400",
@@ -3685,7 +4136,8 @@
         "title": "Impact Adjustment for ENL and ENLcaz"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432g-4",
         "parent_node": "432g",
         "group": "400",
@@ -3693,7 +4145,8 @@
         "title": "Documentation for ENL Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "432h",
         "node_id": "432h",
         "parent_node": "432",
@@ -3703,7 +4156,8 @@
         "abbr": "BC"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432h-1",
         "parent_node": "432h",
         "group": "400",
@@ -3711,7 +4165,8 @@
         "title": "Credit Criteria for BC"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432h-2",
         "parent_node": "432h",
         "group": "400",
@@ -3719,7 +4174,8 @@
         "title": "Credit Points for BC"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432h-3",
         "parent_node": "432h",
         "group": "400",
@@ -3727,7 +4183,8 @@
         "title": "Impact Adjustment for BC"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432h-4",
         "parent_node": "432h",
         "group": "400",
@@ -3735,7 +4192,8 @@
         "title": "Documentation for BC Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "432i",
         "node_id": "432i",
         "parent_node": "432",
@@ -3745,7 +4203,8 @@
         "abbr": "LDP"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432i-1",
         "parent_node": "432i",
         "group": "400",
@@ -3753,7 +4212,8 @@
         "title": "Credit Criteria for LDP"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432i-2",
         "parent_node": "432i",
         "group": "400",
@@ -3761,7 +4221,8 @@
         "title": "Credit Points for LDP"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432i-3",
         "parent_node": "432i",
         "group": "400",
@@ -3769,7 +4230,8 @@
         "title": "Impact Adjustment for LDP"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432i-4",
         "parent_node": "432i",
         "group": "400",
@@ -3777,7 +4239,8 @@
         "title": "Documentation for LDP Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "432j",
         "node_id": "432j",
         "parent_node": "432",
@@ -3787,7 +4250,8 @@
         "abbr": "MHP"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432j-1",
         "parent_node": "432j",
         "group": "400",
@@ -3795,7 +4259,8 @@
         "title": "Credit Criteria for MHP"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432j-2",
         "parent_node": "432j",
         "group": "400",
@@ -3803,7 +4268,8 @@
         "title": "Credit Points for MHP"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432j-3",
         "parent_node": "432j",
         "group": "400",
@@ -3811,7 +4277,8 @@
         "title": "Impact Adjustment for MHP"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432j-4",
         "parent_node": "432j",
         "group": "400",
@@ -3819,7 +4286,8 @@
         "title": "Documentation for MHP Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "432k",
         "node_id": "432k",
         "parent_node": "432",
@@ -3829,7 +4297,8 @@
         "abbr": "CAZ"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432k-1",
         "parent_node": "432k",
         "group": "400",
@@ -3837,7 +4306,8 @@
         "title": "Credit Criteria for CAZ"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432k-2",
         "parent_node": "432k",
         "group": "400",
@@ -3845,7 +4315,8 @@
         "title": "Credit Points for CAZ"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432k-3",
         "parent_node": "432k",
         "group": "400",
@@ -3853,7 +4324,8 @@
         "title": "Impact Adjustment for CAZ"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432k-4",
         "parent_node": "432k",
         "group": "400",
@@ -3861,7 +4333,8 @@
         "title": "Documentation for CAZ Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "432l",
         "node_id": "432l",
         "parent_node": "432",
@@ -3871,7 +4344,8 @@
         "abbr": "SHR"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432l-1",
         "parent_node": "432l",
         "group": "400",
@@ -3879,7 +4353,8 @@
         "title": "Credit Criteria for SHR"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432l-2",
         "parent_node": "432l",
         "group": "400",
@@ -3887,7 +4362,8 @@
         "title": "Credit Points for SHR"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432l-3",
         "parent_node": "432l",
         "group": "400",
@@ -3895,7 +4371,8 @@
         "title": "Impact Adjustment for SHR"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432l-4",
         "parent_node": "432l",
         "group": "400",
@@ -3903,7 +4380,8 @@
         "title": "Credit Calculation for SHR"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432l-5",
         "parent_node": "432l",
         "group": "400",
@@ -3911,7 +4389,8 @@
         "title": "Documentation for SHR Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "432m",
         "node_id": "432m",
         "parent_node": "432",
@@ -3921,7 +4400,8 @@
         "abbr": "TSR"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432m-1",
         "parent_node": "432m",
         "group": "400",
@@ -3929,7 +4409,8 @@
         "title": "Credit Criteria for TSR"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432m-2",
         "parent_node": "432m",
         "group": "400",
@@ -3937,7 +4418,8 @@
         "title": "Credit Calculation for TSR"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432m-3",
         "parent_node": "432m",
         "group": "400",
@@ -3945,7 +4427,8 @@
         "title": "Documentation for TSR Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "432n",
         "node_id": "432n",
         "parent_node": "432",
@@ -3955,7 +4438,8 @@
         "abbr": "CER"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432n-0",
         "parent_node": "432n",
         "group": "400",
@@ -3963,7 +4447,8 @@
         "title": "Setback Regulations"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432n-1",
         "parent_node": "432n",
         "group": "400",
@@ -3971,7 +4456,8 @@
         "title": "Credit Criteria for CER"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432n-2",
         "parent_node": "432n",
         "group": "400",
@@ -3979,7 +4465,8 @@
         "title": "Impact Adjustment for CER"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432n-3",
         "parent_node": "432n",
         "group": "400",
@@ -3987,7 +4474,8 @@
         "title": "Credit Calculation for CER"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432n-4",
         "parent_node": "432n",
         "group": "400",
@@ -3995,7 +4483,8 @@
         "title": "Documentation for CER Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "432o",
         "node_id": "432o",
         "parent_node": "432",
@@ -4005,7 +4494,8 @@
         "abbr": "OHS"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432o-1",
         "parent_node": "432o",
         "group": "400",
@@ -4013,7 +4503,8 @@
         "title": "Credit Criteria for OHS"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432o-2",
         "parent_node": "432o",
         "group": "400",
@@ -4021,7 +4512,8 @@
         "title": "Credit Points for OHS"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432o-3",
         "parent_node": "432o",
         "group": "400",
@@ -4029,7 +4521,8 @@
         "title": "Impact Adjustment for OHS"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432o-4",
         "parent_node": "432o",
         "group": "400",
@@ -4037,7 +4530,8 @@
         "title": "Documentation for OHS Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "432p",
         "node_id": "432p",
         "parent_node": "432",
@@ -4047,7 +4541,8 @@
         "abbr": "RA"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432p-1",
         "parent_node": "432p",
         "group": "400",
@@ -4055,7 +4550,8 @@
         "title": "Credit Criteria for RA"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432p-2",
         "parent_node": "432p",
         "group": "400",
@@ -4063,7 +4559,8 @@
         "title": "Credit Points for RA"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432p-3",
         "parent_node": "432p",
         "group": "400",
@@ -4071,7 +4568,8 @@
         "title": "Impact Adjustment for RA"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "432p-4",
         "parent_node": "432p",
         "group": "400",
@@ -4079,7 +4577,8 @@
         "title": "Documentation for RA Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "433",
         "node_id": "433",
         "parent_node": "430",
@@ -4088,7 +4587,8 @@
         "title": "433 Credit Calculation"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "434",
         "node_id": "434",
         "parent_node": "430",
@@ -4097,16 +4597,19 @@
         "title": "434 Related Activities under the Community Rating System"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "440",
         "node_id": "440",
         "parent_node": "400",
         "group": "400",
         "level": 1,
-        "title": "440 Flood Data Maintenance—Summary"
+        "is_summary": true,
+        "title": "440 Flood Data Maintenance"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "441",
         "node_id": "441",
         "parent_node": "440",
@@ -4115,7 +4618,8 @@
         "title": "441 Background"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "441a",
         "node_id": "441a",
         "parent_node": "441",
@@ -4124,7 +4628,8 @@
         "title": "441.a. Activity Description"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "442",
         "node_id": "442",
         "parent_node": "440",
@@ -4133,7 +4638,8 @@
         "title": "442 Elements"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "442a",
         "node_id": "442a",
         "parent_node": "442",
@@ -4143,7 +4649,8 @@
         "abbr": "AMD"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "442a-1",
         "parent_node": "442a",
         "group": "400",
@@ -4151,7 +4658,8 @@
         "title": "Credit Criteria for AMD"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "442a-2",
         "parent_node": "442a",
         "group": "400",
@@ -4159,7 +4667,8 @@
         "title": "Credit Points for AMD"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "442a-3",
         "parent_node": "442a",
         "group": "400",
@@ -4167,7 +4676,8 @@
         "title": "Impact Adjustment for AMD"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "442a-4",
         "parent_node": "442a",
         "group": "400",
@@ -4175,7 +4685,8 @@
         "title": "Documentation for AMD Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "442b",
         "node_id": "442b",
         "parent_node": "442",
@@ -4185,7 +4696,8 @@
         "abbr": "FM"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "442b-1",
         "parent_node": "442b",
         "group": "400",
@@ -4193,7 +4705,8 @@
         "title": "Credit Criteria for FM"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "442b-2",
         "parent_node": "442b",
         "group": "400",
@@ -4201,7 +4714,8 @@
         "title": "Credit Points for FM"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "442b-3",
         "parent_node": "442b",
         "group": "400",
@@ -4209,7 +4723,8 @@
         "title": "Impact Adjustment for FM"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "442b-4",
         "parent_node": "442b",
         "group": "400",
@@ -4217,7 +4732,8 @@
         "title": "Documentation for FM Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "442c",
         "node_id": "442c",
         "parent_node": "442",
@@ -4227,7 +4743,8 @@
         "abbr": "BMM"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "442c-1",
         "parent_node": "442c",
         "group": "400",
@@ -4235,7 +4752,8 @@
         "title": "Credit Criteria for BMM"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "442c-2",
         "parent_node": "442c",
         "group": "400",
@@ -4243,7 +4761,8 @@
         "title": "Credit Points for BMM"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "442c-3",
         "parent_node": "442c",
         "group": "400",
@@ -4251,7 +4770,8 @@
         "title": "Impact Adjustment for BMM"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "442c-4",
         "parent_node": "442c",
         "group": "400",
@@ -4259,7 +4779,8 @@
         "title": "Documentation for BMM Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "442d",
         "node_id": "442d",
         "parent_node": "442",
@@ -4269,7 +4790,8 @@
         "abbr": "EDM"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "442d-1",
         "parent_node": "442d",
         "group": "400",
@@ -4277,7 +4799,8 @@
         "title": "Credit Criteria for EDM"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "442d-2",
         "parent_node": "442d",
         "group": "400",
@@ -4285,7 +4808,8 @@
         "title": "Credit Points for EDM"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "442d-3",
         "parent_node": "442d",
         "group": "400",
@@ -4293,7 +4817,8 @@
         "title": "Impact Adjustment for EDM"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "442d-4",
         "parent_node": "442d",
         "group": "400",
@@ -4301,7 +4826,8 @@
         "title": "Documentation for EDM Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "443",
         "node_id": "443",
         "parent_node": "440",
@@ -4310,7 +4836,8 @@
         "title": "443 Credit Calculation"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "444",
         "node_id": "444",
         "parent_node": "440",
@@ -4319,16 +4846,19 @@
         "title": "444 Related Activities under the Community Rating System"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "450",
         "node_id": "450",
         "parent_node": "400",
         "group": "400",
         "level": 1,
-        "title": "450 Stormwater Management—Summary"
+        "is_summary": true,
+        "title": "450 Stormwater Management"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "451",
         "node_id": "451",
         "parent_node": "450",
@@ -4337,7 +4867,8 @@
         "title": "451 Background"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "451a",
         "node_id": "451a",
         "parent_node": "451",
@@ -4346,7 +4877,8 @@
         "title": "451.a. Activity Description"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "452",
         "node_id": "452",
         "parent_node": "450",
@@ -4355,7 +4887,8 @@
         "title": "452 Elements"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "452a",
         "node_id": "452a",
         "parent_node": "452",
@@ -4365,7 +4898,8 @@
         "abbr": "SMR"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "452a-1",
         "parent_node": "452a",
         "group": "400",
@@ -4373,7 +4907,8 @@
         "title": "Credit Criteria for SMR"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "452a-2",
         "parent_node": "452a",
         "group": "400",
@@ -4381,7 +4916,8 @@
         "title": "Sub-elements"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "452a-3",
         "parent_node": "452a",
         "group": "400",
@@ -4389,7 +4925,8 @@
         "title": "Credit Points for SZ"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "452a-4",
         "parent_node": "452a",
         "group": "400",
@@ -4397,7 +4934,8 @@
         "title": "Credit Points for DS"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "452a-5",
         "parent_node": "452a",
         "group": "400",
@@ -4405,7 +4943,8 @@
         "title": "Credit Points for LID"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "452a-6",
         "parent_node": "452a",
         "group": "400",
@@ -4413,7 +4952,8 @@
         "title": "Credit Points for PUB"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "452a-7",
         "parent_node": "452a",
         "group": "400",
@@ -4421,7 +4961,8 @@
         "title": "Impact Adjustment for SMR"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "452a-8",
         "parent_node": "452a",
         "group": "400",
@@ -4429,7 +4970,8 @@
         "title": "Documentation for SMR Provided by the Community"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "452a-9",
         "parent_node": "452a",
         "group": "400",
@@ -4437,7 +4979,8 @@
         "title": "Credit Calculation for SMR"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "452b",
         "node_id": "452b",
         "parent_node": "452",
@@ -4447,7 +4990,8 @@
         "abbr": "WMP"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "452b-1",
         "parent_node": "452b",
         "group": "400",
@@ -4455,7 +4999,8 @@
         "title": "Credit Criteria for WMP"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "452b-2",
         "parent_node": "452b",
         "group": "400",
@@ -4463,7 +5008,8 @@
         "title": "Credit Points for WMP"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "452b-3",
         "parent_node": "452b",
         "group": "400",
@@ -4471,7 +5017,8 @@
         "title": "Impact Adjustment for WMP"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "452b-4",
         "parent_node": "452b",
         "group": "400",
@@ -4479,7 +5026,8 @@
         "title": "Documentation for WMP Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "452c",
         "node_id": "452c",
         "parent_node": "452",
@@ -4489,7 +5037,8 @@
         "abbr": "ESC"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "452c-1",
         "parent_node": "452c",
         "group": "400",
@@ -4497,7 +5046,8 @@
         "title": "Credit Criteria for ESC"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "452c-2",
         "parent_node": "452c",
         "group": "400",
@@ -4505,7 +5055,8 @@
         "title": "Credit Points for ESC"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "452c-3",
         "parent_node": "452c",
         "group": "400",
@@ -4513,7 +5064,8 @@
         "title": "Impact Adjustment for ESC"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "452c-4",
         "parent_node": "452c",
         "group": "400",
@@ -4521,7 +5073,8 @@
         "title": "Documentation for ESC Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "452d",
         "node_id": "452d",
         "parent_node": "452",
@@ -4531,7 +5084,8 @@
         "abbr": "WQ"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "452d-1",
         "parent_node": "452d",
         "group": "400",
@@ -4539,7 +5093,8 @@
         "title": "Credit Criteria for WQ"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "452d-2",
         "parent_node": "452d",
         "group": "400",
@@ -4547,7 +5102,8 @@
         "title": "Credit Points for WQ"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "452d-3",
         "parent_node": "452d",
         "group": "400",
@@ -4555,7 +5111,8 @@
         "title": "Impact Adjustment for WQ"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "452d-4",
         "parent_node": "452d",
         "group": "400",
@@ -4563,7 +5120,8 @@
         "title": "Documentation for WQ Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "453",
         "node_id": "453",
         "parent_node": "450",
@@ -4572,7 +5130,8 @@
         "title": "453 Credit Calculation"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "454",
         "node_id": "454",
         "parent_node": "450",
@@ -4581,15 +5140,18 @@
         "title": "454 Related Activities under the Community Rating System"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "500",
+        "is_series": true,
         "node_id": "500",
         "group": "500",
         "level": 0,
         "title": "500 Flood Damage Reduction Activities"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "501",
         "node_id": "501",
         "parent_node": "500",
@@ -4598,7 +5160,8 @@
         "title": "501 The Repetitive Loss List"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "501a",
         "node_id": "501a",
         "parent_node": "501",
@@ -4607,7 +5170,8 @@
         "title": "501.a. Repetitive losses"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "501b",
         "node_id": "501b",
         "parent_node": "501",
@@ -4616,7 +5180,8 @@
         "title": "501.b. The Repetitive Loss List"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "501c",
         "node_id": "501c",
         "parent_node": "501",
@@ -4625,7 +5190,8 @@
         "title": "501.c. Updating the List"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "502",
         "node_id": "502",
         "parent_node": "500",
@@ -4634,7 +5200,8 @@
         "title": "502 Repetitive Loss Category"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "502a",
         "node_id": "502a",
         "parent_node": "502",
@@ -4643,7 +5210,8 @@
         "title": "502.a. The Categories"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "502b",
         "node_id": "502b",
         "parent_node": "502",
@@ -4652,7 +5220,8 @@
         "title": "502.b. Effective Dates"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "503",
         "node_id": "503",
         "parent_node": "500",
@@ -4661,7 +5230,8 @@
         "title": "503 Repetitive Loss Areas"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "503a",
         "node_id": "503a",
         "parent_node": "503",
@@ -4670,7 +5240,8 @@
         "title": "503.a. The Map"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "503b",
         "node_id": "503b",
         "parent_node": "503",
@@ -4679,7 +5250,8 @@
         "title": "503.b. Causes of Repetitive Flooding"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "503c",
         "node_id": "503c",
         "parent_node": "503",
@@ -4688,7 +5260,8 @@
         "title": "503.c. Address List and Building Count"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "504",
         "node_id": "504",
         "parent_node": "500",
@@ -4697,7 +5270,8 @@
         "title": "504 Repetitive Loss Area Outreach Project"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "505",
         "node_id": "505",
         "parent_node": "500",
@@ -4706,7 +5280,8 @@
         "title": "505 Repetitive Loss Mitigation Activities"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "506",
         "node_id": "506",
         "parent_node": "500",
@@ -4715,7 +5290,8 @@
         "title": "506 National Flood Insurance Reform Act of 1994"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "507",
         "node_id": "507",
         "parent_node": "500",
@@ -4724,7 +5300,8 @@
         "title": "507 Compliance with Provisions for Environmental and Historic Preservation"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "507a",
         "node_id": "507a",
         "parent_node": "507",
@@ -4733,7 +5310,8 @@
         "title": "507.a. Activity 520 (Acquisition and Relocation) and Activity 530 (Flood Protection)"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "507b",
         "node_id": "507b",
         "parent_node": "507",
@@ -4742,7 +5320,8 @@
         "title": "507.b. Activity 540 (Drainage System Maintenance) and Activity 620 (Levees)"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "507c",
         "node_id": "507c",
         "parent_node": "507",
@@ -4751,16 +5330,19 @@
         "title": "507.c. More Information on Environmental Compliance"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "510",
         "node_id": "510",
         "parent_node": "500",
         "group": "500",
         "level": 1,
-        "title": "510 Floodplain Management Planning—Summary"
+        "is_summary": true,
+        "title": "510 Floodplain Management Planning"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "511",
         "node_id": "511",
         "parent_node": "510",
@@ -4769,7 +5351,8 @@
         "title": "511 Background"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "512",
         "node_id": "512",
         "parent_node": "510",
@@ -4778,7 +5361,8 @@
         "title": "512 Elements"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "512a",
         "node_id": "512a",
         "parent_node": "512",
@@ -4787,7 +5371,8 @@
         "title": "512.a. Floodplain management planning (FMP)"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "512b",
         "node_id": "512b",
         "parent_node": "512",
@@ -4796,7 +5381,8 @@
         "title": "512.b. Repetitive loss area analysis (RLAA)"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "512c",
         "node_id": "512c",
         "parent_node": "512",
@@ -4805,7 +5391,8 @@
         "title": "512.c. Natural floodplain functions plan (NFP)"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "512d",
         "node_id": "512d",
         "parent_node": "512",
@@ -4814,7 +5401,8 @@
         "title": "512.d. Substantial Damage Management Plan (SDP)"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "513",
         "node_id": "513",
         "parent_node": "510",
@@ -4823,7 +5411,8 @@
         "title": "513 Credit Calculation"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "514",
         "node_id": "514",
         "parent_node": "510",
@@ -4832,16 +5421,19 @@
         "title": "514 Related Activities under the Community Rating System"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "520",
         "node_id": "520",
         "parent_node": "500",
         "group": "500",
         "level": 1,
-        "title": "520 Acquisition and Relocation—Summary"
+        "is_summary": true,
+        "title": "520 Acquisition and Relocation"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "521",
         "node_id": "521",
         "parent_node": "520",
@@ -4850,7 +5442,8 @@
         "title": "521 Background"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "522",
         "node_id": "522",
         "parent_node": "520",
@@ -4859,7 +5452,8 @@
         "title": "522 Elements"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "522a",
         "node_id": "522a",
         "parent_node": "522",
@@ -4868,7 +5462,8 @@
         "title": "522.a. Buildings acquired or relocated (bAR)"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "522b",
         "node_id": "522b",
         "parent_node": "522",
@@ -4877,7 +5472,8 @@
         "title": "522.b. Buildings on the repetitive loss list (bRL)"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "522c",
         "node_id": "522c",
         "parent_node": "522",
@@ -4886,7 +5482,8 @@
         "title": "522.c. Severe Repetitive Loss properties (bSRL)"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "522d",
         "node_id": "522d",
         "parent_node": "522",
@@ -4895,7 +5492,8 @@
         "title": "522.d. Critical facilities (bCF)"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "522e",
         "node_id": "522e",
         "parent_node": "522",
@@ -4904,7 +5502,8 @@
         "title": "522.e. Buildings located in the V Zone or Coastal A Zone (bVZ)"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "523",
         "node_id": "523",
         "parent_node": "520",
@@ -4913,7 +5512,8 @@
         "title": "523 Credit Calculation"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "523a",
         "node_id": "523a",
         "parent_node": "523",
@@ -4922,7 +5522,8 @@
         "title": "523.a. Option 1"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "523b",
         "node_id": "523b",
         "parent_node": "523",
@@ -4931,7 +5532,8 @@
         "title": "523.b. Option 2"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "524",
         "node_id": "524",
         "parent_node": "520",
@@ -4940,7 +5542,8 @@
         "title": "524 Documentation Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "525",
         "node_id": "525",
         "parent_node": "520",
@@ -4949,16 +5552,19 @@
         "title": "525 Related Activities under the Community Rating System"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "530",
         "node_id": "530",
         "parent_node": "500",
         "group": "500",
         "level": 1,
-        "title": "530 Flood Protection—Summary"
+        "is_summary": true,
+        "title": "530 Flood Protection"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "531",
         "node_id": "531",
         "parent_node": "530",
@@ -4967,7 +5573,8 @@
         "title": "531 Background"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "532",
         "node_id": "532",
         "parent_node": "530",
@@ -4976,7 +5583,8 @@
         "title": "532 Elements"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "532a",
         "node_id": "532a",
         "parent_node": "532",
@@ -4985,7 +5593,8 @@
         "title": "532.a. Flood protection project technique used (TU)"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "532b",
         "node_id": "532b",
         "parent_node": "532",
@@ -4994,7 +5603,8 @@
         "title": "532.b. Flood Protection Improvement (FPI)"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "532c",
         "node_id": "532c",
         "parent_node": "532",
@@ -5003,7 +5613,8 @@
         "title": "532.c. Protected buildings (PB)"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "533",
         "node_id": "533",
         "parent_node": "530",
@@ -5012,7 +5623,8 @@
         "title": "533 Credit Calculation"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "533a",
         "node_id": "533a",
         "parent_node": "533",
@@ -5021,7 +5633,8 @@
         "title": "533.a. Option 1"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "533b",
         "node_id": "533b",
         "parent_node": "533",
@@ -5030,7 +5643,8 @@
         "title": "533.b. Option 2"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "534",
         "node_id": "534",
         "parent_node": "530",
@@ -5039,7 +5653,8 @@
         "title": "534 Documentation Provided by the Community"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "535",
         "node_id": "535",
         "parent_node": "530",
@@ -5048,16 +5663,19 @@
         "title": "535 Related Activities under the Community Rating System"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "540",
         "node_id": "540",
         "parent_node": "500",
         "group": "500",
         "level": 1,
-        "title": "540 Drainage System Maintenance—Summary"
+        "is_summary": true,
+        "title": "540 Drainage System Maintenance"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "541",
         "node_id": "541",
         "parent_node": "540",
@@ -5066,7 +5684,8 @@
         "title": "541 Background"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "542",
         "node_id": "542",
         "parent_node": "540",
@@ -5075,7 +5694,8 @@
         "title": "542 Elements"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "542a",
         "node_id": "542a",
         "parent_node": "542",
@@ -5084,7 +5704,8 @@
         "title": "542.a. Channel debris removal (CDR)"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "542b",
         "node_id": "542b",
         "parent_node": "542",
@@ -5093,7 +5714,8 @@
         "title": "542.b. Problem site maintenance (PSM)"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "542c",
         "node_id": "542c",
         "parent_node": "542",
@@ -5102,7 +5724,8 @@
         "title": "542.c. Capital improvement program (CIP)"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "542d",
         "node_id": "542d",
         "parent_node": "542",
@@ -5111,7 +5734,8 @@
         "title": "542.d. Stream dumping regulations (SDR)"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "542e",
         "node_id": "542e",
         "parent_node": "542",
@@ -5120,7 +5744,8 @@
         "title": "542.e. Storage basin maintenance (SBM)"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "543",
         "node_id": "543",
         "parent_node": "540",
@@ -5129,7 +5754,8 @@
         "title": "543 Credit Calculation"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "544",
         "node_id": "544",
         "parent_node": "540",
@@ -5138,24 +5764,29 @@
         "title": "544 Related Activities under the Community Rating System"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "600",
+        "is_series": true,
         "node_id": "600",
         "group": "600",
         "level": 0,
         "title": "600 Warning and Response"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "610",
         "node_id": "610",
         "parent_node": "600",
         "group": "600",
         "level": 1,
-        "title": "610 Flood Warning and Response—Summary"
+        "is_summary": true,
+        "title": "610 Flood Warning and Response"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "611",
         "node_id": "611",
         "parent_node": "610",
@@ -5164,7 +5795,8 @@
         "title": "611 Background"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "611a",
         "node_id": "611a",
         "parent_node": "611",
@@ -5173,7 +5805,8 @@
         "title": "611.a. Activity Description"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "611b",
         "node_id": "611b",
         "parent_node": "611",
@@ -5182,7 +5815,8 @@
         "title": "611.b. Activity Credit Criteria"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "612",
         "node_id": "612",
         "parent_node": "610",
@@ -5191,7 +5825,8 @@
         "title": "612 Elements"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "612a",
         "node_id": "612a",
         "parent_node": "612",
@@ -5200,7 +5835,8 @@
         "title": "612.a. Flood threat recognition system (FTR)"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "612b",
         "node_id": "612b",
         "parent_node": "612",
@@ -5209,7 +5845,8 @@
         "title": "612.b. Emergency warning dissemination (EWD)"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "612c",
         "node_id": "612c",
         "parent_node": "612",
@@ -5218,7 +5855,8 @@
         "title": "612.c. Flood response operations (FRO)"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "612d",
         "node_id": "612d",
         "parent_node": "612",
@@ -5227,7 +5865,8 @@
         "title": "612.d. Critical facilities planning (CFP)"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "612e",
         "node_id": "612e",
         "parent_node": "612",
@@ -5236,7 +5875,8 @@
         "title": "612.e. StormReady community (SRC)"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "612f",
         "node_id": "612f",
         "parent_node": "612",
@@ -5245,7 +5885,8 @@
         "title": "612.f. TsunamiReady community (TRC)"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "613",
         "node_id": "613",
         "parent_node": "610",
@@ -5254,7 +5895,8 @@
         "title": "613 Impact Adjustment"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "614",
         "node_id": "614",
         "parent_node": "610",
@@ -5263,7 +5905,8 @@
         "title": "614 Credit Calculation"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "615",
         "node_id": "615",
         "parent_node": "610",
@@ -5272,16 +5915,19 @@
         "title": "615 Related Activities under the Community Rating System"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "620",
         "node_id": "620",
         "parent_node": "600",
         "group": "600",
         "level": 1,
-        "title": "620 Levees—Summary"
+        "is_summary": true,
+        "title": "620 Levees"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "621",
         "node_id": "621",
         "parent_node": "620",
@@ -5290,7 +5936,8 @@
         "title": "621 Background"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "621a",
         "node_id": "621a",
         "parent_node": "621",
@@ -5299,7 +5946,8 @@
         "title": "621.a. Activity Description"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "621b",
         "node_id": "621b",
         "parent_node": "621",
@@ -5308,7 +5956,8 @@
         "title": "621.b. Activity Credit Criteria"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "621c",
         "node_id": "621c",
         "parent_node": "621",
@@ -5317,7 +5966,8 @@
         "title": "621.c. Map of the Affected Area"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "622",
         "node_id": "622",
         "parent_node": "620",
@@ -5326,7 +5976,8 @@
         "title": "622 Elements"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "622a",
         "node_id": "622a",
         "parent_node": "622",
@@ -5335,7 +5986,8 @@
         "title": "622.a. Levee maintenance (LM)"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "622b",
         "node_id": "622b",
         "parent_node": "622",
@@ -5344,7 +5996,8 @@
         "title": "622.b. Levee failure threat recognition system (LFR)"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "622c",
         "node_id": "622c",
         "parent_node": "622",
@@ -5353,7 +6006,8 @@
         "title": "622.c. Levee failure warning (LFW)"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "622d",
         "node_id": "622d",
         "parent_node": "622",
@@ -5362,7 +6016,8 @@
         "title": "622.d. Levee failure response operations (LFO)"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "622e",
         "node_id": "622e",
         "parent_node": "622",
@@ -5371,7 +6026,8 @@
         "title": "622.e. Levee failure critical facilities planning (LCF)"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "623",
         "node_id": "623",
         "parent_node": "620",
@@ -5380,7 +6036,8 @@
         "title": "623 Impact Adjustment"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "624",
         "node_id": "624",
         "parent_node": "620",
@@ -5389,7 +6046,8 @@
         "title": "624 Credit Calculation"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "625",
         "node_id": "625",
         "parent_node": "620",
@@ -5398,16 +6056,19 @@
         "title": "625 Related Activities under the Community Rating System"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "630",
         "node_id": "630",
         "parent_node": "600",
         "group": "600",
         "level": 1,
-        "title": "630 DAMS—Summary"
+        "is_summary": true,
+        "title": "630 DAMS"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "631",
         "node_id": "631",
         "parent_node": "630",
@@ -5416,7 +6077,8 @@
         "title": "631 Background"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "631a",
         "node_id": "631a",
         "parent_node": "631",
@@ -5425,7 +6087,8 @@
         "title": "631.a. Activity Description"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "631b",
         "node_id": "631b",
         "parent_node": "631",
@@ -5434,7 +6097,8 @@
         "title": "631.b. Activity Credit Criteria"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "632",
         "node_id": "632",
         "parent_node": "630",
@@ -5443,7 +6107,8 @@
         "title": "632 Elements"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "632a",
         "node_id": "632a",
         "parent_node": "632",
@@ -5452,7 +6117,8 @@
         "title": "632.a. State dam safety program (SDS)"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "632b",
         "node_id": "632b",
         "parent_node": "632",
@@ -5461,7 +6127,8 @@
         "title": "632.b. Dam failure threat recognition system (DFR)"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "632c",
         "node_id": "632c",
         "parent_node": "632",
@@ -5470,7 +6137,8 @@
         "title": "632.c. Dam failure warning (DFW)"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "632d",
         "node_id": "632d",
         "parent_node": "632",
@@ -5479,7 +6147,8 @@
         "title": "632.d. Dam failure response operations (DFO)"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "632e",
         "node_id": "632e",
         "parent_node": "632",
@@ -5488,7 +6157,8 @@
         "title": "632.e. Dam failure critical facilities planning (DCF)"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "633",
         "node_id": "633",
         "parent_node": "630",
@@ -5497,7 +6167,8 @@
         "title": "633 Impact Adjustment"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "634",
         "node_id": "634",
         "parent_node": "630",
@@ -5506,7 +6177,8 @@
         "title": "634 Credit Calculation"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "635",
         "node_id": "635",
         "parent_node": "630",
@@ -5515,15 +6187,18 @@
         "title": "635 Related Activities under the Community Rating System"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "700",
+        "is_series": true,
         "node_id": "700",
         "group": "700",
         "level": 0,
         "title": "700 Community Classification Calculations"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "710",
         "node_id": "710",
         "parent_node": "700",
@@ -5532,7 +6207,8 @@
         "title": "710 County Growth Adjustment"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "node_id": "710a",
         "parent_node": "710",
         "group": "700",
@@ -5540,7 +6216,8 @@
         "title": "Background"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "711",
         "node_id": "711",
         "parent_node": "710",
@@ -5549,7 +6226,8 @@
         "title": "711 Growth Data"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "712",
         "node_id": "712",
         "parent_node": "710",
@@ -5558,7 +6236,8 @@
         "title": "712 Growth Adjustment Calculation"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "712a",
         "node_id": "712a",
         "parent_node": "712",
@@ -5567,7 +6246,8 @@
         "title": "712.a. County 10-year growth rate (CGR)"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "712b",
         "node_id": "712b",
         "parent_node": "712",
@@ -5576,7 +6256,8 @@
         "title": "712.b. Annual growth adjustment (AGA)"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "712c",
         "node_id": "712c",
         "parent_node": "712",
@@ -5585,7 +6266,8 @@
         "title": "712.c. County growth adjustment (CGA)"
       },
       {
-        "type": "heading",
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "713",
         "node_id": "713",
         "parent_node": "710",
@@ -5594,7 +6276,8 @@
         "title": "713 Credit Documentation"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "720",
         "node_id": "720",
         "parent_node": "700",
@@ -5603,7 +6286,8 @@
         "title": "720 Community Total Points"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "appendix-a",
         "node_id": "801",
         "group": "800",
@@ -5611,7 +6295,8 @@
         "title": "Appendix A: Acronyms"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "appendix-b",
         "node_id": "802",
         "group": "800",
@@ -5619,7 +6304,8 @@
         "title": "Appendix B: Comparison of the Minimum NFIP Requirements and the Community Rating System"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "appendix-c",
         "node_id": "803",
         "group": "800",
@@ -5627,7 +6313,8 @@
         "title": "Appendix C: CRS Publications"
       },
       {
-        "type": "page",
+        "type": "content",
+        "anchor_type": "page",
         "crs_id": "community-index",
         "node_id": "900",
         "group": "900",

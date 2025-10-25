@@ -1,6 +1,6 @@
 {%- comment -%}
 Inputs:
-- section (heading node)
+- section (section node)
 - base_level (page.level)
 - visual_offset (for Bootstrap .hN)
 - nodes (all nodes for this manual)
@@ -24,12 +24,13 @@ Inputs:
   <!-- TODO: add content for {{ section.node_id }} -->
 
   {%- assign children = nodes
-      | where: "type", "heading"
+      | where: "type", "content"
+      | where: "anchor_type", "section"
       | where: "parent_node", section.node_id
       | sort: "node_id" -%}
 
   {%- for child in children -%}
-    {% render "partials/_page-generator-helper.liquid",
+    {% render "partials/_seed-pages-helper.liquid",
        section: child,
        base_level: base_level,
        visual_offset: visual_offset,

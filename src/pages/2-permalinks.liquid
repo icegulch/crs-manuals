@@ -5,7 +5,7 @@
     data: "manualNodes",
     size: 1,
     alias: "node",
-    before: items => items.filter(i => i.type === "page")
+    before: items => items.filter(i => i.anchor_type === "page")
   },
   permalink: "{{ node.permalink }}"
 }
@@ -15,6 +15,13 @@
 
 {% render "partials/next-prev.liquid", pagination: pagination, node: node %}
 
+<h1 id="{{ node.node_id }}-title">{{ node.title }}{% if node.is_summary %}&mdash;Summary{% endif %}</h1>
+
 {% render "content/{{ node.manual }}/{{ node.group }}/{{ node.node_id }}.liquid", nodes: nodes, node: node, manual: thisManual %}
 
+{% if node.is_series %}
+  {% render "components/series-intro.liquid", node: node, nodes: nodes %}
+{% endif %}
+
 {% render "partials/next-prev.liquid", pagination: pagination, node: node %}
+

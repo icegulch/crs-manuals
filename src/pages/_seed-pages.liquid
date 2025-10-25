@@ -4,11 +4,11 @@
     data: "manualNodes",
     size: 1,
     alias: "node",
-    before: items => items.filter(i => i.type === "page")
+    before: items => items.filter(i => i.anchor_type === "page")
   },
   // uncomment to generate page files in "temp"
   // permalinkBypassOutputDir: true,
-  // permalink: "temp/partials/{{ node.manual }}/{{ node.group }}/{{ node.node_id }}.liquid",
+  // permalink: "temp/{{ node.manual }}/{{ node.group }}/{{ node.node_id }}.liquid",
   // uncomment to stop generating page files in "temp"
   permalink: false
 }
@@ -25,16 +25,15 @@
   {%- else -%}{% assign visual_offset = 3 %}
 {%- endcase -%}
 
-<h1 id="{{ node.node_id }}-title">{{ node.title }}</h1>
-
-{% comment %} Top-level child headings under this page {% endcomment %}
+{% comment %} Top-level child sections under this page {% endcomment %}
 {%- assign firstLevel = nodes
-  | where: "type", "heading"
+  | where: "type", "content"
+  | where: "anchor_type", "section"
   | where: "parent_node", node.node_id
   | sort: "node_id" -%}
 
 {%- for h in firstLevel -%}
-  {% render "partials/_page-generator-helper.liquid",
+  {% render "partials/_seed-pages-helper.liquid",
       section: h,
       base_level: node.level,
       visual_offset: visual_offset,

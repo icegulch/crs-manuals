@@ -1,0 +1,77 @@
+{%- assign series_nodes = nodes | where: "group", node.group | sort: "node_id" -%}
+
+{%- comment -%} Level-1 pages under this series (real pages only) {%- endcomment -%}
+{%- assign seriesTopContents = series_nodes
+  | where: "type", "content"
+  | where: "level", 1
+  | sort: "node_id" -%}
+
+{%- comment -%} Split into singles (…01–…09) and majors (…10, …20, …30…) {%- endcomment -%}
+{%- assign singles = "" | split: "" -%}
+{%- assign majors  = "" | split: "" -%}
+{%- for p in seriesTopContents -%}
+  {%- assign last = p.node_id | slice: -1, 1 -%}
+  {%- if last != "0" -%}
+    {%- assign singles = singles | push: p -%}
+  {%- else -%}
+    {%- assign majors  = majors  | push: p -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- assign seriesFigures = series_nodes | where: "type", "figure" | sort: "node_id" -%}
+{%- assign seriesTables = series_nodes | where: "type", "table"  | sort: "node_id" -%}
+
+<dl>
+  <dt>Contents of Series {{ node.group }}</dt>
+  <dd>
+    <ul class="list-unstyled" role="list">
+      {%- if singles.size > 0 -%}
+        <li>
+          <ul class="list-unstyled ms-3">
+            {%- for s in singles -%}
+              <li><a href="{{ s.permalink }}">{{ s.title }}</a></li>
+            {%- endfor -%}
+          </ul>
+        </li>
+      {%- endif -%}
+      {% for section in majors %}
+        <li>
+          <a href="{{ section.permalink }}">{{ section.title }}</a>
+          {%- assign children = series_nodes
+              | where: "type", "content"
+              | where: "parent_node", section.node_id
+              | sort: "node_id" -%}
+          {% if children.size %}
+            <ul class="list-unstyled ms-3">
+              {% for child in children %}
+                <li><a href="{{ child.permalink }}">{{ child.title }}</a></li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </dd>
+
+  {% if seriesFigures.size > 0 %}
+    <dt>List of Figures</dt>
+    <dd>
+      <ul class="list-unstyled">
+        {% for figure in seriesFigures %}
+          <li><a href="{{ figure.permalink }}">{{ figure.table_id }} {{ figure.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </dd>
+  {% endif %}
+
+  {% if seriesTables.size > 0 %}
+    <dt>List of Tables</dt>
+    <dd>
+      <ul class="list-unstyled">
+        {% for table in seriesTables %}
+          <li><a href="{{ table.permalink }}">{{ table.table_id }} {{ table.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </dd>
+  {% endif %}
+</dl>
