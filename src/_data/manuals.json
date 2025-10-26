@@ -334,6 +334,33 @@
         "title": "210 Requesting CRS Credit"
       },
       {
+        "type": "table",
+        "node_id": "210-1t",
+        "table_id": "210-1.",
+        "parent_node": "210",
+        "group": "200",
+        "level": 2,
+        "title": "The CRS Program Data Table"
+      },
+      {
+        "type": "figure",
+        "node_id": "230-1f",
+        "figure_id": "230-1.",
+        "parent_node": "233",
+        "group": "200",
+        "level": 2,
+        "title": "An example of a completed verification cover page"
+      },
+      {
+        "type": "figure",
+        "node_id": "240-1f",
+        "figure_id": "240-1.",
+        "parent_node": "240",
+        "group": "200",
+        "level": 2,
+        "title": "An example of a flood problem area map"
+      },
+      {
         "type": "content",
         "anchor_type": "page",
         "crs_id": "211",
@@ -891,6 +918,127 @@
         "group": "300",
         "level": 0,
         "title": "300 Public Information Activities"
+      },
+      {
+        "type": "figure",
+        "node_id": "320-1f",
+        "figure_id": "320-1.",
+        "parent_node": "320",
+        "group": "300",
+        "title": "Sample log for a map information service"
+      },
+      {
+        "type": "figure",
+        "node_id": "320-2f",
+        "figure_id": "320-2.",
+        "parent_node": "320",
+        "group": "300",
+        "title": "A sample map information record for MI1"
+      },
+      {
+        "type": "figure",
+        "node_id": "320-3f",
+        "figure_id": "320-3.",
+        "parent_node": "320",
+        "group": "300",
+        "title": "A flood depth map"
+      },
+      {
+        "type": "figure",
+        "node_id": "330-1f",
+        "figure_id": "330-1.",
+        "parent_node": "330",
+        "group": "300",
+        "title": "Examples of FRP messages and projects"
+      },
+      {
+        "type": "figure",
+        "node_id": "330-2f",
+        "figure_id": "330-2.",
+        "parent_node": "330",
+        "group": "300",
+        "title": "A sample spreadsheet for a Program for Public Information"
+      },
+      {
+        "type": "figure",
+        "node_id": "340-1f",
+        "figure_id": "340-1.",
+        "parent_node": "340",
+        "group": "300",
+        "title": "Example disclosure on a final subdivision plat"
+      },
+      {
+        "type": "figure",
+        "node_id": "350-1f",
+        "figure_id": "350-1.",
+        "parent_node": "350",
+        "group": "300",
+        "title": "FEMA Publications credited under element LIB"
+      },
+      {
+        "type": "figure",
+        "node_id": "360-1f",
+        "figure_id": "360-1.",
+        "parent_node": "360",
+        "group": "300",
+        "title": "Measures that can be taken to protect property from flood damage"
+      },
+      {
+        "type": "figure",
+        "node_id": "360-2f",
+        "figure_id": "360-2.",
+        "parent_node": "360",
+        "group": "300",
+        "title": "Potential sources of financial assistance for property protection"
+      },
+
+      {
+        "type": "table",
+        "node_id": "303-1t",
+        "table_id": "303-1.",
+        "parent_node": "300",
+        "group": "300",
+        "title": "Impact adjustments for buildings"
+      },
+      {
+        "type": "table",
+        "node_id": "330-1t",
+        "table_id": "330-1.",
+        "parent_node": "330",
+        "group": "300",
+        "title": "CRS topics and example messages"
+      },
+      {
+        "type": "table",
+        "node_id": "330-2t",
+        "table_id": "330-2.",
+        "parent_node": "330",
+        "group": "300",
+        "title": "Basic scoring of example outreach projects (without a PPI)"
+      },
+      {
+        "type": "table",
+        "node_id": "330-3t",
+        "table_id": "330-3.",
+        "parent_node": "330",
+        "group": "300",
+        "title": "Scoring of example FRP projects (without a PPI)"
+      },
+      {
+        "type": "table",
+        "node_id": "330-4t",
+        "table_id": "330-4.",
+        "parent_node": "330",
+        "group": "300",
+        "title": "Scoring examples for PPI and STK"
+      },
+      {
+        "type": "table",
+        "node_id": "350-1t",
+        "table_id": "350-1.",
+        "parent_node": "350",
+        "group": "300",
+        "title": "Example credit for LIB"
       },
       {
         "type": "content",
@@ -2796,6 +2944,142 @@
         "group": "400",
         "level": 0,
         "title": "400 Mapping and Regulations"
+      },
+      {
+        "type": "figure",
+        "node_id": "400-1f",
+        "figure_id": "400-1.",
+        "parent_node": "400",
+        "group": "400",
+        "title": "West Bay’s impact adjustment map"
+      },
+      {
+        "type": "figure",
+        "node_id": "410-1f",
+        "figure_id": "410-1.",
+        "parent_node": "410",
+        "group": "400",
+        "title": "FIRM terminology"
+      },
+      {
+        "type": "figure",
+        "node_id": "410-2f",
+        "figure_id": "410-2.",
+        "parent_node": "410",
+        "group": "400",
+        "title": "Example of a coastal DFIRM"
+      },
+      {
+        "type": "figure",
+        "node_id": "410-3f",
+        "figure_id": "410-3.",
+        "parent_node": "410",
+        "group": "400",
+        "title": "FIRM terms for areas without base flood elevations"
+      },
+      {
+        "type": "figure",
+        "node_id": "410-4f",
+        "figure_id": "410-4.",
+        "parent_node": "410",
+        "group": "400",
+        "title": "South Scottsdale’s DFIRM"
+      },
+      {
+        "type": "figure",
+        "node_id": "410-5f",
+        "figure_id": "410-5.",
+        "parent_node": "410",
+        "group": "400",
+        "title": "South Scottsdale’s impact adjustment map for Activity 410"
+      },
+      {
+        "type": "figure",
+        "node_id": "410-6f",
+        "figure_id": "410-6",
+        "parent_node": "410",
+        "group": "400",
+        "title": "The standard approach to floodway determination"
+      },
+      {
+        "type": "figure",
+        "node_id": "410-7f",
+        "figure_id": "410-7",
+        "parent_node": "410",
+        "group": "400",
+        "title": "Example of coastal erosion hazard area map"
+      },
+      {
+        "type": "figure",
+        "node_id": "410-8f",
+        "figure_id": "410-8",
+        "parent_node": "410",
+        "group": "400",
+        "title": "A low-lying area in Washington’s San Juan Islands, with tsunami warning sign"
+      },
+      {
+        "type": "figure",
+        "node_id": "420-1f",
+        "figure_id": "420-1.",
+        "parent_node": "420",
+        "group": "400",
+        "title": "South Scottsdale’s impact adjustment map for Activity 420"
+      },
+      {
+        "type": "figure",
+        "node_id": "420-2f",
+        "figure_id": "420-2",
+        "parent_node": "420",
+        "group": "400",
+        "title": "An example of a form to inventory natural floodplain functions"
+      },
+      {
+        "type": "figure",
+        "node_id": "420-3f",
+        "figure_id": "420-3",
+        "parent_node": "420",
+        "group": "400",
+        "title": "Alternative ways to develop a partially flood-prone property"
+      },
+      {
+        "type": "figure",
+        "node_id": "430-1f",
+        "figure_id": "430-1",
+        "parent_node": "430",
+        "group": "400",
+        "title": "South Scottsdale’s impact adjustment map for Activity 430"
+      },
+      {
+        "type": "figure",
+        "node_id": "430-2f",
+        "figure_id": "430-2",
+        "parent_node": "430",
+        "group": "400",
+        "title": "A schematic of coastal flood zones"
+      },
+      {
+        "type": "figure",
+        "node_id": "430-3f",
+        "figure_id": "430-3",
+        "parent_node": "430",
+        "group": "400",
+        "title": "West Bay’s impact adjustment map"
+      },
+      {
+        "type": "figure",
+        "node_id": "430-4f",
+        "figure_id": "430-4",
+        "parent_node": "430",
+        "group": "400",
+        "title": "Credit for inspections under regulations administration"
+      },
+      {
+        "type": "table",
+        "node_id": "403-1t",
+        "table_id": "403-1.",
+        "parent_node": "400",
+        "group": "400",
+        "title": "Impact adjustment maps"
       },
       {
         "type": "content",
@@ -5150,6 +5434,86 @@
         "title": "500 Flood Damage Reduction Activities"
       },
       {
+        "type": "figure",
+        "node_id": "510-1f",
+        "figure_id": "510-1.",
+        "parent_node": "510",
+        "group": "500",
+        "title": "Excerpt from a floodplain management planning checklist"
+      },
+      {
+        "type": "figure",
+        "node_id": "510-2f",
+        "figure_id": "510-2.",
+        "parent_node": "510",
+        "group": "500",
+        "title": "Categories of floodplain management activities"
+      },
+      {
+        "type": "figure",
+        "node_id": "510-3f",
+        "figure_id": "510-3.",
+        "parent_node": "510",
+        "group": "500",
+        "title": "An excerpt from Gretna’s Flood Hazard Mitigation Plan"
+      },
+      {
+        "type": "figure",
+        "node_id": "530-1f",
+        "figure_id": "530-1.",
+        "parent_node": "530",
+        "group": "500",
+        "title": "Flood protection techniques credited under Activity 530"
+      },
+      {
+        "type": "figure",
+        "node_id": "540-1f",
+        "figure_id": "540-1.",
+        "parent_node": "540",
+        "group": "500",
+        "title": "Step 4 of a sample inventory of a conveyance system"
+      },
+      {
+        "type": "figure",
+        "node_id": "540-2f",
+        "figure_id": "540-2.",
+        "parent_node": "540",
+        "group": "500",
+        "title": "Step 5 of a sample inventory of a conveyance system"
+      },
+      {
+        "type": "figure",
+        "node_id": "540-4f",
+        "figure_id": "540-4.",
+        "parent_node": "540",
+        "group": "500",
+        "title": "A sample inventory for storage basin maintenance"
+      },
+      {
+        "type": "table",
+        "node_id": "510-1t",
+        "table_id": "510-1.",
+        "parent_node": "510",
+        "group": "500",
+        "title": "Planning steps for mitigation and for the CRS"
+      },
+      {
+        "type": "table",
+        "node_id": "530-1t",
+        "table_id": "530-1.",
+        "parent_node": "530",
+        "group": "500",
+        "title": "Flood protection techniques used"
+      },
+      {
+        "type": "table",
+        "node_id": "530-2t",
+        "table_id": "530-2.",
+        "parent_node": "530",
+        "group": "500",
+        "title": "Values for FPP and FPB"
+      },
+      {
         "type": "content",
         "anchor_type": "page",
         "crs_id": "501",
@@ -5772,6 +6136,38 @@
         "group": "600",
         "level": 0,
         "title": "600 Warning and Response"
+      },
+      {
+        "type": "figure",
+        "node_id": "610-1f",
+        "figure_id": "610-1.",
+        "parent_node": "610",
+        "group": "600",
+        "title": "An example of a riverine flood inundation map."
+      },
+      {
+        "type": "figure",
+        "node_id": "610-1f",
+        "figure_id": "610-1.",
+        "parent_node": "610",
+        "group": "600",
+        "title": "An example of a flash flood inundation map."
+      },
+      {
+        "type": "figure",
+        "node_id": "610-1f",
+        "figure_id": "610-1.",
+        "parent_node": "610",
+        "group": "600",
+        "title": "An example of a coastal inundation map."
+      },
+      {
+        "type": "figure",
+        "node_id": "620-1f",
+        "figure_id": "620-1.",
+        "parent_node": "610",
+        "group": "600",
+        "title": "Delineating the area affected by levee overtopping"
       },
       {
         "type": "content",

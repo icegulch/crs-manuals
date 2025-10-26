@@ -1,10 +1,7 @@
 {%- comment -%}
 Inputs:
-- section (section node)
-- base_level (page.level)
-- visual_offset (for Bootstrap .hN)
-- nodes (all nodes for this manual)
-- manual (the manual object already looked up)
+- section (a content node with anchor_type:"section")
+- base_level, visual_offset, nodes, manual
 {%- endcomment -%}
 
 {%- assign delta    = section.level | minus: base_level -%}
@@ -23,6 +20,7 @@ Inputs:
 
   <!-- TODO: add content for {{ section.node_id }} -->
 
+  {%- comment -%} recurse into nested sections {%- endcomment -%}
   {%- assign children = nodes
       | where: "type", "content"
       | where: "anchor_type", "section"

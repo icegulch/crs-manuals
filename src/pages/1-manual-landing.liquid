@@ -9,53 +9,95 @@ permalink: /{{ manual.slug }}/
 
 <h1>{{ manual.title }}</h1>
 
-{%- assign nodes = manualNodes | where: "manual", manual.slug -%}
+<figure>
+  <img src="/images/{{ manual.slug }}/grass_mod.jpg" class="img-fluid" title="The ultimate floodplain" alt="The ultimate floodplain" width="1760" height="1092">
+  <figcaption>
+    The photograph represents the ultimate floodplain, from a community’s perspective: Nature follows its course with no threat to life or property. The waterfront is a community asset where people can relax and enjoy the view.<br><small class="text-muted">Photo courtesy of John Kinley</small>
+  </figcaption>
+</figure>
 
-{%- assign topContents = nodes
-    | where: "type", "content"
-    | where: "level", 0
-    | sort: "node_id" -%}
+<dl>
+  <dt>Complete Table of Contents</dt>
+  <dd class="mt-2">
+    {%- assign nodes = manualNodes | where: "manual", manual.slug -%}
 
-    <ul class="list-unstyled">
-      {% for section in topContents %}
-        <li>
-          <a href="{{ section.permalink }}">{{ section.title }}</a>
-          {%- assign children = nodes
-              | where: "type", "content"
-              | where: "parent_node", section.node_id
-              | sort: "node_id" -%}
-          {% if children.size %}
-            <ul class="list-unstyled ms-3">
-              {% for child in children %}
-                <li>
-                  <a href="{{ child.permalink }}">{{ child.title }}</a>
-                  {%- assign grandchildren = nodes
+    {%- assign topSeriesContents = nodes
+        | where: "type", "content"
+        | where: "level", 0
+        | where: "is_series", true
+        | sort: "node_id" -%}
+    {%- assign forewordChildrenOnly = nodes
+        | where: "group", "000"
+        | where: "parent_node", "000"
+        | sort: "node_id" -%}
+    {%- assign appendicesChildrenOnly = nodes
+        | where: "group", "800"
+        | sort: "node_id" -%}
+    {%- assign indexOnly = nodes
+        | where: "group", "900"
+        | sort: "node_id" -%}
+
+        <ul class="list-unstyled">
+          <li>
+            <details>
+              <summary class="mb-1">Foreword</summary>
+              <div class="pb-3">
+                <ul class="list-unstyled ms-3">
+                  {% for child in forewordChildrenOnly %}
+                    <li>
+                      <a href="{{ child.permalink }}">{{ child.title }}</a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </details>
+          </li>
+          {% for section in topSeriesContents %}
+            <li>
+              <details>
+                <summary class="mb-1">{{ section.title }}</summary>
+                <div class="pb-3 ps-3">
+                  <a href="{{ section.permalink }}">{{ section.title }}</a>
+                  {%- assign children = nodes
                       | where: "type", "content"
-                      | where: "parent_node", child.node_id
+                      | where: "parent_node", section.node_id
                       | sort: "node_id" -%}
-                  {% if grandchildren.size %}
+                  {% if children.size %}
                     <ul class="list-unstyled ms-3">
-                      {% for grandchild in grandchildren %}
+                      {% for child in children %}
                         <li>
-                          <a href="{{ grandchild.permalink }}">{{ grandchild.title }}</a>
-                          {%- assign greatgrandchildren = nodes
+                          <a href="{{ child.permalink }}">{{ child.title }}</a>
+                          {%- assign grandchildren = nodes
                               | where: "type", "content"
-                              | where: "parent_node", grandchild.node_id
+                              | where: "parent_node", child.node_id
                               | sort: "node_id" -%}
-                          {% if greatgrandchildren.size %}
+                          {% if grandchildren.size %}
                             <ul class="list-unstyled ms-3">
-                              {% for greatgrandchild in greatgrandchildren %}
+                              {% for grandchild in grandchildren %}
                                 <li>
-                                  <a href="{{ greatgrandchild.permalink }}">{{ greatgrandchild.title }}</a>
-                                  {%- assign greatgreatgrandchildren = nodes
+                                  <a href="{{ grandchild.permalink }}">{{ grandchild.title }}</a>
+                                  {%- assign greatgrandchildren = nodes
                                       | where: "type", "content"
-                                      | where: "parent_node", greatgrandchild.node_id
+                                      | where: "parent_node", grandchild.node_id
                                       | sort: "node_id" -%}
-                                  {% if greatgreatgrandchildren.size %}
+                                  {% if greatgrandchildren.size %}
                                     <ul class="list-unstyled ms-3">
-                                      {% for greatgreatgrandchild in greatgreatgrandchildren %}
+                                      {% for greatgrandchild in greatgrandchildren %}
                                         <li>
-                                          <a href="{{ greatgreatgrandchild.permalink }}">{{ greatgreatgrandchild.title }}</a>
+                                          <a href="{{ greatgrandchild.permalink }}">{{ greatgrandchild.title }}</a>
+                                          {%- assign greatgreatgrandchildren = nodes
+                                              | where: "type", "content"
+                                              | where: "parent_node", greatgrandchild.node_id
+                                              | sort: "node_id" -%}
+                                          {% if greatgreatgrandchildren.size %}
+                                            <ul class="list-unstyled ms-3">
+                                              {% for greatgreatgrandchild in greatgreatgrandchildren %}
+                                                <li>
+                                                  <a href="{{ greatgreatgrandchild.permalink }}">{{ greatgreatgrandchild.title }}</a>
+                                                </li>
+                                              {% endfor %}
+                                            </ul>
+                                          {% endif %}
                                         </li>
                                       {% endfor %}
                                     </ul>
@@ -68,10 +110,38 @@ permalink: /{{ manual.slug }}/
                       {% endfor %}
                     </ul>
                   {% endif %}
-                </li>
-              {% endfor %}
-            </ul>
-          {% endif %}
-        </li>
-      {% endfor %}
-    </ul>
+                </div>
+              </details>
+            </li>
+          {% endfor %}
+          <li>
+            <details>
+              <summary class="mb-1">Appendices</summary>
+              <div class="pb-3">
+                <ul class="list-unstyled ms-3">
+                  {% for child in appendicesChildrenOnly %}
+                    <li>
+                      <a href="{{ child.permalink }}">{{ child.title }}</a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary class="mb-1">Community Index</summary>
+              <div class="pb-3">
+                <ul class="list-unstyled ms-3">
+                  {% for child in indexOnly %}
+                    <li>
+                      <a href="{{ child.permalink }}">{{ child.title }}</a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </details>
+          </li>
+        </ul>
+  </dd>
+</dl>

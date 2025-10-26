@@ -26,8 +26,9 @@
   <dd>
     <ul class="list-unstyled" role="list">
       {%- if singles.size > 0 -%}
-        <li>
-          <ul class="list-unstyled ms-3">
+        <li class="mt-2">
+          <span class="link-primary text-decoration-underline">{{ node.title }}</span>
+          <ul class="list-unstyled ms-3 {% if forloop.last %}mb-4{% else %}mb-3{% endif %}">
             {%- for s in singles -%}
               <li><a href="{{ s.permalink }}">{{ s.title }}</a></li>
             {%- endfor -%}
@@ -35,14 +36,14 @@
         </li>
       {%- endif -%}
       {% for section in majors %}
-        <li>
+        <li class="mt-2">
           <a href="{{ section.permalink }}">{{ section.title }}</a>
           {%- assign children = series_nodes
               | where: "type", "content"
               | where: "parent_node", section.node_id
               | sort: "node_id" -%}
           {% if children.size %}
-            <ul class="list-unstyled ms-3">
+            <ul class="list-unstyled ms-3 {% if forloop.last %}mb-4{% else %}mb-3{% endif %}">
               {% for child in children %}
                 <li><a href="{{ child.permalink }}">{{ child.title }}</a></li>
               {% endfor %}
@@ -55,10 +56,10 @@
 
   {% if seriesFigures.size > 0 %}
     <dt>List of Figures</dt>
-    <dd>
-      <ul class="list-unstyled">
+    <dd {% if seriesTables.size > 0 %}class="mb-4"{% endif %}>
+      <ul class="list-unstyled mt-2">
         {% for figure in seriesFigures %}
-          <li><a href="{{ figure.permalink }}">{{ figure.table_id }} {{ figure.title }}</a></li>
+          <li><a href="{{ figure.permalink }}">{{ figure.figure_id }} {{ figure.title }}</a></li>
         {% endfor %}
       </ul>
     </dd>
@@ -67,7 +68,7 @@
   {% if seriesTables.size > 0 %}
     <dt>List of Tables</dt>
     <dd>
-      <ul class="list-unstyled">
+      <ul class="list-unstyled mt-2">
         {% for table in seriesTables %}
           <li><a href="{{ table.permalink }}">{{ table.table_id }} {{ table.title }}</a></li>
         {% endfor %}

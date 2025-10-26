@@ -7,16 +7,15 @@
     before: items => items.filter(i => i.anchor_type === "page")
   },
   // uncomment to generate page files in "temp"
-  // permalinkBypassOutputDir: true,
-  // permalink: "temp/{{ node.manual }}/{{ node.group }}/{{ node.node_id }}.liquid",
+  permalinkBypassOutputDir: true,
+  permalink: "temp/{{ node.manual }}/{{ node.group }}/{{ node.node_id }}.liquid",
   // uncomment to stop generating page files in "temp"
-  permalink: false
+  // permalink: false
 }
 ---
 {%- assign nodes = manualNodes | where: "manual", node.manual -%}
-{%- assign manual = manuals | where: "slug", node.manual | first -%}
+{%- assign manual = manuals | where: "slug", node.manual | first -%} {# ← add this #}
 
-{%- comment -%} Per-page visual offset for Bootstrap heading classes {%- endcomment -%}
 {%- assign visual_offset = 0 -%}
 {%- case node.level -%}
   {%- when 0 -%}{% assign visual_offset = 0 %}
@@ -25,7 +24,7 @@
   {%- else -%}{% assign visual_offset = 3 %}
 {%- endcase -%}
 
-{% comment %} Top-level child sections under this page {% endcomment %}
+{%- comment -%} Top-level child sections under this page {%- endcomment -%}
 {%- assign firstLevel = nodes
   | where: "type", "content"
   | where: "anchor_type", "section"
