@@ -57,7 +57,6 @@
         "table_id": "110-1.",
         "parent_node": "110",
         "group": "100",
-        "level": 2,
         "title": "CRS classes, credit points, and premium discounts"
       },
       {
@@ -66,7 +65,6 @@
         "table_id": "110-2.",
         "parent_node": "110",
         "group": "100",
-        "level": 2,
         "title": "Credit points awarded for CRS activities"
       },
       {
@@ -339,7 +337,6 @@
         "table_id": "210-1.",
         "parent_node": "210",
         "group": "200",
-        "level": 2,
         "title": "The CRS Program Data Table"
       },
       {
@@ -348,7 +345,6 @@
         "figure_id": "230-1.",
         "parent_node": "233",
         "group": "200",
-        "level": 2,
         "title": "An example of a completed verification cover page"
       },
       {
@@ -357,7 +353,6 @@
         "figure_id": "240-1.",
         "parent_node": "240",
         "group": "200",
-        "level": 2,
         "title": "An example of a flood problem area map"
       },
       {
@@ -991,7 +986,6 @@
         "group": "300",
         "title": "Potential sources of financial assistance for property protection"
       },
-
       {
         "type": "table",
         "node_id": "303-1t",
@@ -1169,6 +1163,7 @@
         "group": "300",
         "level": 1,
         "is_summary": true,
+        "is_activity": true,
         "title": "310 Elevation Certificates"
       },
       {
@@ -1391,6 +1386,7 @@
         "group": "300",
         "level": 1,
         "is_summary": true,
+        "is_activity": true,
         "title": "320 Map Information Service"
       },
       {
@@ -1685,6 +1681,7 @@
         "group": "300",
         "level": 1,
         "is_summary": true,
+        "is_activity": true,
         "title": "330 Outreach Projects"
       },
       {
@@ -1945,6 +1942,7 @@
         "group": "300",
         "level": 1,
         "is_summary": true,
+        "is_activity": true,
         "title": "340 Hazard Disclosure"
       },
       {
@@ -2169,6 +2167,7 @@
         "group": "300",
         "level": 1,
         "is_summary": true,
+        "is_activity": true,
         "title": "350 Flood Protection Information"
       },
       {
@@ -2364,6 +2363,7 @@
         "group": "300",
         "level": 1,
         "is_summary": true,
+        "is_activity": true,
         "title": "360 Flood Protection Assistance"
       },
       {
@@ -2597,6 +2597,7 @@
         "group": "300",
         "level": 1,
         "is_summary": true,
+        "is_activity": true,
         "title": "370 Flood Insurance Promotion"
       },
       {
@@ -3210,6 +3211,7 @@
         "group": "400",
         "level": 1,
         "is_summary": true,
+        "is_activity": true,
         "title": "410 Flood Hazard Mapping"
       },
       {
@@ -3600,6 +3602,7 @@
         "group": "400",
         "level": 1,
         "is_summary": true,
+        "is_activity": true,
         "title": "420 Open Space Preservation"
       },
       {
@@ -4019,6 +4022,7 @@
         "group": "400",
         "level": 1,
         "is_summary": true,
+        "is_activity": true,
         "title": "430 Higher Regulatory Standards"
       },
       {
@@ -4889,6 +4893,7 @@
         "group": "400",
         "level": 1,
         "is_summary": true,
+        "is_activity": true,
         "title": "440 Flood Data Maintenance"
       },
       {
@@ -5138,6 +5143,7 @@
         "group": "400",
         "level": 1,
         "is_summary": true,
+        "is_activity": true,
         "title": "450 Stormwater Management"
       },
       {
@@ -5702,6 +5708,7 @@
         "group": "500",
         "level": 1,
         "is_summary": true,
+        "is_activity": true,
         "title": "510 Floodplain Management Planning"
       },
       {
@@ -5737,12 +5744,255 @@
       {
         "type": "content",
         "anchor_type": "section",
+        "node_id": "512a-01",
+        "parent_node": "512a",
+        "group": "500",
+        "level": 4,
+        "title": "Credit Points for FMP"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "512a-02",
+        "parent_node": "512a",
+        "group": "500",
+        "level": 4,
+        "title": "Step 1. Organize to prepare the plan"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "512a-03",
+        "parent_node": "512a",
+        "group": "500",
+        "level": 4,
+        "title": "Credit Points for FMP Step 1"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "512a-04",
+        "parent_node": "512a",
+        "group": "500",
+        "level": 4,
+        "title": "Step 2. Involve the public"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "512a-05",
+        "parent_node": "512a",
+        "group": "500",
+        "level": 4,
+        "title": "Credit Points for FMP Step 2"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "512a-06",
+        "parent_node": "512a",
+        "group": "500",
+        "level": 4,
+        "title": "Step 3. Coordinate"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "512a-07",
+        "parent_node": "512a",
+        "group": "500",
+        "level": 4,
+        "title": "Credit Points for FMP Step 3"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "512a-08",
+        "parent_node": "512a",
+        "group": "500",
+        "level": 4,
+        "title": "Step 4. Assess the hazard"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "512a-09",
+        "parent_node": "512a",
+        "group": "500",
+        "level": 4,
+        "title": "Community Credit Points for FMP Step 4"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "512a-10",
+        "parent_node": "512a",
+        "group": "500",
+        "level": 4,
+        "title": "Step 5. Assess the problem"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "512a-11",
+        "parent_node": "512a",
+        "group": "500",
+        "level": 4,
+        "title": "Credit Points for FMP Step 5"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "512a-12",
+        "parent_node": "512a",
+        "group": "500",
+        "level": 4,
+        "title": "Step 6. Set goals"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "512a-13",
+        "parent_node": "512a",
+        "group": "500",
+        "level": 4,
+        "title": "Credit Points for FMP Step 6"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "512a-14",
+        "parent_node": "512a",
+        "group": "500",
+        "level": 4,
+        "title": "Step 7. Review possible activities"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "512a-15",
+        "parent_node": "512a",
+        "group": "500",
+        "level": 4,
+        "title": "Credit Points for FMP Step 7"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "512a-16",
+        "parent_node": "512a",
+        "group": "500",
+        "level": 4,
+        "title": "Step 8. Draft an action plan"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "512a-17",
+        "parent_node": "512a",
+        "group": "500",
+        "level": 4,
+        "title": "Credit Points for FMP Step 8"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "512a-18",
+        "parent_node": "512a",
+        "group": "500",
+        "level": 4,
+        "title": "Step 9. Adopt the plan"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "512a-19",
+        "parent_node": "512a",
+        "group": "500",
+        "level": 4,
+        "title": "Step 10. Implement, evaluate, and revise"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "512a-20",
+        "parent_node": "512a",
+        "group": "500",
+        "level": 4,
+        "title": "Credit Points for FMP Step 10"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "512a-21",
+        "parent_node": "512a",
+        "group": "500",
+        "level": 4,
+        "title": "Five-year Update"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "512a-22",
+        "parent_node": "512a",
+        "group": "500",
+        "level": 4,
+        "title": "Impact Adjustment for FMP"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "512a-23",
+        "parent_node": "512a",
+        "group": "500",
+        "level": 4,
+        "title": "Documentation for FMP Provided by the Community"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "512b",
         "node_id": "512b",
         "parent_node": "512",
         "group": "500",
         "level": 3,
         "title": "512.b. Repetitive loss area analysis (RLAA)"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "512b-1",
+        "parent_node": "512b",
+        "group": "500",
+        "level": 4,
+        "title": "Credit Criteria for RLAA"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "512b-2",
+        "parent_node": "512b",
+        "group": "500",
+        "level": 4,
+        "title": "Credit Points for RLAA"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "512b-3",
+        "parent_node": "512b",
+        "group": "500",
+        "level": 4,
+        "title": "Impact Adjustment for RLAA"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "512b-4",
+        "parent_node": "512b",
+        "group": "500",
+        "level": 4,
+        "title": "Documentation for RLAA Provided by the Community"
       },
       {
         "type": "content",
@@ -5757,12 +6007,84 @@
       {
         "type": "content",
         "anchor_type": "section",
+        "node_id": "512c-1",
+        "parent_node": "512c",
+        "group": "500",
+        "level": 4,
+        "title": "Credit Criteria for NFP"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "512c-2",
+        "parent_node": "512c",
+        "group": "500",
+        "level": 4,
+        "title": "Credit Points for NFP"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "512c-3",
+        "parent_node": "512c",
+        "group": "500",
+        "level": 4,
+        "title": "Impact Adjustment for NFP"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "512c-4",
+        "parent_node": "512c",
+        "group": "500",
+        "level": 4,
+        "title": "Documentation for NFP Provided by the Community"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "512d",
         "node_id": "512d",
         "parent_node": "512",
         "group": "500",
         "level": 3,
         "title": "512.d. Substantial Damage Management Plan (SDP)"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "512d-1",
+        "parent_node": "512d",
+        "group": "500",
+        "level": 4,
+        "title": "Credit Criteria for SDP"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "512d-2",
+        "parent_node": "512d",
+        "group": "500",
+        "level": 4,
+        "title": "Credit Points for SDP"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "512d-3",
+        "parent_node": "512d",
+        "group": "500",
+        "level": 4,
+        "title": "Impact Adjustment for SDP"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "512d-4",
+        "parent_node": "512d",
+        "group": "500",
+        "level": 4,
+        "title": "Documentation for SDP Provided by the Community"
       },
       {
         "type": "content",
@@ -5793,6 +6115,7 @@
         "group": "500",
         "level": 1,
         "is_summary": true,
+        "is_activity": true,
         "title": "520 Acquisition and Relocation"
       },
       {
@@ -5804,6 +6127,24 @@
         "group": "500",
         "level": 2,
         "title": "521 Background"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "521a",
+        "parent_node": "521",
+        "group": "500",
+        "level": 3,
+        "title": "Activity Description"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "521b",
+        "parent_node": "521",
+        "group": "500",
+        "level": 3,
+        "title": "Activity Credit Criteria"
       },
       {
         "type": "content",
@@ -5828,12 +6169,30 @@
       {
         "type": "content",
         "anchor_type": "section",
+        "node_id": "522a-1",
+        "parent_node": "522a",
+        "group": "500",
+        "level": 4,
+        "title": "Credit Criteria for bAR"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "522b",
         "node_id": "522b",
         "parent_node": "522",
         "group": "500",
         "level": 3,
         "title": "522.b. Buildings on the repetitive loss list (bRL)"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "522b-1",
+        "parent_node": "522b",
+        "group": "500",
+        "level": 4,
+        "title": "Credit Criteria for bRL"
       },
       {
         "type": "content",
@@ -5848,6 +6207,15 @@
       {
         "type": "content",
         "anchor_type": "section",
+        "node_id": "522c-1",
+        "parent_node": "522c",
+        "group": "500",
+        "level": 4,
+        "title": "Credit Criteria for bSRL"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "522d",
         "node_id": "522d",
         "parent_node": "522",
@@ -5858,12 +6226,30 @@
       {
         "type": "content",
         "anchor_type": "section",
+        "node_id": "522d-1",
+        "parent_node": "522d",
+        "group": "500",
+        "level": 4,
+        "title": "Credit Criteria for bCF"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "522e",
         "node_id": "522e",
         "parent_node": "522",
         "group": "500",
         "level": 3,
         "title": "522.e. Buildings located in the V Zone or Coastal A Zone (bVZ)"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "522e-1",
+        "parent_node": "522e",
+        "group": "500",
+        "level": 4,
+        "title":  "Credit Criteria for bVZ"
       },
       {
         "type": "content",
@@ -5924,6 +6310,7 @@
         "group": "500",
         "level": 1,
         "is_summary": true,
+        "is_activity": true,
         "title": "530 Flood Protection"
       },
       {
@@ -5935,6 +6322,24 @@
         "group": "500",
         "level": 2,
         "title": "531 Background"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "531a",
+        "parent_node": "531",
+        "group": "500",
+        "level": 3,
+        "title": "Activity Description"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "531b",
+        "parent_node": "531",
+        "group": "500",
+        "level": 3,
+        "title": "Activity Credit Criteria"
       },
       {
         "type": "content",
@@ -5965,6 +6370,15 @@
         "group": "500",
         "level": 3,
         "title": "532.b. Flood Protection Improvement (FPI)"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "532b-1",
+        "parent_node": "532b",
+        "group": "500",
+        "level": 4,
+        "title": "Credit Calculation for FPI"
       },
       {
         "type": "content",
@@ -6035,6 +6449,7 @@
         "group": "500",
         "level": 1,
         "is_summary": true,
+        "is_activity": true,
         "title": "540 Drainage System Maintenance"
       },
       {
@@ -6046,6 +6461,24 @@
         "group": "500",
         "level": 2,
         "title": "541 Background"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "541a",
+        "parent_node": "541",
+        "group": "500",
+        "level": 3,
+        "title": "Activity Description"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "541b",
+        "parent_node": "541",
+        "group": "500",
+        "level": 3,
+        "title": "Activity Credit Criteria"
       },
       {
         "type": "content",
@@ -6070,12 +6503,111 @@
       {
         "type": "content",
         "anchor_type": "section",
+        "node_id": "542a-1",
+        "parent_node": "542a",
+        "group": "500",
+        "level": 4,
+        "title": "Credit Criteria for CDR"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "542a-2",
+        "parent_node": "542a",
+        "group": "500",
+        "level": 4,
+        "title": "Inspection and Maintenance Procedures for the Conveyance System"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "542a-3",
+        "parent_node": "542a",
+        "group": "500",
+        "level": 4,
+        "title": "Map and Inventory of the Natural Conveyance System"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "542-4",
+        "parent_node": "542a",
+        "group": "500",
+        "level": 4,
+        "title": "Credit Points for CDR"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "542a-5",
+        "parent_node": "542a",
+        "group": "500",
+        "level": 4,
+        "title": "Impact Adjustment for CDR"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "542a-6",
+        "parent_node": "542a",
+        "group": "500",
+        "level": 4,
+        "title": "Documentation for CDR Provided by the Community"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "542b",
         "node_id": "542b",
         "parent_node": "542",
         "group": "500",
         "level": 3,
         "title": "542.b. Problem site maintenance (PSM)"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "542b-1",
+        "parent_node": "542b",
+        "group": "500",
+        "level": 4,
+        "title": "Credit Criteria for PSM"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "542b-2",
+        "parent_node": "542b",
+        "group": "500",
+        "level": 4,
+        "title": "Maintenance Procedures for Problem Sites"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "542b-3",
+        "parent_node": "542b",
+        "group": "500",
+        "level": 4,
+        "title": "Credit Points for PSM"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "542b-4",
+        "parent_node": "542b",
+        "group": "500",
+        "level": 4,
+        "title": "Impact Adjustment for PSM"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "542b-5",
+        "parent_node": "542b",
+        "group": "500",
+        "level": 4,
+        "title": "Documentation for PSM Provided by the Community"
       },
       {
         "type": "content",
@@ -6090,6 +6622,42 @@
       {
         "type": "content",
         "anchor_type": "section",
+        "node_id": "542c-1",
+        "parent_node": "542c",
+        "group": "500",
+        "level": 4,
+        "title": "Credit Criteria for CIP"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "542c-2",
+        "parent_node": "542c",
+        "group": "500",
+        "level": 4,
+        "title": "Credit Points for CIP"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "542c-3",
+        "parent_node": "542c",
+        "group": "500",
+        "level": 4,
+        "title": "Impact Adjustment for CIP"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "542c-4",
+        "parent_node": "542c",
+        "group": "500",
+        "level": 4,
+        "title": "Documentation for CIP Provided by the Community"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "542d",
         "node_id": "542d",
         "parent_node": "542",
@@ -6100,12 +6668,93 @@
       {
         "type": "content",
         "anchor_type": "section",
+        "node_id": "542d-1",
+        "parent_node": "542d",
+        "group": "500",
+        "level": 4,
+        "title": "Credit Criteria for SDR"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "542d-2",
+        "parent_node": "542d",
+        "group": "500",
+        "level": 4,
+        "title": "Credit Points for SDR"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "542d-3",
+        "parent_node": "542d",
+        "group": "500",
+        "level": 4,
+        "title": "Impact Adjustment for SDR"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "542d-4",
+        "parent_node": "542d",
+        "group": "500",
+        "level": 4,
+        "title": "Documentation for SDR Provided by the Community"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
         "crs_id": "542e",
         "node_id": "542e",
         "parent_node": "542",
         "group": "500",
         "level": 3,
         "title": "542.e. Storage basin maintenance (SBM)"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "542e-1",
+        "parent_node": "542e",
+        "group": "500",
+        "level": 4,
+        "title": "Credit Criteria for SBM"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "542e-2",
+        "parent_node": "542e",
+        "group": "500",
+        "level": 4,
+        "title": "SBM Procedures"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "542e-3",
+        "parent_node": "542e",
+        "group": "500",
+        "level": 4,
+        "title": "Credit Points for SBM"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "542e-4",
+        "parent_node": "542e",
+        "group": "500",
+        "level": 4,
+        "title": "Impact Adjustment for SBM"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "542e-5",
+        "parent_node": "542e",
+        "group": "500",
+        "level": 4,
+        "title": "Documentation for SBM Provided by the Community"
       },
       {
         "type": "content",
@@ -6178,6 +6827,7 @@
         "group": "600",
         "level": 1,
         "is_summary": true,
+        "is_activity": true,
         "title": "610 Flood Warning and Response"
       },
       {
@@ -6232,6 +6882,42 @@
       },
       {
         "type": "content",
+        "anchor_type": "section",
+        "node_id": "612a-1",
+        "parent_node": "612a",
+        "group": "600",
+        "level": 4,
+        "title": "Credit Criteria for FTR"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "612a-2",
+        "parent_node": "612a",
+        "group": "600",
+        "level": 4,
+        "title": "Credit Points for FTR"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "612a-3",
+        "parent_node": "612a",
+        "group": "600",
+        "level": 4,
+        "title": "Impact Adjustment for FTR"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "612a-4",
+        "parent_node": "612a",
+        "group": "600",
+        "level": 4,
+        "title": "Documentation for FTR Provided by the Community"
+      },
+      {
+        "type": "content",
         "anchor_type": "page",
         "crs_id": "612b",
         "node_id": "612b",
@@ -6239,6 +6925,42 @@
         "group": "600",
         "level": 3,
         "title": "612.b. Emergency warning dissemination (EWD)"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section2",
+        "node_id": "612b-1",
+        "parent_node": "612b",
+        "group": "600",
+        "level": 4,
+        "title": "Credit Criteria for EWD"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section3",
+        "node_id": "612b-2",
+        "parent_node": "612b",
+        "group": "600",
+        "level": 4,
+        "title": "Credit Points for EWD"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section4",
+        "node_id": "612b-3",
+        "parent_node": "612b",
+        "group": "600",
+        "level": 4,
+        "title": "Impact Adjustment for EWD"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "612b-4",
+        "parent_node": "612b",
+        "group": "600",
+        "level": 4,
+        "title": "Documentation for EWD Provided by the Community"
       },
       {
         "type": "content",
@@ -6252,6 +6974,42 @@
       },
       {
         "type": "content",
+        "anchor_type": "section",
+        "node_id": "612c-1",
+        "parent_node": "612c",
+        "group": "600",
+        "level": 4,
+        "title": "Credit Criteria for FRO"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "612c-2",
+        "parent_node": "612c",
+        "group": "600",
+        "level": 4,
+        "title": "Credit Points for FRO"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "612c-3",
+        "parent_node": "612c",
+        "group": "600",
+        "level": 4,
+        "title": "Impact Adjustment for FRO"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "612c-4",
+        "parent_node": "612c",
+        "group": "600",
+        "level": 4,
+        "title": "Documentation for FRO Provided by the Community"
+      },
+      {
+        "type": "content",
         "anchor_type": "page",
         "crs_id": "612d",
         "node_id": "612d",
@@ -6259,6 +7017,42 @@
         "group": "600",
         "level": 3,
         "title": "612.d. Critical facilities planning (CFP)"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "612d-1",
+        "parent_node": "612d",
+        "group": "600",
+        "level": 4,
+        "title": "Credit Criteria for CFP"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "612d-2",
+        "parent_node": "612d",
+        "group": "600",
+        "level": 4,
+        "title": "Credit Points for CFP"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "612d-3",
+        "parent_node": "612d",
+        "group": "600",
+        "level": 4,
+        "title": "Impact Adjustment for CFP"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "612d-4",
+        "parent_node": "612d",
+        "group": "600",
+        "level": 4,
+        "title": "Documentation for CFP Provided by the Community"
       },
       {
         "type": "content",
@@ -6272,6 +7066,42 @@
       },
       {
         "type": "content",
+        "anchor_type": "section",
+        "node_id": "612e-1",
+        "parent_node": "612e",
+        "group": "600",
+        "level": 4,
+        "title": "Credit Criteria for SRC"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "612e-2",
+        "parent_node": "612e",
+        "group": "600",
+        "level": 4,
+        "title": "Credit Points for SRC"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "612e-3",
+        "parent_node": "612e",
+        "group": "600",
+        "level": 4,
+        "title": "Impact Adjustment for SRC"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "612e-4",
+        "parent_node": "612e",
+        "group": "600",
+        "level": 4,
+        "title": "Documentation for SRC Provided by the Community"
+      },
+      {
+        "type": "content",
         "anchor_type": "page",
         "crs_id": "612f",
         "node_id": "612f",
@@ -6279,6 +7109,42 @@
         "group": "600",
         "level": 3,
         "title": "612.f. TsunamiReady community (TRC)"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "612f-1",
+        "parent_node": "612f",
+        "group": "600",
+        "level": 4,
+        "title": "Credit Criteria for TRC"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "612f-2",
+        "parent_node": "612f",
+        "group": "600",
+        "level": 4,
+        "title": "Credit Points for TRC"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "612f-3",
+        "parent_node": "612f",
+        "group": "600",
+        "level": 4,
+        "title": "Impact Adjustment for TRC"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "612f-4",
+        "parent_node": "612f",
+        "group": "600",
+        "level": 4,
+        "title": "Documentation for TRC Provided by the Community"
       },
       {
         "type": "content",
@@ -6319,6 +7185,7 @@
         "group": "600",
         "level": 1,
         "is_summary": true,
+        "is_activity": true,
         "title": "620 Levees"
       },
       {
@@ -6383,6 +7250,42 @@
       },
       {
         "type": "content",
+        "anchor_type": "section",
+        "node_id": "622a-1",
+        "parent_node": "622a",
+        "group": "600",
+        "level": 4,
+        "title": "Credit Criteria for LM"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "622a-2",
+        "parent_node": "622a",
+        "group": "600",
+        "level": 4,
+        "title": "Credit Points for LM"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "622a-3",
+        "parent_node": "622a",
+        "group": "600",
+        "level": 4,
+        "title": "Impact Adjustment for LM"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "622a-4",
+        "parent_node": "622a",
+        "group": "600",
+        "level": 4,
+        "title": "Documentation for LM Provided by the Community"
+      },
+      {
+        "type": "content",
         "anchor_type": "page",
         "crs_id": "622b",
         "node_id": "622b",
@@ -6390,6 +7293,42 @@
         "group": "600",
         "level": 3,
         "title": "622.b. Levee failure threat recognition system (LFR)"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "622b-1",
+        "parent_node": "622b",
+        "group": "600",
+        "level": 4,
+        "title": "Credit Criteria for LFR"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "622b-2",
+        "parent_node": "622b",
+        "group": "600",
+        "level": 4,
+        "title": "Credit Points for LFR"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "622b-3",
+        "parent_node": "622b",
+        "group": "600",
+        "level": 4,
+        "title": "Impact Adjustment for LFR"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "622b-4",
+        "parent_node": "622b",
+        "group": "600",
+        "level": 4,
+        "title": "Documentation for LFR Provided by the Community"
       },
       {
         "type": "content",
@@ -6403,6 +7342,42 @@
       },
       {
         "type": "content",
+        "anchor_type": "section",
+        "node_id": "622c-1",
+        "parent_node": "622c",
+        "group": "600",
+        "level": 4,
+        "title": "Credit Criteria for LFW"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "622c-2",
+        "parent_node": "622c",
+        "group": "600",
+        "level": 4,
+        "title": "Credit Points for LFW"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "622c-3",
+        "parent_node": "622c",
+        "group": "600",
+        "level": 4,
+        "title": "Impact Adjustment for LFW"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "622c-4",
+        "parent_node": "622c",
+        "group": "600",
+        "level": 4,
+        "title": "Documentation for LFW Provided by the Community"
+      },
+      {
+        "type": "content",
         "anchor_type": "page",
         "crs_id": "622d",
         "node_id": "622d",
@@ -6413,6 +7388,42 @@
       },
       {
         "type": "content",
+        "anchor_type": "section",
+        "node_id": "622d-1",
+        "parent_node": "622d",
+        "group": "600",
+        "level": 4,
+        "title": "Credit Criteria for LFO"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "622d-2",
+        "parent_node": "622d",
+        "group": "600",
+        "level": 4,
+        "title": "Credit Points for LFO"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "622d-3",
+        "parent_node": "622d",
+        "group": "600",
+        "level": 4,
+        "title": "Impact Adjustment for LFO"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "622d-4",
+        "parent_node": "622d",
+        "group": "600",
+        "level": 4,
+        "title": "Documentation for LFO Provided by the Community"
+      },
+      {
+        "type": "content",
         "anchor_type": "page",
         "crs_id": "622e",
         "node_id": "622e",
@@ -6420,6 +7431,42 @@
         "group": "600",
         "level": 3,
         "title": "622.e. Levee failure critical facilities planning (LCF)"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "622e-1",
+        "parent_node": "622e",
+        "group": "600",
+        "level": 4,
+        "title": "Credit Criteria for LCF"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "622e-2",
+        "parent_node": "622e",
+        "group": "600",
+        "level": 4,
+        "title": "Credit Points for LCF"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "622e-3",
+        "parent_node": "622e",
+        "group": "600",
+        "level": 4,
+        "title": "Impact Adjustment for LCF"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "622e-4",
+        "parent_node": "622e",
+        "group": "600",
+        "level": 4,
+        "title": "Documentation for LCF Provided by the Community"
       },
       {
         "type": "content",
@@ -6460,6 +7507,7 @@
         "group": "600",
         "level": 1,
         "is_summary": true,
+        "is_activity": true,
         "title": "630 DAMS"
       },
       {
@@ -6514,6 +7562,42 @@
       },
       {
         "type": "content",
+        "anchor_type": "section",
+        "node_id": "632a-1",
+        "parent_node": "632a",
+        "group": "600",
+        "level": 4,
+        "title": "Credit Criteria for SDS"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "632a-2",
+        "parent_node": "632a",
+        "group": "600",
+        "level": 4,
+        "title": "Credit Points for SDS"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "632a-3",
+        "parent_node": "632a",
+        "group": "600",
+        "level": 4,
+        "title": "Impact Adjustment for SDS"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "632a-4",
+        "parent_node": "632a",
+        "group": "600",
+        "level": 4,
+        "title": "Documentation for SDS Provided by the Community"
+      },
+      {
+        "type": "content",
         "anchor_type": "page",
         "crs_id": "632b",
         "node_id": "632b",
@@ -6521,6 +7605,42 @@
         "group": "600",
         "level": 3,
         "title": "632.b. Dam failure threat recognition system (DFR)"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "632b-1",
+        "parent_node": "632b",
+        "group": "600",
+        "level": 4,
+        "title": "Credit Criteria for DFR"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "632b-2",
+        "parent_node": "632b",
+        "group": "600",
+        "level": 4,
+        "title": "Credit Points for DFR"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "632b-3",
+        "parent_node": "632b",
+        "group": "600",
+        "level": 4,
+        "title": "Impact Adjustment for DFR"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "632b-4",
+        "parent_node": "632b",
+        "group": "600",
+        "level": 4,
+        "title": "Documentation for DFR Provided by the Community"
       },
       {
         "type": "content",
@@ -6534,6 +7654,42 @@
       },
       {
         "type": "content",
+        "anchor_type": "section",
+        "node_id": "632c-1",
+        "parent_node": "632c",
+        "group": "600",
+        "level": 4,
+        "title": "Credit Criteria for DFW"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "632c-2",
+        "parent_node": "632c",
+        "group": "600",
+        "level": 4,
+        "title": "Credit Points for DFW"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "632c-3",
+        "parent_node": "632c",
+        "group": "600",
+        "level": 4,
+        "title": "Impact Adjustment for DFW"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "632c-4",
+        "parent_node": "632c",
+        "group": "600",
+        "level": 4,
+        "title": "Documentation for DFW Provided by the Community"
+      },
+      {
+        "type": "content",
         "anchor_type": "page",
         "crs_id": "632d",
         "node_id": "632d",
@@ -6544,6 +7700,42 @@
       },
       {
         "type": "content",
+        "anchor_type": "section",
+        "node_id": "632d-1",
+        "parent_node": "632d",
+        "group": "600",
+        "level": 4,
+        "title": "Credit Criteria for DFO"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "632d-2",
+        "parent_node": "632d",
+        "group": "600",
+        "level": 4,
+        "title": "Credit Points for DFO"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "632d-3",
+        "parent_node": "632d",
+        "group": "600",
+        "level": 4,
+        "title": "Impact Adjustment for DFO"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "632d-4",
+        "parent_node": "632d",
+        "group": "600",
+        "level": 4,
+        "title": "Documentation for DFO Provided by the Community"
+      },
+      {
+        "type": "content",
         "anchor_type": "page",
         "crs_id": "632e",
         "node_id": "632e",
@@ -6551,6 +7743,42 @@
         "group": "600",
         "level": 3,
         "title": "632.e. Dam failure critical facilities planning (DCF)"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "632e-1",
+        "parent_node": "632e",
+        "group": "600",
+        "level": 4,
+        "title": "Credit Criteria for DCF"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "632e-2",
+        "parent_node": "632e",
+        "group": "600",
+        "level": 4,
+        "title": "Credit Points for DCF"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "632e-3",
+        "parent_node": "632e",
+        "group": "600",
+        "level": 4,
+        "title": "Impact Adjustment for DCF"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "632e-4",
+        "parent_node": "632e",
+        "group": "600",
+        "level": 4,
+        "title": "Documentation for DCF Provided by the Community"
       },
       {
         "type": "content",

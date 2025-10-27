@@ -7,10 +7,10 @@
     before: items => items.filter(i => i.anchor_type === "page")
   },
   // uncomment to generate page files in "temp"
-  permalinkBypassOutputDir: true,
-  permalink: "temp/{{ node.manual }}/{{ node.group }}/{{ node.node_id }}.liquid",
+  // permalinkBypassOutputDir: true,
+  // permalink: "temp/{{ node.manual }}/{{ node.group }}/{{ node.node_id }}.liquid",
   // uncomment to stop generating page files in "temp"
-  // permalink: false
+  permalink: false
 }
 ---
 {%- assign nodes = manualNodes | where: "manual", node.manual -%}

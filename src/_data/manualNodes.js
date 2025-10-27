@@ -98,6 +98,7 @@ export default async function () {
         abbr: raw.abbr ?? null,
         is_series: !!raw.is_series,
         is_summary: !!raw.is_summary,
+        is_activity: !!raw.is_activity,
         // permalink filled in on second pass
         permalink: null,
       };

@@ -66,45 +66,54 @@ permalink: /{{ manual.slug }}/
                     <ul class="list-unstyled ms-3">
                       {% for child in children %}
                         <li>
-                          <a href="{{ child.permalink }}">{{ child.title }}</a>
-                          {%- assign grandchildren = nodes
-                              | where: "type", "content"
-                              | where: "parent_node", child.node_id
-                              | sort: "node_id" -%}
-                          {% if grandchildren.size %}
-                            <ul class="list-unstyled ms-3">
-                              {% for grandchild in grandchildren %}
-                                <li>
-                                  <a href="{{ grandchild.permalink }}">{{ grandchild.title }}</a>
-                                  {%- assign greatgrandchildren = nodes
-                                      | where: "type", "content"
-                                      | where: "parent_node", grandchild.node_id
-                                      | sort: "node_id" -%}
-                                  {% if greatgrandchildren.size %}
-                                    <ul class="list-unstyled ms-3">
-                                      {% for greatgrandchild in greatgrandchildren %}
-                                        <li>
-                                          <a href="{{ greatgrandchild.permalink }}">{{ greatgrandchild.title }}</a>
-                                          {%- assign greatgreatgrandchildren = nodes
-                                              | where: "type", "content"
-                                              | where: "parent_node", greatgrandchild.node_id
-                                              | sort: "node_id" -%}
-                                          {% if greatgreatgrandchildren.size %}
-                                            <ul class="list-unstyled ms-3">
-                                              {% for greatgreatgrandchild in greatgreatgrandchildren %}
-                                                <li>
-                                                  <a href="{{ greatgreatgrandchild.permalink }}">{{ greatgreatgrandchild.title }}</a>
-                                                </li>
-                                              {% endfor %}
-                                            </ul>
-                                          {% endif %}
-                                        </li>
-                                      {% endfor %}
-                                    </ul>
-                                  {% endif %}
-                                </li>
-                              {% endfor %}
-                            </ul>
+                          {% if child.is_activity %}
+                            <details>
+                              <summary>{{ child.title }}</summary>
+                              <div class="pb-3 ps-3">
+                                {% endif %}
+                                      <a href="{{ child.permalink }}">{{ child.title }}</a>
+                                      {%- assign grandchildren = nodes
+                                          | where: "type", "content"
+                                          | where: "parent_node", child.node_id
+                                          | sort: "node_id" -%}
+                                      {% if grandchildren.size %}
+                                        <ul class="list-unstyled ms-3">
+                                          {% for grandchild in grandchildren %}
+                                            <li>
+                                              <a href="{{ grandchild.permalink }}">{{ grandchild.title }}</a>
+                                              {%- assign greatgrandchildren = nodes
+                                                  | where: "type", "content"
+                                                  | where: "parent_node", grandchild.node_id
+                                                  | sort: "node_id" -%}
+                                              {% if greatgrandchildren.size %}
+                                                <ul class="list-unstyled ms-3">
+                                                  {% for greatgrandchild in greatgrandchildren %}
+                                                    <li>
+                                                      <a href="{{ greatgrandchild.permalink }}">{{ greatgrandchild.title }}</a>
+                                                      {%- assign greatgreatgrandchildren = nodes
+                                                          | where: "type", "content"
+                                                          | where: "parent_node", greatgrandchild.node_id
+                                                          | sort: "node_id" -%}
+                                                      {% if greatgreatgrandchildren.size %}
+                                                        <ul class="list-unstyled ms-3">
+                                                          {% for greatgreatgrandchild in greatgreatgrandchildren %}
+                                                            <li>
+                                                              <a href="{{ greatgreatgrandchild.permalink }}">{{ greatgreatgrandchild.title }}</a>
+                                                            </li>
+                                                          {% endfor %}
+                                                        </ul>
+                                                      {% endif %}
+                                                    </li>
+                                                  {% endfor %}
+                                                </ul>
+                                              {% endif %}
+                                            </li>
+                                          {% endfor %}
+                                        </ul>
+                                      {% endif %}
+                                {% if child.is_activity %}
+                              </div>
+                            </details>
                           {% endif %}
                         </li>
                       {% endfor %}
