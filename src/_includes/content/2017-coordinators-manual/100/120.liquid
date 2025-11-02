@@ -1,1 +1,17 @@
-{# ← add this #}
+
+<dl class="glossary">
+  {% for entry in manual.glossary %}
+    <dt>{{ entry.term }}</dt>
+    <dd>{{ entry.definition }}</dd>
+    {%- if entry.subdefinitions %}
+      <dd>
+        <dl>
+          {% for item in entry.subdefinitions %}
+            <dt>{{ item.term }}</dt>
+            <dd>{{ item.definition }}</dd>
+          {% endfor %}
+        </dl>
+      </dd>
+    {%- endif %}
+  {% endfor %}
+</dl>

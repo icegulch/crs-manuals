@@ -1,0 +1,27 @@
+<div class="responsive">
+  <table id="110-1t" class="table table-sm table-bordered caption-top text-center" aria-labelledby="110-1t-title">
+    <caption id="110-1t-title">Table 110-1: Classes, Credit Points, and Premium Discounts</caption>
+    <colgroup>
+      <col class="w-25">
+      <col class="w-50">
+      <col class="w-25">
+    </colgroup>
+    <thead>
+      <th scope="col">Class</th>
+      <th scope="col">Credit Points (cT)</th>
+      <th scope="col">Premium Reduction</th>
+    </thead>
+    <tbody>
+      {% for class in manual.classes %}
+        <tr>
+          <td>{{ class.name }}</td>
+          <td>{{ class.credit_points }}</td>
+          <td>{{ class.premium_reduction }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+    <tfoot>
+      <td colspan="3" class="text-start">Some minus-rated policies may not be eligible for premium discounts.</td>
+    </tfoot>
+  </table>
+</div>

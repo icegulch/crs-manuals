@@ -1,0 +1,59 @@
+<div class="responsive">
+  <table id="110-2t" class="table table-sm table-bordered caption-top" aria-labelledby="110-2t-title">
+    <caption id="110-2t-title">Table 110-2: Credit Points Awarded for CRS Activities*</caption>
+    <thead>
+      <th scope="col">Series</th>
+      <th scope="col">Activity</th>
+      <th scope="col">Maximum Possible Points</th>
+      <th scope="col">Maximum Points Earned</th>
+      <th scope="col">Average Points Earned</th>
+      <th scope="col">Percentage of Communities Credited</th>
+    </thead>
+    <tbody>
+      {%- comment -%}
+      Activities table grouped by parent section.
+      Assumes:
+      - nodes[] contains sections and pages
+      - each activity page has is_activity: true and parent_node referencing a section
+      {%- endcomment -%}
+
+      {%- assign activity_items = nodes | where: "is_activity", true -%}
+      {%- assign groups = activity_items | group_by: "parent_node" -%}
+
+      {%- for series in groups -%}
+        {%- assign items = series.items | sort: "node_id" -%}
+        {%- assign rowspan = items | size -%}
+        {%- comment -%} find the parent section for a nice display title {%- endcomment -%}
+        {%- assign parent = nodes | where: "node_id", series.name | first -%}
+        {%- assign series_title = parent.title | default: series.name -%}
+
+        {%- for item in items -%}
+          <tr>
+            {%- if forloop.first -%}
+              <th scope="rowgroup" rowspan="{{ rowspan }}">{{ series_title }}</th>
+            {%- endif -%}
+            <td>{{ item.title }}</td>
+            <td>{{ item.max_possible_pts }}</td>
+            <td>{{ item.max_earned_pts }}</td>
+            <td>{{ item.avg_earned_pts }}</td>
+            <td>
+              {%- assign pct = item.percentage_credited -%}
+              {%- if pct != nil and pct != '' -%}
+                {%- assign pct_str = pct | replace: '%','' -%}
+                {%- assign pct_num = pct_str | plus: 0 -%}
+                {%- if pct_num > 1 -%}
+                  {{ pct_num | round }}%
+                {%- else -%}
+                  {{ pct_num | times: 100 | round }}%
+                {%- endif -%}
+              {%- endif -%}
+            </td>
+          </tr>
+        {%- endfor -%}
+      {%- endfor -%}
+    </tbody>
+    <tfoot>
+      <td colspan="6" class="text-start">* Figures are based on communities that have received verified credit under the 2017“Coordinator’s Manual” as of October 2024. The maximum possible points are based on the 2025 “Coordinator's Manual”. Growth adjustments are not included.</td>
+    </tfoot>
+  </table>
+</div>

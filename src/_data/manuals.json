@@ -3,6 +3,58 @@
     "title": "2017 Coordinator's Manual",
     "slug": "2017-coordinators-manual",
     "pdf": "",
+    "classes": [
+      {
+        "name": "1",
+        "credit_points": "4,500+",
+        "premium_reduction": "45%"
+      },
+      {
+        "name": "2",
+        "credit_points": "4,000-4,499",
+        "premium_reduction": "40%"
+      },
+      {
+        "name": "3",
+        "credit_points": "3,500-3,999",
+        "premium_reduction": "35%"
+      },
+      {
+        "name": "4",
+        "credit_points": "3,000-3,499",
+        "premium_reduction": "30%"
+      },
+      {
+        "name": "5",
+        "credit_points": "2,500-2,999",
+        "premium_reduction": "25%"
+      },
+      {
+        "name": "6",
+        "credit_points": "2,000-2,499",
+        "premium_reduction": "20%"
+      },
+      {
+        "name": "7",
+        "credit_points": "1,500-1,999",
+        "premium_reduction": "15%"
+      },
+      {
+        "name": "8",
+        "credit_points": "1,000-1,499",
+        "premium_reduction": "10%"
+      },
+      {
+        "name": "9",
+        "credit_points": "500-999",
+        "premium_reduction": "5%"
+      },
+      {
+        "name": "10",
+        "credit_points": "0-499",
+        "premium_reduction": "0"
+      }
+    ],
     "nodes": [
       {
         "type": "content",
@@ -332,30 +384,6 @@
         "title": "210 Requesting CRS Credit"
       },
       {
-        "type": "table",
-        "node_id": "210-1t",
-        "table_id": "210-1.",
-        "parent_node": "210",
-        "group": "200",
-        "title": "The CRS Program Data Table"
-      },
-      {
-        "type": "figure",
-        "node_id": "230-1f",
-        "figure_id": "230-1.",
-        "parent_node": "233",
-        "group": "200",
-        "title": "An example of a completed verification cover page"
-      },
-      {
-        "type": "figure",
-        "node_id": "240-1f",
-        "figure_id": "240-1.",
-        "parent_node": "240",
-        "group": "200",
-        "title": "An example of a flood problem area map"
-      },
-      {
         "type": "content",
         "anchor_type": "page",
         "crs_id": "211",
@@ -504,6 +532,16 @@
         "group": "200",
         "level": 3,
         "title": "214.a. Modification Criteria"
+      },
+      {
+        "type": "figure",
+        "node_id": "210-1f",
+        "figure_id": "210-1.",
+        "parent_node": "214a",
+        "group": "200",
+        "width": "1227",
+        "height": "1368",
+        "title": "The CRS Program Data Table"
       },
       {
         "type": "content",
@@ -877,6 +915,16 @@
         "title": "Verification Review"
       },
       {
+        "type": "figure",
+        "node_id": "230-1f",
+        "figure_id": "230-1.",
+        "parent_node": "233-2",
+        "group": "200",
+        "width": "1491",
+        "height": "1995",
+        "title": "An example of a completed verification cover page"
+      },
+      {
         "type": "content",
         "anchor_type": "section",
         "node_id": "233-3",
@@ -905,6 +953,16 @@
         "title": "240 Community Self-Assessment"
       },
       {
+        "type": "figure",
+        "node_id": "240-1f",
+        "figure_id": "240-1.",
+        "parent_node": "240",
+        "group": "200",
+        "width": "300",
+        "height": "223",
+        "title": "An example of a flood problem area map"
+      },
+      {
         "type": "content",
         "anchor_type": "page",
         "crs_id": "300",
@@ -926,7 +984,7 @@
         "type": "figure",
         "node_id": "320-2f",
         "figure_id": "320-2.",
-        "parent_node": "320",
+        "parent_node": "332c-2",
         "group": "300",
         "title": "A sample map information record for MI1"
       },
@@ -942,7 +1000,7 @@
         "type": "figure",
         "node_id": "330-1f",
         "figure_id": "330-1.",
-        "parent_node": "330",
+        "parent_node": "332b",
         "group": "300",
         "title": "Examples of FRP messages and projects"
       },
@@ -950,7 +1008,7 @@
         "type": "figure",
         "node_id": "330-2f",
         "figure_id": "330-2.",
-        "parent_node": "330",
+        "parent_node": "332b",
         "group": "300",
         "title": "A sample spreadsheet for a Program for Public Information"
       },
@@ -1164,6 +1222,10 @@
         "level": 1,
         "is_summary": true,
         "is_activity": true,
+        "max_possible_pts": 116,
+        "max_earned_pts": 116,
+        "avg_earned_pts": 38,
+        "percentage_credited": "98%",
         "title": "310 Elevation Certificates"
       },
       {
@@ -1387,6 +1449,10 @@
         "level": 1,
         "is_summary": true,
         "is_activity": true,
+        "max_possible_pts": 90,
+        "max_earned_pts": 90,
+        "avg_earned_pts": 79,
+        "percentage_credited": "88%",
         "title": "320 Map Information Service"
       },
       {
@@ -1682,6 +1748,10 @@
         "level": 1,
         "is_summary": true,
         "is_activity": true,
+        "max_possible_pts": 350,
+        "max_earned_pts": 350,
+        "avg_earned_pts": 122,
+        "percentage_credited": "98%",
         "title": "330 Outreach Projects"
       },
       {
@@ -1943,6 +2013,10 @@
         "level": 1,
         "is_summary": true,
         "is_activity": true,
+        "max_possible_pts": 80,
+        "max_earned_pts": 72,
+        "avg_earned_pts": 164,
+        "percentage_credited": "85%",
         "title": "340 Hazard Disclosure"
       },
       {
@@ -2168,6 +2242,10 @@
         "level": 1,
         "is_summary": true,
         "is_activity": true,
+        "max_possible_pts": 125,
+        "max_earned_pts": 121,
+        "avg_earned_pts": 51,
+        "percentage_credited": "94%",
         "title": "350 Flood Protection Information"
       },
       {
@@ -2364,6 +2442,10 @@
         "level": 1,
         "is_summary": true,
         "is_activity": true,
+        "max_possible_pts": 110,
+        "max_earned_pts": 110,
+        "avg_earned_pts": 61,
+        "percentage_credited": "47%",
         "title": "360 Flood Protection Assistance"
       },
       {
@@ -2598,6 +2680,10 @@
         "level": 1,
         "is_summary": true,
         "is_activity": true,
+        "max_possible_pts": 185,
+        "max_earned_pts": 185,
+        "avg_earned_pts": 46,
+        "percentage_credited": "20%",
         "title": "370 Flood Insurance Promotion"
       },
       {
@@ -3212,6 +3298,10 @@
         "level": 1,
         "is_summary": true,
         "is_activity": true,
+        "max_possible_pts": 850,
+        "max_earned_pts": 584,
+        "avg_earned_pts": 85,
+        "percentage_credited": "25%",
         "title": "410 Flood Hazard Mapping"
       },
       {
@@ -3603,6 +3693,10 @@
         "level": 1,
         "is_summary": true,
         "is_activity": true,
+        "max_possible_pts": 2870,
+        "max_earned_pts": 925,
+        "avg_earned_pts": 519,
+        "percentage_credited": "92%",
         "title": "420 Open Space Preservation"
       },
       {
@@ -4023,6 +4117,10 @@
         "level": 1,
         "is_summary": true,
         "is_activity": true,
+        "max_possible_pts": 2462,
+        "max_earned_pts": 1558,
+        "avg_earned_pts": 292,
+        "percentage_credited": "100%",
         "title": "430 Higher Regulatory Standards"
       },
       {
@@ -4894,6 +4992,10 @@
         "level": 1,
         "is_summary": true,
         "is_activity": true,
+        "max_possible_pts": 222,
+        "max_earned_pts": 222,
+        "avg_earned_pts": 132,
+        "percentage_credited": "69%",
         "title": "440 Flood Data Maintenance"
       },
       {
@@ -5144,6 +5246,10 @@
         "level": 1,
         "is_summary": true,
         "is_activity": true,
+        "max_possible_pts": 755,
+        "max_earned_pts": 590,
+        "avg_earned_pts": 113,
+        "percentage_credited": "80%",
         "title": "450 Stormwater Management"
       },
       {
@@ -5709,6 +5815,10 @@
         "level": 1,
         "is_summary": true,
         "is_activity": true,
+        "max_possible_pts": 762,
+        "max_earned_pts": 602,
+        "avg_earned_pts": 214,
+        "percentage_credited": "76%",
         "title": "510 Floodplain Management Planning"
       },
       {
@@ -6116,6 +6226,10 @@
         "level": 1,
         "is_summary": true,
         "is_activity": true,
+        "max_possible_pts": 2250,
+        "max_earned_pts": 1767,
+        "avg_earned_pts": 183,
+        "percentage_credited": "28%",
         "title": "520 Acquisition and Relocation"
       },
       {
@@ -6249,7 +6363,7 @@
         "parent_node": "522e",
         "group": "500",
         "level": 4,
-        "title":  "Credit Criteria for bVZ"
+        "title": "Credit Criteria for bVZ"
       },
       {
         "type": "content",
@@ -6311,6 +6425,10 @@
         "level": 1,
         "is_summary": true,
         "is_activity": true,
+        "max_possible_pts": 1600,
+        "max_earned_pts": 483,
+        "avg_earned_pts": 69,
+        "percentage_credited": "13%",
         "title": "530 Flood Protection"
       },
       {
@@ -6450,6 +6568,10 @@
         "level": 1,
         "is_summary": true,
         "is_activity": true,
+        "max_possible_pts": 470,
+        "max_earned_pts": 465,
+        "avg_earned_pts": 192,
+        "percentage_credited": "34%",
         "title": "540 Drainage System Maintenance"
       },
       {
@@ -6828,6 +6950,10 @@
         "level": 1,
         "is_summary": true,
         "is_activity": true,
+        "max_possible_pts": 395,
+        "max_earned_pts": 370,
+        "avg_earned_pts": 259,
+        "percentage_credited": "22%",
         "title": "610 Flood Warning and Response"
       },
       {
@@ -7186,6 +7312,10 @@
         "level": 1,
         "is_summary": true,
         "is_activity": true,
+        "max_possible_pts": 235,
+        "max_earned_pts": 180,
+        "avg_earned_pts": 111,
+        "percentage_credited": "1%",
         "title": "620 Levees"
       },
       {
@@ -7508,6 +7638,10 @@
         "level": 1,
         "is_summary": true,
         "is_activity": true,
+        "max_possible_pts": 160,
+        "max_earned_pts": 127,
+        "avg_earned_pts": 38,
+        "percentage_credited": "35%",
         "title": "630 DAMS"
       },
       {

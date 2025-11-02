@@ -99,6 +99,10 @@ export default async function () {
         is_series: !!raw.is_series,
         is_summary: !!raw.is_summary,
         is_activity: !!raw.is_activity,
+        max_possible_pts: raw.max_possible_pts ?? null,
+        max_earned_pts: raw.max_earned_pts ?? null,
+        avg_earned_pts: raw.avg_earned_pts ?? null,
+        percentage_credited: raw.percentage_credited ?? null,
         // permalink filled in on second pass
         permalink: null,
       };

@@ -1,3 +1,5 @@
+/* CUSTOM STYLES */
+
 :root {
   --color-callout-header: #00497a; /* pair w/white text */
   --color-callout-body: #b0d4e3; /* pair w/black text */
@@ -5,93 +7,122 @@
   --color-example-header: #505050; /* pair w/white text */
 }
 
-/* Make the page at least the height of the viewport, accounting for mobile UI chrome */
+/* CUSTOM STYLES: page layout */
 
 html,
 body {
   height: 100%;
 }
 
-section {
-  margin-inline: auto;
-  max-width: 1110px;
-  padding-block: 1.5rem;
+body {
+  display: flex;
+  flex-direction: column;
 }
 
-h1 {
-  color: var(--color-callout-header);
+header {
+  color: white;
+  background-color: var(--color-callout-header);
 }
 
-/* BS overrides */
+main {
+  flex: 1 0 auto;
+}
 
-.table thead th {
+footer {
+  flex-shrink: 0;
+}
+
+/* CUSTOM STYLES: content */
+
+aside,
+figure,
+table {
+  margin-bottom: 1rem;
+}
+
+.bg--primary-light {
   background-color: var(--color-callout-body);
 }
 
-.h3 {
-  color: var(--color-callout-header);
+.bg--primary {
+  background-color: var(--color-callout-header);
 }
 
-.h4 {
-  text-transform: uppercase;
-}
+/* CUSTOM STYLES: lists */
 
 .paren-numlist {
   list-style: none;
 }
+
 .paren-numlist > li:before {
   content: "(" counter(section, decimal) ") ";
   position: absolute;
   top: 0;
   left: -0.75em;
 }
+
 .paren-numlist > li {
   position: relative;
   counter-increment: section;
   padding-left: 1em;
 }
+
 .paren-numlist > li ol {
   list-style: none;
 }
+
 .paren-numlist > li ol li:before {
   content: "(" counter(subsection, lower-alpha) ") ";
   position: absolute;
   top: 0;
   left: -0.75em;
 }
+
 .paren-numlist > li ol li {
   position: relative;
   counter-increment: subsection;
   padding-left: 1em;
 }
+
 .paren-numlist > li ol ol {
   list-style: none;
 }
+
 .paren-numlist > li ol ol li:before {
   content: "(" counter(subsubsection, lower-roman) ") ";
   position: absolute;
   top: 0;
   left: -0.75em;
 }
+
 .paren-numlist > li ol ol li {
   position: relative;
   counter-increment: subsubsection;
   padding-left: 1em;
 }
+
 .paren-numlist > li ol ol ol {
   list-style: none;
 }
+
 .paren-numlist > li ol ol ol li:before {
   content: "((" counter(subsubsubsection, decimal) ")) ";
   position: absolute;
   top: 0;
   left: -0.75em;
 }
+
 .paren-numlist > li ol ol ol li {
   position: relative;
   counter-increment: subsubsubsection;
   padding-left: 1.5em;
 }
+
+.lower-alpha-list {
+  list-style-type: lower-alpha;
+}
+
+/* CUSTOM STYLES: glossary */
 
 .glossary dt {
   display: inline;
@@ -115,6 +146,8 @@ h1 {
   margin: 1rem 0 1rem 2rem;
 }
 
+/* CUSTOM STYLES: acronyms */
+
 .acronyms {
   display: grid;
   grid-template-columns: 10ch 1fr;
@@ -127,9 +160,7 @@ h1 {
   margin: 0;
 }
 
-.table--acronyms tbody th {
-  font-weight: normal;
-}
+/* CUSTOM STYLES: target animated background */
 
 [id]:target,
 [id]:target > td {
@@ -147,4 +178,24 @@ h1 {
   100% {
     background-color: transparent;
   }
+}
+
+/* BS OVERRIDES */
+
+.table thead th {
+  background-color: var(--color-callout-body);
+}
+
+.h3 {
+  color: var(--color-callout-header);
+}
+
+.h4 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+h6,
+.h6 {
+  font-weight: 700;
 }

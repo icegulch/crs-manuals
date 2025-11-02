@@ -19,6 +19,7 @@
 {%- endfor -%}
 
 {%- assign seriesFigures = series_nodes | where: "type", "figure" | sort: "node_id" -%}
+{%- assign allTables = nodes | where: "type", "table" | sort: "node_id" -%}
 {%- assign seriesTables = series_nodes | where: "type", "table"  | sort: "node_id" -%}
 
 <dl>
