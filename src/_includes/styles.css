@@ -106,10 +106,10 @@ table {
 }
 
 .paren-numlist > li ol ol ol li:before {
-  content: "((" counter(subsubsubsection, decimal) ")) ";
+  content: counter(subsubsubsection, decimal) ". ";
   position: absolute;
   top: 0;
-  left: -0.75em;
+  left: -0.25em;
 }
 
 .paren-numlist > li ol ol ol li {
@@ -120,6 +120,24 @@ table {
 
 .lower-alpha-list {
   list-style-type: lower-alpha;
+}
+
+.dl-inline {
+  margin-bottom: 0;
+}
+
+.dl-inline > * {
+  display: inline;
+}
+
+.dl-inline dd:before {
+  content: " - ";
+}
+
+.dl-inline dd:after {
+  content: "";
+  display: table;
+  margin-top: 0.75rem;
 }
 
 /* CUSTOM STYLES: glossary */
