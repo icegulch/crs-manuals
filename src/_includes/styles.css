@@ -40,6 +40,10 @@ table {
   margin-bottom: 1rem;
 }
 
+.bg--primary-light *:last-child {
+  margin-bottom: 0;
+}
+
 .bg--primary-light {
   background-color: var(--color-callout-body);
 }
@@ -122,59 +126,56 @@ table {
   list-style-type: lower-alpha;
 }
 
-.dl-inline {
-  margin-bottom: 0;
+
+/* CUSTOM STYLES: math */
+.math-ish {
+  font: var(--bs-body-font-size) var(--bs-body-font-family);
 }
 
-.dl-inline > * {
+
+/* CUSTOM STYLES: tables */
+
+tbody td.td-omitted {
+  background-color: silver;
+}
+
+/* CUSTOM STYLES: DLs */
+
+.dl-inline > dt,
+.dl-inline > dd {
   display: inline;
 }
 
-.dl-inline dd:before {
-  content: " - ";
-}
-
-.dl-inline dd:after {
-  content: "";
-  display: table;
-  margin-top: 0.75rem;
-}
-
-/* CUSTOM STYLES: glossary */
-
-.glossary dt {
-  display: inline;
-}
-
-.glossary dt:after {
-  content: ": ";
-}
-
-.glossary dd {
-  display: inline;
-}
-
-.glossary dd:after {
+.dl-inline > dd:after {
   content: "";
   display: table;
   margin-bottom: 1rem;
 }
 
-.glossary dd > :is(dl, blockquote) {
-  margin: 1rem 0 1rem 2rem;
+.dl-inline--equals > dt:after {
+  content: " = ";
 }
 
-/* CUSTOM STYLES: acronyms */
+.dl-inline--colon > dt:after {
+  content: ": ";
+}
 
-.acronyms {
+.dl-inline--dash > dt:after {
+  content: " - ";
+}
+
+.dl-inline--colon dd > :is(dl, blockquote) {
+  margin: 0 0 1rem 2rem;
+}
+
+.dl--acronyms {
   display: grid;
   grid-template-columns: 10ch 1fr;
   column-gap: 1rem;
   row-gap: 0.5rem;
 }
 
-.acronyms dt,
-.acronyms dd {
+.dl--acronyms > * {
   margin: 0;
 }
 

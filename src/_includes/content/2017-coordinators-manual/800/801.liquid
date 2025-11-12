@@ -1,9 +1,9 @@
 {%- assign manualAcronyms = manual.acronyms -%}
 
-<dl class="acronyms">
+<dl class="dl--acronyms">
   {%- for a in manualAcronyms -%}
     <dt id="{{ a.term | slugify }}">
-      <abbr title="{{ a.definition | strip_html | strip_newlines | escape }}">
+      <abbr title="{{ a.definition | strip_html | strip_newlines | escape }}" class="initialism">
         {{ a.term }}
       </abbr>
     </dt>

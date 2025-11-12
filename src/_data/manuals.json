@@ -616,6 +616,51 @@
       },
       {
         "type": "content",
+        "anchor_type": "section",
+        "node_id": "220-1",
+        "parent_node": "200",
+        "group": "200",
+        "level": 2,
+        "title": "220 Credit Calculation"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "220-1a",
+        "parent_node": "220-1",
+        "group": "200",
+        "level": 3,
+        "title": "Series"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "220-1b",
+        "parent_node": "220-1",
+        "group": "200",
+        "level": 3,
+        "title": "Activities"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "220-1c",
+        "parent_node": "220-1",
+        "group": "200",
+        "level": 3,
+        "title": "Elements"
+      },
+      {
+        "type": "content",
+        "anchor_type": "section",
+        "node_id": "220-1d",
+        "parent_node": "220-1",
+        "group": "200",
+        "level": 3,
+        "title": "Variables"
+      },
+      {
+        "type": "content",
         "anchor_type": "page",
         "crs_id": "221",
         "node_id": "221",

@@ -145,7 +145,7 @@
   {%- assign manualAcronyms = manual.acronyms -%}
   {%- assign order = "NFIP, FEMA, CRS, FIRM, SFHA" | split: "," -%}
 
-  <dl class="acronyms">
+  <dl class="dl--acronyms">
     {%- for t in order -%}
       {%- assign term = t | strip -%}
       {%- assign item = manualAcronyms | where: "term", term | first -%}

@@ -1,13 +1,111 @@
-{# ← add this #}
 
 <section id="223a" aria-labelledby="223a-title">
   <h2 id="223a-title" class="h4">223.a. Element Calculation</h2>
-
-  <!-- TODO: add content for 223a -->
+  <p>
+  The last step for each element is to multiply the element’s credit points by its impact adjustment.
+  The result is shown in the formulae with a lowercase “c” before the element’s acronym. These
+  formulae appear in the “Credit Calculation” sections of the elements or in a single “Credit
+  Calculation” section for the activity.
+  </p>
+  <div class="card mb-3">
+    <div class="card-header">
+      Example 223.a-1.
+    </div>
+    <div class="card-body">
+      <p>
+        For the community with one foot of freeboard enforced only in AE and VE Zones, the formula is:
+      <div class="ps-5">
+        <math display="inline">
+          <mi>cFRB</mi>
+          <mo>=</mo>
+          <mi>FRB</mi>
+          <mo>&#x00D7;</mo>
+          <mi>rFRB</mi>
+          <mo>=</mo>
+          <mn>110</mn>
+          <mo>&#x00D7;</mo>
+          <mn>0.81</mn>
+          <mo>=</mo>
+          <mn>89.10</mn>
+        </math>
+      </div>
+    </div>
+  </div>
+<p>If there is more than one iteration of an element, the formulae are repeated. For example, a
+  community may have a two-foot freeboard requirement in V Zones and a one-foot freeboard
+  requirement in riverine areas. Such situations are represented with a “#1” for the first iteration, a
+  “#2” for the second one, etc., as in FRB#1, FRB#2, etc. cFRB = cFRB#1 + cFRB#2 + etc.
+  </p>
+  <p>
+  Where more than one iteration of an element is the norm, the formula will show the summation of
+  the total with the mathematical symbol sigma, “∑.”</p>
+  <div class="card mb-3">
+    <div class="card-header">
+      Example 223.a-2.
+    </div>
+    <div class="card-body">
+      <p>
+        Credit for low-density zoning (LZ) in Activity 420 (Open Space Preservation) assumes that the community has several zoning districts, each with a different allowed density (represented by “s” for lot size). The credit calculation formula for low-density zoning is:
+      </p>
+      <div class="ps-5">
+        <math display="inline">
+          <mi>cLZ</mi>
+          <mo>=</mo>
+          <mi>∑(LZ#s x rLZ#s)</mi>
+        </math>
+      </div>
+    </div>
+  </div>
 </section>
 
 <section id="223b" aria-labelledby="223b-title">
   <h2 id="223b-title" class="h4">223.b. Activity Calculation</h2>
-
-  <!-- TODO: add content for 223b -->
+  <p>
+    Each activity has a “Credit Calculation” section, in which the element credits are totaled. This is
+    done by means of a formula that uses the prefix “c” to represent the total credit points for the
+    activity. The total is rounded off to the nearest whole number.
+  </p>
+  <div class="card mb-3">
+    <div class="card-header">
+      Example 223.b-1.
+    </div>
+    <div class="card-body">
+      <p>
+        The total credit for Activity 430 (Higher Regulatory Standards):
+      </p>
+      <div class="ps-5">
+        <math display="inline">
+          <mi>c430</mi>
+          <mo>=</mo>
+          <mi>cDL</mi>
+          <mo>+</mo>
+          <mi>cFRB</mi>
+          <mo>+</mo>
+          <mi>cFDN</mi>
+          <mo>+</mo>
+        </math>
+        &hellip;
+        <div class="mt-3 ps-5">
+          <math display="inline">
+            <mo>=</mo>
+            <mn>0</mn>
+            <mo>+</mo>
+            <mn>89.10</mn>
+            <mo>+</mo>
+            <mn>30.60</mn>
+            <mo>+</mo>
+          </math>
+          &hellip;
+          <math display="inline">
+            <mo>=</mo>
+            <mn>119.70</mn>
+          </math>,
+          rounded to 120
+        </div>
+      </div>
+    </div>
+  </div>
+  <p>
+    This is the last step for activities in the 300, 500, and 600 series.
+  </p>
 </section>

@@ -1,13 +1,189 @@
-{# ← add this #}
+<p>
+  Impact adjustments are calculated by multiplying the points for an element by a ratio that represents
+  how much of the flood problem is being addressed by the element. Impact adjustment ratios are
+  variables with a lower-case “r” preceding the acronym for the element.
+</p>
+
+<p>
+  The value of an impact adjustment ratio is determined by dividing the number of buildings affected
+  by an element (the numerator) by the appropriate denominator. The number of buildings is
+  designated by a lowercase “b.”
+</p>
+
+<p>
+  The denominator for the elements in each activity is specified in the Impact Adjustment section for
+  the element. In most cases, it is the number of buildings in the Special Flood Hazard Area (SFHA), or
+  “bSF.”
+</p>
+
 
 <section id="303a" aria-labelledby="303a-title">
   <h2 id="303a-title" class="h3">303.a. Counting Buildings</h2>
+  <p>
+    For each element with an impact adjustment ratio based on buildings, the numerator is the number
+    of buildings affected by the element and is designated by a lower case “b” followed by the acronym
+    for that element. The denominator is the total number of buildings that could be affected by the
+    element.
+  </p>
 
-  <!-- TODO: add content for 303a -->
+  <p>
+    What is counted as a “building” is defined in Section 301.a.
+  </p>
+
+  <p>
+    Accessory structures are not included when counting buildings for calculating impact adjustments.
+    For example, a house with a detached garage and shed is counted as one building. The flood
+    insurance policy is based on the elevation of the house. However, if a lot has several principal
+    buildings, each is counted separately because each normally is insured under a separate policy.
+    For example, a motel with three principal buildings counts as three buildings. If one of the three
+    buildings is an unheated bathhouse for the swimming pool and houses only showers and supplies,
+    then the motel would be counted as two buildings.
+  </p>
+  <div class="card mb-3">
+    <div class="card-header">
+      Example 303-1.
+    </div>
+    <div class="card-body">
+      <p>
+        Under Activity 610 (Flood Warning and Response), the credit for emergency warning
+        dissemination is adjusted based on its impact, i.e., how much of the SFHA that is reached by the
+        warning program. This is calculated by multiplying the credit by the impact adjustment. The
+        acronym for emergency warning dissemination is “EWD.” The impact adjustment ratio for EWD is
+        “rEWD.”
+      </p>
+
+      <p>
+        rEWD is the number of buildings that are reached by the warning program (bEWD) divided by the
+        number of buildings in the SFHA (bSF). The formula is:
+      </p>
+
+      <div class="ps-5 mb-3">
+        <math display="inline">
+          <mi>rEWD</mi>
+          <mo>=</mo>
+          <mfrac>
+            <mi>bEWD</mi>
+            <mi>bSF</mi>
+          </mfrac>
+        </math>
+      </div>
+
+      <p>
+        For example, a community has a coastal flood warning system that does not cover buildings
+        subject to riverine flooding. The coastal warning system reaches 1,350 buildings
+        (<mi>bEWD</mi> = 1,350). There are 1,890 buildings in the SFHA (<mi>bSF</mi> = 1,890).
+      </p>
+
+      <div class="ps-5 mb-3">
+        <math display="inline">
+          <mi>rEWD</mi>
+          <mo>=</mo>
+          <mfrac>
+            <mn>1,350</mn>
+            <mn>1,890</mn>
+          </mfrac>
+          <mo>=</mo>
+          <mn>0.71</mn>
+        </math>
+      </div>
+
+      <p>
+        The community receives 71% of the credit because 71% of the buildings in the SFHA are affected
+        by the warning system.
+      </p>
+    </div>
+  </div>
+  {% render "content/2017-coordinators-manual/tables/303-1.liquid", nodes: nodes %}
+  <p>
+    To determine building counts, communities may use any method that yields reasonably good
+    estimates of the number of buildings. Building counts should be accurate so they will provide the most
+    useful information for both CRS and community planning. Acceptable methods include:
+  </p>
+
+  <ul>
+    <li>Using geographic information system (GIS) based building footprints,</li>
+    <li>Reviewing aerial photographs,</li>
+    <li>Using U.S. Census tract data, and</li>
+    <li>Using the number of utility connections in an area.</li>
+  </ul>
+
+  <p>
+    Communities are required to document how they obtained their building counts or estimated building
+    counts.
+  </p>
 </section>
 
 <section id="303b" aria-labelledby="303b-title">
   <h2 id="303b-title" class="h3">303.b. bSF (buildings in the SFHA)</h2>
+  <p>
+    “bSF” is the acronym for the number of buildings within the Special Flood Hazard Area (SFHA). This
+    number is needed for the impact adjustment in several activities (see Table 303-1). Knowing the
+    number of buildings in the SFHA is a requirement for participation in the CRS, as noted in Section
+    213.a. The only extra work for an impact adjustment is to determine how many of those buildings are
+    affected by the credited element.
+  </p>
 
-  <!-- TODO: add content for 303b -->
+  <p>
+    For CRS purposes, a community may determine bSF in one of two ways:
+  </p>
+
+  <ol class="paren-numlist">
+    <li>
+      <div class="ps-3 mb-3">
+        <math display="inline">
+          <mi>bSF</mi>
+          <mo>=</mo>
+          <mtext>the number of buildings in the community’s Special Flood Hazard Area as of the verification visit</mtext>
+        </math>
+      </div>
+    </li>
+    <li>
+      <div class="ps-3 mb-3">
+        <math display="inline">
+          <mi>bSF</mi>
+          <mo>=</mo>
+          <mi>bPR</mi>
+          <mo>+</mo>
+          <mo>(</mo>
+          <mn>0.60</mn>
+          <mo>×</mo>
+          <mi>bPO</mi>
+          <mo>)</mo>
+        </math>
+      </div>
+      <p>
+        where:
+        <dl class="dl-inline dl-inline--equals">
+          <dt>bPR</dt>
+          <dd>the number of pre-FIRM buildings in the SFHA, and</dd>
+          <dt>bPO</dt>
+          <dd>the number of post-FIRM buildings in the SFHA.</dd>
+        </dl>
+      </p>
+    </li>
+  </ol>
+
+  <p>
+    This approach more accurately reflects the activity’s influence on the pre-FIRM and post-FIRM flood
+    insurance premium bases in the community.
+  </p>
+
+  <p>
+    Communities with a small number of post-FIRM buildings will probably find it easier to use the first
+    formula for bSF, i.e., all buildings in the SFHA are counted the same.
+  </p>
+
+  <p>
+    Communities with a lot of recent development and a high percentage of post-FIRM buildings will find
+    that the second formula results in a more representative value. bSF does not include buildings located
+    outside of the SFHA as shown on the FIRM in effect on the date of the verification visit. It does not
+    include buildings located in the B, C, D, or X Zones, even though the community may be regulating
+    flood problem areas in those zones. It does include buildings in A99 and AR Zones.
+  </p>
+
+  <p>
+    bSF is the number of buildings in the SFHA at the time of the verification visit, not the number on the
+    original map. Therefore, the value for bSF is recalculated at each cycle visit. The value can change if
+    there is a new map or if the community annexed land that includes more SFHA.
+  </p>
 </section>
