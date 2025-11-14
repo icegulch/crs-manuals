@@ -54,6 +54,10 @@ table {
 
 /* CUSTOM STYLES: lists */
 
+.lower-alpha-list {
+  list-style-type: lower-alpha;
+}
+
 .paren-numlist {
   list-style: none;
 }
