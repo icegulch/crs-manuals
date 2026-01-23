@@ -3,12 +3,26 @@ permalink: /
 layout: layouts/base.liquid
 ---
 
-<h1>{{ site.title }}</h1>
-
-<ul>
-  {% for manual in manuals %}
-    <li>
-      <a href="/{{ manual.slug }}/">{{ manual.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+  
+<section class="mt-4">
+  <h1>{{ site.title }}</h1>
+  <ul class="list-unstyled mt-2 row row-cols-lg-3 row-cols-md-2 g-3">
+    {% for manual in manuals %}
+      <li class="col">
+        <dl class="p-3 bg-light bg-gradient rounded">
+          <dt>{{ manual.title }}</dt>
+          <dd>
+            <a href="/{{ manual.slug }}/">HTML</a> | <a href="{{ manual.pdf }}">PDF</a>
+          </dd>
+          <dd>
+            <ul>
+              {% for addendum in manual.addenda %}
+                <li>{{ addendum.title }}</li>
+              {% endfor %}
+            </ul>
+          </dd>
+        </dl>
+      </li>
+    {% endfor %}
+  </ul>
+</section>

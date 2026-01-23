@@ -1,8 +1,68 @@
 [
   {
+    "title": "2009 Coordinator's Manual",
+    "slug": "2009-coordinators-manual",
+    "pdf": "",
+    "addenda": [
+      {
+        "title": "2010 Addendum",
+        "protected": false
+      },
+      {
+        "title": "2011 Supplements to CRS Credit",
+        "protected": true
+      },
+      {
+        "title": "2011 Field Procedures Guide",
+        "protected": true
+      }
+    ]
+  },
+  {
+    "title": "2013 Coordinator's Manual",
+    "slug": "2013-coordinators-manual",
+    "pdf": "",
+    "addenda": [
+      {
+        "title": "2014 Addendum",
+        "protected": false
+      },
+      {
+        "title": "2015 Supplements to CRS Credit",
+        "protected": true
+      },
+      {
+        "title": "2015 Field Procedures Guide",
+        "protected": true
+      }
+    ]
+  },
+  {
     "title": "2017 Coordinator's Manual",
     "slug": "2017-coordinators-manual",
     "pdf": "",
+    "addenda": [
+      {
+        "title": "2021 Addendum",
+        "protected": false
+      },
+      {
+        "title": "2021 Supplements to CRS Credit",
+        "protected": true
+      },
+      {
+        "title": "2021 Field Procedures Guide",
+        "protected": true
+      },
+      {
+        "title": "2023 Supplements to CRS Credit",
+        "protected": true
+      },
+      {
+        "title": "2023 Field Procedures Guide",
+        "protected": true
+      }
+    ],
     "classes": [
       {
         "name": "1",
