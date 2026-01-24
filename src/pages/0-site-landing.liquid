@@ -17,7 +17,7 @@ layout: layouts/base.liquid
           <dd>
             <ul>
               {% for addendum in manual.addenda %}
-                <li>{{ addendum.title }}{% if addendum.protected %}<span class="text-error">*</span>{% endif %}</li>
+                <li>{{ addendum.title }}{% if addendum.protected %}<span class="text-danger">*</span>{% endif %}</li>
               {% endfor %}
             </ul>
           </dd>
