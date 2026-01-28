@@ -6,15 +6,17 @@ layout: layouts/base.liquid
   
 <section class="mt-4">
   <h1>{{ site.title }}</h1>
-  <ul class="list-unstyled mt-2 row row-cols-lg-3 row-cols-md-2 g-3">
-    {% for manual in manuals %}
+  <ul class="list-unstyled mt-2 row row-cols-lg-3 row-cols-1 g-3">
+    {% assign sortedManuals = manuals | sort: "year" | reverse %}
+    {% for manual in sortedManuals %}
       <li class="col">
-        <dl class="p-3 bg-light bg-gradient rounded">
-          <dt>{{ manual.title }}</dt>
-          <dd>
-            <a href="/{{ manual.slug }}/">HTML</a> | <a href="{{ manual.pdf }}">PDF</a>
-          </dd>
-          <dd>
+        <dl class="card">
+          <dt class="card-header text-center">{{ manual.title }}</dt>
+          <dd class="card-body">
+            <nav class="list-unstyled d-flex justify-content-center mb-3">
+              <a href="/{{ manual.slug }}/" class="pe-3">HTML Version</a>
+              <a href="{{ manual.pdf }}" class="ps-3 border-start">PDF Version</a>
+            </nav>
             <ul>
               {% for addendum in manual.addenda %}
                 <li>{{ addendum.title }}{% if addendum.protected %}<span class="text-danger">*</span>{% endif %}</li>
